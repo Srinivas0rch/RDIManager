@@ -1,0 +1,24 @@
+name: Deploy static HTML site
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Create deploy folder
+      run: |
+        mkdir deploy/
+        cp -r css/ fonts/ images/ js/ index.html   deploy/
+
+    - name: Create artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: site
+        path: deploy/
