@@ -133,7 +133,7 @@
             this.initAnimatedScrollMenu();
             this.initOwlCarousel();
             this.initMainMenu();
-            this.initScrollspy();
+            //this.initScrollspy(); // disabled, breaks all js when an url is provided in menu login link
             this.initVideo();
             this.initSwiper();
             this.initContact();

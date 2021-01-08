@@ -123,12 +123,12 @@ a {
     border: 2px solid #fff;
     text-decoration: none;
     background-color: #fff;
-    color: #1bbc9b;
+    color: #ce352c;
 }
 
 .btn-outline {
-    color: #1bbc9b;
-    border: 2px solid #1bbc9b;
+    color: #ce352c;
+    border: 2px solid #ce352c;
     font-size: 15px;
     transition: all 0.5s;
     border-radius: 3px;
@@ -145,19 +145,19 @@ a {
 .btn-outline:hover,
 .open>.dropdown-toggle .btn-outline {
     outline: none;
-    border: 2px solid #1bbc9b;
+    border: 2px solid #ce352c;
     color: #fff;
     text-decoration: none;
-    background-color: #1bbc9b;
+    background-color: #ce352c;
 }
 
 .btn-custom {
     color: #fffcff;
-    border: 2px solid #1bbc9b;
+    border: 2px solid #ce352c;
     font-size: 15px;
     transition: all 0.5s;
     border-radius: 3px;
-    background-color: #1bbc9b;
+    background-color: #ce352c;
     letter-spacing: 1px;
 }
 
@@ -170,7 +170,7 @@ a {
 .btn-custom:focus,
 .btn-custom:hover,
 .open>.dropdown-toggle .btn-custom {
-    color: #1bbc9b;
+    color: #ce352c;
     outline: none;
     background-color: transparent;
     text-decoration: none;
@@ -186,11 +186,11 @@ a {
 }
 
 .text-custom {
-    color: #1bbc9b;
+    color: #ce352c;
 }
 
 .bg-custom {
-    background-color: #1bbc9b;
+    background-color: #ce352c;
 }
 
 .f-12 {
@@ -248,7 +248,7 @@ a {
 }
 
 .btn-read-more:hover {
-    color: #1bbc9b !important;
+    color: #ce352c !important;
 }
 
 
@@ -291,7 +291,7 @@ a {
 
 .title-icon i {
     font-size: 40px;
-    color: #1bbc9b;
+    color: #ce352c;
     line-height: 0.5;
 }
 
@@ -399,7 +399,7 @@ a {
     border-radius: 50%;
     position: absolute;
     top: 122px;
-    color: #1bbc9b;
+    color: #ce352c;
     z-index: 9;
     background-color: #e3f7f3;
     width: 26px;
@@ -410,7 +410,7 @@ a {
 .about-count p {
     position: relative;
     top: -90px;
-    background: #1bbc9b;
+    background: #ce352c;
     color: #fff;
     width: 40px;
     height: 40px;
@@ -465,7 +465,7 @@ a {
     border-radius: 50%;
     color: #fff;
     font-size: 30px;
-    background-color: #1bbc9b;
+    background-color: #ce352c;
     display: inline-block;
 }
 
@@ -519,7 +519,7 @@ a {
     height: 40px;
     margin-top: -22px;
     line-height: 40px;
-    background-color: #1bbc9b;
+    background-color: #ce352c;
     text-align: center;
     font-size: 30px;
     color: #fff;
@@ -531,7 +531,7 @@ a {
     height: 40px;
     margin-top: -22px;
     line-height: 40px;
-    background-color: #1bbc9b;
+    background-color: #ce352c;
     text-align: center;
     font-size: 30px;
     color: #fff;
@@ -575,7 +575,7 @@ a {
 }
 
 .carousel-icon {
-    color: #1bbc9b;
+    color: #ce352c;
     font-size: 40px;
 }
 
@@ -584,7 +584,7 @@ a {
     display: inline-block;
     width: 30px;
     height: 30px;
-    background-color: #1bbc9b;
+    background-color: #ce352c;
     background-size: 100% 60%;
     border-radius: 3px;
 }
@@ -615,7 +615,7 @@ a {
     font-size: 14px;
     border-radius: 50%;
     color: #fff;
-    background-color: #1bbc9b;
+    background-color: #ce352c;
 }
 
 .pricing-box {
@@ -624,7 +624,7 @@ a {
 }
 
 .pricing-box-active {
-    border: 2px solid #1bbc9b;
+    border: 2px solid #ce352c;
     border-radius: 3px;
 }
 
@@ -701,7 +701,7 @@ a {
 }
 
 .footer-link a:hover {
-    color: #1bbc9b;
+    color: #ce352c;
 }
 
 .contact-info {
@@ -756,7 +756,7 @@ a {
     left: 0;
     bottom: 0;
     display: block;
-    border-bottom: 1px solid #1bbc9b;
+    border-bottom: 1px solid #ce352c;
 }
 
 
@@ -790,7 +790,7 @@ a {
 .post-meta {
     position: relative;
     top: -100px;
-    background: #1bbc9b;
+    background: #ce352c;
     width: 100px;
     padding: 5px 10px;
     text-align: center;
@@ -815,8 +815,8 @@ a {
     text-transform: uppercase;
     color: #333;
     font-weight: 600;
-    border-top: 1px solid #1bbc9b;
-    border-bottom: 1px solid #1bbc9b;
+    border-top: 1px solid #ce352c;
+    border-bottom: 1px solid #ce352c;
     padding: 5px;
 }
 
@@ -836,7 +836,7 @@ a {
 }
 
 .standard-post-icon i:hover {
-    color: #1bbc9b;
+    color: #ce352c;
     transform: all .3s ease;
 }
 
@@ -846,7 +846,7 @@ a {
 }
 
 .post-founder:hover {
-    color: #1bbc9b;
+    color: #ce352c;
     transition: all .3s ease;
 }
 
@@ -856,7 +856,7 @@ a {
 }
 
 .post-comment:hover {
-    color: #1bbc9b;
+    color: #ce352c;
     transition: all .3s ease;
 }
 
@@ -885,18 +885,18 @@ a {
 
 .pagination > .active > a,
 .pagination > .active > span {
-    border: 2px solid #1bbc9b;
+    border: 2px solid #ce352c;
     color: #ffffff;
-    background-color: #1bbc9b;
+    background-color: #ce352c;
 }
 
 .pagination > li > a:hover,
 .pagination > li > a:focus,
 .pagination > li > span:hover,
 .pagination > li > span:focus {
-    border: 2px solid #1bbc9b;
+    border: 2px solid #ce352c;
     color: #ffffff !important;
-    background-color: #1bbc9b;
+    background-color: #ce352c;
 }
 
 .pagination > .active > a,
@@ -905,7 +905,7 @@ a {
 .pagination > .active > span,
 .pagination > .active > span:focus,
 .pagination > .active > span:hover {
-    border: 2px solid #1bbc9b;
+    border: 2px solid #ce352c;
     color: #fff;
     cursor: default;
     z-index: 3;
@@ -916,7 +916,7 @@ a {
 }
 
 .blog-tag:hover {
-    color: #1bbc9b;
+    color: #ce352c;
     transition: all 0.5s;
 }
 
@@ -998,7 +998,7 @@ a {
 .links-social a:hover {
     color: #fff !important;
     transition: all .5s ease;
-    background-color: #1bbc9b;
+    background-color: #ce352c;
 }
 
 
@@ -1035,7 +1035,7 @@ a {
 }
 
 .tags a:hover {
-    background-color: #1bbc9b;
+    background-color: #ce352c;
     color: #fff;
 }
 
@@ -1082,7 +1082,7 @@ a {
 .blog-meta {
     position: relative;
     top: -80px;
-    background: #1bbc9b;
+    background: #ce352c;
     width: 100px;
     padding: 5px 10px;
     text-align: center;
@@ -1103,7 +1103,7 @@ a {
 }
 
 .blog-news:hover {
-    color: #1bbc9b;
+    color: #ce352c;
     transition: all .3s ease;
 }
 
@@ -1113,7 +1113,7 @@ a {
 }
 
 .read-more {
-    color: #1bbc9b !important;
+    color: #ce352c !important;
     font-weight: 600;
 }
 
@@ -1157,7 +1157,7 @@ a {
 
 .blog-post-social a:hover {
     transition: all 0.5s;
-    color: #1bbc9b;
+    color: #ce352c;
 }
 
 
@@ -1248,7 +1248,7 @@ textarea.form-control {
 }
 
 .custom-form .form-control:focus {
-    border-color: #1bbc9b;
+    border-color: #ce352c;
     outline: 0;
     box-shadow: none;
 }
