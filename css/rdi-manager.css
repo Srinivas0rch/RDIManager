@@ -1,3 +1,20 @@
 .home-heading img {
     max-width: 100%;
 }
+
+.linkedin {
+    background-color: #0077b5;
+    color: #ffffff;
+}
+
+.youtube {
+    background-color: #e62117;
+    color: #ffffff;
+}
+
+.footer-alt a {
+    color: #acacac;
+}
+.footer-alt a:hover {
+    text-decoration: underline !important;
+}
