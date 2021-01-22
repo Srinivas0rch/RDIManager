@@ -29,3 +29,22 @@
 .bg-light .text-muted {
     color: #4f575e !important;
 }
+
+.bg-home {
+    background: none;
+}
+.home-bg-overlay {
+    background: url("../images/bg-home.jpeg");
+    background-size: cover;
+    opacity: 0.25;
+}
+
+.navigation-menu > li > a,
+.navbar-sticky .logo,
+.home-subtitle {
+    color: rgba(0, 0, 0, 0.95) !important;
+}
+
+.home-subtitle {
+    font-size: 1.25em;
+}
