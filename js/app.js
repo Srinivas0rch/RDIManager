@@ -78,7 +78,7 @@
                 slidesPerView: 2,
                 initialSlide: 3,
                 keyboardControl: true,
-                mousewheelControl: true,
+                mousewheelControl: false,
                 lazyLoading: true,
                 preventClicks: false,
                 preventClicksPropagation: false,
@@ -86,7 +86,7 @@
                 nextButton: '.swiper-button-next',
                 prevButton: '.swiper-button-prev',
                 coverflow: {
-                    rotate: 0,
+                    rotate: 20,
                     depth: 200,
                     modifier: 1,
                     slideShadows: false,
