@@ -37,6 +37,10 @@
     background: url("../images/bg-home.jpeg");
     background-size: cover;
     opacity: 0.25;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .navigation-menu > li > a,
@@ -51,4 +55,14 @@
 
 footer a {
     color: white;
+}
+
+@media (max-width: 991px) {
+    .about-line:before {
+        display: none;
+    }
+    .about-left-icon-1,
+    .about-left-icon-2 {
+        display: none;
+    }
 }
