@@ -148,3 +148,16 @@ function($) {
     "use strict";
     $.Zeeko.init();
 }(window.jQuery);
+
+// //adding 
+// var selector = '.nav li';
+
+// $(selector).hover(function(){
+//     $(selector).removeClass('active');
+//     $(this).addClass('active');
+// });
+// $("p").hover(function(){
+//     $(this).css("background-color", "yellow");
+//     }, function(){
+//     $(this).css("background-color", "pink");
+//   });

@@ -6,6 +6,10 @@
     background-color: #0077b5;
     color: #ffffff;
 }
+.bg-rdi {
+    background-color: #e62117;
+    color: #ffffff;
+}
 
 .youtube {
     background-color: #e62117;
@@ -65,4 +69,19 @@ footer a {
     .about-left-icon-2 {
         display: none;
     }
+}
+
+.color-price {
+    color: #ce352c;
+}
+
+.block-col {
+    min-height: 150px;
+}
+
+.pricing-box:hover {
+
+
+    border: 2px solid #ce352c;
+    border-radius: 3px;
 }
