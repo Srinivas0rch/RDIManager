@@ -346,10 +346,11 @@ a {
 
 .client-images {
     display: inline-block;
-    margin-left: 45px;
+    width : 100px ;
+    height: 50px;
 }
 
-.client-images:first-child {
+/* .client-images:first-child {
     margin-left: 0;
 }
 
@@ -360,7 +361,7 @@ a {
 .client-images img:hover {
     opacity: 0.8;
     transition: 0.5s;
-}
+} */
 
 
 /*******************************
@@ -420,6 +421,9 @@ a {
     left: 45px;
 }
 
+#mb-blue {
+    background-color: #3F5EFB;
+}
 
 /*******************************
          6.  FEATURES
@@ -627,7 +631,6 @@ a {
     border: 2px solid #ce352c;
     border-radius: 3px;
 }
-
 
 /*******************************
         11.  FAQ
