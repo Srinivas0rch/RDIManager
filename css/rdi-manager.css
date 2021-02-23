@@ -73,6 +73,7 @@ footer a {
 
 .color-price {
     color: #ce352c;
+    font-size: 30px;
 }
 
 .block-col {
@@ -80,8 +81,6 @@ footer a {
 }
 
 .pricing-box:hover {
-
-
     border: 2px solid #ce352c;
     border-radius: 3px;
 }
