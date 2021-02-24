@@ -80,6 +80,10 @@ footer a {
     min-height: 150px;
 }
 
+.min-height-functionnality {
+    min-height: 420px;
+}
+
 .pricing-box:hover {
     border: 2px solid #ce352c;
     border-radius: 3px;
