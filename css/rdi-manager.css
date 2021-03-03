@@ -88,3 +88,10 @@ footer a {
     border: 2px solid #ce352c;
     border-radius: 3px;
 }
+
+i.icon-red {
+    background-color:#ce352c;
+}
+i.icon-green {
+    background-color: green;
+}
