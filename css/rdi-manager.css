@@ -80,8 +80,10 @@ footer a {
     min-height: 150px;
 }
 
-.min-height-functionnality {
-    min-height: 420px;
+@media (min-width: 991px) {
+    .min-height-functionnality {
+        min-height: 512px;
+    }
 }
 
 .pricing-box:hover {
