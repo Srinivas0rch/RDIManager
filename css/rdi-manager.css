@@ -109,6 +109,10 @@ footer a {
 }
 
 @media (max-width: 991px) {
+    .container-home {
+        height: 750px;
+        overflow-x: hidden;
+    }
     .about-line:before {
         display: none;
     }
@@ -119,7 +123,7 @@ footer a {
     }
 
     .home-heading {
-        margin-top: 10px;
+        margin-top: 0px;
         font-size: 50px;
     }
 
