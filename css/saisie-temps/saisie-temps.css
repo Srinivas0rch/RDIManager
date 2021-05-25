@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+
+/* START FIRST BLOCK */
+
+.firstBlock main {
+    height: 100vh;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* BLOCK CONTENT SIZE */
+
+.leftBox {
+    width: 40%;
+    margin-top: 150px;
+}
+
+.rightBox {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-top: 270px;
+}
+
+/* END BLOCK CONTENT SIZE */
+
+/* LEFT BOX */
+
+.bigTitle {
+    font-size: 90px;
+    font-weight: bolder;
+    text-align: left;
+    letter-spacing: 3px;
+    line-height: 1.05;
+    color: #303030;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.leftBox p {
+    color: #494949;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.linkBtn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.linkBtn .log, .linkBtn .demo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    margin: 0 20px 0 0;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.log {
+    color: #303030;
+    border-radius: 20px;
+    border: 2px solid #494949;
+}
+
+.log:hover {
+    background: #303030;
+    color: #fff;
+}
+
+.demo {
+    border-radius: 20px;
+    color: #fff;
+    border: 2px solid #e62117;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+}
+
+.demo:hover {
+    color: #e62117;
+    background: #fff;
+}
+
+/* END LEFT BOX */
+
+/* RIGHT BOX */
+
+.cardOne {
+    position: absolute;
+    height: 340px;
+    width: 300px;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.cardOne h3 {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 25px;
+    color: #fff;
+}
+
+.cardOne .listIcon {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: none;
+    box-sizing: border-box;
+}
+
+.cardOne .appliIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 80px 0 10px 0;
+    box-shadow: rgba(50, 50, 93, 0.5) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.cardOne .icon1 {
+    margin-top: 5px;
+    font-size: 35px;
+    color: #e62117;
+}
+
+.cardOne .icon2 {
+    margin-top: 5px;
+    font-size: 40px;
+    color: #FFA500;
+}
+
+.cardOne .icon3 {
+    margin-top: 5px;
+    font-size: 35px;
+    color: #008000;
+}
+
+.nameIcon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nameIcon h5 {
+    background: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.cardTwo {
+    position: relative;
+    bottom: 150px;
+    height: 170px;
+    width: 300px;
+    padding: 20px 30px 20px 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.cardTwo h3 {
+    color: #303030;
+    text-align: center;
+}
+
+.cardTwo .arrows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardTwo small {
+    color: #8f8f8f;
+}
+
+.cardTwo .input {
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.input h2 {
+    font-size: 15px;
+}
+
+.cardTwo .inputText {
+    width: 120px;
+    height: 30px;
+    margin: auto;
+    padding: 10px 25px 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    border: 2px solid #494949;
+}
+
+.inputText h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #303030;
+}
+
+.inputText div {
+    height: 10px;
+    width: 1.5px;
+    border-radius: 9999px;
+    background: #303030;
+}
+
+.inputText p {
+    font-size: 20px;
+    color: #303030;
+    font-weight: bold;
+}
+
+.cardThree {
+    position: relative;
+    left: 120px;
+    top: 100px;
+    height: 350px;
+    width: 300px;
+    padding: 20px 30px 20px 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.cardThree h3 {
+    color: #303030;
+    text-align: center;
+}
+
+.cardThree .arrows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardThree small {
+    color: #8f8f8f;
+}
+
+.calendarDay p {
+    display: inline;
+    margin: 3px;
+    font-size: 15px;
+    color: #303030;
+}
+
+.calendar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.calendarStart {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+
+.calendarEnd {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.calendar div,
+.calendarStart div,
+.calendarEnd div {
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    background: #008000;
+    color: #fff;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.calendarStart div {
+    margin-left: 5px;
+}
+
+.calendarEnd div {
+    margin-right: 5px;
+}
+
+.calendar .other,
+.calendarStart .other,
+.calendarEnd .other {
+    background: #e9e9e9;
+    color: #404040;
+}
+
+.calendar .disabled,
+.calendarStart .disabled,
+.calendarEnd .disabled {
+    background: #8f8f8f;
+    color: #404040;
+}
+
+.calendar .semi {
+    background: #17a2b8;
+}
+
+.legend {
+    margin-top: 15px;
+    display: inline-flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.legend .disabled, .legend .full, .legend .semi {
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    background: #008000;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.legend .semi {
+    background: #17a2b8;
+}
+
+.legend .disabled {
+    background: #8f8f8f;
+}
+
+.legendText {
+    margin-top: 5px;
+    display: inline-flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.legendText p {
+    font-size: 12px ;
+    width: 30%;
+    text-align: center;
+    line-height: 1.05;
+    font-weight: bold;
+}
+
+/* END RIGHT BOX */
+
+/* END FIRST BLOCK */
+
+/* START SECOND BLOCK */
+
+.secondBlock {
+    height: 100vh;
+}
+
+.headBand {
+    width: 100%;
+    height: 150px;
+    background: #303030;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.headBand h5 {
+    position: absolute;
+    left: 10px;
+    font-size:180px ;
+    color: #fff;
+    opacity: 10%;
+}
+
+/* END SECOND BLOCK */
