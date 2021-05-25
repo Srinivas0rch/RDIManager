@@ -1,5 +1,43 @@
+#topnav img {
+    max-width: 200px;
+}
+
+.login-button a:hover {
+    background: #ce352c;
+    color: #fff;
+}
+
+.left-block{
+    margin-top: 90px;
+}
+
+.home-heading {
+    text-align: center;
+}
+
 .home-heading img {
     max-width: 100%;
+}
+
+.home-heading span {
+    color: #ce352c;
+}
+
+.home-button {
+    margin-bottom: 2em;
+}
+
+.home-button a {
+    width: 200px;
+    margin: 0 10px 0 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 0;
+    font-size: 1rem;
+}
+
+div.card-body {
+    padding: 10px;
+    height: 600px;
 }
 
 .linkedin {
@@ -47,14 +85,10 @@
     background-repeat: no-repeat;
 }
 
-.navigation-menu > li > a,
+.navigation-menu>li>a,
 .navbar-sticky .logo,
 .home-subtitle {
     color: rgba(0, 0, 0, 0.95) !important;
-}
-
-.home-subtitle {
-    font-size: 1.25em;
 }
 
 footer a {
@@ -69,6 +103,31 @@ footer a {
     .about-left-icon-2 {
         display: none;
     }
+
+    .home-heading {
+        margin-top: 0px;
+        font-size: 50px;
+    }
+
+    .home-subtitle {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .home-img {
+        margin: auto;
+        top: 50px;
+    }
+
+    div.card-body {
+        padding: 10px;
+        height: 300px;
+    }
+
+    .around {
+        display:block;
+    }
+
 }
 
 .color-price {
@@ -86,14 +145,45 @@ footer a {
     }
 }
 
+@media (max-width: 500px) {
+    .home-heading {
+        margin-top: 0px;
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .home-heading img {
+        width: 200px;
+    }
+
+    div.card-body {
+        padding: 0px;
+        height: 800px;
+    }
+
+}
+
 .pricing-box:hover {
     border: 2px solid #ce352c;
     border-radius: 3px;
 }
 
 i.icon-red {
-    background-color:#ce352c;
+    background-color: #ce352c;
 }
 i.icon-green {
     background-color: green;
+}
+
+.step .card-body {
+    max-height: 350px;
+    border: 2px solid #ce352c;
+    border-radius: 2px;
+}
+
+.carousel-indicators li {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
 }
