@@ -1,4 +1,4 @@
-@media (max-width: 1100px) {
+@media (max-width: 1150px) {
 
     .firstBlock main {
         max-height: 80vh;
@@ -9,12 +9,12 @@
     }
 
     .leftBox {
-        margin-top: 30px;
+        margin-top: 100px;
         width: 100%;
     }
 
     .rightBox {
-        margin-top: 50px;
+        margin-top: 100px;
         width: 100%;
         padding-right: 50px;
     }
@@ -176,15 +176,15 @@
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
 
     .firstBlock main {
         max-height: 60vh;
         width: 90%;
     }
 
-    .leftBox{
-        margin-top: 50px ;
+    .leftBox {
+        margin-top: 80px;
     }
 
     .bigTitle {
@@ -204,5 +204,13 @@
 
     .rightBox {
         display: none;
+    }
+
+    .demo {
+        width: 200px;
+    }
+
+    .log {
+        width: 200px;
     }
 }

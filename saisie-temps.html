@@ -20,7 +20,7 @@
     <link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css">
 
     <!-- Bootstrap core CSS -->
-    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"> -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">-->
 
     <!--Material Icon -->
     <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
@@ -72,10 +72,11 @@
 </head>
 
 <body>
+    <div id="container">
 
-    <div class="container">
         <header>
-            <nav>
+
+            <nav class="navHigh">
                 <ul class="listLeft">
                     <li><a href="#"><img src="images/logo.png" alt="RDI-Manager"></a></li>
                 </ul>
@@ -86,6 +87,42 @@
                     <li><a href="#" id="connect">Connexion</a></li>
                 </ul>
             </nav>
+
+            <!-- NAV FOR PHONE -->
+            <a href="#"><img class="logoPhone" src="images/logo.png" alt="RDI-Manager"></a>
+            <div class="navPhone">
+                <button class="ham">
+                    <span class="menuIcon">
+                        <i class="mdi mdi-menu"></i>
+                    </span>
+                    <span class="xIcon">
+                        <i class="mdi mdi-close"></i>
+                    </span>
+                </button>
+
+                <ul class="menu">
+                    <div class="logo">
+                        <a href="#"><img class="logoNav" src="images/logo.png" alt="RDI-Manager"></a>
+                    </div>
+                    <li>
+                        <a class="menuLink" id="activeNav" href="#"><i class="mdi mdi-av-timer"></i> Gestion du
+                            temps</a>
+                    </li>
+                    <li>
+                        <a class="menuLink" href="#"><i class="mdi mdi-comment-text-outline"></i> Gestion des faits
+                            marquants</a>
+                    </li>
+                    <li>
+                        <a class="menuLink" href="#"><i class="mdi mdi-coin"></i> Tarifs</a>
+                    </li>
+                    <li>
+                        <a class="menuLink" href="#"><i class="mdi mdi-account"></i> Connexion</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- END NAV FOR PHONE -->
+
         </header>
 
         <section class="firstBlock">
@@ -98,8 +135,8 @@
                     <p>Avec RDI-Manager, saisissez vos temps passés sur vos projets de façon
                         simple et efficace depuis votre ordinateur ou bien votre téléphone.</p>
                     <div class="linkBtn">
-                        <a href="#" class="log">Inscription</a>
                         <a href="#" class="demo">Essayer la démo</a>
+                        <a href="#" class="log">Inscription</a>
                     </div>
                 </div>
 
@@ -229,9 +266,7 @@
         </section>
 
         <section class="secondBlock">
-            <div class="headBand">
-                <h5>01</h5>
-            </div>
+
         </section>
 
         <footer>
