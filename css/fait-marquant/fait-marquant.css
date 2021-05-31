@@ -1,0 +1,331 @@
+/* START FIRST BLOCK */
+
+.firstBlock main {
+    height: 100vh;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* BLOCK CONTENT SIZE */
+
+.leftBox {
+    z-index: 2;
+    width: 40%;
+    margin-top: 150px;
+}
+
+.rightBox {
+    z-index: 2;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+/* END BLOCK CONTENT SIZE */
+
+/* LEFT BOX */
+
+.bigTitle {
+    font-size: 90px;
+    font-weight: bolder;
+    text-align: left;
+    letter-spacing: 3px;
+    line-height: 1.05;
+    color: #303030;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.leftBox p {
+    color: #494949;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.linkBtn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.linkBtn .log,
+.linkBtn .demo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin: 0 20px 0 0;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.log {
+    width: 150px;
+    color: #303030;
+    border-radius: 20px;
+    border: 2px solid #494949;
+}
+
+.log:hover {
+    background: #303030;
+    color: #fff;
+}
+
+.demo {
+    width: 250px;
+    border-radius: 20px;
+    color: #fff;
+    border: 2px solid #e62117;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+}
+
+.demo:hover {
+    color: #e62117;
+    background: #fff;
+}
+
+/* END LEFT BOX */
+
+/* RIGHT BOX */
+
+/* START CARD ONE */
+
+.cardOne {
+    z-index: 2;
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    margin-right: 250px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.cardOne h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #303030;
+    margin-bottom: 20px;
+}
+
+#input {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 3px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 10px;
+    border: 2px solid #17a2b8;
+    color: #17a2b8;
+}
+
+#input:hover {
+    background: #17a2b8;
+    border: 2px solid #17a2b8;
+    color: #fff;
+}
+
+.cardOne #dash {
+    position: absolute;
+    height: 320px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+}
+
+#dash div {
+    position: relative;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 85px;
+    right: 10px;
+    border-radius: 999px;
+    background: #fff;
+}
+
+.circleOne {
+    border: 8px solid #df1f15;
+}
+
+.circleTwo {
+    border: 8px solid #df0000;
+}
+
+.circleThree {
+    border: 8px solid #be0000;
+}
+
+#faitBlock .blocks {
+    height: 105px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    padding: 15px 15px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.5) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.blocks .faitTitle {
+    color: #999999;
+    height: 10px;
+    width: 150px;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.blocks p {
+    color: #494949;
+    height: 25px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.blocks .sameLine {
+    display: flex;
+}
+
+.blocks .faitContent-one {
+    background-color: #cccccc;
+    height: 10px;
+    width: 200px;
+    border-radius: 2px;
+}
+
+.blocks .faitContent-onebis {
+    background-color: #cccccc;
+    height: 10px;
+    width: 120px;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+
+.blocks .faitContent-two {
+    background-color: #cccccc;
+    height: 10px;
+    width: 50px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+
+.blocks .faitContent-twobis {
+    background-color: #999999;
+    height: 10px;
+    width: 20px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+
+.blocks .faitContent-three {
+    background-color: #cccccc;
+    height: 10px;
+    width: 80px;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+
+
+
+/* END CARD ONE */
+
+/* START CARD TWO */
+
+.cardTwo {
+    z-index: 1;
+    position: relative;
+    left: 210px;
+    top: 350px;
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+}
+
+.cardTwo h3 {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cardTwo .listIcon {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: none;
+    box-sizing: border-box;
+}
+
+.cardTwo .appliIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 30px 0 10px 0;
+    box-shadow: rgba(50, 50, 93, 0.5) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.cardTwo .icon1 {
+    margin-top: 5px;
+    font-size: 35px;
+    color: #e62117;
+}
+
+.cardTwo .icon2 {
+    margin-top: 5px;
+    font-size: 40px;
+    color: #17a2b8;
+}
+
+.cardTwo .icon3 {
+    margin-top: 5px;
+    font-size: 35px;
+    color: #008000;
+}
+
+.nameIcon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nameIcon h5 {
+    background: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* END CARD TWO */
+
+/* START SECOND BLOCK */
+
+.secondBlock {
+    height: 100vh;
+}
+
+/* END SECOND BLOCK */
