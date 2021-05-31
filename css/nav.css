@@ -158,13 +158,13 @@ nav li a {
 
 .menuLink {
     display: inline;
-    font-size: 40px;
+    font-size: 30px;
     color: #303030;
     text-decoration: none;
 }
 
 .menuLink i {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .menuLink:hover {

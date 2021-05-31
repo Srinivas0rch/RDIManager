@@ -43,8 +43,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <!-- RDI-Manager custom CSS -->
-    <link rel="stylesheet" type="text/css" href="css/saisie-temps/saisie-temps.css" />
-    <link rel="stylesheet" type="text/css" href="css/saisie-temps/saisie-temps-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/fait-marquant/fait-marquant.css" />
+    <link rel="stylesheet" type="text/css" href="css/fait-marquant/fait-marquant-responsive.css" />
     <link rel="stylesheet" type="text/css" href="css/nav.css" />
     <!-- Schema.org markup for Google+ -->
     <meta itemprop="name" content="Suivi de temps sur vos projets innovants - RDI-Manager" />
@@ -81,8 +81,8 @@
                     <li><a href="index.html"><img src="images/logo.png" alt="RDI-Manager"></a></li>
                 </ul>
                 <ul class="listRight">
-                    <li><a href="saisie-temps.html" id="activeNav">Suivi du temps</a></li>
-                    <li><a href="faits-marquants.html">Suivi des faits marquants</a></li>
+                    <li><a href="saisie-temps.html">Suivi du temps</a></li>
+                    <li><a href="faits-marquants.html" id="activeNav">Suivi des faits marquants</a></li>
                     <li><a href="index.html#pricing">Tarifs</a></li>
                     <li><a href="https://app.rdimanager.com/connexion" id="connect">Connexion</a></li>
                 </ul>
@@ -105,13 +105,12 @@
                         <a href="index.html"><img class="logoNav" src="images/logo.png" alt="RDI-Manager"></a>
                     </div>
                     <li>
-                        <a class="menuLink" id="activeNav" href="saisie-temps.html"><i class="mdi mdi-av-timer"></i>
-                            Suivi du
+                        <a class="menuLink" href="saisie-temps.html"><i class="mdi mdi-av-timer"></i> Suivi du
                             temps</a>
                     </li>
                     <li>
-                        <a class="menuLink" href="faits-marquants.html"><i class="mdi mdi-comment-text-outline"></i>
-                            Suivi des faits
+                        <a class="menuLink" id="activeNav" href="faits-marquants.html"><i
+                                class="mdi mdi-comment-text-outline"></i> Suivi des faits
                             marquants</a>
                     </li>
                     <li>
@@ -135,12 +134,12 @@
                 <!--START LEFTBOX-->
 
                 <div class="leftBox">
-                    <h1 class="bigTitle">Suivi du temps passé</h1>
-                    <p>Avec RDI-Manager, saisissez vos temps passés sur vos projets de façon
-                        simple et efficace depuis votre ordinateur ou bien votre téléphone.</p>
+                    <h1 class="bigTitle">Suivi des faits marquants</h1>
+                    <p>Avec RDI-Manager, n'attendez plus pour saisir les faits marquants sur vos projets depuis votre
+                        ordinateur ou bien votre téléphone.</p>
                     <div class="linkBtn">
-                        <a href="https://demo.rdimanager.com/connexion" class="demo">Essayer la démo</a>
-                        <a href="https://app.rdimanager.com/creer-ma-societe/ma-societe" class="log">Inscription</a>
+                        <a href="https://demo.rdimanager.com/projets/1" class="demo">Essayer la démo</a>
+                        <a href="#" class="log">Inscription</a>
                     </div>
                 </div>
 
@@ -153,16 +152,52 @@
                     <!--FIRST CARD-->
 
                     <div class="cardOne">
-                        <h3>Générer des feuilles de temps mensuel</h3>
-                        <div class="listIcon">
-                            <div class="appliIcon"><i class="icon1 mdi mdi-file-pdf"></i></div>
-                            <div class="appliIcon"><i class="icon2 mdi mdi-language-html5"></i></div>
-                            <div class="appliIcon"><i class="icon3 mdi mdi-file-excel"></i></div>
+                        <h3>Faits marquants</h3>
+                        <a href="https://demo.rdimanager.com/projets/1/fait-marquants/ajouter">
+                            <div id="input"><svg style="width:20px;height:20px" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
+                                </svg> Ajouter un fait marquant</div>
+                        </a>
+                        <div id="dash">
+                            <div class="circleOne"></div>
+                            <div class="circleTwo"></div>
+                            <div class="circleThree"></div>
                         </div>
-                        <div class="nameIcon">
-                            <h5>PDF</h5>
-                            <h5>HTML</h5>
-                            <h5>XLS</h5>
+                        <div id="faitBlock">
+                            <div class="blocks">
+                                <div class="faitTitle">Date | Auteur</div>
+                                <p>Titre</p>
+                                <div class="faitContent-one"></div>
+                                <div class="faitContent-onebis"></div>
+                                <div class="sameLine">
+                                    <div class="faitContent-two"></div>
+                                    <div class="faitContent-twobis"></div>
+                                    <div class="faitContent-three"></div>
+                                </div>
+                                <p></p>
+                            </div>
+                            <div class="blocks">
+                                <div class="faitTitle">Date | Auteur</div>
+                                <p>Titre</p>
+                                <div class="faitContent-one"></div>
+                                <div class="faitContent-onebis"></div>
+                                <div class="sameLine">
+                                    <div class="faitContent-two"></div>
+                                    <div class="faitContent-twobis"></div>
+                                    <div class="faitContent-three"></div>
+                                </div>
+                            </div>
+                            <div class="blocks">
+                                <div class="faitTitle">Date | Auteur</div>
+                                <p>Titre</p>
+                                <div class="faitContent-one"></div>
+                                <div class="faitContent-onebis"></div>
+                                <div class="sameLine">
+                                    <div class="faitContent-two"></div>
+                                    <div class="faitContent-twobis"></div>
+                                    <div class="faitContent-three"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -170,95 +205,20 @@
 
                     <!--SECOND CARD-->
                     <div class="cardTwo">
-                        <h3>Saisie du temps</h3>
-                        <div class="arrows">
-                            <i class="mdi mdi-arrow-left"></i>
-                            <i class="mdi mdi-arrow-right"></i>
+                        <h3>Stockage de fichiers</h3>
+                        <div class="listIcon">
+                            <div class="appliIcon"><i class="icon1 mdi mdi-file-pdf"></i></div>
+                            <div class="appliIcon"><i class="icon2 mdi mdi-file-import"></i></i></div>
+                            <div class="appliIcon"><i class="icon3 mdi mdi-file-image"></i></div>
                         </div>
-                        <div class="input">
-                            <h2>Projet CAR</h2>
-                            <div>
-                                <div class="inputText">
-                                    <h5>70</h5>
-                                    <div></div>
-                                    <p>%</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="input">
-                            <h2>Projet REX</h2>
-                            <div>
-                                <div class="inputText">
-                                    <h5>30</h5>
-                                    <div></div>
-                                    <p>%</p>
-                                </div>
-                            </div>
+                        <div class="nameIcon">
+                            <h5>PDF</h5>
+                            <h5>PNG</h5>
+                            <h5>JPEG</h5>
                         </div>
                     </div>
 
                     <!--END SECOND CARD-->
-
-                    <!--THIRD CARD-->
-
-                    <div class="cardThree">
-                        <h3>Saisie des absences</h3>
-                        <div class="arrows">
-                            <i class="mdi mdi-arrow-left"></i>
-                            <i class="mdi mdi-arrow-right"></i>
-                        </div>
-                        <div class="calendarDay">
-                            <p>lun</p>
-                            <p>mar</p>
-                            <p>mer</p>
-                            <p>jeu</p>
-                            <p>ven</p>
-                            <p>sam</p>
-                            <p>dim</p>
-                        </div>
-                        <div class="calendarStart">
-                            <div class="other">28</div>
-                            <div class="other">29</div>
-                            <div class="other">30</div>
-                            <div class="disabled">1</div>
-                            <div class="disabled">2</div>
-                        </div>
-                        <div class="calendar">
-                            <div>3</div>
-                            <div class="semi">4</div>
-                            <div>5</div>
-                            <div>6</div>
-                            <div>7</div>
-                            <div class="disabled">8</div>
-                            <div class="disabled">9</div>
-                        </div>
-                        <div class="calendar">
-                            <div>10</div>
-                            <div>11</div>
-                            <div>12</div>
-                            <div class="disabled">13</div>
-                            <div class="semi">14</div>
-                            <div class="disabled">15</div>
-                            <div class="disabled">16</div>
-                        </div>
-                        <div class="calendarEnd">
-                            <div>17</div>
-                            <div>18</div>
-                        </div>
-
-                        <div class="legend">
-                            <div class="full"></div>
-                            <div class="semi"></div>
-                            <div class="disabled"></div>
-                        </div>
-                        <div class="legendText">
-                            <p>Jours <br>entiers</p>
-                            <p>Demi journées</p>
-                            <p>Week-end Jours fériés</p>
-                        </div>
-                    </div>
-
-                    <!--END THIRD CARD-->
 
                 </div>
 
@@ -266,8 +226,6 @@
 
             </main>
         </section>
-
-        <!-- <footer></footer> -->
     </div>
 
     <script src="js/nav.js"></script>
