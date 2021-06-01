@@ -38,7 +38,6 @@
         width: 300px;
         height: 400px;
         padding: 20px;
-        /* right: 300px; */
     }
 
     .cardOne h3 {
@@ -101,7 +100,7 @@
 
     .cardTwo {
         top: 200px;
-        left: 135px;
+        left: 260px;
         height: 150px;
         width: 250px;
         padding: 10px 15px 10px 15px;
