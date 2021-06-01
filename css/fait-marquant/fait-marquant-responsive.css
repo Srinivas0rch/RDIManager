@@ -16,7 +16,6 @@
     .rightBox {
         margin-top: 80px;
         width: 100%;
-        margin-bottom: 50px;
     }
 
     .bigTitle {
@@ -37,8 +36,9 @@
 
     .cardOne {
         width: 300px;
-        height: 400px;
+        height: 410px;
         padding: 20px;
+        margin-bottom: 50px;
     }
 
     .cardOne h3 {
