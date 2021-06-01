@@ -36,8 +36,9 @@
 
     .cardOne {
         width: 300px;
-        height: 400px;
+        height: 410px;
         padding: 20px;
+        margin-bottom: 50px;
     }
 
     .cardOne h3 {
@@ -99,10 +100,11 @@
     }
 
     .cardTwo {
-        top: 200px;
-        left: 260px;
+        margin-top: 200px;
+        margin-top: 200px;
+        margin-right: 130px;
         height: 150px;
-        width: 250px;
+        min-width: 250px;
         padding: 10px 15px 10px 15px;
     }
 
