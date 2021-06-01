@@ -22,6 +22,7 @@
     display: flex;
     justify-content: center;
     margin-top: 125px;
+    padding-right: 200px;
 }
 
 /* END BLOCK CONTENT SIZE */
@@ -101,7 +102,6 @@
     position: absolute;
     height: 500px;
     width: 400px;
-    margin-right: 250px;
     padding: 30px;
     box-sizing: border-box;
     border-radius: 30px;
@@ -254,7 +254,7 @@
 .cardTwo {
     z-index: 1;
     position: relative;
-    left: 210px;
+    left: 325px;
     top: 350px;
     width: 300px;
     height: 200px;
