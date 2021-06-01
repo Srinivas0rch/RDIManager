@@ -253,10 +253,10 @@
 
 .cardTwo {
     z-index: 1;
-    position: relative;
-    left: 325px;
-    top: 350px;
-    width: 300px;
+    position: sticky;
+    margin-left: 650px;
+    margin-top: 350px;
+    min-width: 300px;
     height: 200px;
     padding: 30px;
     box-sizing: border-box;
