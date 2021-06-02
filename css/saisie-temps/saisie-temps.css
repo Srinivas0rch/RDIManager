@@ -501,6 +501,8 @@
     display: inline;
 }
 
+/** START MOZ **/
+
 #main .moz {
     width: 85%;
     margin: auto;
@@ -588,5 +590,7 @@
     color: #fff;
     font-size: 20px ;
 }
+
+/** END MOZ **/
 
 /* END SECOND BLOCK */
