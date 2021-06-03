@@ -6,6 +6,10 @@
     .rightBox {
         margin-top: 180px;
     }
+
+    .respPhone h3 {
+        margin-top: 40px;
+    }
 }
 
 @media (max-width: 1300px) {
@@ -35,7 +39,9 @@
     }
 
     .leftBox p {
+        margin: auto;
         text-align: center;
+        width: 90%;
         font-size: 17px;
         margin-top: 15px;
     }
@@ -231,8 +237,8 @@
     }
 
     .respPhone p {
-        margin-left: 0;
-        width: 100%;
+        margin: auto;
+        width: 90%;
         font-size: 17px;
         text-align: center;
     }
