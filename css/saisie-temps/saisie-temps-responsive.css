@@ -1,17 +1,6 @@
-@media (max-width: 1450px) {
-    .leftBox {
-        margin-top: 180px;
-    }
-
-    .rightBox {
-        margin-top: 180px;
-    }
-}
-
 @media (max-width: 1300px) {
 
     .firstBlock main {
-        max-height: 90vh;
         width: 90%;
         margin: 0 auto;
         display: block;
@@ -19,14 +8,13 @@
     }
 
     .leftBox {
-        margin-top: 100px;
         width: 100%;
     }
 
     .rightBox {
-        margin-top: 100px;
         width: 100%;
         padding-right: 50px;
+        margin-bottom: 50px;
     }
 
     .bigTitle {
@@ -35,7 +23,9 @@
     }
 
     .leftBox p {
+        margin: auto;
         text-align: center;
+        width: 90%;
         font-size: 17px;
         margin-top: 15px;
     }
@@ -187,7 +177,7 @@
     }
 
     .wave img{
-        height: 1000px;
+        height: 1050px;
         overflow: hidden;
     }
 
@@ -225,14 +215,14 @@
     .respPhone h3 {
         margin-left: 0;
         font-size: 50px;
-        margin-top: 15px;
+        margin-top: 30px;
         margin-bottom: 15px;
         width: 100%;
     }
 
     .respPhone p {
-        margin-left: 0;
-        width: 100%;
+        margin: auto;
+        width: 90%;
         font-size: 17px;
         text-align: center;
     }
@@ -259,13 +249,12 @@
 
 @media (max-width: 650px) {
 
-    .firstBlock main {
-        max-height: 60vh;
-        width: 90%;
+    .firstBlock {
+        min-height: 80vh;
     }
 
-    .leftBox {
-        margin-top: 80px;
+    .firstBlock main {
+        width: 90%;
     }
 
     .bigTitle {
@@ -296,11 +285,11 @@
     }
 
     .respPhone h3 {
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     .wave img{
-        height: 1100px;
+        height: 1200px;
         overflow: hidden;
     }
 }
