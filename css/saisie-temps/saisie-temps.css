@@ -2,7 +2,7 @@
 
 .firstBlock main {
     height: 100vh;
-    width: 85%;
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -14,7 +14,6 @@
 .leftBox {
     z-index: 2;
     width: 40%;
-    margin-top: 100px;
 }
 
 .rightBox {
@@ -22,7 +21,7 @@
     width: 60%;
     display: flex;
     justify-content: center;
-    margin-top: 140px;
+    margin-top: 80px;
 }
 
 /* END BLOCK CONTENT SIZE */
@@ -409,34 +408,11 @@
 /* START SECOND BLOCK */
 
 .secondBlock {
-    height: 1000vh;
+    height: 100vh;
 }
 
 .secondBlock main {
     display: inline;
-}
-
-.secondBlock .headBand {
-    width: 100%;
-    margin-bottom: 50px;
-    padding: 30px;
-    color: #fff;
-    text-align: center;
-    background-color: #a30000;
-    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
-
-.headBand h2 {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.headBand p {
-    margin: auto;
-    margin-top: 15px;
-    font-size: 18px;
-    width: 40%;
 }
 
 .cardPhone {
@@ -448,27 +424,28 @@
     align-items: center;
 }
 
-.cardPhone .border {
+.cardPhone .respPhone {
+    display: none;
+}
+
+.cardPhone .highPhone {
+    display: block;
+}
+
+.cardPhone #rond {
     position: relative;
-    left: 20px;
-    bottom: 20px;
-}
-
-.cardPhone .borderOne {
-    position: absolute;
-    width: 500px;
-    height: 140px;
-    border-radius: 500px / 140px;
-    border: 3px solid #a30000;
-}
-
-.cardPhone .borderTwo {
-    position: absolute;
-    width: 500px;
-    height: 140px;
-    border-radius: 500px / 140px;
-    border: 3px solid #e62117;
-    rotate: 5deg;
+    left: 450px;
+    top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background: #e62117;
+    border: 3px solid #fff;
+    border-radius: 999px;
+    font-weight: bold;
 }
 
 .cardPhone h3 {
@@ -484,6 +461,7 @@
     width: 90%;
     color: #303030;
     font-size: 20px ;
+    color: #494949;
 }
 
 .cardPhone .hr{
@@ -504,7 +482,7 @@
 /** START MOZ **/
 
 #main .moz {
-    width: 85%;
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: center;

@@ -11,6 +11,7 @@
 
 #container {
     font-family: 'Nunito Sans', sans-serif;
+    overflow: hidden;
 }
 
 /* END RESET CSS */
