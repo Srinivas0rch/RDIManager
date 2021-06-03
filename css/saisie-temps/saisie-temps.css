@@ -405,17 +405,33 @@
 
 /* END FIRST BLOCK */
 
+/* WAVE PHONE */
+
+.wave {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* END WAVE PHONE */
+
 /* START SECOND BLOCK */
 
 .secondBlock {
-    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .secondBlock main {
     display: inline;
+    margin-top: 10vh;
+    z-index: 3;
 }
 
 .cardPhone {
+    z-index: 3;
     width: 80%;
     margin: auto;
     display: flex;
@@ -438,8 +454,9 @@
     width: 40px;
     height: 40px;
     color: #fff;
-    background: #e62117;
-    border: 3px solid #fff;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+    border: 4px solid #303030;
     border-radius: 999px;
     font-weight: bold;
     font-size: 15px;
@@ -455,7 +472,7 @@
 
 .cardPhone h3 {
     margin-left: 70px;
-    color: #303030;
+    color: #fff;
     font-size: 70px;
     font-weight: bold;
     width: 415px;
@@ -464,15 +481,14 @@
 .cardPhone p {
     margin-left: 70px;
     width: 90%;
-    color: #303030;
     font-size: 20px;
-    color: #494949;
+    color: #fff;
 }
 
 .cardPhone .hr {
     height: 350px;
-    width: 2px;
-    background: #494949;
+    width: 3px;
+    background: #fff;
 }
 
 .cardPhone img {
@@ -483,97 +499,5 @@
 .secondBlock #main {
     display: inline;
 }
-
-/** START MOZ **/
-
-#main .moz {
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-}
-
-#main .mozOne {
-    z-index: 2;
-    border-top-left-radius: 30px;
-    width: 50%;
-    height: 450px;
-    padding: 30px;
-    text-align: center;
-    background-color: #a30000;
-    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
-    border: 1px solid rgba(255, 255, 255, 1);
-}
-
-.mozOne h5 {
-    margin-bottom: 50px;
-    color: #fff;
-    font-size: 70px;
-    font-weight: bold;
-}
-
-.mozOne p {
-    color: #fff;
-    font-size: 20px;
-}
-
-#main .mozTwo {
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    border-top-right-radius: 30px;
-    width: 50%;
-    height: 450px;
-    overflow: hidden;
-    border: 1px solid rgba(255, 255, 255, 1);
-}
-
-.mozTwo img {
-    height: 95%;
-    width: 115%;
-}
-
-
-#main .mozThree {
-    z-index: 4;
-    display: flex;
-    justify-content: center;
-    border-bottom-left-radius: 30px;
-    width: 50%;
-    height: 450px;
-    overflow: hidden;
-    border: 1px solid rgba(255, 255, 255, 1);
-}
-
-.mozThree img {
-    height: 100%;
-    width: 85%;
-}
-
-#main .mozFour {
-    z-index: 4;
-    border-bottom-right-radius: 30px;
-    width: 50%;
-    height: 450px;
-    padding: 30px;
-    text-align: center;
-    background-color: #a30000;
-    background-image: linear-gradient(147deg, #a30000 30%, #e62117 100%);
-    border: 1px solid rgba(255, 255, 255, 1);
-}
-
-.mozFour h5 {
-    margin-bottom: 50px;
-    color: #fff;
-    font-size: 70px;
-    font-weight: bold;
-}
-
-.mozFour p {
-    color: #fff;
-    font-size: 20px;
-}
-
-/** END MOZ **/
 
 /* END SECOND BLOCK */
