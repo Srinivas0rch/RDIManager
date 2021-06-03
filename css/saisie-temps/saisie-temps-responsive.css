@@ -8,14 +8,14 @@
     }
 
     .respPhone h3 {
-        margin-top: 40px;
+        margin-top: 70px;
     }
 }
 
 @media (max-width: 1300px) {
 
     .firstBlock main {
-        max-height: 90vh;
+        max-height: 85vh;
         width: 90%;
         margin: 0 auto;
         display: block;
@@ -23,7 +23,7 @@
     }
 
     .leftBox {
-        margin-top: 100px;
+        margin-top: 120px;
         width: 100%;
     }
 
@@ -193,7 +193,7 @@
     }
 
     .wave img{
-        height: 1000px;
+        height: 1050px;
         overflow: hidden;
     }
 
@@ -231,7 +231,7 @@
     .respPhone h3 {
         margin-left: 0;
         font-size: 50px;
-        margin-top: 15px;
+        margin-top: 30px;
         margin-bottom: 15px;
         width: 100%;
     }
@@ -271,7 +271,7 @@
     }
 
     .leftBox {
-        margin-top: 80px;
+        margin-top: 110px;
     }
 
     .bigTitle {
@@ -302,11 +302,11 @@
     }
 
     .respPhone h3 {
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     .wave img{
-        height: 1100px;
+        height: 1200px;
         overflow: hidden;
     }
 }
