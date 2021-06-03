@@ -180,7 +180,7 @@ nav li a {
 
 /* RESPONSIVE NAV */
 
-@media (max-width: 1150px) {
+@media (max-width: 1250px) {
     header .navHigh {
         display: none;
     }

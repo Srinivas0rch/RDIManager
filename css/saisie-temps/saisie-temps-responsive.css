@@ -1,7 +1,20 @@
-@media (max-width: 1150px) {
+@media (max-width: 1450px) {
+    .leftBox {
+        margin-top: 180px;
+        width: 100%;
+    }
+
+    .rightBox {
+        margin-top: 180px;
+        width: 100%;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 1300px) {
 
     .firstBlock main {
-        max-height: 70vh;
+        max-height: 90vh;
         width: 90%;
         margin: 0 auto;
         display: block;
@@ -21,9 +34,11 @@
 
     .bigTitle {
         font-size: 60px;
+        text-align: center;
     }
 
     .leftBox p {
+        text-align: center;
         font-size: 17px;
         margin-top: 15px;
     }
@@ -190,21 +205,26 @@
         text-align: center;
     }
 
+    .cardPhone .rond {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 85px;
+        left: 145px;
+    }
+
     .respPhone h3 {
         margin-left: 0;
         font-size: 50px;
         margin-bottom: 15px;
+        width: 100%;
     }
 
     .respPhone p {
         margin-left: 0;
         width: 100%;
         font-size: 17px;
-        text-align: left;
-    }
-
-    .respPhone #rond {
-        left: 480px;
+        text-align: center;
     }
 
     .cardPhone .highPhone {
@@ -227,7 +247,7 @@
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 
     .firstBlock main {
         max-height: 60vh;

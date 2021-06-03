@@ -418,7 +418,6 @@
 .cardPhone {
     width: 80%;
     margin: auto;
-    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -433,9 +432,6 @@
 }
 
 .cardPhone #rond {
-    position: relative;
-    left: 450px;
-    top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -446,25 +442,34 @@
     border: 3px solid #fff;
     border-radius: 999px;
     font-weight: bold;
+    font-size: 15px;
+}
+
+.cardPhone .rond {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 105px;
 }
 
 .cardPhone h3 {
     margin-left: 70px;
-    margin-bottom: 50px;
     color: #303030;
-    font-size: 70px ;
+    font-size: 70px;
     font-weight: bold;
+    width: 415px;
 }
 
 .cardPhone p {
     margin-left: 70px;
     width: 90%;
     color: #303030;
-    font-size: 20px ;
+    font-size: 20px;
     color: #494949;
 }
 
-.cardPhone .hr{
+.cardPhone .hr {
     height: 350px;
     width: 2px;
     background: #494949;
@@ -503,13 +508,13 @@
 .mozOne h5 {
     margin-bottom: 50px;
     color: #fff;
-    font-size: 70px ;
+    font-size: 70px;
     font-weight: bold;
 }
 
 .mozOne p {
     color: #fff;
-    font-size: 20px ;
+    font-size: 20px;
 }
 
 #main .mozTwo {
@@ -541,7 +546,7 @@
 }
 
 .mozThree img {
-    height:100%;
+    height: 100%;
     width: 85%;
 }
 
@@ -550,7 +555,7 @@
     border-bottom-right-radius: 30px;
     width: 50%;
     height: 450px;
-    padding: 30px ;
+    padding: 30px;
     text-align: center;
     background-color: #a30000;
     background-image: linear-gradient(147deg, #a30000 30%, #e62117 100%);
@@ -560,13 +565,13 @@
 .mozFour h5 {
     margin-bottom: 50px;
     color: #fff;
-    font-size: 70px ;
+    font-size: 70px;
     font-weight: bold;
 }
 
 .mozFour p {
     color: #fff;
-    font-size: 20px ;
+    font-size: 20px;
 }
 
 /** END MOZ **/
