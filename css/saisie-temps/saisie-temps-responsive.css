@@ -1,21 +1,6 @@
-@media (max-width: 1450px) {
-    .leftBox {
-        margin-top: 180px;
-    }
-
-    .rightBox {
-        margin-top: 180px;
-    }
-
-    .respPhone h3 {
-        margin-top: 70px;
-    }
-}
-
 @media (max-width: 1300px) {
 
     .firstBlock main {
-        max-height: 85vh;
         width: 90%;
         margin: 0 auto;
         display: block;
@@ -23,14 +8,13 @@
     }
 
     .leftBox {
-        margin-top: 120px;
         width: 100%;
     }
 
     .rightBox {
-        margin-top: 100px;
         width: 100%;
         padding-right: 50px;
+        margin-bottom: 50px;
     }
 
     .bigTitle {
@@ -265,13 +249,12 @@
 
 @media (max-width: 650px) {
 
-    .firstBlock main {
-        max-height: 60vh;
-        width: 90%;
+    .firstBlock {
+        min-height: 80vh;
     }
 
-    .leftBox {
-        margin-top: 110px;
+    .firstBlock main {
+        width: 90%;
     }
 
     .bigTitle {

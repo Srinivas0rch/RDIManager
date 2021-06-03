@@ -1,7 +1,11 @@
 /* START FIRST BLOCK */
+.firstBlock {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
 
 .firstBlock main {
-    height: 100vh;
     width: 80%;
     margin: auto;
     display: flex;
@@ -413,11 +417,19 @@
     overflow: hidden;
 }
 
+.wave img {
+    min-height: 800px;
+    max-height: 1300px;
+}
+
 /* END WAVE PHONE */
 
 /* START SECOND BLOCK */
 
 .secondBlock {
+    width: 100%;
+    z-index: 3;
+    min-height: 100vh;
     position: relative;
     display: flex;
     align-items: center;
@@ -426,7 +438,6 @@
 
 .secondBlock main {
     display: inline;
-    margin-top: 10vh;
     z-index: 3;
 }
 
@@ -493,11 +504,7 @@
 
 .cardPhone img {
     margin-right: 30px;
-    height: 650px;
-}
-
-.secondBlock #main {
-    display: inline;
+    height: 600px;
 }
 
 /* END SECOND BLOCK */
