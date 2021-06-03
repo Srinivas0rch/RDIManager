@@ -1,7 +1,7 @@
 @media (max-width: 1150px) {
 
     .firstBlock main {
-        max-height: 80vh;
+        max-height: 70vh;
         width: 90%;
         margin: 0 auto;
         display: block;
@@ -24,7 +24,7 @@
     }
 
     .leftBox p {
-        font-size: 15px;
+        font-size: 17px;
         margin-top: 15px;
     }
 
@@ -172,6 +172,57 @@
 
     .legendText p {
         font-size: 10px;
+    }
+
+    .secondBlock {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        flex-direction: column;
+    }
+
+    .cardPhone {
+        display: inline;
+    }
+
+    .cardPhone .respPhone {
+        display: block;
+        text-align: center;
+    }
+
+    .respPhone h3 {
+        margin-left: 0;
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .respPhone p {
+        margin-left: 0;
+        width: 100%;
+        font-size: 17px;
+        text-align: left;
+    }
+
+    .respPhone #rond {
+        left: 480px;
+    }
+
+    .cardPhone .highPhone {
+        display: none;
+    }
+
+    .cardPhone .hr {
+        display: none;
+    }
+
+    .cardPhone .divPhone {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cardPhone img {
+        margin-right: 0;
+        height: 600px;
     }
 
 }
