@@ -1,6 +1,6 @@
 /* START FIRST BLOCK */
 .firstBlock {
-    min-height: 100vh;
+    min-height: 800px;
     display: flex;
     align-items: center;
 }
@@ -429,7 +429,7 @@
 .secondBlock {
     width: 100%;
     z-index: 3;
-    min-height: 100vh;
+    min-height: 800px;
     position: relative;
     display: flex;
     align-items: center;
@@ -505,6 +505,176 @@
 .cardPhone img {
     margin-right: 30px;
     height: 600px;
+    z-index: 3;
 }
 
 /* END SECOND BLOCK */
+
+/* START THIRD BLOCK */
+
+.thirdBlock {
+    width: 100%;
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.thirdBlock h6 {
+    font-family: 'MontSerrat', sans-serif;
+    overflow: hidden;
+    font-size: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 5%;
+}
+
+.thirdBlock main {
+    width: 80%;
+    display: flex;
+    padding-top: 50px;
+}
+
+.thirdBlock .textContent {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    color: #303030;
+}
+
+.textContent h3 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.textContent p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #494949;
+}
+
+.textContent a p {
+    padding: 10px 20px;
+    text-align: center;
+    width: 300px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: #fff;
+    border: 2px solid #e62117;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.textContent a p:hover {
+    color: #e62117;
+    background: #fff;
+}
+
+.thirdBlock .screenExample {
+    width: 50%;
+    z-index: 3;
+}
+
+
+/* END THIRD BLOCK */
+
+/* START FOUR BLOCK */
+
+.fourBlock {
+    width: 100%;
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.fourBlock h6 {
+    font-family: 'MontSerrat', sans-serif;
+    overflow: hidden;
+    font-size: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 5%;
+}
+
+.fourBlock main {
+    width: 80%;
+    display: flex;
+    padding-top: 50px;
+}
+
+.fourBlock .textContent {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    color: #303030;
+}
+
+.fourBlock h3 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.fourBlock p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #494949;
+}
+
+.textContent a p {
+    padding: 10px 20px;
+    text-align: center;
+    width: 300px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: #fff;
+    border: 2px solid #e62117;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.textContent a p:hover {
+    color: #e62117;
+    background: #fff;
+}
+
+.fourBlock .screenExample {
+    width: 50%;
+    z-index: 3;
+}
+
+
+/* END FOUR BLOCK */
+
+/* START FOOTER */
+
+footer {
+    margin-top: 200px;
+    height: 200px;
+    width: 100%;
+    background: #303030;
+}
+
+.footerWave {
+    position: relative;
+    bottom: 250px;
+    width: 2000px;
+    overflow: hidden;
+}
+/* END FOOTER */
