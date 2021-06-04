@@ -1,3 +1,5 @@
+@media ( max-width : 3500px){}
+
 /* START FIRST BLOCK */
 .firstBlock {
     min-height: 800px;
@@ -26,6 +28,7 @@
     display: flex;
     justify-content: center;
     margin-top: 80px;
+    transition: 1s;
 }
 
 /* END BLOCK CONTENT SIZE */
@@ -412,6 +415,7 @@
 /* WAVE PHONE */
 
 .wave {
+    margin-top: 180px;
     position: absolute;
     width: 100%;
     overflow: hidden;
@@ -427,9 +431,10 @@
 /* START SECOND BLOCK */
 
 .secondBlock {
+    margin-top: 150px;
     width: 100%;
     z-index: 3;
-    min-height: 800px;
+    min-height: 850px;
     position: relative;
     display: flex;
     align-items: center;
@@ -514,15 +519,15 @@
 
 .thirdBlock {
     width: 100%;
-    min-height: 600px;
+    min-height: 700px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
 }
 
 .thirdBlock h6 {
+    margin-top: 100px;
     font-family: 'MontSerrat', sans-serif;
     overflow: hidden;
     font-size: 200px;
@@ -590,15 +595,15 @@
 
 .fourBlock {
     width: 100%;
-    min-height: 600px;
+    min-height: 700px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
 }
 
 .fourBlock h6 {
+    margin-top: 100px;
     font-family: 'MontSerrat', sans-serif;
     overflow: hidden;
     font-size: 200px;
@@ -661,20 +666,3 @@
 
 
 /* END FOUR BLOCK */
-
-/* START FOOTER */
-
-footer {
-    margin-top: 200px;
-    height: 200px;
-    width: 100%;
-    background: #303030;
-}
-
-.footerWave {
-    position: relative;
-    bottom: 250px;
-    width: 2000px;
-    overflow: hidden;
-}
-/* END FOOTER */
