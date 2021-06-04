@@ -275,7 +275,7 @@
 
     .textContent a p {
         margin: auto;
-        width: 95%;
+        width: 270px;
         font: 15px;
     }
 
@@ -303,9 +303,7 @@
         margin: 100px auto;
     }
 
-    .footerWave {
-        overflow: hidden;
-    }
+
 
 }
 

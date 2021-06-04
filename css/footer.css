@@ -1,0 +1,80 @@
+/* START FOOTER */
+footer {
+    margin-top: 200px;
+    height: 350px;
+    width: 100%;
+    background: #303030;
+}
+
+.footerContent {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    color: #fff;
+}
+
+.footerContent .socialCard {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.socialCard .facebook {
+    width: 30px;
+    height: 30px;
+    background: #3b5998;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.socialCard .linkedin {
+    width: 30px;
+    height: 30px;
+    background: #0e76a8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.socialCard .media {
+    width: 30px;
+    height: 30px;
+    background: orangered;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.footerContent h4 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footerContent h6{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footerContent p {
+    font-size: 15px;
+    color: #eeeeee;
+    margin-bottom: 20px;
+}
+
+.footerWave {
+    z-index: 1;
+    position: relative;
+    bottom: 650px;
+    width: 2000px;
+    overflow: hidden;
+}
+/* END FOOTER */
