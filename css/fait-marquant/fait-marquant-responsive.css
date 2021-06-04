@@ -1,4 +1,4 @@
-@media (max-width: 1150px) {
+@media (max-width: 1300px) {
 
     .firstBlock main {
         max-height: 80vh;
@@ -10,6 +10,7 @@
 
     .leftBox {
         width: 100%;
+        margin-top: 100px;
     }
 
     .rightBox {
@@ -193,6 +194,10 @@
 
     .bigTitle {
         font-size: 50px;
+    }
+
+    .leftBox {
+        margin-top: 0px;
     }
 
     .leftBox p {
