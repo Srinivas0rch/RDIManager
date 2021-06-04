@@ -1,7 +1,12 @@
 /* START FIRST BLOCK */
 
+.firstBlock {
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+}
+
 .firstBlock main {
-    height: 100vh;
     width: 80%;
     margin: auto;
     display: flex;
@@ -245,8 +250,6 @@
     border-radius: 2px;
 }
 
-
-
 /* END CARD ONE */
 
 /* START CARD TWO */
@@ -322,10 +325,79 @@
 
 /* END CARD TWO */
 
+/* END FIRST BLOCK */
+
 /* START SECOND BLOCK */
 
 .secondBlock {
-    height: 100vh;
+    width: 100%;
+    min-height: 800px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondBlock h6 {
+    margin-top: 100px;
+    font-family: 'MontSerrat', sans-serif;
+    overflow: hidden;
+    font-size: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 5%;
+}
+
+.secondBlock main {
+    width: 80%;
+    display: flex;
+    padding-top: 50px;
+}
+
+.secondBlock .textContent {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    color: #303030;
+}
+
+.textContent h3 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.textContent p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #494949;
+}
+
+.textContent a p {
+    padding: 10px 20px;
+    text-align: center;
+    width: 300px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: #fff;
+    border: 2px solid #e62117;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.textContent a p:hover {
+    color: #e62117;
+    background: #fff;
+}
+
+.secondBlock .screenExample {
+    width: 50%;
+    z-index: 3;
 }
 
 /* END SECOND BLOCK */

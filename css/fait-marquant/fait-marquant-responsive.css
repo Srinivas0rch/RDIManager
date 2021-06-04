@@ -9,7 +9,6 @@
     }
 
     .leftBox {
-        margin-top: 100px;
         width: 100%;
     }
 
@@ -20,10 +19,14 @@
 
     .bigTitle {
         font-size: 60px;
+        text-align: center;
     }
 
     .leftBox p {
-        font-size: 15px;
+        margin: auto;
+        text-align: center;
+        width: 90%;
+        font-size: 17px;
         margin-top: 15px;
     }
 
@@ -140,17 +143,52 @@
         font-size: 10px;
     }
 
+    .secondBlock {
+        margin-top: 100px;
+    }
+
+    .secondBlock main {
+        margin: auto;
+        width: 90%;
+        display: inline;
+        padding-top: 100px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .secondBlock .textContent {
+        width: 90%;
+    }
+
+    .textContent h3 {
+        font-size: 50px;
+    }
+
+    .textContent p {
+        font-size: 17px;
+    }
+
+    .textContent a p {
+        margin: auto;
+        width: 270px;
+        font: 15px;
+    }
+
+    .secondBlock .screenExample {
+        width: 80%;
+        margin: 100px auto;
+    }
+
 }
 
 @media (max-width: 650px) {
 
-    .firstBlock main {
-        max-height: 60vh;
-        width: 90%;
+    .firstBlock {
+        min-height: 600px;
     }
 
-    .leftBox {
-        margin-top: 80px;
+    .firstBlock main {
+        width: 90%;
     }
 
     .bigTitle {
