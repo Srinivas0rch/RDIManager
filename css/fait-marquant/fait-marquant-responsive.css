@@ -1,4 +1,4 @@
-@media (max-width: 1300px) {
+@media (max-width: 1350px) {
 
     .firstBlock main {
         max-height: 80vh;
@@ -176,9 +176,15 @@
     }
 
     .secondBlock .screenExample {
-        width: 80%;
-        margin: 100px auto;
+        width: 100%;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
     }
+
+    .screenExample img {
+        height: 600px;
+        }
 
 }
 
@@ -222,4 +228,8 @@
     .log {
         width: 200px;
     }
+
+    .screenExample img {
+        height: 600px;
+        }
 }
