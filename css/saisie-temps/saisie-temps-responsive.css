@@ -1,5 +1,9 @@
 @media (max-width: 1300px) {
 
+    .firstBlock {
+        min-height: 700px;
+    }
+
     .firstBlock main {
         width: 90%;
         margin: 0 auto;
@@ -9,6 +13,7 @@
 
     .leftBox {
         width: 100%;
+        margin-top: 80px;
     }
 
     .rightBox {
@@ -176,23 +181,21 @@
         font-size: 10px;
     }
 
-    .wave img{
+    .wave img {
         height: 1050px;
         overflow: hidden;
+    }
+
+    .secondBlock {
+        min-height: 800px;
     }
 
     .secondBlock main {
         width: 100%;
         margin: auto;
-        margin-top: 15vh;
+        margin-top: 10vh;
         display: block;
         flex-direction: column;
-    }
-
-    .secondBlock main {
-        display: inline;
-        margin-top: 10vh;
-        z-index: 3;
     }
 
     .cardPhone {
@@ -245,16 +248,75 @@
         height: 600px;
     }
 
+    .thirdBlock {
+        margin-top: 100px;
+    }
+
+    .thirdBlock main {
+        margin: auto;
+        width: 90%;
+        display: inline;
+        padding-top: 100px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .thirdBlock .textContent {
+        width: 90%;
+    }
+
+    .textContent h3 {
+        font-size: 50px;
+    }
+
+    .textContent p {
+        font-size: 17px;
+    }
+
+    .textContent a p {
+        margin: auto;
+        width: 95%;
+        font: 15px;
+    }
+
+    .thirdBlock .screenExample {
+        width: 80%;
+        margin: 100px auto;
+    }
+
+    .fourBlock main {
+        margin: auto;
+        width: 90%;
+        display: inline;
+        padding-top: 100px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .fourBlock .textContent {
+        width: 90%;
+    }
+
+
+    .fourBlock .screenExample {
+        width: 80%;
+        margin: 100px auto;
+    }
+
+    .footerWave {
+        overflow: hidden;
+    }
+
 }
 
 @media (max-width: 650px) {
 
-    .firstBlock {
-        min-height: 80vh;
-    }
-
     .firstBlock main {
         width: 90%;
+    }
+
+    .leftBox {
+        margin-top: 0px;
     }
 
     .bigTitle {
@@ -288,8 +350,17 @@
         margin-top: 100px;
     }
 
-    .wave img{
+    .wave img {
         height: 1200px;
         overflow: hidden;
+    }
+
+    .thirdBlock .screenExample {
+        width: 90%;
+    }
+
+    .fourBlock .screenExample {
+        width: 90%;
+        z-index: 3;
     }
 }
