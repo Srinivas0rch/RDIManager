@@ -17,6 +17,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    text-decoration: none;
 }
 
 .socialCard .facebook {
@@ -28,6 +29,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 0 5px;
+    color: #fff;
 }
 
 .socialCard .linkedin {
@@ -39,6 +41,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 0 5px;
+    color: #fff;
 }
 
 .socialCard .media {
@@ -50,6 +53,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 0 5px;
+    color: #fff;
 }
 
 .footerContent h4 {
