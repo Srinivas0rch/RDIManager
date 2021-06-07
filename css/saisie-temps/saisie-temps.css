@@ -1,6 +1,8 @@
 /* START FIRST BLOCK */
 .firstBlock {
+    height: 100vh;
     min-height: 800px;
+    max-height: 1000px;
     display: flex;
     align-items: center;
 }
