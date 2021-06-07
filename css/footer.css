@@ -78,6 +78,7 @@ footer {
     z-index: 1;
     position: relative;
     bottom: 650px;
+    left: -10px;
     width: 2000px;
     overflow: hidden;
 }
