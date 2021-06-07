@@ -1,7 +1,10 @@
 @media (max-width: 1350px) {
 
+    .firstBlock {
+        height: 80vh;
+    }
+
     .firstBlock main {
-        max-height: 80vh;
         width: 90%;
         margin: 0 auto;
         display: block;
@@ -191,7 +194,7 @@
 @media (max-width: 650px) {
 
     .firstBlock {
-        min-height: 600px;
+        height: 60vh;
     }
 
     .firstBlock main {
