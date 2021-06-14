@@ -28,7 +28,6 @@
     display: flex;
     justify-content: center;
     margin-top: 80px;
-    transition: 1s;
 }
 
 /* END BLOCK CONTENT SIZE */
@@ -415,7 +414,7 @@
 /* WAVE PHONE */
 
 .wave {
-    margin-top: 150px;
+    margin-top: 100px;
     position: absolute;
     left: 0;
     width: 100%;
@@ -432,7 +431,7 @@
 /* START SECOND BLOCK */
 
 .secondBlock {
-    margin-top: 150px;
+    margin-top: 100px;
     width: 100%;
     z-index: 3;
     min-height: 850px;
@@ -521,7 +520,7 @@
 .thirdBlock {
     width: 100%;
     margin-top: 100px;
-    min-height: 800px;
+    min-height: 600px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -529,7 +528,7 @@
 }
 
 .thirdBlock h6 {
-    margin-top: 100px;
+    margin-top: 50px;
     font-family: 'MontSerrat', sans-serif;
     overflow: hidden;
     font-size: 200px;
@@ -597,7 +596,7 @@
 
 .fourBlock {
     width: 100%;
-    min-height: 600px;
+    min-height: 500px;
     position: relative;
     display: flex;
     justify-content: center;

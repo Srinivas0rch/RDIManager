@@ -79,6 +79,7 @@ footer {
     position: relative;
     bottom: 650px;
     width: 2000px;
+    margin-left: -15px;
     overflow: hidden;
 }
 /* END FOOTER */
