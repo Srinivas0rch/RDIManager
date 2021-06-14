@@ -414,6 +414,7 @@
 /* WAVE PHONE */
 
 .wave {
+    margin-top: 100px;
     position: absolute;
     left: 0;
     width: 100%;
@@ -431,7 +432,8 @@
 /* START SECOND BLOCK */
 
 .secondBlock {
-    width: 100vw;
+    margin-top: 100px;
+    width: 100%;
     z-index: 3;
     height: 100vh;
     min-height: 800px;
@@ -520,6 +522,7 @@
 
 .thirdBlock {
     width: 100%;
+    margin-top: 100px;
     min-height: 600px;
     position: relative;
     display: flex;
@@ -528,6 +531,7 @@
 }
 
 .thirdBlock h6 {
+    margin-top: 50px;
     font-family: 'MontSerrat', sans-serif;
     overflow: hidden;
     font-size: 200px;
@@ -595,7 +599,7 @@
 
 .fourBlock {
     width: 100%;
-    min-height: 600px;
+    min-height: 500px;
     position: relative;
     display: flex;
     justify-content: center;
