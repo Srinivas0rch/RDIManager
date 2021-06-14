@@ -80,6 +80,7 @@ footer {
     bottom: 650px;
     left: -10px;
     width: 2000px;
+    margin-left: -15px;
     overflow: hidden;
 }
 /* END FOOTER */
