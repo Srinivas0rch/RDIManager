@@ -1,8 +1,8 @@
-@media (max-width : 3500px) {}
-
 /* START FIRST BLOCK */
 .firstBlock {
+    height: 100vh;
     min-height: 800px;
+    max-height: 1000px;
     display: flex;
     align-items: center;
 }
@@ -422,7 +422,8 @@
 }
 
 .wave img {
-    min-height: 850px;
+    position: relative;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -434,7 +435,9 @@
     margin-top: 100px;
     width: 100%;
     z-index: 3;
-    min-height: 850px;
+    height: 100vh;
+    min-height: 800px;
+    max-height: 1200px;
     position: relative;
     display: flex;
     align-items: center;

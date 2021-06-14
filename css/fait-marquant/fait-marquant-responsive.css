@@ -1,7 +1,10 @@
-@media (max-width: 1150px) {
+@media (max-width: 1350px) {
+
+    .firstBlock {
+        height: 80vh;
+    }
 
     .firstBlock main {
-        max-height: 80vh;
         width: 90%;
         margin: 0 auto;
         display: block;
@@ -10,6 +13,7 @@
 
     .leftBox {
         width: 100%;
+        margin-top: 100px;
     }
 
     .rightBox {
@@ -175,16 +179,22 @@
     }
 
     .secondBlock .screenExample {
-        width: 80%;
-        margin: 100px auto;
+        width: 100%;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
     }
+
+    .screenExample img {
+        height: 600px;
+        }
 
 }
 
 @media (max-width: 650px) {
 
     .firstBlock {
-        min-height: 600px;
+        height: 60vh;
     }
 
     .firstBlock main {
@@ -193,6 +203,10 @@
 
     .bigTitle {
         font-size: 50px;
+    }
+
+    .leftBox {
+        margin-top: 0px;
     }
 
     .leftBox p {
@@ -217,4 +231,8 @@
     .log {
         width: 200px;
     }
+
+    .screenExample img {
+        height: 600px;
+        }
 }

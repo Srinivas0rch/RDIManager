@@ -1,7 +1,9 @@
 /* START FIRST BLOCK */
 
 .firstBlock {
+    height: 100vh;
     min-height: 800px;
+    max-height: 1000px;
     display: flex;
     align-items: center;
 }
@@ -357,6 +359,7 @@
 }
 
 .secondBlock .textContent {
+    margin-top: 120px;
     display: inline;
     align-items: center;
     justify-content: center;
@@ -398,6 +401,10 @@
 .secondBlock .screenExample {
     width: 50%;
     z-index: 3;
+}
+
+.screenExample img {
+height: 600px;
 }
 
 /* END SECOND BLOCK */
