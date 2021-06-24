@@ -194,15 +194,15 @@
         margin-top: 50px;
         margin-bottom: 50px;
         background: #303030;
-        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-        border: 1px solid rgba(255, 255, 255, 0.5);
+        padding: 30px;
+        box-sizing: border-box;
     }
 
     .secondBlock main {
         width: 100%;
         margin: auto;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        /* padding-top: 50px;
+        padding-bottom: 50px; */
         display: block;
         flex-direction: column;
     }
