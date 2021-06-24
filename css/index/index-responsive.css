@@ -1,0 +1,92 @@
+@media (max-width: 1350px) {
+
+    .firstBlock .bgResponsive {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: url("../../images/bg.png");
+        background-size: cover;
+        filter: opacity(50%);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .firstBlock main {
+        width: 100%;
+    }
+
+    #blockVideo {
+        display: none;
+    }
+
+    .bigTitle {
+        font-size: 100px;
+        color: #303030;
+    }
+
+    .firstBlock main h3 {
+        color: #303030;
+        font-size: 20px;
+    }
+
+    .scroll {
+        display: none;
+    }
+
+    .secondBlock .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .secondBlock .cardOne,
+    .secondBlock .cardTwo,
+    .secondBlock .cardThree {
+        position: relative;
+        height: 400px;
+        width: 500px;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .bigTitle {
+        width: 90%;
+        font-size: 60px;
+        color: #303030;
+    }
+
+    .firstBlock main h3 {
+        color: #303030;
+        font-size: 15px;
+    }
+
+    .linkBtn {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .demo {
+        margin-right: 0;
+    }
+
+    .log {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .secondBlock .cardOne,
+    .secondBlock .cardTwo,
+    .secondBlock .cardThree {
+        position: relative;
+        height: 450px;
+        width: 95%;
+        margin-top: 100px;
+    }
+}
