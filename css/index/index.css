@@ -113,7 +113,7 @@
 .scroll {
     z-index: 3;
     position: absolute;
-    bottom: 20px;
+    bottom: 40px;
     text-align: center;
     animation: rock 2s infinite linear;
 }
@@ -127,7 +127,7 @@
 
 @keyframes rock {
     50% {
-        transform: translateY(20px);
+        transform: translateY(15px);
     }
 }
 
