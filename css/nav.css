@@ -24,6 +24,7 @@ header {
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 80px;
 }
 
 header .navHigh {
@@ -216,6 +217,7 @@ nav li a {
 /* RESPONSIVE NAV */
 
 @media (max-width: 1250px) {
+
     header .navHigh {
         display: none;
     }
@@ -226,6 +228,7 @@ nav li a {
     }
 
     .logoPhone {
+        z-index: 5;
         width: 200px;
         margin-top: 25px;
         margin-left: 25px;
