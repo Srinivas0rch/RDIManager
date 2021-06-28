@@ -1,4 +1,4 @@
-@media (max-width: 1350px) {
+@media (max-width: 1250px) {
 
     .firstBlock .bgResponsive {
         position: absolute;
@@ -16,13 +16,17 @@
         width: 100%;
     }
 
-    #blockVideo {
-        display: none;
-    }
-
     .bigTitle {
         font-size: 100px;
         color: #303030;
+    }
+
+    .scroll {
+        display: none;
+    }
+
+    #blockVideo {
+        display: none;
     }
 
     .firstBlock main h3 {
@@ -30,15 +34,18 @@
         font-size: 20px;
     }
 
-    .scroll {
-        display: none;
+    #pricing {
+        margin-bottom: 0px;
+    }
+
+    .secondBlock main {
+        width: 100%;
     }
 
     .secondBlock .cards {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
-        flex-direction: column;
     }
 
     .secondBlock .cardOne,
@@ -46,9 +53,74 @@
     .secondBlock .cardThree {
         position: relative;
         height: 400px;
-        width: 500px;
+        width: 400px;
+    }
+
+    .priceBlock main {
+        width: 100%;
+    }
+
+    .priceBlock .cards {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .priceBlock .cardOne,
+    .priceBlock .cardTwo,
+    .priceBlock .cardThree {
+        position: relative;
+        height: 800px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 1020px) {
+
+    .secondBlock .para {
+        width: 90%;
+    }
+
+    .secondBlock .cards {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .secondBlock .cardOne,
+    .secondBlock .cardTwo,
+    .secondBlock .cardThree {
+        position: relative;
+        height: 400px;
+        width: 400px;
         margin-top: 100px;
     }
+
+    .priceBlock main {
+        width: 100%;
+    }
+
+    .priceBlock .para {
+        width: 90%;
+    }
+
+    .priceBlock .cards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .priceBlock .cardOne,
+    .priceBlock .cardTwo,
+    .priceBlock .cardThree {
+        position: relative;
+        height: 800px;
+        width: 400px;
+        margin-top: 30px;
+    }
+
 }
 
 @media (max-width: 650px) {
@@ -81,6 +153,17 @@
         margin-top: 20px;
     }
 
+    .secondBlock .title {
+        padding: 20px 0;
+        background: #303030;
+        color: #fff;
+    }
+
+
+    .secondBlock .para {
+        display: none;
+    }
+
     .secondBlock .cardOne,
     .secondBlock .cardTwo,
     .secondBlock .cardThree {
@@ -88,5 +171,28 @@
         height: 450px;
         width: 95%;
         margin-top: 100px;
+    }
+
+    .priceBlock .title {
+        padding: 20px 0;
+        background: #303030;
+        color: #fff;
+    }
+
+    .priceBlock .para {
+        display: none;
+    }
+
+    .priceBlock .btnPrice {
+        height: 150px;
+    }
+
+    .priceBlock .cardOne,
+    .priceBlock .cardTwo,
+    .priceBlock .cardThree {
+        position: relative;
+        height: auto;
+        width: 95%;
+        margin-top: 30px;
     }
 }

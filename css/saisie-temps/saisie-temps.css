@@ -2,7 +2,7 @@
 .firstBlock {
     height: 100%;
     min-height: 600px;
-    max-height: 1000px;
+    max-height: 1200px;
     display: flex;
     align-items: center;
 }
@@ -479,6 +479,8 @@
     border-radius: 999px;
     font-weight: bold;
     font-size: 15px;
+    letter-spacing: 3px;
+    font-family: 'MontSerrat', sans-serif;
 }
 
 .cardPhone .rond {
