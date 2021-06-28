@@ -2,7 +2,7 @@
 .firstBlock {
     height: 100vh;
     min-height: 600px;
-    max-height: 1300px;
+    max-height: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,10 +156,12 @@
 }
 
 .secondBlock .para {
+    margin: auto;
     margin-bottom: 80px;
     text-align: center;
     color: #303030;
     font-size: 17px;
+    width: 60%;
 }
 
 .secondBlock .cards {
@@ -240,7 +242,7 @@
     color: #303030;
 }
 
-.cardContent p {
+.secondBlock .cardContent p {
     margin-top: 20px;
     text-align: center;
     font-size: 17px;
@@ -248,3 +250,179 @@
 }
 
 /* END SECOND BLOCK */
+
+#pricing {
+    margin-bottom: 100px;
+}
+
+/* START PRICE BLOCK */
+
+.priceBlock {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.priceBlock main {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.priceBlock .title {
+    text-align: center;
+    color: #303030;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.priceBlock .para {
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #303030;
+    font-size: 17px;
+    width: 60%;
+}
+
+.priceBlock .cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.priceBlock .cardOne,
+.priceBlock .cardTwo,
+.priceBlock .cardThree {
+    position: relative;
+    height: 750px;
+    min-height: 500px;
+    max-height: 800px;
+    width: 350px;
+    min-width: 150px;
+    max-width: 350px;
+    padding: 20px 30px 20px 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.priceBlock .column {
+    display: flex;
+    flex-direction: column;
+}
+
+.priceBlock .cardTop {
+    display: flex;
+    flex-direction: column;
+}
+
+.priceBlock .cardTitle {
+    font-weight: bold;
+    font-size: 25px;
+    color: #303030;
+}
+
+.priceBlock .cardFor {
+    font-size: 15px;
+    color: #303030;
+}
+
+.priceBlock .cardSale {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    background: -webkit-linear-gradient(316deg, #e62117 30%, #a30000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.priceBlock .cardSmall {
+    color: #505050;
+    font-size: 15px;
+}
+
+.priceBlock .cardContent {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardContent .iconGreen {
+    margin-right: 10px;
+    padding: 3px 4px 0px 4px;
+    border-radius: 9999px;
+    font-size: 13px;
+    color: #fff;
+    background: #008000;
+}
+
+.cardContent .iconRed {
+    margin-right: 10px;
+    padding: 3px 4px 0px 4px;
+    border-radius: 9999px;
+    font-size: 13px;
+    color: #fff;
+    background: #e62117;
+}
+
+.cardContent .bold {
+    font-weight: bold;
+}
+
+.priceBlock .cardContent p {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 15px;
+    color: #303030;
+}
+
+.priceBlock .btnPrice {
+    display: flex;
+    justify-content: center;
+}
+
+.priceBlock .buttonPrice {
+    z-index: 3;
+    position: absolute;
+    bottom: 20px;
+    padding: 12px 50px 12px 50px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #e62117;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+}
+
+.priceBlock .buttonPrice:hover {
+    color: #e62117;
+    background: #fff;
+}
+
+.priceBlock .buttonPriceInv {
+    z-index: 3;
+    position: absolute;
+    bottom: 20px;
+    padding: 12px 50px 12px 50px;
+    border-radius: 20px;
+    color: #e62117;
+    background: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #e62117;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.priceBlock .buttonPriceInv:hover {
+    color: #fff;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+}
+
+/* END PRICE BLOCK */
