@@ -1,28 +1,81 @@
 /* START FOOTER */
 footer {
     margin-top: 200px;
-    height: 350px;
+    height: 300px;
     width: 100%;
     background: #303030;
 }
 
 .footerContent {
+    margin: auto;
+    width: 80%;
     position: relative;
     z-index: 3;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     color: #fff;
 }
 
-.footerContent .socialCard {
+.leftBlock,
+.midBlock,
+.rightBlock {
+    width: 33%;
+    text-align: center;
+    height: 250px;
+}
+
+.footerContent #hr {
+    height: 250px;
+    width: 3px;
+    background: #fff;
+}
+
+.footerContent .midBlock {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.footerContent .midBlock form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.footerContent .midBlock label {
+    font-size: 15px;
+    text-align: left;
+}
+
+.footerContent .midBlock input {
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: none;
+}
+
+.footerContent .midBlock .socialCard {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 25px;
     text-decoration: none;
 }
 
+.footerContent .midBlock p {
+    font-size: 15px;
+    color: #eeeeee;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
 .socialCard .facebook {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     background: #3b5998;
     border-radius: 10px;
     display: flex;
@@ -33,8 +86,8 @@ footer {
 }
 
 .socialCard .linkedin {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     background: #0e76a8;
     border-radius: 10px;
     display: flex;
@@ -45,8 +98,8 @@ footer {
 }
 
 .socialCard .media {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     background: orangered;
     border-radius: 10px;
     display: flex;
@@ -62,25 +115,111 @@ footer {
     margin-bottom: 20px;
 }
 
-.footerContent h6{
-    font-size: 17px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.footerContent p {
+.footerContent .leftBlock p {
+    margin: auto;
     font-size: 15px;
     color: #eeeeee;
     margin-bottom: 20px;
+    width: 80%;
+}
+
+.footerContent .rightBlock p {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.footerContent .rightBlock form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.rightBlock label {
+    font-size: 15px;
+    text-align: left;
+}
+
+.rightBlock input {
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: none;
+}
+
+.rightBlock textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: none;
 }
 
 .footerWave {
     z-index: 1;
     position: relative;
-    bottom: 650px;
+    bottom: 500px;
     left: -10px;
     width: 2000px;
     margin-left: -15px;
     overflow: hidden;
 }
+
+@media (max-width: 1250px) {
+    .footerContent {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1020px) {
+    .footerContent {
+        width: 100%;
+    }
+
+    .footerContent h4 {
+        font-size: 20px;
+    }
+
+    .footerContent p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    footer {
+        margin-top: 30px;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .footerContent {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footerContent #hr {
+        height: 2px;
+        width: 200px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .leftBlock,
+    .midBlock,
+    .rightBlock {
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+
+
+    .footerWave {
+        display: none;
+    }
+}
+
 /* END FOOTER */
