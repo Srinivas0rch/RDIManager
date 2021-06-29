@@ -1,15 +1,23 @@
 @media (max-width: 1250px) {
 
-    .firstBlock .bgResponsive {
+    .firstBlock {
+        overflow: hidden;
+    }
+
+    .firstBlock .imgResp {
+        overflow: hidden;
+        z-index: -5;
+        display: block;
         position: absolute;
+        top: 0;
+        left: 0;
         height: 100%;
         width: 100%;
-        background: url("../../images/bg.png");
-        background-size: cover;
-        filter: opacity(50%);
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
+    }
+
+    .firstBlock .imgResp img {
+        height: 100%;
+        opacity: 70%;
     }
 
     .firstBlock main {
@@ -77,8 +85,13 @@
 
 @media (max-width: 1020px) {
 
+    .secondBlock main {
+        margin: 0 auto;
+    }
+
     .secondBlock .para {
         width: 90%;
+        margin-bottom: 0px;
     }
 
     .secondBlock .cards {
@@ -101,8 +114,13 @@
         width: 100%;
     }
 
+    .priceBlock .title { 
+        margin-top: 30px;
+    }
+
     .priceBlock .para {
         width: 90%;
+        margin-bottom: 0px;
     }
 
     .priceBlock .cards {

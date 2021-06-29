@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
-/* RESET CSS */
+/* BASE CSS */
 
 html {
   scroll-behavior: smooth;
@@ -164,6 +164,7 @@ nav li a {
 
 .logoNav {
     width: 200px;
+    z-index: 5;
 }
 
 .menu li {
