@@ -267,7 +267,7 @@
 }
 
 .saleBlock main {
-    padding: 30px;
+    padding: 80px 30px;
     width: 100%;
     margin: auto;
     margin-top: 100px;
@@ -285,9 +285,9 @@
 }
 
 .saleBlock p {
-    width: 50%;
+    width: 60%;
     margin: 30px auto;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     color: #fff;
 }
