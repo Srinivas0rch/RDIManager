@@ -17,7 +17,7 @@
 
     .firstBlock .imgResp img {
         height: 100%;
-        opacity: 70%;
+        opacity: 60%;
     }
 
     .firstBlock main {
@@ -64,6 +64,11 @@
         width: 400px;
     }
 
+    .saleBlock main {
+        margin-bottom: 0px;
+        margin-top: 50px;
+    }
+
     .priceBlock main {
         width: 100%;
     }
@@ -86,7 +91,7 @@
 @media (max-width: 1020px) {
 
     .secondBlock main {
-        margin: 0 auto;
+        margin-top: 0;
     }
 
     .secondBlock .para {
@@ -114,7 +119,7 @@
         width: 100%;
     }
 
-    .priceBlock .title { 
+    .priceBlock .title {
         margin-top: 30px;
     }
 
@@ -142,6 +147,10 @@
 }
 
 @media (max-width: 650px) {
+
+    .firstBlock {
+        height: 80vh;
+    }
 
     .bigTitle {
         width: 90%;
@@ -171,13 +180,6 @@
         margin-top: 20px;
     }
 
-    .secondBlock .title {
-        padding: 20px 0;
-        background: #303030;
-        color: #fff;
-    }
-
-
     .secondBlock .para {
         display: none;
     }
@@ -191,10 +193,17 @@
         margin-top: 100px;
     }
 
-    .priceBlock .title {
-        padding: 20px 0;
-        background: #303030;
-        color: #fff;
+    .saleBlock h4 {
+        font-size: 30px;
+    }
+
+    .saleBlock p {
+        width: 100%;
+    }
+
+    .saleBlock .buttonSale {
+        width: 90%;
+        font-size: 15px;
     }
 
     .priceBlock .para {

@@ -116,8 +116,10 @@
 
 .scroll {
     z-index: 3;
-    position: absolute;
-    bottom: 40px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     animation: rock 2s infinite linear;
 }
@@ -147,7 +149,8 @@
 
 .secondBlock main {
     width: 80%;
-    margin: 100px auto;
+    margin: auto;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
 }
@@ -254,6 +257,61 @@
 }
 
 /* END SECOND BLOCK */
+
+/* START SALE BLOCK  */
+
+.saleBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.saleBlock main {
+    padding: 30px;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #303030;
+}
+
+.saleBlock h4 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+.saleBlock p {
+    width: 50%;
+    margin: 30px auto;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.saleBlock .buttonSale {
+    width: 400px;
+    padding: 12px 50px 12px 50px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #e62117;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+}
+
+.saleBlock .buttonSale:hover {
+    color: #fff;
+    background: transparent;
+}
+
+/* END SALE BLOCK */
 
 #pricing {
     margin-bottom: 100px;
