@@ -333,11 +333,17 @@
 
 .secondBlock {
     width: 100%;
-    min-height: 800px;
+    height: 600px;
+    margin-top: 100px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.secondBlock main {
+    width: 80%;
+    display: flex;
 }
 
 .secondBlock h6 {
@@ -350,12 +356,6 @@
     left: 0;
     z-index: 1;
     opacity: 5%;
-}
-
-.secondBlock main {
-    width: 80%;
-    display: flex;
-    padding-top: 50px;
 }
 
 .secondBlock .textContent {

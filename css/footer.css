@@ -157,6 +157,12 @@ footer {
     border: none;
 }
 
+.rightBlock input:focus,
+.rightBlock textarea:focus,
+.midBlock input:focus {
+    outline: none;
+}
+
 .footerWave {
     z-index: 1;
     position: relative;
