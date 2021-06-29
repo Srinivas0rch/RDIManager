@@ -65,7 +65,7 @@
     }
 
     .saleBlock main {
-        margin-bottom: 0px;
+        margin-bottom: 50px;
         margin-top: 50px;
     }
 
@@ -113,6 +113,19 @@
         height: 400px;
         width: 400px;
         margin-top: 100px;
+    }
+
+    .saleBlock h4 {
+        font-size: 40px;
+    }
+
+    .saleBlock p {
+        width: 90%;
+    }
+
+    .saleBlock .buttonSale {
+        width: 60%;
+        font-size: 20px;
     }
 
     .priceBlock main {
@@ -202,7 +215,7 @@
     }
 
     .saleBlock .buttonSale {
-        width: 90%;
+        width: 100%;
         font-size: 15px;
     }
 
