@@ -149,8 +149,7 @@
 
 .secondBlock main {
     width: 80%;
-    margin: auto;
-    margin-top: 100px;
+    margin: 100px auto;
     display: flex;
     flex-direction: column;
 }
@@ -167,7 +166,7 @@
     margin-bottom: 80px;
     text-align: center;
     color: #303030;
-    font-size: 17px;
+    font-size: 15px;
     width: 60%;
 }
 
@@ -258,6 +257,128 @@
 
 /* END SECOND BLOCK */
 
+/* START USE BLOCK  */
+
+.useBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.useBlock main {
+    width: 80%;
+    margin: auto;
+}
+
+.useBlock .title {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #303030;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.useBlock .hr {
+    height: 2px;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+}
+
+.whyRDI {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.useBlock .leftBox {
+    width: 5%;
+}
+
+.useBlock .rightBox {
+    width: 65%;
+}
+
+.useBlock .fmLine {
+    position: relative;
+    height: 570px;
+    width: 10px;
+    border-radius: 15px;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+}
+
+.useBlock .fmCircle1,
+.useBlock .fmCircle2,
+.useBlock .fmCircle3,
+.useBlock .fmCircle4,
+.useBlock .fmCircle5 {
+    position: relative;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    right: 10px;
+    border-radius: 999px;
+    background: #fff;
+}
+
+.useBlock .fmCircle1 {
+    border: 8px solid #e62117;
+    margin-bottom: 70px;
+}
+
+.useBlock .fmCircle2 {
+    border: 8px solid #e42016;
+    margin-bottom: 70px;
+}
+
+.useBlock .fmCircle3 {
+    border: 8px solid #df0000;
+    margin-bottom: 95px;
+}
+
+.useBlock .fmCircle4 {
+    border: 8px solid #cf1b11;
+    margin-bottom: 100px;
+}
+
+.useBlock .fmCircle5 {
+    border: 8px solid #be0000;
+}
+
+.rightBox h6 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #303030;
+    margin-bottom: 10px;
+}
+
+.rightBox p {
+    width: 90%;
+    font-size: 16px;
+    color: #303030;
+    margin-bottom: 20px;
+}
+
+/* END USE BLOCK */
+
+/* START IFRAME BLOCK  */
+
+iframe {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    width: 60%;
+    height: 400px;
+}
+
+/* END IFRAME BLOCK */
+
 /* START SALE BLOCK  */
 
 .saleBlock {
@@ -345,7 +466,7 @@
     margin-bottom: 20px;
     text-align: center;
     color: #303030;
-    font-size: 17px;
+    font-size: 15px;
     width: 60%;
 }
 
