@@ -299,6 +299,10 @@
         display: none;
     }
 
+    .shareBlock .para {
+        display: none;
+    }
+
     .saleBlock h4 {
         font-size: 30px;
     }
