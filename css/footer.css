@@ -173,6 +173,12 @@ footer {
     overflow: hidden;
 }
 
+@media (min-width: 2000px) {
+    .footerWave {
+        display: none;
+    }
+}
+
 @media (max-width: 1250px) {
     .footerContent {
         width: 90%;
