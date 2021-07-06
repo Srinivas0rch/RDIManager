@@ -84,11 +84,17 @@
                     <li><a href="index.html"><img src="images/logo.png" alt="RDI-Manager"></a></li>
                 </ul>
                 <ul class="listRight">
-                    <li><a href="index.html" id="activeNav">Accueil</a></li>
-                    <li><a href="saisie-temps.html">Suivi du temps</a></li>
-                    <li><a href="faits-marquants.html">Suivi des faits marquants</a></li>
-                    <li><a href="index.html#pricing">Tarifs</a></li>
-                    <li><a href="https://app.rdimanager.com/connexion" id="connect">Connexion</a></li>
+                    <li><a href="index.html" id="activeNav" data-i18n="nav_home"></a></li>
+                    <li><a href="saisie-temps.html" data-i18n="nav_time"></a></li>
+                    <li><a href="faits-marquants.html" data-i18n="nav_fm"></a></li>
+                    <li><a href="index.html#pricing" data-i18n="nav_pricing"></a></li>
+                    <li><a href="https://app.rdimanager.com/connexion" id="connect" data-i18n="nav_login"></a></li>
+                    <li>
+                        <select class="languageSelector">
+                            <option value="fr">FR</option>
+                            <option value="en">EN</option>
+                        </select>
+                    </li>
                 </ul>
 
                 <div class="top">
@@ -113,26 +119,35 @@
                         <a href="index.html"><img class="logoNav" src="images/logo.png" alt="RDI-Manager"></a>
                     </div>
                     <li>
-                        <a class="menuLink" id="activeNav" href="index.html"><i class="mdi mdi-home"></i>
-                            Accueil</a>
+                        <a class="menuLink" id="activeNav" href="index.html" data-i18n="nav_home"><i
+                                class="mdi mdi-home"></i>
+                        </a>
                     </li>
                     <li>
-                        <a class="menuLink" href="saisie-temps.html"><i class="mdi mdi-av-timer"></i>
-                            Suivi du
-                            temps</a>
+                        <a class="menuLink" href="saisie-temps.html" data-i18n="nav_time"><i
+                                class="mdi mdi-av-timer"></i>
+                        </a>
                     </li>
                     <li>
-                        <a class="menuLink" href="faits-marquants.html"><i class="mdi mdi-comment-text-outline"></i>
-                            Suivi des faits
-                            marquants</a>
+                        <a class="menuLink" href="faits-marquants.html" data-i18n="nav_fm"><i
+                                class="mdi mdi-comment-text-outline"></i>
+                        </a>
                     </li>
                     <li>
-                        <a class="menuLink" href="index.html#pricing"><i class="mdi mdi-coin"></i>
-                            Tarifs</a>
+                        <a class="menuLink" href="index.html#pricing" data-i18n="nav_pricing"><i
+                                class="mdi mdi-coin"></i>
+                        </a>
                     </li>
                     <li>
-                        <a class="menuLink" href="https://app.rdimanager.com/connexion"><i class="mdi mdi-account"></i>
-                            Connexion</a>
+                        <a class="menuLink" href="https://app.rdimanager.com/connexion" data-i18n="nav_login"><i
+                                class="mdi mdi-account"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <select class="languageSelector">
+                            <option value="fr">FR</option>
+                            <option value="en">EN</option>
+                        </select>
                     </li>
                 </ul>
             </div>
@@ -141,7 +156,7 @@
 
         </header>
 
-        <!-- END FOUR BLOCK -->
+        <!-- END HEADER -->
 
         <!-- START FIRST BLOCK -->
 
@@ -155,10 +170,12 @@
             <main>
                 <div class="cardHome">
                     <h1 class="bigTitle">RDI-Manager</h1>
-                    <h3>Application de gestion de vos projets de recherche et d'innovation</h3>
+                    <h3 data-i18n="index_para"></h3>
                     <div class="linkBtn">
-                        <a href="https://demo.rdimanager.com/connexion" class="demo">Essayer la démo</a>
-                        <a href="https://app.rdimanager.com/creer-ma-societe/ma-societe" class="log">Inscription</a>
+                        <a href="https://demo.rdimanager.com/connexion" class="demo" data-i18n="try_demo"></a>
+
+                        <a href="https://app.rdimanager.com/creer-ma-societe/ma-societe" class="log"
+                            data-i18n="sign_up"></a>
                     </div>
                 </div>
                 <span class="scroll"><a href="#down"><i class="pe-7s-angle-down"></i></a></span>
@@ -171,8 +188,8 @@
 
         <section id="down" class="secondBlock">
             <main>
-                <h2 class="title">Pourquoi RDI Manager ?</h2>
-                <p class="para">Gérez votre activité de manière simple, structurée et efficace.</p>
+                <h2 class="title" data-i18n="step_one">Pourquoi RDI Manager ?</h2>
+                <p class="para" data-i18n="step_one_para"></p>
                 <div class="cards">
                     <div class="cardOne">
                         <div class="column">
@@ -181,9 +198,8 @@
                                 <i class="pe-7s-network text-custom"></i>
                             </div>
                             <div class="cardContent">
-                                <h5>Suivi collaboratif des projets</h5>
-                                <p>Créez vos projets et invitez-y vos collaborateurs et autres parties prenantes des
-                                    projets.</p>
+                                <h5 data-i18n="card_one_step_title"></h5>
+                                <p data-i18n="card_one_step_para"></p>
                             </div>
                         </div>
                     </div>
@@ -194,9 +210,8 @@
                                 <i class="mdi mdi-road-variant text-custom"></i>
                             </div>
                             <div class="cardContent">
-                                <h5>Suivi des faits marquants</h5>
-                                <p>Vos collaborateurs renseignent les faits marquants de chaque projet tout au long de
-                                    l’année.</p>
+                                <h5 data-i18n="card_two_step_title"></h5>
+                                <p data-i18n="card_two_step_para"></p>
                             </div>
                         </div>
                     </div>
@@ -207,9 +222,8 @@
                                 <i class="mdi mdi-timetable text-custom"></i>
                             </div>
                             <div class="cardContent">
-                                <h5>Suivi du temps par projet</h5>
-                                <p>Vos collaborateurs renseignent périodiquement et de manière simple leur temps passé
-                                    sur chaque projet.</p>
+                                <h5 data-i18n="card_three_step_title"></h5>
+                                <p data-i18n="card_three_step_para"></p>
                             </div>
                         </div>
                     </div>
@@ -223,7 +237,7 @@
 
         <section class="useBlock">
             <main>
-                <h2 class="title">Le suivi de vos projets de recherche et d'innovation.</h2>
+                <h2 class="title" data-i18n="use_title"></h2>
                 <div class="hr"></div>
                 <div class="whyRDI">
                     <div class="leftBox">
@@ -236,22 +250,22 @@
                         </div>
                     </div>
                     <div class="rightBox">
-                        <h6>1. Saisie des faits marquants</h6>
+                        <h6 data-i18n="use_step_one_title"></h6>
                         <p>Les contributeurs peuvent ajouter les faits marquants sur leurs projets.</p>
-                        <h6>2. Vos équipes sont autonomes</h6>
+                        <h6 data-i18n="use_step_two_title"></h6>
                         <p>Les chefs de projets peuvent inviter de nouveaux contributeur et observateurs sur leurs
                             projets.
                         </p>
-                        <h6>3. Rappels de saisie de temps</h6>
+                        <h6 data-i18n="use_step_three_title"></h6>
                         <p>Le tableau de bord personnalisé à l’utilisateur permet de renforcer l’engagement des
                             collaborateurs qui ont une vision globale de leurs contributions dans l’activité de la
                             société.
                         </p>
-                        <h6>4. Appli accessible via smartphone</h6>
+                        <h6 data-i18n="use_step_four_title"></h6>
                         <p>Pas besoin d'aller sur un ordinateur, saisissez vos temps directement sur votre téléphone
                             grâce à
                             un affichage simplifié.</p>
-                        <h6>5. Engagement des collaborateurs</h6>
+                        <h6 data-i18n="use_step_five_title"></h6>
                         <p>Le tableau de bord personnalisé à l’utilisateur permet de renforcer l’engagement des
                             collaborateurs qui ont une vision globale de leurs contributions dans l’activité de la
                             société.
@@ -300,7 +314,8 @@
                             <div class="cardContent">
                                 <h6>Charles De FRÉMINVILLE</h6>
                                 <small>CEO | BLOOM AT WORK</small>
-                                <p>"Chez Bloom-At-Work, nous sommes toujours très intéressés par les solutions innovantes
+                                <p>"Chez Bloom-At-Work, nous sommes toujours très intéressés par les solutions
+                                    innovantes
                                     de toutes sortes, tant qu’elles vont dans le sens du bien-être au travail."</p>
                             </div>
                         </div>
@@ -478,7 +493,7 @@
     </div>
 
     <script src="js/nav.js"></script>
-    <script src="js/index.js"></script>
+    <script src="dist/main.js"></script>
 
 </body>
 
