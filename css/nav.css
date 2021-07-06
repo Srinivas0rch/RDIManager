@@ -67,6 +67,18 @@ nav li a {
     font-size: 17px;
 }
 
+nav li select {
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    color: #303030;
+    font-size: 13px;
+}
+
+nav li select:focus {
+    outline: none;
+}
+
 .listLeft img {
     width: 200px;
 }
@@ -173,7 +185,6 @@ nav li a {
 
 .menuLink {
     display: inline;
-    font-size: 30px;
     color: #303030;
     text-decoration: none;
 }
@@ -189,6 +200,18 @@ nav li a {
 .menu .logo {
     position: absolute;
     top: 20px;
+}
+
+.navPhone li select {
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    color: #303030;
+    font-size: 15px;
+}
+
+.navPhone li select:focus {
+    outline: none;
 }
 
 /* END BURGER MENU */
@@ -241,7 +264,7 @@ nav li a {
     }
 
     .menuLink {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .menuLink i {

@@ -77,16 +77,23 @@
         <div id="top"></div>
         <!-- START HEADER -->
         <header>
+
             <nav class="navHigh">
                 <ul class="listLeft">
                     <li><a href="index.html"><img src="images/logo.png" alt="RDI-Manager"></a></li>
                 </ul>
                 <ul class="listRight">
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="saisie-temps.html">Suivi du temps</a></li>
-                    <li><a href="faits-marquants.html" id="activeNav">Suivi des faits marquants</a></li>
-                    <li><a href="index.html#pricing">Tarifs</a></li>
-                    <li><a href="https://app.rdimanager.com/connexion" id="connect">Connexion</a></li>
+                    <li><a href="index.html" id="activeNav" data-i18n="nav_home"></a></li>
+                    <li><a href="saisie-temps.html" data-i18n="nav_time"></a></li>
+                    <li><a href="faits-marquants.html" data-i18n="nav_fm"></a></li>
+                    <li><a href="index.html#pricing" data-i18n="nav_pricing"></a></li>
+                    <li><a href="https://app.rdimanager.com/connexion" id="connect" data-i18n="nav_login"></a></li>
+                    <li>
+                        <select class="languageSelector">
+                            <option value="fr">FR</option>
+                            <option value="en">EN</option>
+                        </select>
+                    </li>
                 </ul>
 
                 <div class="top">
@@ -95,7 +102,6 @@
             </nav>
 
             <!-- NAV FOR PHONE -->
-
             <a href="index.html"><img class="logoPhone" src="images/logo.png" alt="RDI-Manager"></a>
             <div class="navPhone">
                 <button class="ham">
@@ -106,30 +112,41 @@
                         <i class="mdi mdi-close"></i>
                     </span>
                 </button>
+
                 <ul class="menu">
                     <div class="logo">
                         <a href="index.html"><img class="logoNav" src="images/logo.png" alt="RDI-Manager"></a>
                     </div>
                     <li>
-                        <a class="menuLink" href="index.html"><i class="mdi mdi-home"></i>
-                            Accueil</a>
+                        <a class="menuLink" id="activeNav" href="index.html" data-i18n="nav_home"><i
+                                class="mdi mdi-home"></i>
+                        </a>
                     </li>
                     <li>
-                        <a class="menuLink" href="saisie-temps.html"><i class="mdi mdi-av-timer"></i> Suivi du
-                            temps</a>
+                        <a class="menuLink" href="saisie-temps.html" data-i18n="nav_time"><i
+                                class="mdi mdi-av-timer"></i>
+                        </a>
                     </li>
                     <li>
-                        <a class="menuLink" id="activeNav" href="faits-marquants.html"><i
-                                class="mdi mdi-comment-text-outline"></i> Suivi des faits
-                            marquants</a>
+                        <a class="menuLink" href="faits-marquants.html" data-i18n="nav_fm"><i
+                                class="mdi mdi-comment-text-outline"></i>
+                        </a>
                     </li>
                     <li>
-                        <a class="menuLink" href="index.html#pricing"><i class="mdi mdi-coin"></i>
-                            Tarifs</a>
+                        <a class="menuLink" href="index.html#pricing" data-i18n="nav_pricing"><i
+                                class="mdi mdi-coin"></i>
+                        </a>
                     </li>
                     <li>
-                        <a class="menuLink" href="https://app.rdimanager.com/connexion"><i class="mdi mdi-account"></i>
-                            Connexion</a>
+                        <a class="menuLink" href="https://app.rdimanager.com/connexion" data-i18n="nav_login"><i
+                                class="mdi mdi-account"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <select class="languageSelector">
+                            <option value="fr">FR</option>
+                            <option value="en">EN</option>
+                        </select>
                     </li>
                 </ul>
             </div>
@@ -314,6 +331,7 @@
     </div>
 
     <script src="js/nav.js"></script>
+    <script src="dist/main.js"></script>
 
 </body>
 
