@@ -20,5 +20,18 @@
     "use_step_two_title": "2. Vos équipes sont autonomes",
     "use_step_three_title": "3. Rappels de saisie de temps",
     "use_step_four_title": "4. Appli accessible via smartphone",
-    "use_step_five_title": "5. Engagement des collaborateurs"
+    "use_step_five_title": "5. Engagement des collaborateurs",
+    "use_step_one_para": "Les contributeurs peuvent ajouter les faits marquants sur leurs projets.",
+    "use_step_two_para": "Les chefs de projets peuvent inviter de nouveaux contributeurs et observateurs sur leurs projets.",
+    "use_step_three_para": "Le tableau de bord personnalisé à l’utilisateur permet de renforcer l’engagement des collaborateurs qui ont une vision globale de leurs contributions dans l’activité de la société.",
+    "use_step_four_para": "Pas besoin d'aller sur un ordinateur, saisissez vos temps directement sur votre téléphone grâce à un affichage simplifié.",
+    "use_step_five_para": "Le tableau de bord personnalisé à l’utilisateur permet de renforcer l’engagement des collaborateurs qui ont une vision globale de leurs contributions dans l’ activité de la société.",
+    "step_two": "Ils utilisent RDI Manager",
+    "step_two_para": "Ils utilisent RDI-Manager pour suivre leurs activités d’innovation et bien plus encore.",
+    "share_card_one":"'' La plateforme RDI-Manager répond à un véritable besoin de management de l’innovation. Outre le suivi de projet assez efficace, nous n’avons plus besoin de relancer nos ingénieurs pour le suivi du temps. ''",
+    "share_card_two": "'' Chez Bloom-At-Work, nous sommes toujours très intéressés par les solutions innovantes de toutes sortes, tant qu’elles vont dans le sens du bien-être au travail. ''",
+    "share_card_three": "'' Ça faisait longtemps que nous cherchions une solution simple et efficace de suivi du temps. RDI-Manager répond largement à ce besoin et nous permet d’être plus efficace dans le suivi de nos projets. ''",
+    "band_big_title": "3 mois d’essai gratuit",
+    "band_para": "Profitez de trois mois d’essai gratuit, pendant lesquels vous pouvez suivre autant de projets que votre société mène, et inviter l’ensemble de vos parties prenantes (Administrateurs, Chefs de projets, Contributeurs et Observateurs).",
+    "band_button": "Demandez votre essai gratuit"
 }
