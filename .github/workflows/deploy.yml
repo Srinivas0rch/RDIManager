@@ -15,7 +15,7 @@ jobs:
     - name: Create deploy folder
       run: |
         mkdir deploy/
-        cp -r css/ fonts/ images/ js/ index.html saisie-temps.html faits-marquants.html  deploy/ dist/
+        cp -r css/ fonts/ images/ js/ index.html saisie-temps.html faits-marquants.html dist/ deploy/ 
 
     - name: Create artifact
       uses: actions/upload-artifact@v2
