@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+/* BASE CSS */
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    font-family: 'Nunito Sans', sans-serif;
+    overflow: hidden;
+}
+
+/* END RESET CSS */
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+}
+
+header .navHigh {
+    display: block;
+    z-index: 5;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.animNav {
+    box-sizing: border-box;
+    background: #fff;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: rgba(50, 50, 93, 0.1) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+header .listLeft {
+    display: flex;
+    justify-content: flex-start;
+    width: 25%;
+    list-style-type: none;
+}
+
+header .listRight {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    list-style-type: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #303030;
+    font-size: 17px;
+}
+
+nav li select {
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    color: #303030;
+    font-size: 13px;
+}
+
+nav li select:focus {
+    outline: none;
+}
+
+.listLeft img {
+    width: 200px;
+}
+
+.listRight a:hover {
+    background: -webkit-linear-gradient(316deg, #e62117 30%, #a30000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.listRight #connect {
+    padding: 12px 50px 12px 50px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #e62117;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+}
+
+.listRight #connect:hover {
+    color: #303030;
+}
+
+#activeNav {
+    border-bottom: 2px solid #e62117;
+}
+
+.navPhone {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logoPhone {
+    display: none;
+}
+
+/* BURGER MENU */
+
+
+.ham {
+    position: fixed;
+    z-index: 5;
+    top: 1rem;
+    right: 1rem;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+    border: transparent;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.ham span {
+    font-size: 30px;
+}
+
+.xIcon {
+    display: none;
+}
+
+.menu {
+    z-index: 4;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: #fff;
+    opacity: 97%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: rgba(50, 50, 93, 0.1) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    list-style: none;
+    padding: 10px 0 10px 10px;
+}
+
+.showMenu {
+    transform: translateY(0);
+}
+
+.logoNav {
+    width: 200px;
+    z-index: 5;
+}
+
+.menu li {
+    padding: 30px 0;
+}
+
+.menuLink {
+    display: inline;
+    color: #303030;
+    text-decoration: none;
+}
+
+.menuLink i {
+    font-size: 30px;
+}
+
+.menuLink:hover {
+    color: #e62117;
+}
+
+.menu .logo {
+    position: absolute;
+    top: 20px;
+}
+
+.navPhone li select {
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    color: #303030;
+    font-size: 15px;
+}
+
+.navPhone li select:focus {
+    outline: none;
+}
+
+/* END BURGER MENU */
+
+.top a {
+    display: none;
+    position: fixed;
+    z-index: 5;
+    bottom: 1rem;
+    right: 1rem;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+    border: transparent;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* RESPONSIVE NAV */
+
+@media (max-width: 1250px) {
+
+    header {
+        height: 80px;
+    }
+
+
+    header .navHigh {
+        display: none;
+    }
+
+    .navPhone {
+        display: block;
+        z-index: 4;
+    }
+
+    .logoPhone {
+        z-index: 5;
+        width: 200px;
+        margin-top: 25px;
+        margin-left: 25px;
+        display: block;
+    }
+
+    .menuLink {
+        font-size: 30px;
+    }
+
+    .menuLink i {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .menuLink {
+        font-size: 20px;
+    }
+
+    .menuLink i {
+        font-size: 20px;
+    }
+}

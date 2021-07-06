@@ -1,0 +1,363 @@
+@media (max-width: 1350px) {
+
+    .firstBlock {
+        height: 80vh;
+    }
+
+
+    .firstBlock main {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        flex-direction: column;
+    }
+
+    .leftBox {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .rightBox {
+        width: 100%;
+        padding-right: 50px;
+        margin-bottom: 50px;
+    }
+
+    .bigTitle {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .leftBox p {
+        margin: auto;
+        text-align: center;
+        width: 90%;
+        font-size: 17px;
+        margin-top: 15px;
+    }
+
+    .linkBtn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .cardOne {
+        width: 200px;
+        height: 220px;
+        padding: 20px;
+    }
+
+    .cardOne h3 {
+        margin-top: 15px;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .cardOne .appliIcon {
+        width: 35px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 60px;
+    }
+
+    .cardOne .icon1 {
+        margin-top: 2px;
+        font-size: 25px;
+    }
+
+    .cardOne .icon2 {
+        margin-top: 2px;
+        font-size: 30px;
+    }
+
+    .cardOne .icon3 {
+        margin-top: 2px;
+        font-size: 25px;
+    }
+
+    .nameIcon h5 {
+        font-size: 10px;
+    }
+
+    .cardTwo {
+        bottom: 20px;
+        right: 70px;
+        height: 135px;
+        width: 220px;
+        padding: 10px 15px 10px 15px;
+    }
+
+    .cardTwo .input {
+        margin-top: 5px;
+    }
+
+    .input h2 {
+        font-size: 14px;
+    }
+
+    .cardTwo .inputText {
+        width: 80px;
+        height: 25px;
+        padding: 5px 15px 5px 15px;
+    }
+
+    .inputText h5 {
+        font-size: 15px;
+        font-weight: bold;
+        color: #494949;
+    }
+
+    .inputText div {
+        height: 10px;
+        width: 1.5px;
+    }
+
+    .inputText p {
+        font-size: 15px;
+    }
+
+    .cardThree {
+        position: relative;
+        left: 100px;
+        top: 30px;
+        height: 280px;
+        width: 250px;
+        padding: 10px 15px 10px 15px;
+    }
+
+    .calendarDay p {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    .calendar,
+    .calendarStart,
+    .calendarEnd {
+        margin-top: 5px;
+    }
+
+    .calendar div,
+    .calendarStart div,
+    .calendarEnd div {
+        height: 25px;
+        width: 25px;
+        border-radius: 8px;
+        text-align: center;
+        padding-top: 5px;
+        font-size: 11px;
+    }
+
+    .calendarStart div {
+        margin-left: 7.5px;
+    }
+
+    .calendarEnd div {
+        margin-right: 7.5px;
+    }
+
+    .legend {
+        margin-top: 10px;
+    }
+
+    .legend .disabled,
+    .legend .full,
+    .legend .semi {
+        height: 25px;
+        width: 25px;
+        border-radius: 8px;
+        background: #008000;
+    }
+
+    .legend .semi {
+        background: #17a2b8;
+    }
+
+    .legend .disabled {
+        background: #8f8f8f;
+    }
+
+    .legendText p {
+        font-size: 10px;
+    }
+
+    /* WAVE PHONE */
+
+    .wave {
+        display: none;
+    }
+
+    /* END WAVE PHONE */
+
+    .secondBlock {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background: #303030;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    .secondBlock main {
+        width: 100%;
+        margin: auto;
+        /* padding-top: 50px;
+        padding-bottom: 50px; */
+        display: block;
+        flex-direction: column;
+    }
+
+    .cardPhone {
+        display: inline;
+    }
+
+    .cardPhone .respPhone {
+        display: block;
+        text-align: center;
+    }
+
+    .cardPhone .rond {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 85px;
+        left: 145px;
+    }
+
+    .respPhone h3 {
+        margin-left: 0;
+        font-size: 50px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .respPhone p {
+        margin: auto;
+        width: 90%;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .cardPhone .highPhone {
+        display: none;
+    }
+
+    .cardPhone .hr {
+        display: none;
+    }
+
+    .cardPhone .divPhone {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cardPhone img {
+        margin-right: 0;
+        height: 600px;
+    }
+
+    .thirdBlock main {
+        margin: auto;
+        width: 90%;
+        display: inline;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .thirdBlock .textContent {
+        width: 90%;
+    }
+
+    .textContent h3 {
+        font-size: 50px;
+    }
+
+    .textContent p {
+        font-size: 17px;
+    }
+
+    .textContent a p {
+        margin: auto;
+        width: 270px;
+        font: 15px;
+    }
+
+    .thirdBlock .screenExample {
+        width: 80%;
+        margin: 100px auto;
+    }
+
+    .fourBlock main {
+        margin: auto;
+        width: 90%;
+        display: inline;
+        padding-top: 100px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .fourBlock .textContent {
+        width: 90%;
+    }
+
+
+    .fourBlock .screenExample {
+        width: 80%;
+        margin: 100px auto;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .firstBlock {
+        height: 60vh;
+    }
+
+    .firstBlock main {
+        width: 90%;
+    }
+
+    .leftBox {
+        margin-top: 0px;
+    }
+
+    .bigTitle {
+        font-size: 50px;
+    }
+
+    .leftBox p {
+        font-size: 19px;
+    }
+
+    .linkBtn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .rightBox {
+        display: none;
+    }
+
+    .demo {
+        width: 200px;
+    }
+
+    .log {
+        width: 200px;
+    }
+
+    .secondBlock {
+        height: 110vh;
+    }
+
+    .thirdBlock .screenExample {
+        width: 90%;
+    }
+
+    .fourBlock .screenExample {
+        width: 90%;
+    }
+}
