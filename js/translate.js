@@ -5,6 +5,7 @@ import en from '../translation/en.json';
 
 i18next.init({
     lng: 'fr',
+    fallbackLng: 'fr',
     debug: true,
     resources: {
         en: {
