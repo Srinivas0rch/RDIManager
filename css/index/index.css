@@ -645,9 +645,20 @@ iframe {
     flex-direction: column;
 }
 
+.cardContent div {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
 .cardContent .iconGreen {
+    height: 21px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
     margin-right: 10px;
-    padding: 3px 4px 0px 4px;
     border-radius: 9999px;
     font-size: 13px;
     color: #fff;
@@ -655,8 +666,13 @@ iframe {
 }
 
 .cardContent .iconRed {
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
     margin-right: 10px;
-    padding: 3px 4px 0px 4px;
     border-radius: 9999px;
     font-size: 13px;
     color: #fff;
@@ -668,7 +684,6 @@ iframe {
 }
 
 .priceBlock .cardContent p {
-    margin-top: 20px;
     text-align: left;
     font-size: 15px;
     color: #303030;
