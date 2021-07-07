@@ -7,5 +7,19 @@
     "try_demo": "Try demo",
     "sign_up": "Sign up",
     "index_para": "Management application for your research and innovation projects",
-    "step_one": "Why RDI Manager ?"
+    "step_one": "Why RDI Manager ?",
+    "card_one_step_para": "Create your projects and invite your collaborators (and others) to it.",
+    "card_two_step_para": "Your collaborators add their remarkable facts throughout the year on each of their projects.",
+    "use_title": "The monitoring of your research and innovative projects",
+    "use_step_one_title": "1. Entry of remarkable facts",
+    "use_step_two_title": "2. Your teams are autonomous",
+    "use_step_three_title": "3. Reminders to enter your time",
+    "use_step_four_title": "4. App accessible via smartphone",
+    "use_step_five_title": "5. Engage your collaborators",
+    "step_one_para": "Manage your activity in a simple, efficient and structured manner.",
+    "card_one_step_title": "Colloborative monitoring of projects",
+    "card_two_step_title": "Monitoring of remarkable facts",
+    "card_three_step_title": "Monitoring of the time spent on projects",
+    "card_three_step_para": "Your collaborators add in periodically and simply the time they spent on each project.",
+    "use_step_one_para": "The contributors can add their projects' remarkable facts."
 }
