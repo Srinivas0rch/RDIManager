@@ -398,8 +398,8 @@
 }
 
 .legendText p {
-    font-size: 11px;
-    width: 25%;
+    font-size: 12px;
+    width: 30%;
     text-align: center;
     line-height: 1.05;
     font-weight: bold;
@@ -484,11 +484,11 @@
 }
 
 .cardPhone .rond {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     position: relative;
-    right: 250px;
-    bottom: 100px;
+    bottom: 105px;
 }
 
 .cardPhone h3 {
