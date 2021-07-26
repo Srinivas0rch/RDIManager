@@ -17,6 +17,9 @@ jobs:
         mkdir deploy/
         cp -r css/ fonts/ images/ js/ index.html saisie-temps.html faits-marquants.html dist/ deploy/ 
 
+    - name: build
+      run : yarn install && yarn build
+
     - name: Create artifact
       uses: actions/upload-artifact@v2
       with:
