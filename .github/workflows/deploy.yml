@@ -12,13 +12,13 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: build
+      run : yarn install && yarn build
+
     - name: Create deploy folder
       run: |
         mkdir deploy/
-        cp -r css/ fonts/ images/ js/ index.html saisie-temps.html faits-marquants.html dist/ deploy/ 
-
-    - name: build
-      run : yarn install && yarn build
+        cp -r css/ fonts/ images/ index.html saisie-temps.html faits-marquants.html dist/ deploy/ 
 
     - name: Create artifact
       uses: actions/upload-artifact@v2
