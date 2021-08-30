@@ -13,8 +13,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: build
-      before_script: yarn install 
-      script: yarn build
+      run : yarn install && yarn build
 
     - name: Create deploy folder
       run: |
