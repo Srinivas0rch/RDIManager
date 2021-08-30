@@ -16,7 +16,17 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _translate__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./translate */ \"./js/translate.js\");\n\n\n//# sourceURL=webpack:///./js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _translate__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./translate */ \"./js/translate.js\");\n/* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nav */ \"./js/nav.js\");\n/* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nav__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n//# sourceURL=webpack:///./js/index.js?");
+
+/***/ }),
+
+/***/ "./js/nav.js":
+/*!*******************!*\
+  !*** ./js/nav.js ***!
+  \*******************/
+/***/ (() => {
+
+eval("const navigation = document.querySelector('nav');\n\nwindow.addEventListener('scroll', () => {\n\n    if(window.scrollY > 30){\n        navigation.classList.add('animNav');\n    } else {\n        navigation.classList.remove('animNav');\n    }\n})\n\nvar menu = document.querySelector(\".menu\")\nvar ham = document.querySelector(\".ham\")\nvar xIcon = document.querySelector(\".xIcon\")\nvar menuIcon = document.querySelector(\".menuIcon\")\n\nham.addEventListener(\"click\", toggleMenu)\n\nfunction toggleMenu() {\n  if (menu.classList.contains(\"showMenu\")) {\n    menu.classList.remove(\"showMenu\");\n    xIcon.style.display = \"none\";\n    menuIcon.style.display = \"block\";\n  } else {\n    menu.classList.add(\"showMenu\");\n    xIcon.style.display = \"block\";\n    menuIcon.style.display = \"none\";\n  }\n}\n\nvar menuLinks = document.querySelectorAll(\".menuLink\")\n\nmenuLinks.forEach(\n  function (menuLink) {\n    menuLink.addEventListener(\"click\", toggleMenu)\n  }\n)\n\n//# sourceURL=webpack:///./js/nav.js?");
 
 /***/ }),
 
