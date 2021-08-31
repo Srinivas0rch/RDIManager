@@ -1,5 +1,5 @@
 {
-    "nav_home": "Acceuil",
+    "nav_home": "Accueil",
     "nav_time": "Saisie du temps",
     "nav_fm": "Saisie de fait marquant",
     "nav_pricing": "Tarifs",
@@ -28,7 +28,7 @@
     "use_step_five_para": "Le tableau de bord personnalisé à l’utilisateur permet de renforcer l’engagement des collaborateurs qui ont une vision globale de leurs contributions dans l’ activité de la société.",
     "step_two": "Ils utilisent RDI Manager",
     "step_two_para": "Ils utilisent RDI-Manager pour suivre leurs activités d’innovation et bien plus encore.",
-    "share_card_one":"'' La plateforme RDI-Manager répond à un véritable besoin de management de l’innovation. Outre le suivi de projet assez efficace, nous n’avons plus besoin de relancer nos ingénieurs pour le suivi du temps. ''",
+    "share_card_one": "'' La plateforme RDI-Manager répond à un véritable besoin de management de l’innovation. Outre le suivi de projet assez efficace, nous n’avons plus besoin de relancer nos ingénieurs pour le suivi du temps. ''",
     "share_card_two": "'' Chez Bloom-At-Work, nous sommes toujours très intéressés par les solutions innovantes de toutes sortes, tant qu’elles vont dans le sens du bien-être au travail. ''",
     "share_card_three": "'' Ça faisait longtemps que nous cherchions une solution simple et efficace de suivi du temps. RDI-Manager répond largement à ce besoin et nous permet d’être plus efficace dans le suivi de nos projets. ''",
     "band_big_title": "3 mois d’essai gratuit",
@@ -40,7 +40,7 @@
     "card_one_for": "Par utilisateur/mois",
     "card_one_sale": "Gratuit",
     "card_one_small": "pour bien démarrer",
-    "card_one_line_one": "3 utilisateurs", 
+    "card_one_line_one": "3 utilisateurs",
     "card_one_line_two": "2 observateurs",
     "card_one_line_three": "2 Projets",
     "card_one_line_four": "1 Go de stockage",
@@ -98,7 +98,7 @@
     "st_card_two_project_two": "Projet REX",
     "st_card_three_title": "Saisie des absences",
     "st_card_three_day_one": "lun",
-    "st_card_three_day_two":"mar",
+    "st_card_three_day_two": "mar",
     "st_card_three_day_three": "mer",
     "st_card_three_day_four": "jeu",
     "st_card_three_day_five": "ven",
@@ -116,5 +116,4 @@
     "st_step_two_title": "Saisie des absences",
     "st_step_two_para": "Vous pouvez saisir vos absences sur RDI Manager",
     "st_step_two_button": "Découvrir la saisie des absences"
-
 }
