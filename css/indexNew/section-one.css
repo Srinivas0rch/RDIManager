@@ -1,0 +1,131 @@
+main {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  height: auto;
+  padding: 150px 0;
+  margin: auto;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  z-index: 1;
+}
+
+section .title h1 {
+  text-align: left;
+  font-size: 3.375em;
+  line-height: 4.5rem;
+  letter-spacing: 2px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-family: 'Besley', serif;
+}
+
+section .para p {
+  line-height: 1.5rem;
+  font-size: 1.25rem;
+  margin-bottom: 1.5em;
+}
+
+section .button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  box-sizing: none;
+}
+
+section .button .homeBtn {
+  font-size: 1.15rem;
+  width: 280px;
+}
+
+section .button p {
+  margin-top: 0.5em;
+  color: #505050;
+}
+
+section .integ {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+}
+
+section .layer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+section .layer .layerBg {
+  position: absolute;
+  top: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+section .layer span {
+  position: absolute;
+  display: block;
+  z-index: 1;
+  width: 250px;
+  height: 250px;
+  border-radius: 999px;
+  filter: blur(40px);
+  opacity: 0.75;
+  transform-origin: 125px 0;
+  transform: rotate(calc(90deg * var(--i)));
+}
+
+section .layer span:nth-child(1){
+  background: #01b2fe;
+}
+
+section .layer span:nth-child(2){
+  background:  #00c458;
+}
+
+section .layer span:nth-child(3){
+  background:  #ffcd00;
+}
+
+section .layer span:nth-child(4){
+  background:  #ff008c;
+}
+
+section .layer img {
+  width: 70%;
+  z-index: 2;
+}
+
+section .layer a {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 90%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  z-index: 3;
+}
+
+section .layer a i {
+  margin-top: 3px;
+  margin-right: 3px;
+  font-size: 25px;
+}

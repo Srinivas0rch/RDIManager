@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@500&display=swap');
+/* font-family: 'Besley', serif; */
+/* font-family: 'Nunito Sans', sans-serif; */
+
+/* BASE CSS */
+
+html {
+    scroll-behavior: smooth;
+    color: #333;
+    letter-spacing: -0.5px;
+    line-height: 1.15;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container {
+    font-family: 'Nunito Sans', sans-serif;
+    overflow: hidden;
+}
+
+button {
+    border: none;
+    background: none;
+    font-weight: 300 !important;
+    color: #333;
+}
+
+/**/
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    border: none;
+    font-size: 15px;
+    padding: 13px 20px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.btn-hover:hover {
+    animation: btnAnim 3s infinite;
+}
+
+@keyframes btnAnim {
+    50% {
+        transform: translateY(-0.25rem);
+    }
+}
+
+.text-blue {
+    color: #01b2fe;
+}
+
+.text-yellow {
+    color: #ffcd00;
+}
+
+.text-green {
+    color: #00c458;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.bg-blue {
+    background: #01b2fe;
+}
+
+.bg-white {
+    background: #fff;
+}
+
+.bg-yellow {
+    background: #ffcd00;
+}
+
+.bg-green {
+    background: #00c458;
+}
+
+.bg-red {
+    background: #e62117;
+}
+
+.bg-green-hover:hover {
+    background: #04a04a;
+    transition: 0.5s ease;
+}
+
+.bg-blue-hover:hover {
+    opacity: 100%;
+    transition: 0.5s ease;
+}
+
+.bg-multi {
+    background-image: linear-gradient(to right top, #01b2fe, #51a3ff, #8a8fff, #ba76ed, #e154cb, #f543ab, #fe3a89, #ff3e67, #ff604f, #ff8536, #ffa919, #ffcd00);
+}

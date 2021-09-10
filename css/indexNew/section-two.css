@@ -1,0 +1,129 @@
+article {
+    z-index: 1;
+    width: 85%;
+    height: auto;
+    padding: 100px 0;
+    margin: auto;
+}
+
+.sectionTitle {
+    width: 100%;
+    margin: auto;
+}
+
+.sectionTitle h2 {
+    text-align: center;
+    font-size: 2.25em;
+    line-height: 1.30em;
+    letter-spacing: 2px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-family: 'Besley', serif;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.section section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 30px;
+    margin: auto;
+    z-index: 1;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cardOne {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.card .objectIcon {
+    width: 20%;
+    margin-right: 20px;
+}
+
+.cardOne .objectIcon .icon,
+.cardTwo .objectIcon .icon,
+.cardThree .objectIcon .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background: #333;
+    border-radius: 15px;
+}
+
+.section button:focus .objectIcon .icon,
+.section button:focus .objectIcon .icon,
+.section button:focus .objectIcon .icon  {
+    background: linear-gradient(to right top, #01b2fe, #51a3ff, #8a8fff, #ba76ed, #e154cb, #f543ab, #fe3a89, #ff3e67, #ff604f, #ff8536, #ffa919, #ffcd00);
+}
+
+.card .cardText {
+    display: inline;
+    text-align: left;
+}
+
+.card .cardText h5 {
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+
+.card .cardText p {
+    font-size: 15px;
+}
+
+.section .carousel {
+    width: 100%;
+}
+
+.section .carousel img {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.imgAnim {
+    animation: fade-in 1s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.section .carousel .imgFM {
+    display: block;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.section .carousel .imgST,
+.section .carousel .imgGF {
+    display: none;
+    z-index: 1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="RDI-Manager | Application de suivi de temps passés sur vos projets de recherche et d'innovation." />
+    <meta name="keywords" content="recherche, innovation, cir, projet, feuilles de temps" />
+    <meta name="author" content="RDI-Manager" />
+
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <!--Material Icon -->
+    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
+
+    <!-- Pe-icon-7 icon -->
+    <link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css">
+
+    <!-- RDI-Manager custom CSS -->
+    <link rel="stylesheet" href="css/indexNew/section-one.css">
+    <link rel="stylesheet" href="css/indexNew/section-two.css">
+    <link rel="stylesheet" href="css/nav/nav.css">
+    <link rel="stylesheet" href="css/base.css">
+    <title>RDI Manager</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <nav class="nav bg-white">
+
+                <div class="leftNav">
+
+                    <ul class="listLeft">
+                        <li><a href="indexNew.html"><img src="images/logo.png" alt="RDI-Manager"></a></li>
+                    </ul>
+                    <ul class="listRight">
+                        <li>
+                            <div class="dropdownNav">
+                                <button onclick="focusFunction()" onfocusout="outFunction()" class="dropButton">
+                                    Pourquoi RDI-Manager ?
+                                    <i class="pe-7s-angle-down arrowDownOne"></i>
+                                    <i class="pe-7s-angle-up arrowUpOne"></i>
+                                </button>
+                                <div id="myDropdown" class="dropdownContent">
+                                    <div class="flexBox">
+                                        <div class="contentBox">
+                                            <h3>Vue d'ensemble</h3>
+                                            <a href="#">Structurer votre activité R&D</a>
+                                            <a href="#">Augmentez vos chances pour le CIR/CII</a>
+                                            <a href="#">Une application simple et non contraignante</a>
+                                        </div>
+                                        <span></span>
+                                        <div class="contentBox">
+                                            <h3>Vos questions, nos réponses</h3>
+                                            <a href="index.html">F.A.Q</a>
+                                        </div>
+                                        <span></span>
+                                        <div class="contentBox">
+                                            <h3>Une offre adapté ...</h3>
+                                            <a href="#">Aux Start-up</a>
+                                            <a href="#">Aux PME</a>
+                                            <a href="#">Aux Grandes Entreprises</a>
+                                            <a href="#">Aux Universités/Écoles</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="dropdownNav">
+                                <button onclick="focusFunction2()" onfocusout="outFunction2()" class="dropButton">
+                                    Fonctionnalités
+                                    <i class="pe-7s-angle-down arrowDownTwo"></i>
+                                    <i class="pe-7s-angle-up arrowUpTwo"></i>
+                                </button>
+                                <div id="myDropdown2" class="dropdownContent2">
+                                    <div class="flexBox">
+                                        <div class="contentBox">
+                                            <h3>Travail</h3>
+                                            <a href="#">Suivi du temps</a>
+                                            <a href="#">Suivi des faits marquants</a>
+                                            <a href="#">Gestion des fichiers</a>
+                                        </div>
+                                        <span></span>
+                                        <div class="contentBox">
+                                            <h3>Recherche d'innovation</h3>
+                                            <a href="#">Analyses stratégiques</a>
+                                            <a href="#">Travail collaboratif</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdownNav">
+                                <button onclick="focusFunction3()" onfocusout="outFunction3()" class="dropButton">
+                                    Société
+                                    <i class="pe-7s-angle-down arrowDownThree"></i>
+                                    <i class="pe-7s-angle-up arrowUpThree"></i>
+                                </button>
+                                <div id="myDropdown3" class="dropdownContent3">
+                                    <div class="flexBox">
+                                        <div class="contentBox">
+                                            <h3>A propos</h3>
+                                            <a href="#">Nos équipes</a>
+                                            <a href="#">Nous Rejoindre</a>
+                                            <a href="#">Notre Actualité</a>
+                                        </div>
+                                        <span></span>
+                                        <div class="contentBox">
+                                            <h3>Développement</h3>
+                                            <a href="#">Partenariats</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdownNav">
+                                <button onclick="focusFunction4()" onfocusout="outFunction4()" class="dropButton">
+                                    Contacts
+                                    <i class="pe-7s-angle-down arrowDownFour"></i>
+                                    <i class="pe-7s-angle-up arrowUpFour"></i>
+                                </button>
+                                <div id="myDropdown4" class="dropdownContent4">
+                                    <div class="flexBox">
+                                        <div class="contentBox">
+                                            <h3>Première approche</h3>
+                                            <a href="#">Contactez-nous</a>
+                                            <a href="#">Déjà client ?</a>
+                                        </div>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="rightNav">
+                    <ul>
+                        <li>
+                            <div class="dropdownNav">
+                                <button onclick="focusFunction5()" onfocusout="outFunction5()" class="dropButton">
+                                    Tarifs
+                                    <i class="pe-7s-angle-down arrowDownFive"></i>
+                                    <i class="pe-7s-angle-up arrowUpFive"></i>
+                                </button>
+                                <div id="myDropdown5" class="dropdownContent5">
+                                    <div class="flexBox">
+                                        <div class="contentBox">
+                                            <h3>Les offres</h3>
+                                            <a href="#">Tarifs</a>
+                                            <a href="#">F.A.Q sur nos tarifs</a>
+                                        </div>
+                                        <span></span>
+                                        <div class="contentBox">
+                                            <h3>Une offre adapté ...</h3>
+                                            <a href="#">Aux Start-up</a>
+                                            <a href="#">Aux PME</a>
+                                            <a href="#">Aux Grandes Entreprises</a>
+                                            <a href="#">Aux Universités/Écoles</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <a href="#" class="btn btn-hover bg-green bg-green-hover">Essai Gratuit <i
+                                class="pe-7s-angle-right"></i></a>
+                    </ul>
+
+                </div>
+
+            </nav>
+        </header>
+
+        <main>
+            <section>
+
+                <div class="title">
+                    <h1>Simplifiez votre activité de recherche</h1>
+                </div>
+                <div class="para">
+                    <p>Pour être plus <strong>compétitives et efficaces</strong> en RDI, les entreprises innovantes ont
+                        besoin d’une approche <strong>excellente et fluide</strong> de management de leur
+                        <strong>innovation</strong>.
+                    </p>
+                </div>
+                <div class="button">
+                    <a href="#" class="homeBtn btn btn-hover bg-green bg-green-hover">Essayez gratuitement</a>
+                    <p>3 mois d'essais gratuit</p>
+                </div>
+                <div class="integ">
+                    <strong>Intégrable à</strong>
+                    <img src="images/slack-logo.svg" alt="logo Slack">
+                </div>
+
+            </section>
+
+            <section>
+
+                <div class="layer">
+                    <div class="layerBg">
+                        <span style="--i:0;"></span>
+                        <span style="--i:1;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:3;"></span>
+                    </div>
+                    <img src="images/home-desktop-phone.png" alt="mockup RDI">
+
+                    <a href="clip/clip.html" target="_blank" class="btn bg-blue bg-blue-hover text-white">
+                        <i class="mdi mdi-play-circle"></i>
+                        Découvrez en vidéo
+                    </a>
+                </div>
+
+            </section>
+        </main>
+
+        <article>
+            <section class="sectionTitle">
+                <h2>La simplicité de RDI-Manager</h2>
+            </section>
+            <div class="section">
+                <section>
+                    <button onclick="focusFM()" onfocusout="outFocusFM()">
+                        <div class="card cardOne">
+                            <div class="objectIcon">
+                                <div class="icon text-white"><i class="mdi mdi-pin"></i></div>
+                            </div>
+                            <div class="cardText">
+                                <h5><strong>Saisie des faits marquants</strong></h5>
+                                <p>Vos collaborateurs renseignent les <strong>faits marquants de chaque projet</strong>
+                                    tout
+                                    au long
+                                    de l’année. De plus, vous pouvez <strong>partager des fichiers</strong>, des images
+                                    et même
+                                    personnaliser votre fait marquant.</p>
+                            </div>
+                        </div>
+                    </button>
+                    <button onclick="focusST()" onfocusout="outFocusST()">
+                        <div class="card cardTwo">
+                            <div class="objectIcon">
+                                <div class="icon text-white"><i class="mdi mdi-calendar-clock"></i></div>
+                            </div>
+                            <div class="cardText">
+                                <h5><strong>Saisie du temps</strong></h5>
+                                <p>Saisissez vos temps passés sur vos projets <strong>en 2 clics</strong> directement
+                                    via l’application
+                                    où que vous soyez. Que ce soit à la <strong>semaine ou au mois</strong>.</p>
+                            </div>
+                        </div>
+                    </button>
+                    <button onclick="focusGF()" onfocusout="outFocusGF()">
+                        <div class="card cardThree">
+                            <div class="objectIcon">
+                                <div class="icon text-white"><i class="mdi mdi-file-document"></i></div>
+                            </div>
+                            <div class="cardText">
+                                <h5><strong>Gestion des fichiers </strong></h5>
+                                <p>Avec notre application collaborative, <strong>partagez vos fichiers</strong>
+                                    directement
+                                    dans vos
+                                    projets. <strong>Accessible et sécurisé</strong>, vous retrouverez toute votre
+                                    activité
+                                    liée à votre
+                                    projet très rapidement.</p>
+                            </div>
+                        </div>
+                    </button>
+                </section>
+                <section>
+
+                    <div class="carousel">
+                        <img src="/images/home/FM.png" class="imgFM">
+                        <img src="/images/home/ST.png" class="imgST">
+                        <img src="/images/home/GF.png" class="imgGF">
+                    </div>
+
+                </section>
+            </div>
+        </article>
+
+    </div>
+
+    <script src="js/nav.js"></script>
+    <script src="js/home.js"></script>
+    <script src="dist/main.js"></script>
+
+</body>
+
+</html>
