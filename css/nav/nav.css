@@ -65,6 +65,14 @@ header {
   cursor: pointer;
 }
 
+.dropButton i {
+  transition: all, 0.5s;
+}
+
+.dropButton:focus i {
+  transform: rotate(180deg);
+}
+
 .dropButton:hover,
 .dropButton:focus {
   color: #00c458;

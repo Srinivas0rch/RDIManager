@@ -1,63 +1,24 @@
-function focusFM() {
-    let cardFm = document.querySelector('.cardOne');
-    let imgFm = document.querySelector('.imgFM');
-    if (focusFM) {
-        imgFm.classList.add('imgAnim');
-    }
-    imgFm.style.display = 'block';
-    cardFm.style.boxShadow = 'rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px';
-}
+const cards = document.getElementsByClassName("card");
+const images = document.getElementsByClassName("img-to-show");
+var isClickInside = false;
 
-function outFocusFM() {
-    let cardFm = document.querySelector('.cardOne');
-    let imgFm = document.querySelector('.imgFM');
-    imgFm.style.display = 'none';
-    cardFm.style.boxShadow = 'none';
-}
+for (let i = 0; i < cards.length; i++) {
+    document.addEventListener("click", function (event) {
+        const el = event.target.closest('.card');
+        cards[i].classList.remove("selected");
+        images[i].classList.remove("show");
+        images[i].classList.remove("imgAnim");
 
-function focusST() {
-    let cardSt = document.querySelector('.cardTwo');
-    let imgSt = document.querySelector('.imgST');
-    let cardFm = document.querySelector('.cardOne');
-    let imgFm = document.querySelector('.imgFM');
-    imgFm.style.display = 'none';
-    cardFm.style.boxShadow = 'none';
-    if (focusST) {
-        imgSt.classList.add('imgAnim');
-    }
-    imgSt.style.display = 'block';
-    cardSt.style.boxShadow = 'rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px';
+        if (el) {
+            el.classList.add("selected");
+            const numberOfImg = el.id.split("-")[1];
+            const imgToShow = document.getElementById(`img-${numberOfImg}`);
+            imgToShow.classList.add("show");
+            imgToShow.classList.add("imgAnim");
+        } else {
+            cards[0].classList.add("selected");
+            images[0].classList.add("show");
+            images[0].classList.add("imgAnim");
+        }
+    });
 }
-
-function outFocusST() {
-    let cardSt = document.querySelector('.cardTwo');
-    let imgSt = document.querySelector('.imgST');
-    let cardFm = document.querySelector('.cardOne');
-    let imgFm = document.querySelector('.imgFM');
-    imgSt.style.display = 'none';
-    cardSt.style.boxShadow = 'none';
-}
-
-function focusGF() {
-    let cardGf = document.querySelector('.cardThree');
-    let imgGf = document.querySelector('.imgGF');
-    let cardFm = document.querySelector('.cardOne');
-    let imgFm = document.querySelector('.imgFM');
-    imgFm.style.display = 'none';
-    cardFm.style.boxShadow = 'none';
-    if (focusGF) {
-        imgGf.classList.add('imgAnim');
-    }
-    imgGf.style.display = 'block';
-    cardGf.style.boxShadow = 'rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px';
-}
-
-function outFocusGF() {
-    let cardGf = document.querySelector('.cardThree');
-    let imgGf = document.querySelector('.imgGF');
-    let cardFm = document.querySelector('.cardOne');
-    let imgFm = document.querySelector('.imgFM');
-    imgGf.style.display = 'none';
-    cardGf.style.boxShadow = 'none';
-}
-

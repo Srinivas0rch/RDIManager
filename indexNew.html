@@ -41,12 +41,11 @@
                     <ul class="listRight">
                         <li>
                             <div class="dropdownNav">
-                                <button onclick="focusFunction()" onfocusout="outFunction()" class="dropButton">
+                                <button id="button-1" class="dropButton">
                                     Pourquoi RDI-Manager ?
-                                    <i class="pe-7s-angle-down arrowDownOne"></i>
-                                    <i class="pe-7s-angle-up arrowUpOne"></i>
+                                    <i class="pe-7s-angle-down arrowDown"></i>
                                 </button>
-                                <div id="myDropdown" class="dropdownContent">
+                                <div id="myDropdown1" class="dropdownContent">
                                     <div class="flexBox">
                                         <div class="contentBox">
                                             <h3>Vue d'ensemble</h3>
@@ -74,12 +73,11 @@
 
                         <li>
                             <div class="dropdownNav">
-                                <button onclick="focusFunction2()" onfocusout="outFunction2()" class="dropButton">
+                                <button id="button-2" class="dropButton">
                                     Fonctionnalités
-                                    <i class="pe-7s-angle-down arrowDownTwo"></i>
-                                    <i class="pe-7s-angle-up arrowUpTwo"></i>
+                                    <i class="pe-7s-angle-down arrowDown"></i>
                                 </button>
-                                <div id="myDropdown2" class="dropdownContent2">
+                                <div id="myDropdown2" class="dropdownContent">
                                     <div class="flexBox">
                                         <div class="contentBox">
                                             <h3>Travail</h3>
@@ -99,12 +97,11 @@
                         </li>
                         <li>
                             <div class="dropdownNav">
-                                <button onclick="focusFunction3()" onfocusout="outFunction3()" class="dropButton">
+                                <button id="button-3" class="dropButton">
                                     Société
-                                    <i class="pe-7s-angle-down arrowDownThree"></i>
-                                    <i class="pe-7s-angle-up arrowUpThree"></i>
+                                    <i class="pe-7s-angle-down arrowDown"></i>
                                 </button>
-                                <div id="myDropdown3" class="dropdownContent3">
+                                <div id="myDropdown3" class="dropdownContent">
                                     <div class="flexBox">
                                         <div class="contentBox">
                                             <h3>A propos</h3>
@@ -123,12 +120,11 @@
                         </li>
                         <li>
                             <div class="dropdownNav">
-                                <button onclick="focusFunction4()" onfocusout="outFunction4()" class="dropButton">
+                                <button id="button-4" class="dropButton">
                                     Contacts
-                                    <i class="pe-7s-angle-down arrowDownFour"></i>
-                                    <i class="pe-7s-angle-up arrowUpFour"></i>
+                                    <i class="pe-7s-angle-down arrowDown"></i>
                                 </button>
-                                <div id="myDropdown4" class="dropdownContent4">
+                                <div id="myDropdown4" class="dropdownContent">
                                     <div class="flexBox">
                                         <div class="contentBox">
                                             <h3>Première approche</h3>
@@ -147,12 +143,11 @@
                     <ul>
                         <li>
                             <div class="dropdownNav">
-                                <button onclick="focusFunction5()" onfocusout="outFunction5()" class="dropButton">
+                                <button id="button-5" class="dropButton">
                                     Tarifs
-                                    <i class="pe-7s-angle-down arrowDownFive"></i>
-                                    <i class="pe-7s-angle-up arrowUpFive"></i>
+                                    <i class="pe-7s-angle-down arrowDown"></i>
                                 </button>
-                                <div id="myDropdown5" class="dropdownContent5">
+                                <div id="myDropdown5" class="dropdownContent">
                                     <div class="flexBox">
                                         <div class="contentBox">
                                             <h3>Les offres</h3>
@@ -229,8 +224,7 @@
             </section>
             <div class="section">
                 <section>
-                    <button onclick="focusFM()" onfocusout="outFocusFM()">
-                        <div class="card cardOne">
+                        <div class="card selected" id="card-1">
                             <div class="objectIcon">
                                 <div class="icon text-white"><i class="mdi mdi-pin"></i></div>
                             </div>
@@ -244,9 +238,7 @@
                                     personnaliser votre fait marquant.</p>
                             </div>
                         </div>
-                    </button>
-                    <button onclick="focusST()" onfocusout="outFocusST()">
-                        <div class="card cardTwo">
+                        <div class="card" id="card-2">
                             <div class="objectIcon">
                                 <div class="icon text-white"><i class="mdi mdi-calendar-clock"></i></div>
                             </div>
@@ -257,9 +249,7 @@
                                     où que vous soyez. Que ce soit à la <strong>semaine ou au mois</strong>.</p>
                             </div>
                         </div>
-                    </button>
-                    <button onclick="focusGF()" onfocusout="outFocusGF()">
-                        <div class="card cardThree">
+                        <div class="card" id="card-3">
                             <div class="objectIcon">
                                 <div class="icon text-white"><i class="mdi mdi-file-document"></i></div>
                             </div>
@@ -274,14 +264,13 @@
                                     projet très rapidement.</p>
                             </div>
                         </div>
-                    </button>
                 </section>
                 <section>
 
                     <div class="carousel">
-                        <img src="/images/home/FM.png" class="imgFM">
-                        <img src="/images/home/ST.png" class="imgST">
-                        <img src="/images/home/GF.png" class="imgGF">
+                        <img src="/images/home/FM.png" id="img-1" class="img-to-show show">
+                        <img src="/images/home/ST.png" id="img-2"  class="img-to-show">
+                        <img src="/images/home/GF.png" id="img-3"  class="img-to-show">
                     </div>
 
                 </section>
