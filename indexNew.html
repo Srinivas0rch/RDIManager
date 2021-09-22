@@ -19,8 +19,11 @@
     <link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css">
 
     <!-- RDI-Manager custom CSS -->
-    <link rel="stylesheet" href="css/indexNew/section-one.css">
-    <link rel="stylesheet" href="css/indexNew/section-two.css">
+    <link rel="stylesheet" href="css/indexNew/section-home.css">
+    <link rel="stylesheet" href="css/indexNew/section-view.css">
+    <link rel="stylesheet" href="css/indexNew/section-carousel.css">
+    <link rel="stylesheet" href="css/indexNew/section-price.css">
+    <link rel="stylesheet" href="css/indexNew/index-responsive.css">
     <link rel="stylesheet" href="css/nav/nav.css">
     <link rel="stylesheet" href="css/base.css">
     <title>RDI Manager</title>
@@ -29,151 +32,151 @@
 <body>
 
     <div class="container">
+        <div id="top"></div>
 
         <header>
-            <nav class="nav bg-white">
-
-                <div class="leftNav">
-
-                    <ul class="listLeft">
-                        <li><a href="indexNew.html"><img src="images/logo.png" alt="RDI-Manager"></a></li>
-                    </ul>
-                    <ul class="listRight">
+            <nav class="navHigh">
+                <div class="listLeft">
+                    <ul>
+                        <li><a href="index.html"><img src="images/logo.png" alt="RDI-Manager"></a></li>
                         <li>
-                            <div class="dropdownNav">
-                                <button id="button-1" class="dropButton">
-                                    Pourquoi RDI-Manager ?
-                                    <i class="pe-7s-angle-down arrowDown"></i>
-                                </button>
-                                <div id="myDropdown1" class="dropdownContent">
-                                    <div class="flexBox">
-                                        <div class="contentBox">
-                                            <h3>Vue d'ensemble</h3>
-                                            <a href="#">Structurer votre activité R&D</a>
-                                            <a href="#">Augmentez vos chances pour le CIR/CII</a>
-                                            <a href="#">Une application simple et non contraignante</a>
-                                        </div>
-                                        <span></span>
-                                        <div class="contentBox">
-                                            <h3>Vos questions, nos réponses</h3>
-                                            <a href="index.html">F.A.Q</a>
-                                        </div>
-                                        <span></span>
-                                        <div class="contentBox">
-                                            <h3>Une offre adapté ...</h3>
-                                            <a href="#">Aux Start-up</a>
-                                            <a href="#">Aux PME</a>
-                                            <a href="#">Aux Grandes Entreprises</a>
-                                            <a href="#">Aux Universités/Écoles</a>
-                                        </div>
-                                    </div>
+                            <div class="parentBlock">
+                                <div class="childOne">
+                                    <a href="index.html" data-i18n="nav_why"></a>
+                                    <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
                                 </div>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="dropdownNav">
-                                <button id="button-2" class="dropButton">
-                                    Fonctionnalités
-                                    <i class="pe-7s-angle-down arrowDown"></i>
-                                </button>
-                                <div id="myDropdown2" class="dropdownContent">
-                                    <div class="flexBox">
-                                        <div class="contentBox">
-                                            <h3>Travail</h3>
-                                            <a href="#">Suivi du temps</a>
-                                            <a href="#">Suivi des faits marquants</a>
-                                            <a href="#">Gestion des fichiers</a>
-                                        </div>
-                                        <span></span>
-                                        <div class="contentBox">
-                                            <h3>Recherche d'innovation</h3>
-                                            <a href="#">Analyses stratégiques</a>
-                                            <a href="#">Travail collaboratif</a>
-                                        </div>
-                                    </div>
+                                <div class="childTwo">
+                                    <a href="">text</a>
+                                    <a href="">text</a>
+                                    <a href="">text</a>
+                                    <a href="">text</a>
+                                    <a href="">text</a>
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <div class="dropdownNav">
-                                <button id="button-3" class="dropButton">
-                                    Société
-                                    <i class="pe-7s-angle-down arrowDown"></i>
-                                </button>
-                                <div id="myDropdown3" class="dropdownContent">
-                                    <div class="flexBox">
-                                        <div class="contentBox">
-                                            <h3>A propos</h3>
-                                            <a href="#">Nos équipes</a>
-                                            <a href="#">Nous Rejoindre</a>
-                                            <a href="#">Notre Actualité</a>
-                                        </div>
-                                        <span></span>
-                                        <div class="contentBox">
-                                            <h3>Développement</h3>
-                                            <a href="#">Partenariats</a>
-                                        </div>
-                                    </div>
+                            <div class="parentBlock">
+                                <div class="childOne">
+                                    <a href="saisie-temps.html" data-i18n="nav_features"></a>
+                                    <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                                </div>
+                                <div class="childTwo">
+                                    <a href="">text1</a>
+                                    <a href="">text1</a>
+                                    <a href="">text1</a>
+                                    <a href="">text1</a>
+                                    <a href="">text1</a>
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <div class="dropdownNav">
-                                <button id="button-4" class="dropButton">
-                                    Contacts
-                                    <i class="pe-7s-angle-down arrowDown"></i>
-                                </button>
-                                <div id="myDropdown4" class="dropdownContent">
-                                    <div class="flexBox">
-                                        <div class="contentBox">
-                                            <h3>Première approche</h3>
-                                            <a href="#">Contactez-nous</a>
-                                            <a href="#">Déjà client ?</a>
-                                        </div>
-                                        <span></span>
-                                    </div>
+                            <div class="parentBlock">
+                                <div class="childOne">
+                                    <a href="faits-marquants.html" data-i18n="nav_about"></a>
+                                    <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                                </div>
+                                <div class="childTwo">
+                                    <a href="">text1</a>
+                                    <a href="">text1</a>
+                                    <a href="">text1</a>
+                                    <a href="">text1</a>
+                                    <a href="">text1</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="parentBlock">
+                                <div class="childOne">
+                                    <a href="index.html#pricing" data-i18n="nav_contact"></a>
+                                    <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                                </div>
+                                <div class="childTwo">
+                                    <a href="">text1</a>
+                                    <a href="">text1</a>
+                                    <a href="">text1</a>
+                                    <a href="">text1</a>
+                                    <a href="">text1</a>
                                 </div>
                             </div>
                         </li>
                     </ul>
                 </div>
-
-                <div class="rightNav">
+                <div class="listRight">
                     <ul>
                         <li>
-                            <div class="dropdownNav">
-                                <button id="button-5" class="dropButton">
-                                    Tarifs
-                                    <i class="pe-7s-angle-down arrowDown"></i>
-                                </button>
-                                <div id="myDropdown5" class="dropdownContent">
-                                    <div class="flexBox">
-                                        <div class="contentBox">
-                                            <h3>Les offres</h3>
-                                            <a href="#">Tarifs</a>
-                                            <a href="#">F.A.Q sur nos tarifs</a>
-                                        </div>
-                                        <span></span>
-                                        <div class="contentBox">
-                                            <h3>Une offre adapté ...</h3>
-                                            <a href="#">Aux Start-up</a>
-                                            <a href="#">Aux PME</a>
-                                            <a href="#">Aux Grandes Entreprises</a>
-                                            <a href="#">Aux Universités/Écoles</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <a href="indexNew.html#pricing" data-i18n="nav_pricing"></a>
                         </li>
-                        <a href="#" class="btn btn-hover bg-green bg-green-hover">Essai Gratuit <i
-                                class="pe-7s-angle-right"></i></a>
+                        <a href="https://app.rdimanager.com/connexion" class="btn btn-hover bg-red bg-red-hover"
+                            id="connect" data-i18n="nav_free"></a>
+                        <li>
+                            <select class="languageSelector">
+                                <option selected value="fr">FR</option>
+                                <option value="en">EN</option>
+                            </select>
+                        </li>
                     </ul>
-
                 </div>
 
+                <div class="top">
+                    <a href="indexNew.html#top"><i class="mdi mdi-arrow-up-bold"></i></a>
+                </div>
             </nav>
+
+            <!-- NAV FOR PHONE -->
+            <a href="index.html"><img class="logoPhone" src="images/logo.png" alt="RDI-Manager"></a>
+            <div class="navPhone">
+                <button class="ham">
+                    <span class="menuIcon">
+                        <i class="mdi mdi-menu"></i>
+                    </span>
+                    <span class="xIcon">
+                        <i class="mdi mdi-close"></i>
+                    </span>
+                </button>
+
+                <ul class="menu">
+                    <div class="logo">
+                        <a href="index.html"><img class="logoNav" src="images/logo.png" alt="RDI-Manager"></a>
+                    </div>
+                    <li>
+                        <a class="menuLink" id="activeNav" href="index.html" data-i18n="nav_home"><i
+                                class="mdi mdi-home"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menuLink" href="saisie-temps.html" data-i18n="nav_time"><i
+                                class="mdi mdi-av-timer"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menuLink" href="faits-marquants.html" data-i18n="nav_fm"><i
+                                class="mdi mdi-comment-text-outline"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menuLink" href="index.html#pricing" data-i18n="nav_pricing"><i
+                                class="mdi mdi-coin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menuLink" href="https://app.rdimanager.com/connexion" data-i18n="nav_login"><i
+                                class="mdi mdi-account"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <select class="languageSelector">
+                            <option selected value="fr">FR</option>
+                            <option value="en">EN</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- END NAV FOR PHONE -->
+
         </header>
+
+        <!-- END HEADER -->
 
         <main>
             <section>
@@ -201,13 +204,7 @@
             <section>
 
                 <div class="layer">
-                    <div class="layerBg">
-                        <span style="--i:0;"></span>
-                        <span style="--i:1;"></span>
-                        <span style="--i:2;"></span>
-                        <span style="--i:3;"></span>
-                    </div>
-                    <img src="images/home-desktop-phone.png" alt="mockup RDI">
+                    <img src="images/RDI-Manager-montage.png" alt="mockup RDI">
 
                     <a href="clip/clip.html" target="_blank" class="btn bg-blue bg-blue-hover text-white">
                         <i class="mdi mdi-play-circle"></i>
@@ -224,62 +221,247 @@
             </section>
             <div class="section">
                 <section>
-                        <div class="card selected" id="card-1">
-                            <div class="objectIcon">
-                                <div class="icon text-white"><i class="mdi mdi-pin"></i></div>
-                            </div>
-                            <div class="cardText">
-                                <h5><strong>Saisie des faits marquants</strong></h5>
-                                <p>Vos collaborateurs renseignent les <strong>faits marquants de chaque projet</strong>
-                                    tout
-                                    au long
-                                    de l’année. De plus, vous pouvez <strong>partager des fichiers</strong>, des images
-                                    et même
-                                    personnaliser votre fait marquant.</p>
-                            </div>
+                    <div class="card selected" id="card-1">
+                        <div class="objectIcon">
+                            <div class="icon text-white"><i class="mdi mdi-pin"></i></div>
                         </div>
-                        <div class="card" id="card-2">
-                            <div class="objectIcon">
-                                <div class="icon text-white"><i class="mdi mdi-calendar-clock"></i></div>
-                            </div>
-                            <div class="cardText">
-                                <h5><strong>Saisie du temps</strong></h5>
-                                <p>Saisissez vos temps passés sur vos projets <strong>en 2 clics</strong> directement
-                                    via l’application
-                                    où que vous soyez. Que ce soit à la <strong>semaine ou au mois</strong>.</p>
-                            </div>
+                        <div class="cardText">
+                            <h5><strong>Saisie des faits marquants</strong></h5>
+                            <p>Vos collaborateurs renseignent les <strong>faits marquants de chaque projet</strong>
+                                tout
+                                au long
+                                de l’année. De plus, vous pouvez <strong>partager des fichiers</strong>, des images
+                                et même
+                                personnaliser votre fait marquant.</p>
                         </div>
-                        <div class="card" id="card-3">
-                            <div class="objectIcon">
-                                <div class="icon text-white"><i class="mdi mdi-file-document"></i></div>
-                            </div>
-                            <div class="cardText">
-                                <h5><strong>Gestion des fichiers </strong></h5>
-                                <p>Avec notre application collaborative, <strong>partagez vos fichiers</strong>
-                                    directement
-                                    dans vos
-                                    projets. <strong>Accessible et sécurisé</strong>, vous retrouverez toute votre
-                                    activité
-                                    liée à votre
-                                    projet très rapidement.</p>
-                            </div>
+                    </div>
+                    <div class="card" id="card-2">
+                        <div class="objectIcon">
+                            <div class="icon text-white"><i class="mdi mdi-calendar-clock"></i></div>
                         </div>
+                        <div class="cardText">
+                            <h5><strong>Saisie du temps</strong></h5>
+                            <p>Saisissez vos temps passés sur vos projets <strong>en 2 clics</strong> directement
+                                via l’application
+                                où que vous soyez. Que ce soit à la <strong>semaine ou au mois</strong>.</p>
+                        </div>
+                    </div>
+                    <div class="card" id="card-3">
+                        <div class="objectIcon">
+                            <div class="icon text-white"><i class="mdi mdi-file-document"></i></div>
+                        </div>
+                        <div class="cardText">
+                            <h5><strong>Gestion des fichiers </strong></h5>
+                            <p>Avec notre application collaborative, <strong>partagez vos fichiers</strong>
+                                directement
+                                dans vos
+                                projets. <strong>Accessible et sécurisé</strong>, vous retrouverez toute votre
+                                activité
+                                liée à votre
+                                projet très rapidement.</p>
+                        </div>
+                    </div>
                 </section>
                 <section>
 
                     <div class="carousel">
                         <img src="/images/home/FM.png" id="img-1" class="img-to-show show">
-                        <img src="/images/home/ST.png" id="img-2"  class="img-to-show">
-                        <img src="/images/home/GF.png" id="img-3"  class="img-to-show">
+                        <img src="/images/home/ST.png" id="img-2" class="img-to-show">
+                        <img src="/images/home/GF.png" id="img-3" class="img-to-show">
                     </div>
 
                 </section>
             </div>
+
         </article>
 
+        <article>
+            <section class="sectionTitle">
+                <h2>Ils utilisent RDI-Manager</h2>
+            </section>
+            <div class="sectionShare">
+                <section>
+                    <div class="cardOne">
+                        <div class="column">
+                            <div class="cardIcon">
+                                <img src="/images/client-brand/cad-42.png" alt="logo cad 42">
+                            </div>
+                            <div class="cardContent">
+                                <h6>Jean-Philippe PANAGET</h6>
+                                <small>CEO | CAD.42</small>
+                                <p data-i18n="share_card_one"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardTwo">
+                        <div class="column">
+                            <div class="cardIcon">
+                                <img src="/images/client-brand/bloom-at-work.png" alt="logo bloom at work">
+                            </div>
+                            <div class="cardContent">
+                                <h6>Charles De FRÉMINVILLE</h6>
+                                <small>CEO | BLOOM AT WORK</small>
+                                <p data-i18n="share_card_two"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardThree">
+                        <div class="column">
+                            <div class="cardIcon">
+                                <img src="/images/client-brand/live-consent.png" alt="logo live consent">
+                            </div>
+                            <div class="cardContent">
+                                <h6>Claudiu SIRBU</h6>
+                                <small>CEO | LiveConsent</small>
+                                <p data-i18n="share_card_three"></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div id="pricing"></div>
+            <!-- START PRICE BLOCK -->
+
+            <section class="priceBlock">
+                <main>
+                    <h2 class="title" data-i18n="step_three"></h2>
+                    <p class="para" data-i18n="step_three_para"></p>
+                    <div class="cards">
+                        <div class="cardOne">
+                            <div class="column">
+                                <div class="cardTop">
+                                    <div class="cardTitle" data-i18n="card_one_title"></div>
+                                    <div class="cardFor" data-i18n="card_one_for"></div>
+                                    <div class="cardSale" data-i18n="card_one_sale"></div>
+                                    <div class="cardSmall" data-i18n="card_one_small"></div>
+                                </div>
+                                <div class="cardContent">
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_one_line_one"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_one_line_two"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_one_line_three"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_one_line_four"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_one_line_five"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_one_line_six"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_one_line_seven"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-close iconRed"></i>
+                                        <p data-i18n="card_one_line_eight"></p>
+                                    </div>
+                                </div>
+                                <div class="btnPrice">
+                                    <a href="https://app.rdimanager.com/creer-ma-societe" class="buttonPriceInv"
+                                        data-i18n="card_one_button"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cardTwo">
+                            <div class="column">
+                                <div class="cardTop">
+                                    <div class="cardTitle" data-i18n="card_two_title"></div>
+                                    <div class="cardFor" data-i18n="card_two_for"></div>
+                                    <div class="cardSale" data-i18n="card_two_sale"></div>
+                                    <div class="cardSmall" data-i18n="card_two_small"></div>
+                                </div>
+                                <div class="cardContent">
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_two_line_one"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_two_line_two"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_two_line_three"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_two_line_four"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_two_line_five"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p class="bold" data-i18n="card_two_line_six"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p class="bold" data-i18n="card_two_line_seven"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p class="bold" data-i18n="card_two_line_eight"></p>
+                                    </div>
+                                </div>
+                                <div class="btnPrice">
+                                    <a href="mailto:contact@rdimanager.com" class="buttonPrice"
+                                        data-i18n="card_two_button"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cardThree">
+                            <div class="column">
+                                <div class="cardTop">
+                                    <div class="cardTitle" data-i18n="card_three_title"></div>
+                                    <div class="cardFor" data-i18n="card_three_for"></div>
+                                    <div class="cardSale" data-i18n="card_three_sale"></div>
+                                    <div class="cardSmall" data-i18n="card_three_small"></div>
+                                </div>
+                                <div class="cardContent">
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_three_line_one"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_three_line_two"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_three_line_three"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_three_line_four"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_three_line_five"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p class="bold" data-i18n="card_three_line_six"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p class="bold" data-i18n="card_three_line_seven"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p class="bold" data-i18n="card_three_line_eight"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p class="bold" data-i18n="card_three_line_nine"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p class="bold" data-i18n="card_three_line_ten"></p>
+                                    </div>
+                                </div>
+                                <div class="btnPrice">
+                                    <a href="mailto:contact@rdimanager.com" class="buttonPriceInv"
+                                        data-i18n="card_three_button"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </section>
+        </article>
+
+        <!-- END PRICE BLOCK -->
     </div>
 
-    <script src="js/nav.js"></script>
     <script src="js/home.js"></script>
     <script src="dist/main.js"></script>
 

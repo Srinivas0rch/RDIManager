@@ -27,13 +27,3 @@ function toggleMenu() {
     menuIcon.style.display = "none";
   }
 }
-
-const dropButton = document.getElementsByClassName('dropButton');
-
-for (let i = 0; i < dropButton.length; i++) {
-  dropButton[i].addEventListener('click', function (event) {
-    const el = event.target.closest('.dropButton');
-    const dropdownId = el.id.split('-')[1];
-    document.getElementById(`myDropdown${dropdownId}`).classList.toggle("show");
-  })
-}

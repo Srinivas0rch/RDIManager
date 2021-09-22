@@ -1,6 +1,6 @@
 article {
     z-index: 1;
-    width: 85%;
+    width: 100%;
     height: auto;
     padding: 100px 0;
     margin: auto;
@@ -25,7 +25,8 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 85%;
+    margin: auto;
 }
 
 .section section {
@@ -48,6 +49,12 @@ article {
     margin-top: 20px;
     border-radius: 10px;
     cursor: pointer;
+    transition: all, 0.5s;
+}
+
+.card:hover {
+    background: #f1f1f1;
+    transition: all, 0.5s;
 }
 
 .card .objectIcon {
@@ -83,7 +90,7 @@ article {
 }
 
 .card .cardText p {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .section .carousel {
@@ -97,7 +104,8 @@ article {
 .section .carousel .img-to-show {
     position: absolute;
     width: 100%;
-    z-index: 2;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .imgAnim {
@@ -116,9 +124,6 @@ article {
 
 .img-to-show {
     visibility: hidden;
-    border-radius: 4px;
-    padding: 10px;
-    width: 150px;
 }
 
 .show {

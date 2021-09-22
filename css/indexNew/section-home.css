@@ -70,47 +70,8 @@ section .layer {
   height: auto;
 }
 
-section .layer .layerBg {
-  position: absolute;
-  top: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: auto;
-}
-
-section .layer span {
-  position: absolute;
-  display: block;
-  z-index: 1;
-  width: 250px;
-  height: 250px;
-  border-radius: 999px;
-  filter: blur(40px);
-  opacity: 0.75;
-  transform-origin: 125px 0;
-  transform: rotate(calc(90deg * var(--i)));
-}
-
-section .layer span:nth-child(1){
-  background: #01b2fe;
-}
-
-section .layer span:nth-child(2){
-  background:  #00c458;
-}
-
-section .layer span:nth-child(3){
-  background:  #ffcd00;
-}
-
-section .layer span:nth-child(4){
-  background:  #ff008c;
-}
-
 section .layer img {
-  width: 70%;
+  width: 90%;
   z-index: 2;
 }
 
@@ -119,7 +80,7 @@ section .layer a {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 90%;
+  opacity: 80%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   z-index: 3;
 }

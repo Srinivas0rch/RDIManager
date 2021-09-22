@@ -48,14 +48,12 @@ button {
     transition: 0.5s ease-in-out;
 }
 
-.btn-hover:hover {
-    animation: btnAnim 3s infinite;
+.btn-hover {
+    transition:all, 0.5s ease-in-out;
 }
 
-@keyframes btnAnim {
-    50% {
-        transform: translateY(-0.25rem);
-    }
+.btn-hover:hover {
+    transform: translateY(-0.15rem);
 }
 
 .text-blue {
@@ -76,6 +74,7 @@ button {
 
 .bg-blue {
     background: #01b2fe;
+    transition:all, 0.5s ease-in-out;
 }
 
 .bg-white {
@@ -94,14 +93,19 @@ button {
     background: #e62117;
 }
 
+.bg-red-hover:hover {
+    background: #a30000;
+    transition:all, 0.5s ease-in-out;
+}
+
 .bg-green-hover:hover {
     background: #04a04a;
-    transition: 0.5s ease;
+    transition:all, 0.5s ease-in-out;
 }
 
 .bg-blue-hover:hover {
     opacity: 100%;
-    transition: 0.5s ease;
+    transition:all, 0.5s ease-in-out;
 }
 
 .bg-multi {
