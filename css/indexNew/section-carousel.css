@@ -2,7 +2,7 @@ article {
     z-index: 1;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 50px 0;
     margin: auto;
 }
 
@@ -16,9 +16,17 @@ article {
     font-size: 2.25em;
     line-height: 1.30em;
     letter-spacing: 2px;
-    margin-top: 0.5em;
     margin-bottom: 0.5em;
     font-family: 'Besley', serif;
+}
+
+.sectionTitle p {
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #303030;
+    font-size: 15px;
+    width: 60%;
 }
 
 .section {
@@ -35,7 +43,6 @@ article {
     justify-content: center;
     align-items: center;
     width: 50%;
-    margin-top: 30px;
     margin: auto;
     z-index: 1;
 }
@@ -76,7 +83,7 @@ article {
 .selected .objectIcon .icon,
 .selected .objectIcon .icon,
 .selected .objectIcon .icon {
-    background: linear-gradient(to right top, #01b2fe, #51a3ff, #8a8fff, #ba76ed, #e154cb, #f543ab, #fe3a89, #ff3e67, #ff604f, #ff8536, #ffa919, #ffcd00);
+    background: #01b2fe;
 }
 
 .card .cardText {

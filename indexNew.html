@@ -20,8 +20,11 @@
 
     <!-- RDI-Manager custom CSS -->
     <link rel="stylesheet" href="css/indexNew/section-home.css">
-    <link rel="stylesheet" href="css/indexNew/section-view.css">
     <link rel="stylesheet" href="css/indexNew/section-carousel.css">
+    <link rel="stylesheet" href="css/indexNew/section-view.css">
+    <link rel="stylesheet" href="css/indexNew/section-time.css">
+    <link rel="stylesheet" href="css/indexNew/section-fm.css">
+    <link rel="stylesheet" href="css/indexNew/section-headband.css">
     <link rel="stylesheet" href="css/indexNew/section-price.css">
     <link rel="stylesheet" href="css/indexNew/index-responsive.css">
     <link rel="stylesheet" href="css/nav/nav.css">
@@ -178,7 +181,7 @@
 
         <!-- END HEADER -->
 
-        <main>
+        <main class="homePage">
             <section>
 
                 <div class="title">
@@ -191,7 +194,7 @@
                     </p>
                 </div>
                 <div class="button">
-                    <a href="#" class="homeBtn btn btn-hover bg-green bg-green-hover">Essayez gratuitement</a>
+                    <a href="#" class="homeBtn btn btn-hover bg-red bg-red-hover">Essayez gratuitement</a>
                     <p>3 mois d'essais gratuit</p>
                 </div>
                 <div class="integ">
@@ -217,7 +220,8 @@
 
         <article>
             <section class="sectionTitle">
-                <h2>La simplicité de RDI-Manager</h2>
+                <h2 class="title" data-i18n="step_one"></h2>
+                <p class="para" data-i18n="step_one_para"></p>
             </section>
             <div class="section">
                 <section>
@@ -276,8 +280,9 @@
         </article>
 
         <article>
-            <section class="sectionTitle">
-                <h2>Ils utilisent RDI-Manager</h2>
+            <section class="sectionTitle text-black">
+                <h2 data-i18n="step_two"></h2>
+                <p data-i18n="step_two_para">
             </section>
             <div class="sectionShare">
                 <section>
@@ -319,10 +324,27 @@
                     </div>
                 </section>
             </div>
+        </article>
 
-            <div id="pricing"></div>
-            <!-- START PRICE BLOCK -->
+        <!-- START SALE HEADBAND -->
+        <article>
+            <section class="saleBlock">
+                <main>
+                    <h4 data-i18n="band_big_title" class="text-white"></h4>
+                    <p data-i18n="band_para"></p>
+                    <a href="mailto:contact@rdimanager.com" class="buttonSale btn btn-hover bg-red bg-red-hover"
+                        data-i18n="band_button"></a>
+                </main>
+            </section>
+        </article>
 
+        <!-- END SALE HEADBAND  -->
+
+        <div id="pricing"></div>
+        <!-- START PRICE BLOCK -->
+
+
+        <article>
             <section class="priceBlock">
                 <main>
                     <h2 class="title" data-i18n="step_three"></h2>
@@ -363,7 +385,8 @@
                                     </div>
                                 </div>
                                 <div class="btnPrice">
-                                    <a href="https://app.rdimanager.com/creer-ma-societe" class="buttonPriceInv"
+                                    <a href="https://app.rdimanager.com/creer-ma-societe"
+                                        class="buttonPriceInv btn btn-hover bg-red-hover"
                                         data-i18n="card_one_button"></a>
                                 </div>
                             </div>
@@ -403,7 +426,8 @@
                                     </div>
                                 </div>
                                 <div class="btnPrice">
-                                    <a href="mailto:contact@rdimanager.com" class="buttonPrice"
+                                    <a href="mailto:contact@rdimanager.com"
+                                        class="buttonPrice btn btn-hover bg-red bg-red-hover"
                                         data-i18n="card_two_button"></a>
                                 </div>
                             </div>
@@ -449,7 +473,8 @@
                                     </div>
                                 </div>
                                 <div class="btnPrice">
-                                    <a href="mailto:contact@rdimanager.com" class="buttonPriceInv"
+                                    <a href="mailto:contact@rdimanager.com"
+                                        class="buttonPriceInv btn btn-hover bg-red-hover"
                                         data-i18n="card_three_button"></a>
                                 </div>
                             </div>
@@ -463,7 +488,10 @@
     </div>
 
     <script src="js/home.js"></script>
+    <script src="js/scrollReveal.js"></script>
     <script src="dist/main.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
 
 </body>
 
