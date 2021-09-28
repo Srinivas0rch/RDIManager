@@ -58,23 +58,23 @@ button {
 }
 
 .text-blue {
-    color: #01b2fe;
+    color: #01b2fe !important;
 }
 
 .text-yellow {
-    color: #ffcd00;
+    color: #ffcd00 !important;
 }
 
 .text-green {
-    color: #00c458;
+    color: #00c458 !important;
 }
 
 .text-white {
-    color: #fff;
+    color: #fff !important;
 }
 
 .text-black {
-    color: #303030;
+    color: #303030 !important;
 }
 
 .bg-blue {
@@ -83,37 +83,37 @@ button {
 }
 
 .bg-white {
-    background: #fff;
+    background: #fff !important;
 }
 
 .bg-black {
-    background: #303030;
+    background: #303030 !important;
 }
 
 .bg-yellow {
-    background: #ffcd00;
+    background: #ffcd00 !important;
 }
 
 .bg-green {
-    background: #00c458;
+    background: #00c458 !important;
 }
 
 .bg-red {
-    background: #e62117;
+    background: #e62117 !important;
 }
 
 .bg-red-hover:hover {
-    background: #a30000;
+    background: #a30000 !important;
     transition:all, 0.5s ease-in-out;
 }
 
 .bg-green-hover:hover {
-    background: #04a04a;
+    background: #04a04a !important;
     transition:all, 0.5s ease-in-out;
 }
 
 .bg-blue-hover:hover {
-    opacity: 100%;
+    background: #0044ff !important;
     transition:all, 0.5s ease-in-out;
 }
 

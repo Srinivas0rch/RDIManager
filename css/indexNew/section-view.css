@@ -14,7 +14,6 @@
 
 .sectionTitle p {
     margin: auto;
-    margin-bottom: 30px;
     text-align: center;
     color: #303030;
     font-size: 15px;
@@ -27,13 +26,13 @@
     justify-content: center;
     width: 85%;
     margin: auto;
-    padding-top: 70px;
 }
 
 .sectionShare section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
     width: 100%;
     z-index: 1;
 }
@@ -48,7 +47,7 @@
 
 .sectionShare .para {
     margin: auto;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     text-align: center;
     color: #303030;
     font-size: 15px;
@@ -63,65 +62,53 @@
 .sectionShare .cardOne,
 .sectionShare .cardTwo,
 .sectionShare .cardThree {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 350px;
-    height: auto;
-    min-height: 350px;
-    padding: 20px 30px 20px 30px;
-    box-sizing: border-box;
+    min-height: 250px;
+    padding: 30px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.3);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.sectionShare .column {
+.identity {
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
-.sectionShare .cardIcon {
+.identity img {
+    width: 70px;
+}
+
+.idenName {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    position: relative;
-    bottom: 70px;
-    height: 120px;
-    width: 120px;
-    border-radius: 15px;
-    background: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
-
-.sectionShare .cardIcon img {
-    width: 90%;
-}
-
-.sectionShare .cardContent {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.sectionShare .cardContent h6 {
+    margin-left: 15px;
     text-align: left;
-    font-size: 20px;
-    color: #303030;
 }
 
-.sectionShare .cardContent small {
-    color: #505050;
+.idenName .nameSoc {
+    font-size: 18px;
+    text-align: left;
+}
+
+.idenName .descSoc {
     font-size: 12px;
+    text-align: left;
 }
 
-.sectionShare .cardContent p {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 17px;
+.hr {
+    width: 100%;
+    height: 1px;
+    margin: 20px 0;
+    background:  #dddddd;
+}
+
+.view {
     font-style: italic;
-    color: #303030;
+    font-size: 16px;
 }

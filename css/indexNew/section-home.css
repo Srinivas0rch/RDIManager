@@ -1,21 +1,58 @@
 .homePage {
   z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 85%;
   height: auto;
-  padding: 150px 0;
+  padding: 120px 0 30px 0;
   margin: auto;
 }
 
-.homePage section {
+.homePage .topHome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homePage .blockLeft {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 49%;
   z-index: 1;
+}
+
+.homePage .blockRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+  z-index: 1;
+}
+
+.homePage .blockBottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.homePage .botTop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.homePage .botBottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 150px;
 }
 
 section .title h1 {
@@ -53,40 +90,44 @@ section .button p {
   color: #505050;
 }
 
-section .integ {
-  width: 220px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 1em;
-}
-
 section .layer {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100%;
   height: auto;
 }
 
 section .layer img {
-  width: 90%;
+  width: 100%;
+  height: auto;
   z-index: 2;
 }
 
-section .layer a {
-  position: absolute;
+section .botTop a {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 80%;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  width: 280px;
   z-index: 3;
 }
 
-section .layer a i {
-  margin-top: 3px;
-  margin-right: 3px;
-  font-size: 25px;
+section .botTop a i {
+  position: relative;
+  margin-right: 10px;
+  z-index: 4;
+}
+
+section .botBottom strong {
+  font-size: 18px;
+}
+
+section .botBottom img {
+  filter: grayscale(100%);
+  width: 140px;
+}
+
+section .botBottom #logoMonday {
+  width: 200px;
 }

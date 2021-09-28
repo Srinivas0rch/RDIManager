@@ -22,7 +22,6 @@ article {
 
 .sectionTitle p {
     margin: auto;
-    margin-bottom: 30px;
     text-align: center;
     color: #303030;
     font-size: 15px;
@@ -53,7 +52,7 @@ article {
     align-items: center;
     width: 80%;
     padding: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 10px;
     cursor: pointer;
     transition: all, 0.5s;
@@ -83,7 +82,7 @@ article {
 .selected .objectIcon .icon,
 .selected .objectIcon .icon,
 .selected .objectIcon .icon {
-    background: #01b2fe;
+     background-image: linear-gradient(to right top, #01b2fe, #51a3ff, #8a8fff, #ba76ed, #e154cb, #f543ab, #fe3a89, #ff3e67, #ff604f, #ff8536, #ffa919, #ffcd00);
 }
 
 .card .cardText {
