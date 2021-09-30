@@ -56,6 +56,20 @@
     border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+.priceBlock .cardOne {
+    border-top: 10px solid #8d8d8d;
+}
+
+.priceBlock .cardTwo {
+    border-top: 10px solid #e62117;
+}
+
+
+.priceBlock .cardThree {
+    border-top: 10px solid #303030;
+}
+
+
 .priceBlock .column {
     display: flex;
     flex-direction: column;

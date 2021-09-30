@@ -14,12 +14,6 @@ sr.reveal('.card', {
     distance: '150px',
 }, 800);
 
-sr.reveal('.show', {
-    delay : 300,
-    origin: 'right',
-    distance: '150px',
-});
-
 sr.reveal('.cardOne', {
     delay : 300,
     distance: '100px',

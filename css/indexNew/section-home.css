@@ -65,10 +65,20 @@ section .title h1 {
   font-family: 'Besley', serif;
 }
 
-section .para p {
+section .para {
+  display: inline;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+.textParaFlex {
+  display: flex;
+}
+
+section .para p,
+section .para strong {
   line-height: 1.5rem;
   font-size: 1.25rem;
-  margin-bottom: 1.5em;
 }
 
 section .button {
