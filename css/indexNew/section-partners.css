@@ -1,0 +1,61 @@
+.bandHorizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 320px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.partner1 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: 50s linear infinite animate;
+}
+
+.partner1 div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 170px;
+    margin: 0 -40px;
+}
+
+.bandHorizontal .mt {
+    margin-top: 150px;
+}
+
+.bandHorizontal .mb {
+    margin-bottom: 150px;
+}
+
+.partner1 .logoPartners {
+    position: absolute;
+    width: 60%;
+    margin-right: 23px;
+    margin-bottom: 5px;
+    z-index: 3;
+}
+
+.partner1 img.svg {
+    position: absolute;
+    width: 170px;
+    z-index: 2;
+}
+
+
+@keyframes animate {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
