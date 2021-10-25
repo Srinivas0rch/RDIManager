@@ -73,6 +73,10 @@ button {
     color: #fff !important;
 }
 
+.text-red {
+    color: #e62117 !important;
+}
+
 .text-black {
     color: #303030 !important;
 }
