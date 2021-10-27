@@ -5,7 +5,7 @@
     justify-content: space-between;
     width: 85%;
     height: auto;
-    padding: 100px 0;
+    padding: 80px 0;
     margin: auto;
 }
 
@@ -32,7 +32,7 @@
 .contactPage .blockRight {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     width: 49%;
     z-index: 1;
