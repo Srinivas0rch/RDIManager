@@ -1,0 +1,169 @@
+.joinPage {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    height: auto;
+    padding: 80px 0;
+    margin: auto;
+}
+
+.joinPage .joinLeft {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    z-index: 1;
+}
+
+.joinLeft .joinUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 90%;
+    height: 600px;
+}
+
+.joinPage .joinLeft h2 {
+    position: absolute;
+    top: 20px;
+    font-size: 2em;
+    line-height: 4.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 0.5em;
+    font-family: 'Besley', serif;
+}
+
+.joinPage .joinLeft p {
+    display: inline;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 1.5em;
+}
+
+.joinPage .joinLeft a.goContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-bottom: 2px solid #e62117;
+    border-right: 2px solid #fff;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    transition: all, 0.3s ease-in-out;
+}
+
+.joinPage .joinLeft a.goContact:hover {
+    color: #fff;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+    transition: all, 0.3s ease-in-out;
+    border-radius: 30px;
+    border-bottom: 2px solid #e62117;
+    border-right: 2px solid #e62117;
+    border-top: 2px solid #e62117;
+    border-left: 2px solid #e62117;
+}
+
+.joinPage .joinLeft a.goContact i {
+    font-size: 40px;
+}
+
+.joinLeft .socialMedia {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+}
+
+.joinLeft .socialMedia a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.joinLeft .socialMedia i {
+    font-size: 30px;
+    margin: 0 30px;
+    color: #303030;
+}
+
+.joinLeft .socialMedia div {
+    height: 2px;
+    background: #e62117;
+    width: 50px;
+}
+
+.joinLeft .socialMedia a:hover div {
+    background: #e62117;
+    height: 2px;
+    width: 50px;
+    animation: all, underline 0.5s;
+}
+
+@keyframes underline {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50px;
+    }
+}
+
+.joinPage .joinRight {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    z-index: 1;
+}
+
+.joinRight .offre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 550px;
+    padding: 30px;
+    background: #303030;
+    border-radius: 10px;
+}
+
+.joinRight .templateOffre {
+    height: auto;
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 2px solid #fff;
+}
+
+.joinRight .templateOffre h5 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.joinRight .templateOffre p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.joinRight .templateOffre a {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin: auto;
+}
+
+.joinRight .templateOffre a i {
+    font-size: 30px;
+}

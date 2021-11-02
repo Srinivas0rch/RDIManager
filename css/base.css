@@ -121,6 +121,10 @@ button {
     transition:all, 0.5s ease-in-out;
 }
 
+.bg-white-hover:hover {
+    background: #b9b9b9 !important;
+}
+
 .bg-multi {
     background-image: linear-gradient(to right top, #01b2fe, #51a3ff, #8a8fff, #ba76ed, #e154cb, #f543ab, #fe3a89, #ff3e67, #ff604f, #ff8536, #ffa919, #ffcd00);
 }

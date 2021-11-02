@@ -72,7 +72,7 @@
 }
 
 .contactInfo .socialMedia i {
-    font-size: 40px;
+    font-size: 30px;
     margin: 0 30px;
     color: #303030;
 }
@@ -105,7 +105,7 @@
     align-items: center;
     flex-direction: column;
     width: 80%;
-    height: auto;
+    height: 550px;
     padding: 30px;
     background: #303030;
     border-radius: 10px;
