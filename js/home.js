@@ -22,3 +22,29 @@ for (let i = 0; i < cards.length; i++) {
         }
     });
 }
+
+const text = ['-Manager'];
+let count = 0;
+let index = 0;
+let currentText = '';
+let letter = '';
+
+(function type() {
+    
+   
+    currentText = text[count];
+    letter = currentText.slice(0, ++index);
+
+    if (document.querySelector('.typing')) {
+         document.querySelector('.typing').textContent = letter;
+
+    if (letter.length === currentText.length) {
+        count++;
+        index = 0;
+    }
+
+    setTimeout(type, Math.floor(Math.random() * (800 - 200 + 1) + 200));
+    }
+   
+
+}());

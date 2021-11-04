@@ -1,31 +1,31 @@
-import ScrollReveal from 'scrollreveal'
+import ScrollReveal from 'scrollreveal';
 
 const sr = ScrollReveal();
 
 sr.reveal('.selected', {
-    delay : 300,
+    delay: 300,
     origin: 'left',
     distance: '150px',
 });
 
 sr.reveal('.card', {
-    delay : 300,
+    delay: 300,
     origin: 'left',
     distance: '150px',
 }, 800);
 
 sr.reveal('.cardOne', {
-    delay : 300,
+    delay: 300,
     distance: '100px',
 });
 
 sr.reveal('.cardTwo', {
-    delay : 500,
+    delay: 500,
     distance: '100px',
 });
 
 sr.reveal('.cardThree', {
-    delay : 700,
+    delay: 700,
     distance: '100px',
 });
 
@@ -52,3 +52,16 @@ sr.reveal('#brf', {
     origin: 'right',
     distance: '150px',
 });
+
+sr.reveal('.blockRight', {
+    delay: 300,
+    origin: 'right',
+    distance: '150px',
+});
+
+sr.reveal('.joinRight', {
+    delay: 300,
+    origin: 'right',
+    distance: '150px',
+});
+
