@@ -1,7 +1,6 @@
 .joinPage {
     z-index: 1;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     width: 85%;
     height: auto;
@@ -21,17 +20,14 @@
 
 .joinLeft .joinUs {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 600px;
     width: 90%;
-    height: 600px;
+    min-height: 600px;
 }
 
 .joinPage .joinLeft h2 {
-    position: absolute;
-    top: 20px;
+    margin-top: 20px;
     font-size: 2em;
     line-height: 4.5rem;
     letter-spacing: 2px;
@@ -39,82 +35,47 @@
     font-family: 'Besley', serif;
 }
 
-.joinPage .joinLeft p {
+.joinPage .joinUs .textRec {
     display: inline;
     width: 100%;
-    font-size: 20px;
-    margin-bottom: 1.5em;
+    font-size: 18px;
+    line-height: 1.25;
+    margin-bottom: 50px;
 }
 
-.joinPage .joinLeft a.goContact {
+.joinLeft strong {
+    text-decoration: underline #e62117;
+}
+
+.joinLeft .offre {
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+    border-top: 1px solid #e62117;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    padding: 5px 15px;
-    border-bottom: 2px solid #e62117;
-    border-right: 2px solid #fff;
-    border-top: 2px solid #fff;
-    border-left: 2px solid #fff;
-    transition: all, 0.3s ease-in-out;
-}
-
-.joinPage .joinLeft a.goContact:hover {
-    color: #fff;
-    background-color: #a30000;
-    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
-    transition: all, 0.3s ease-in-out;
-    border-radius: 30px;
-    border-bottom: 2px solid #e62117;
-    border-right: 2px solid #e62117;
-    border-top: 2px solid #e62117;
-    border-left: 2px solid #e62117;
-}
-
-.joinPage .joinLeft a.goContact i {
-    font-size: 40px;
-}
-
-.joinLeft .socialMedia {
-    position: absolute;
-    bottom: 20px;
-    display: flex;
-}
-
-.joinLeft .socialMedia a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 
-.joinLeft .socialMedia i {
-    font-size: 30px;
-    margin: 0 30px;
+.offre h5 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.offre p {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.offre a {
     color: #303030;
+    font-size: 17px;
+    margin-bottom: 15px;
+    text-decoration: underline #303030;
 }
 
-.joinLeft .socialMedia div {
-    height: 2px;
-    background: #e62117;
-    width: 50px;
-}
-
-.joinLeft .socialMedia a:hover div {
-    background: #e62117;
-    height: 2px;
-    width: 50px;
-    animation: all, underline 0.5s;
-}
-
-@keyframes underline {
-    0% {
-        width: 0px;
-    }
-
-    100% {
-        width: 50px;
-    }
+.offre a:hover {
+    color: #01b2fe;
+    text-decoration: underline #01b2fe;
 }
 
 .joinPage .joinRight {
@@ -122,13 +83,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 600px;
     align-items: center;
     width: 49%;
     z-index: 1;
 }
 
-.joinRight .offre {
+.joinRight .form {
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 80%;
@@ -138,32 +101,70 @@
     border-radius: 10px;
 }
 
-.joinRight .templateOffre {
-    height: auto;
+.form form {
     width: 100%;
-    padding: 15px 0;
-    border-bottom: 2px solid #fff;
-}
-
-.joinRight .templateOffre h5 {
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-
-.joinRight .templateOffre p {
-    font-size: 15px;
-    margin-bottom: 20px;
-}
-
-.joinRight .templateOffre a {
-    width: 50%;
+    height: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    font-size: 15px;
-    margin: auto;
+    align-items: center;
+    flex-direction: column;
 }
 
-.joinRight .templateOffre a i {
-    font-size: 30px;
+.form label {
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.form input {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 2px solid #303030;
+    background: #fff;
+}
+
+.form input:focus {
+    border: 2px solid #01b2fe;
+    outline: none;
+}
+
+.form select {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 2px solid #303030;
+    background: #fff;
+}
+
+.form select:focus {
+    border: 2px solid #01b2fe;
+    outline: none;
+}
+
+.form textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 120px;
+    max-height: 130px;
+    max-width: 100%;
+    min-height: 130px;
+    min-width: 100%;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.form textarea:focus {
+    border: 2px solid #01b2fe;
+    outline: none;
 }

@@ -20,7 +20,7 @@
     <link rel="stylesheet" type="text/css" href="../css/pe-icon-7-stroke.css">
 
     <!-- RDI-Manager custom CSS -->
-    <link rel="stylesheet" href="../css/contact/section-contact.css">
+    <link rel="stylesheet" href="../css/contact/section-faq.css">
     <link rel="stylesheet" href="../css/nav/nav.css">
     <link rel="stylesheet" href="../css/base.css">
     <title>RDI Manager</title>
@@ -43,7 +43,7 @@
                                     <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
                                 </div>
                                 <div class="childTwo">
-                                    <a data-i18n="nav_sol_product" href="../indexNew.html#simplifyYourActivity"></a>
+                                    <a data-i18n="nav_sol_product" href="../indexNew.html#top"></a>
                                     <a data-i18n="nav_sol_why" href="../indexNew.html#whyRdiManager"></a>
                                     <a data-i18n="nav_sol_partner" href="../indexNew.html#partner"></a>
                                     <a data-i18n="nav_sol_offer" href="../indexNew.html#pricing"></a>
@@ -170,59 +170,115 @@
 
         <!-- END HEADER -->
 
-        <main class="contactPage">
-            <div class="blockLeft">
-
-                <div class="contactInfo">
-                    <h2>Nous contacter</h2>
-                    <div id="allContact">
-                        <div class="mail"><i class="mdi mdi-email-outline"></i>contact@rdimanager.com</div>
-                        <div class="phone"><i class="mdi mdi-phone"></i>01 30 50 13 49</div>
-                        <div class="adress"><i class="mdi mdi-pin"></i>2 rue Eugene Pottier 78190 Saint-Quentin en
-                            Yvelines</div>
+        <main class="faqPage">
+            <h2>F.A.Q</h2>
+            <p id="p">Vous trouverez sans doute la réponse à votre question dans cette FAQ. Dans le cas ou vous ne la
+                trouvez
+                pas, rendez-vous dans la rubrique <a href="/pages/contact.html">contact</a>. Un de nos professionnels
+                sera ravi de vous répondre.</p>
+            <div class="faqList">
+                <div class="group">
+                    <div onclick="faq(this)" class="question">
+                        <i class="pe-7s-angle-down faqArrow"></i>
+                        <p>Existe-t-il une démo pour l'outil RDI-Manager ?</p>
                     </div>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2629.2314416489194!2d1.983437951001123!3d48.7774716142536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e683f40015dfc9%3A0x8e49c8054167a7e2!2s2%20Rue%20Eug%C3%A8ne%20Pottier%2C%2078190%20Trappes!5e0!3m2!1sfr!2sfr!4v1635322504967!5m2!1sfr!2sfr"
-                        width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    <div class="socialMedia">
-                        <a href="https://www.linkedin.com/company/rdi-manager/"><i class="mdi mdi-linkedin"></i>
-                            <div></div>
-                        </a>
-                        <a href="https://www.facebook.com/RDImanager/"><i class="mdi mdi-facebook"></i>
-                            <div></div>
-                        </a>
-
-                        <a href="https://www.youtube.com/channel/UCBnAVKPkqlvdSj8z8tS47NQ"><i
-                                class="mdi mdi-youtube-play"></i>
-                            <div></div>
-                        </a>
-                        <a href="https://twitter.com/eureka_conseil?lang=fr"><i class="mdi mdi-twitter"></i>
-                            <div></div>
-                        </a>
+                    <div class="reponse">
+                        <p>Oui, allez sur RDI-Manager (<a href="index.html">rdimanager.com</a>) et appuyez sur le bouton
+                            démo. Cette démo vous
+                            permet de vous mettre dans la peau des trois rôles proposés par RDI-Manager (chef de projet,
+                            contributeur, client).</p>
+                    </div>
+                    <div class="group">
+                        <div onclick="faq(this)" class="question">
+                            <i class="pe-7s-angle-down faqArrow"></i>
+                            <p>Puis-je joindre des fichiers à un fait marquant?</p>
+                        </div>
+                        <div class="reponse">
+                            <p>Oui, vous pouvez ajouter un fichier même après avoir créé le fait marquant. </p>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div onclick="faq(this)" class="question">
+                            <i class="pe-7s-angle-down faqArrow"></i>
+                            <p>Puis-je générer des feuilles de temps via RDI-Manager?</p>
+                        </div>
+                        <div class="reponse">
+                            <p>Oui, afin de générer des feuilles de temps, allez sur “Saisie de temps” et saisissez
+                                votre temps. Vous pouvez de même les exporter sous un tableau Excel.</p>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div onclick="faq(this)" class="question">
+                            <i class="pe-7s-angle-down faqArrow"></i>
+                            <p>Puis-je modifier ma saisie du temps d’hebdomadaire à mensuel?</p>
+                        </div>
+                        <div class="reponse">
+                            <p>Oui vous le pouvez. Allez dans "Administration" puis “Ma compagnie” puis “Entrer mon
+                                temps” puis modifiez à votre guise.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div onclick="faq(this)" class="question">
+                            <i class="pe-7s-angle-down faqArrow"></i>
+                            <p>Puis-je intégrer des liens externes comme Slack à RDI-Manager?</p>
+                        </div>
+                        <div class="reponse">
+                            <p>Oui, cliquez sur “Mon projet" puis sur “Modifier les paramètres de mon projet” puis sur
+                                "Ajouter lien externe”.</p>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div onclick="faq(this)" class="question">
+                            <i class="pe-7s-angle-down faqArrow"></i>
+                            <p>Puis-je exporter mes fichiers en format PDF?</p>
+                        </div>
+                        <div class="reponse">
+                            <p>Oui, allez sur votre projet puis appuyez sur l'icône en haut à droite “Exporter le projet
+                                en PDF”.</p>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div onclick="faq(this)" class="question">
+                            <i class="pe-7s-angle-down faqArrow"></i>
+                            <p>Puis-je personnaliser mes rappels SMS? </p>
+                        </div>
+                        <div class="reponse">
+                            <p>Oui, allez dans” Administration” puis “Paramètre de notification". Grâce aux rappels vos
+                                équipes seront rappelées de saisir leur temps si les actions correspondantes n’ont pas
+                                été faites.</p>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div onclick="faq(this)" class="question">
+                            <i class="pe-7s-angle-down faqArrow"></i>
+                            <p>Comment puis-je ajouter un contributeur après la création de mon projet?</p>
+                        </div>
+                        <div class="reponse">
+                            <p>Sélectionnez le projet en question, appuyez sur "Gérer les participants” puis sur
+                                “Ajouter un nouvel utilisateur”.</p>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div onclick="faq(this)" class="question">
+                            <i class="pe-7s-angle-down faqArrow"></i>
+                            <p>Qui à l’autorité de créer un projet?</p>
+                        </div>
+                        <div class="reponse">
+                            <p>Tous ceux ayant le statut de Chef de Projet et administrateur.</p>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div onclick="faq(this)" class="question">
+                            <i class="pe-7s-angle-down faqArrow"></i>
+                            <p>Puis-je voir l’analyse des années passées?</p>
+                        </div>
+                        <div class="reponse">
+                            <p>Oui, dirigez vous vers votre “Tableau de bord”, puis vers le graphique concerné puis,
+                                dans le menu déroulant, choisissez l'année désirée.</p>
+                        </div>
                     </div>
                 </div>
-
-            </div>
-            <div class="blockLeft">
-
-                <div class="form">
-                    <form>
-                        <label>Email</label>
-                        <input type="email">
-                        <label>Sujet de votre demande</label>
-                        <select>
-                            <option>Choisissez le sujet</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                        </select>
-                        <label>Message</label>
-                        <textarea></textarea>
-
-                        <button class="btn btn-hover bg-blue bg-blue-hover" type="submit">Envoyer</button>
-                    </form>
-                </div>
-
             </div>
         </main>
 
@@ -230,6 +286,26 @@
         </article>
 
         <script src="../dist/main.js"></script>
+        <script src="../js/faq.js"></script>
+
+        <script>
+            const question = document.getElementsByClassName('question');
+
+
+            function faq(elem) {
+                var reponse = elem.parentNode.querySelector('.reponse');
+
+                // reponse.style.display = reponse.style.display === "block" ? "none" : "block";
+
+                reponse.classList.contains('show') ? reponse.classList.remove('show') : reponse.classList.add(
+                    'show');
+
+                var arrow = elem.querySelector('.faqArrow');
+
+                arrow.classList.contains('rotateFaq') ? arrow.classList.remove('rotateFaq') : arrow.classList.add(
+                    'rotateFaq');
+            }
+        </script>
 
 </body>
 
