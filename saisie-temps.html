@@ -43,10 +43,13 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <!-- RDI-Manager custom CSS -->
-    <link rel="stylesheet" type="text/css" href="css/saisie-temps/saisie-temps.css" />
+    <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-home.css" />
+    <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-illustration.css" />
     <link rel="stylesheet" type="text/css" href="css/saisie-temps/saisie-temps-responsive.css" />
-    <link rel="stylesheet" type="text/css" href="css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="css/nav/nav.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+
     <!-- Schema.org markup for Google+ -->
     <meta itemprop="name" content="Suivi de temps sur vos projets innovants - RDI-Manager" />
     <meta itemprop="description"
@@ -76,24 +79,82 @@
     <div id="container">
         <div id="top"></div>
         <header>
-
             <nav class="navHigh">
-                <ul class="listLeft">
-                    <li><a href="index.html"><img src="images/logo.png" alt="RDI-Manager"></a></li>
-                </ul>
-                <ul class="listRight">
-                    <li><a href="index.html" data-i18n="nav_home"></a></li>
-                    <li><a href="saisie-temps.html" id="activeNav" data-i18n="nav_time"></a></li>
-                    <li><a href="faits-marquants.html" data-i18n="nav_fm"></a></li>
-                    <li><a href="index.html#pricing" data-i18n="nav_pricing"></a></li>
-                    <li><a href="https://app.rdimanager.com/connexion" id="connect" data-i18n="nav_login"></a></li>
-                    <li>
-                        <select class="languageSelector">
-                            <option selected value="fr">FR</option>
-                            <option value="en">EN</option>
-                        </select>
-                    </li>
-                </ul>
+                <div class="listLeft">
+                    <ul>
+                        <li><a href="../indexNew.html"><img src="../images/logo.png" alt="RDI-Manager"></a></li>
+                        <li>
+                            <div class="parentBlock">
+                                <div class="childOne">
+                                    <a href="../indexNew.html#simplifyYourActivity" data-i18n="nav_sol"></a>
+                                    <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                                </div>
+                                <div class="childTwo">
+                                    <a data-i18n="nav_sol_product" href="../indexNew.html#simplifyYourActivity"></a>
+                                    <a data-i18n="nav_sol_why" href="../indexNew.html#whyRdiManager"></a>
+                                    <a data-i18n="nav_sol_partner" href="../indexNew.html#partner"></a>
+                                    <a data-i18n="nav_sol_offer" href="../indexNew.html#pricing"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="parentBlock">
+                                <div class="childOne">
+                                    <a href="" data-i18n="nav_features"></a>
+                                    <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                                </div>
+                                <div class="childTwo">
+                                    <a data-i18n="nav_feat_keyfact" href="../faits-marquants.html"></a>
+                                    <a data-i18n="nav_feat_timesheet" href="../saisie-temps.html"></a>
+                                    <a data-i18n="nav_feat_strat" href=""></a>
+                                    <a data-i18n="nav_feat_file" href=""></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="parentBlock">
+                                <div class="childOne">
+                                    <a href="faits-marquants.html" data-i18n="nav_startup"></a>
+                                    <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                                </div>
+                                <div class="childTwo">
+                                    <a data-i18n="nav_startup_about" href=""></a>
+                                    <a data-i18n="nav_startup_team" href=""></a>
+                                    <a data-i18n="nav_startup_mission" href=""></a>
+                                    <a data-i18n="nav_startup_value" href=""></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="parentBlock">
+                                <div class="childOne">
+                                    <a href="" data-i18n="nav_contact"></a>
+                                    <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                                </div>
+                                <div class="childTwo">
+                                    <a data-i18n="nav_contact_form" href="/pages/contact.html"></a>
+                                    <a data-i18n="nav_contact_join" href="/pages/join.html"></a>
+                                    <a href="/pages/faq.html">F.A.Q</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="listRight">
+                    <ul>
+                        <li>
+                            <a href="../indexNew.html#pricing" data-i18n="nav_pricing"></a>
+                        </li>
+                        <a href="https://app.rdimanager.com/connexion" class="btn btn-hover bg-red bg-red-hover"
+                            id="connect" data-i18n="nav_free"></a>
+                        <li>
+                            <select class="languageSelector">
+                                <option selected value="fr">FR</option>
+                                <option value="en">EN</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
 
                 <div class="top">
                     <a href="#top"><i class="mdi mdi-arrow-up-bold"></i></a>
@@ -117,12 +178,12 @@
                         <a href="index.html"><img class="logoNav" src="images/logo.png" alt="RDI-Manager"></a>
                     </div>
                     <li>
-                        <a class="menuLink" href="index.html" data-i18n="nav_home"><i
+                        <a class="menuLink" id="activeNav" href="index.html" data-i18n="nav_home"><i
                                 class="mdi mdi-home"></i>
                         </a>
                     </li>
                     <li>
-                        <a class="menuLink" id="activeNav" href="saisie-temps.html" data-i18n="nav_time"><i
+                        <a class="menuLink" href="saisie-temps.html" data-i18n="nav_time"><i
                                 class="mdi mdi-av-timer"></i>
                         </a>
                     </li>
@@ -166,10 +227,9 @@
                 <div class="leftBox">
                     <h1 class="bigTitle" data-i18n="st_big_title"></h1>
                     <p data-i18n="st_para"></p>
-                    <div class="linkBtn">
-                        <a href="https://demo.rdimanager.com/connexion" class="demo" data-i18n="try_demo"></a>
-                        <a href="https://app.rdimanager.com/creer-ma-societe/ma-societe" class="log"
-                            data-i18n="sign_up"></a>
+                    <div class="button">
+                        <a href="#" class="homeBtn btn btn-hover bg-red bg-red-hover" data-i18n="home_btn_free"></a>
+                        <p data-i18n="band_big_title"></p>
                     </div>
                 </div>
 
@@ -178,6 +238,34 @@
                 <!--START RIGHTBOX-->
 
                 <div class="rightBox">
+
+                    <div class="layer">
+                        <img src="images/mockupTemps.svg" alt="mockup RDI">
+                    </div>
+
+                </div>
+
+                <!--END RIGHTBOX-->
+
+            </main>
+        </section>
+
+        <!-- END FIRST BLOCK -->
+
+        <!-- START SECOND BLOCK -->
+
+        <section class="secondBlock">
+            <article>
+
+                <div class="stSubtitle">
+                    <h2>Suivez votre temps sur vos projets</h2>
+                    <p>Avec RDI-Manager, saisissez vos temps passés sur vos projets de façon simple et efficace depuis
+                        votre ordinateur ou bien votre téléphone. Flexible, Vous avez le choix entre saisir vos temps à
+                        la journée, à la semaine ou au mois. Cette fonctionnalité est modulable selon l’usage de votre
+                        entreprise. </p>
+                </div>
+
+                <div class="stCards">
 
                     <!--FIRST CARD-->
 
@@ -295,137 +383,10 @@
 
                 </div>
 
-                <!--END RIGHTBOX-->
-
-            </main>
-        </section>
-
-        <div class="wave">
-            <img src="images/wave.svg">
-        </div>
-
-        <!-- END FIRST BLOCK -->
-
-        <!-- START SECOND BLOCK -->
-
-        <section class="secondBlock">
-            <main>
-                <div class="cardPhone">
-                    <div class="respPhone">
-                        <h3 data-i18n="st_recall_sms"></h3>
-                        <div class="rond">
-                            <div id="rond" data-i18n="st_recall_sms_circle"></div>
-                        </div>
-                        <p data-i18n="st_recall_sms_para"></p>
-                    </div>
-                    <div class="divPhone">
-                        <img class="mockupPhone" src="images/mockupPhone.png"
-                            alt="Image d'exemple de rappel par message">
-                    </div>
-                    <div>
-                        <div class="hr"></div>
-                    </div>
-                    <div class="highPhone">
-                        <h3 data-i18n="st_recall_sms"></h3>
-                        <div class="rond">
-                            <div id="rond" data-i18n="st_recall_sms_circle"></div>
-                        </div>
-                        <p data-i18n="st_recall_sms_para"></p>
-                    </div>
-                </div>
-            </main>
+            </article>
         </section>
 
         <!-- END SECOND BLOCK -->
-
-        <!-- START THIRD BLOCK -->
-
-        <section class="thirdBlock">
-            <h6>01</h6>
-            <main>
-                <div class="textContent">
-                    <h3 data-i18n="st_step_one_title"></h3>
-                    <p data-i18n="st_step_one_para"></p>
-                    <a href="https://demo.rdimanager.com/temps">
-                        <p data-i18n="st_step_one_button"></p>
-                    </a>
-                </div>
-                <div class="screenExample">
-                    <img src="/images/mockupTemps.svg" alt="Image d'exemple de la saisie du temps passé">
-                </div>
-            </main>
-        </section>
-
-        <!-- END THIRD BLOCK -->
-
-        <!-- START FOUR BLOCK -->
-
-        <section class="fourBlock">
-            <h6>02</h6>
-            <main>
-                <div class="textContent">
-                    <h3 data-i18n="st_step_two_title"></h3>
-                    <p data-i18n="st_step_two_para"></p>
-                    <a href="https://demo.rdimanager.com/absences">
-                        <p data-i18n="st_step_two_button"></p>
-                    </a>
-                </div>
-                <div class="screenExample">
-                    <img src="/images/mockupAbsences.svg" alt="Image d'exemple de la saisie des absences">
-                </div>
-            </main>
-        </section>
-
-        <!-- END FOUR BLOCK -->
-
-        <footer>
-            <div class="footerContent">
-                <div class="leftBlock">
-                    <h4 data-i18n="footer_about"></h4>
-                    <p>contact@rdimanager.com</p>
-                    <p>01 30 50 13 49</p>
-                    <p>2 rue Eugene Pottier 78190 Saint-Quentin en Yvelines</p>
-                </div>
-                <div id="hr"></div>
-                <div class="midBlock">
-                    <h4 data-i18n="footer_follow"></h4>
-                    <form>
-                        <label>Newsletter
-                            <input type="text" placeholder="Email">
-                        </label>
-                    </form>
-                    <div class="socialCard">
-                        <a href="https://www.linkedin.com/company/rdi-manager/">
-                            <div class="linkedin"><i class="mdi mdi-linkedin"></i></div>
-                        </a>
-                        <a href="https://www.facebook.com/RDImanager">
-                            <div class="facebook"><i class="mdi mdi-facebook"></i></div>
-                        </a>
-                        <a href="https://app.rdimanager.com/recommander-rdi-manager">
-                            <div class="media"><i class="pe-7s-share"></i></div>
-                        </a>
-                    </div>
-                    <p>2021 &copy; RDI-Manager</p>
-                </div>
-                <div id="hr"></div>
-                <div class="rightBlock">
-                    <h4 data-i18n="footer_contact"></h4>
-                    <form action="">
-                        <label>Email</label>
-                        <input type="text" placeholder="Email">
-                        <label>Message</label>
-                        <textarea placeholder="Message"></textarea>
-                    </form>
-                </div>
-            </div>
-            <div class="footerWave">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                    <path fill="#303030" fill-opacity="1"
-                        d="M0,64L48,85.3C96,107,192,149,288,154.7C384,160,480,128,576,122.7C672,117,768,139,864,128C960,117,1056,75,1152,53.3C1248,32,1344,32,1392,32L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-                    </path>
-                </svg>
-            </div>
-        </footer>
     </div>
 
     <script src="js/nav.js"></script>

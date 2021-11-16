@@ -1,0 +1,95 @@
+/* START FIRST BLOCK */
+.firstBlock {
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.firstBlock main {
+    width: 85%;
+    padding: 150px 0 50px 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* BLOCK CONTENT SIZE */
+
+.leftBox {
+    z-index: 2;
+    width: 49%;
+}
+
+.rightBox {
+    z-index: 2;
+    width: 49%;
+    display: flex;
+    justify-content: center;
+}
+
+/* END BLOCK CONTENT SIZE */
+
+/* LEFT BOX */
+
+.bigTitle {
+    color: #303030;
+    text-align: left;
+    font-size: 3.375em;
+    line-height: 4.5rem;
+    letter-spacing: 2px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-family: 'Besley', serif;
+}
+
+.leftBox p {
+    line-height: 1.8rem;
+    font-size: 1.25rem;
+      margin-bottom: 1.75em;
+}
+
+.leftBox .button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    box-sizing: none;
+}
+
+.leftBox .button .homeBtn {
+    font-size: 1.15rem;
+    width: 280px;
+}
+
+.leftBox .button p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0.5em;
+    color: #505050;
+}
+
+/* END LEFT BOX */
+
+/* RIGHT BOX */
+
+.rightBox .layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.rightBox .layer img {
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+/* END RIGHT BOX */
+
+/* END FIRST BLOCK */
