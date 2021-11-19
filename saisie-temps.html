@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>RDI-Manager</title>
+    <title>RDI-Manager | Saisie du temps</title>
     <meta name="description"
         content="RDI-Manager | Application de suivi de temps passés sur vos projets de recherche et d'innovation." />
     <meta name="keywords" content="recherche, innovation, cir, projet, feuilles de temps" />
@@ -45,6 +45,9 @@
     <!-- RDI-Manager custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-home.css" />
     <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-illustration.css" />
+    <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-phone.css" />
+    <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-abs.css" />
+    <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-sheet.css" />
     <link rel="stylesheet" type="text/css" href="css/saisie-temps/saisie-temps-responsive.css" />
     <link rel="stylesheet" type="text/css" href="css/nav/nav.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css" />
@@ -114,14 +117,13 @@
                         <li>
                             <div class="parentBlock">
                                 <div class="childOne">
-                                    <a href="faits-marquants.html" data-i18n="nav_startup"></a>
+                                    <a href="/pages/startup.html" data-i18n="nav_startup"></a>
                                     <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
                                 </div>
                                 <div class="childTwo">
-                                    <a data-i18n="nav_startup_about" href=""></a>
-                                    <a data-i18n="nav_startup_team" href=""></a>
-                                    <a data-i18n="nav_startup_mission" href=""></a>
-                                    <a data-i18n="nav_startup_value" href=""></a>
+                                    <a data-i18n="nav_startup_about" href="/pages/startup.html#aboutUs"></a>
+                                    <a data-i18n="nav_startup_team" href="/pages/startup.html#team"></a>
+                                    <a data-i18n="nav_startup_value" href="/pages/startup.html#ourValue"></a>
                                 </div>
                             </div>
                         </li>
@@ -386,7 +388,54 @@
             </article>
         </section>
 
-        <!-- END SECOND BLOCK -->
+        <section class="fourBlock">
+            <article>
+
+                <div class="absTop">
+                    <h2>Saisie des absences</h2>
+                    <p>RDI-Manager vous permet de saisir vos absences sous forme de journée ou de demi-journée sur vos
+                        projets. Cette fonctionnalité permet d’avoir des temps saisis plus réalistes et très facile à
+                        lire. </p>
+                </div>
+                <div class="absBottom">
+                    <img src="/images/mockupAbsences.svg" alt="Saisie des absences">
+                </div>
+
+            </article>
+        </section>
+
+        <section class="thirdBlock">
+            <article>
+
+                <div class="phoneTop">
+                    <h2 class="text-white">Rappel SMS</h2>
+                    <p class="text-white">Vous avez oublié de saisir vos temps passés sur vos projets ? Vous serez
+                        alerté par SMS pour
+                        pouvoir renseigner vos temps sur vos projets. Rapide, fluide et fiable, la fonctionnalité de
+                        rappel SMS vous permet de saisir vos temps où que vous soyez en 2 clics. </p>
+                </div>
+                <div class="phoneBottom">
+                    <img src="/images/RelanceSMS.png" alt="Relance SMS">
+                </div>
+
+            </article>
+        </section>
+
+        <section class="fiveBlock">
+            <article>
+
+                <div class="sheetTop">
+                    <h2>Générez des feuilles de temps</h2>
+                    <p>En 1 clics, sous n’importe quel format, vous pouvez générer une feuille de temps. Elles sont
+                        téléchargeables sous format PDF ou sous format Excel. Ses feuilles de temps vous permettent,
+                        sous forme de tableau d’enregistrer le travail effectué par un salarié sur chaque projet.</p>
+                </div>
+                <div class="sheetBottom">
+                    <img src="/images/sheetTime.jpg" alt="Saisie des absences">
+                </div>
+
+            </article>
+        </section>
     </div>
 
     <script src="js/nav.js"></script>

@@ -82,7 +82,8 @@ article {
 .selected .objectIcon .icon,
 .selected .objectIcon .icon,
 .selected .objectIcon .icon {
-     background-image: linear-gradient(to right top, #01b2fe, #51a3ff, #8a8fff, #ba76ed, #e154cb, #f543ab, #fe3a89, #ff3e67, #ff604f, #ff8536, #ffa919, #ffcd00);
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
 }
 
 .card .cardText {
