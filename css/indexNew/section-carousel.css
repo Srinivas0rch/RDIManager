@@ -93,7 +93,7 @@ article {
 
 .card .cardText h5 {
     margin-bottom: 15px;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .card .cardText p {
@@ -112,7 +112,6 @@ article {
     position: absolute;
     width: 100%;
     border-radius: 5px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .imgAnim {

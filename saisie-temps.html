@@ -44,7 +44,6 @@
 
     <!-- RDI-Manager custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-home.css" />
-    <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-illustration.css" />
     <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-phone.css" />
     <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-abs.css" />
     <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-sheet.css" />
@@ -124,6 +123,7 @@
                                     <a data-i18n="nav_startup_about" href="/pages/startup.html#aboutUs"></a>
                                     <a data-i18n="nav_startup_team" href="/pages/startup.html#team"></a>
                                     <a data-i18n="nav_startup_value" href="/pages/startup.html#ourValue"></a>
+                                    <a data-i18n="nav_startup_partners" href="/pages/partners.html"></a>
                                 </div>
                             </div>
                         </li>
@@ -214,51 +214,12 @@
             </div>
 
             <!-- END NAV FOR PHONE -->
-
         </header>
 
         <!-- END HEADER -->
 
-        <!-- START FIRST BLOCK -->
-
         <section class="firstBlock">
             <main>
-
-                <!--START LEFTBOX-->
-
-                <div class="leftBox">
-                    <h1 class="bigTitle" data-i18n="st_big_title"></h1>
-                    <p data-i18n="st_para"></p>
-                    <div class="button">
-                        <a href="#" class="homeBtn btn btn-hover bg-red bg-red-hover" data-i18n="home_btn_free"></a>
-                        <p data-i18n="band_big_title"></p>
-                    </div>
-                </div>
-
-                <!--END LEFTBOX-->
-
-                <!--START RIGHTBOX-->
-
-                <div class="rightBox">
-
-                    <div class="layer">
-                        <img src="images/mockupTemps.svg" alt="mockup RDI">
-                    </div>
-
-                </div>
-
-                <!--END RIGHTBOX-->
-
-            </main>
-        </section>
-
-        <!-- END FIRST BLOCK -->
-
-        <!-- START SECOND BLOCK -->
-
-        <section class="secondBlock">
-            <article>
-
                 <div class="stSubtitle">
                     <h2>Suivez votre temps sur vos projets</h2>
                     <p>Avec RDI-Manager, saisissez vos temps passés sur vos projets de façon simple et efficace depuis
@@ -267,126 +228,53 @@
                         entreprise. </p>
                 </div>
 
-                <div class="stCards">
-
-                    <!--FIRST CARD-->
-
-                    <div class="cardOne">
-                        <h3 data-i18n="st_card_one_title"></h3>
-                        <div class="listIcon">
-                            <div class="appliIcon"><i class="icon1 mdi mdi-file-pdf"></i></div>
-                            <div class="appliIcon"><i class="icon2 mdi mdi-language-html5"></i></div>
-                            <div class="appliIcon"><i class="icon3 mdi mdi-file-excel"></i></div>
-                        </div>
-                        <div class="nameIcon">
-                            <h5>PDF</h5>
-                            <h5>HTML</h5>
-                            <h5>XLS</h5>
-                        </div>
-                    </div>
-
-                    <!--END FIRST CARD-->
-
-                    <!--SECOND CARD-->
-                    <div class="cardTwo">
-                        <a href="https://demo.rdimanager.com/temps">
-                            <h3 data-i18n="st_card_two_title"></h3>
-                        </a>
-                        <div class="arrows">
-                            <i class="mdi mdi-arrow-left"></i>
-                            <i class="mdi mdi-arrow-right"></i>
-                        </div>
-                        <div class="input">
-                            <h2 data-i18n="st_card_two_project_one"></h2>
-                            <div>
-                                <div class="inputText">
-                                    <h5>70</h5>
-                                    <div></div>
-                                    <p>%</p>
-                                </div>
+                <div class="section">
+                    <section>
+                        <div class="card selected" id="card-1">
+                            <div class="cardText">
+                                <h5><strong>Saisie du temps au mois</strong></h5>
+                                <p>Le temps au mois se fait en pourcentage, pour plus d'efficacité et de simplicité dans la
+                                    saisie du temps.</p>
+                            </div>
+                            <div class="objectIcon">
+                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
                             </div>
                         </div>
-                        <div class="input">
-                            <h2 data-i18n="st_card_two_project_two">Projet REX</h2>
-                            <div>
-                                <div class="inputText">
-                                    <h5>30</h5>
-                                    <div></div>
-                                    <p>%</p>
-                                </div>
+                        <div class="card" id="card-2">
+                            <div class="cardText">
+                                <h5><strong>Saisie du temps à la semaine</strong></h5>
+                                <p>Le temps à la semaine, tout comme le temps au mois , s'établi en pourcentage. Vous
+                                    serez seulement alerté chaque semaine pour saisir vos temps passés sur vos projets.
+                                </p>
+                            </div>
+                            <div class="objectIcon">
+                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
                             </div>
                         </div>
-                    </div>
-
-                    <!--END SECOND CARD-->
-
-                    <!--THIRD CARD-->
-
-                    <div class="cardThree">
-                        <a href="https://demo.rdimanager.com/absences">
-                            <h3 data-i18n="st_card_three_title"></h3>
-                        </a>
-                        <div class="arrows">
-                            <i class="mdi mdi-arrow-left"></i>
-                            <i class="mdi mdi-arrow-right"></i>
+                        <div class="card" id="card-3">
+                            <div class="cardText">
+                                <h5><strong>Saisie du temps au jour</strong></h5>
+                                <p>Le temps à la journée quant à lui, se fait à l'heure. A chaque journée, il faudra
+                                    indiqué ses temps passés sur chaque projets en heure.</p>
+                            </div>
+                            <div class="objectIcon">
+                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
+                            </div>
                         </div>
-                        <div class="calendarDay">
-                            <p data-i18n="st_card_three_day_one"></p>
-                            <p data-i18n="st_card_three_day_two"></p>
-                            <p data-i18n="st_card_three_day_three"></p>
-                            <p data-i18n="st_card_three_day_four"></p>
-                            <p data-i18n="st_card_three_day_five"></p>
-                            <p data-i18n="st_card_three_day_six"></p>
-                            <p data-i18n="st_card_three_day_seven"></p>
+                    </section>
+                    <section>
+                        <div class="carousel">
+                            <img src="/images/saisieTemps/sasie_temps_au_mois_mockup.png" id="img-1"
+                                class="img-to-show show">
+                            <img src="/images/saisieTemps/saisie_des_temps_semaine.png" id="img-2" class="img-to-show">
+                            <img src="/images/saisieTemps/saisie_des_temps_jour.png" id="img-3" class="img-to-show">
                         </div>
-                        <div class="calendarStart">
-                            <div class="other">28</div>
-                            <div class="other">29</div>
-                            <div class="other">30</div>
-                            <div class="disabled">1</div>
-                            <div class="disabled">2</div>
-                        </div>
-                        <div class="calendar">
-                            <div>3</div>
-                            <div class="semi">4</div>
-                            <div>5</div>
-                            <div>6</div>
-                            <div>7</div>
-                            <div class="disabled">8</div>
-                            <div class="disabled">9</div>
-                        </div>
-                        <div class="calendar">
-                            <div>10</div>
-                            <div>11</div>
-                            <div>12</div>
-                            <div class="disabled">13</div>
-                            <div class="semi">14</div>
-                            <div class="disabled">15</div>
-                            <div class="disabled">16</div>
-                        </div>
-                        <div class="calendarEnd">
-                            <div>17</div>
-                            <div>18</div>
-                        </div>
-
-                        <div class="legend">
-                            <div class="full"></div>
-                            <div class="semi"></div>
-                            <div class="disabled"></div>
-                        </div>
-                        <div class="legendText">
-                            <p data-i18n="st_card_three_full_day"></p>
-                            <p data-i18n="st_card_three_half_day"></p>
-                            <p data-i18n="st_card_three_week_end"></p>
-                        </div>
-                    </div>
-
-                    <!--END THIRD CARD-->
-
+                    </section>
                 </div>
-
-            </article>
+            </main>
         </section>
+
+        <!-- END FIRST BLOCK -->
 
         <section class="fourBlock">
             <article>
@@ -398,7 +286,7 @@
                         lire. </p>
                 </div>
                 <div class="absBottom">
-                    <img src="/images/mockupAbsences.svg" alt="Saisie des absences">
+                    <img src="/images/saisieTemps/saisie_absences.png" alt="Saisie des absences">
                 </div>
 
             </article>
@@ -415,7 +303,7 @@
                         rappel SMS vous permet de saisir vos temps où que vous soyez en 2 clics. </p>
                 </div>
                 <div class="phoneBottom">
-                    <img src="/images/RelanceSMS.png" alt="Relance SMS">
+                    <img src="/images/saisieTemps/RelanceSMS.png" alt="Relance SMS">
                 </div>
 
             </article>
@@ -431,7 +319,7 @@
                         sous forme de tableau d’enregistrer le travail effectué par un salarié sur chaque projet.</p>
                 </div>
                 <div class="sheetBottom">
-                    <img src="/images/sheetTime.jpg" alt="Saisie des absences">
+                    <img src="/images/saisieTemps/mockup_feuille_de_temps.png" alt="Feuille de temps">
                 </div>
 
             </article>
@@ -439,7 +327,9 @@
     </div>
 
     <script src="js/nav.js"></script>
+    <script src="js/home.js"></script>
     <script src="dist/main.js"></script>
+    <script src="js/scrollReveal.js"></script>
 
 </body>
 
