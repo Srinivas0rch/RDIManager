@@ -33,6 +33,11 @@ button {
 
 /**/
 
+svg.shadow {
+    filter: drop-shadow(rgba(0, 0, 0, 0.35) 0px 5px 15px);
+    -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.35) 0px 5px 15px);
+}
+
 .btn {
     display: flex;
     justify-content: center;

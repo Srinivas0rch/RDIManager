@@ -70,14 +70,12 @@
 }
 
 .offre a {
-    color: #303030;
-    font-size: 17px;
-    text-decoration: underline #303030;
+    color: #01b2fe;
+    font-size: 18px;
 }
 
 .offre a:hover {
-    color: #01b2fe;
-    text-decoration: underline #01b2fe;
+    text-decoration: underline;
 }
 
 .joinPage .joinRight {

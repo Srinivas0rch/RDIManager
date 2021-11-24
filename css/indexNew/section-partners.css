@@ -37,7 +37,7 @@
 
 .partner1 .logoPartners {
     position: absolute;
-    width: 60%;
+    width: 100px;
     margin-right: 23px;
     margin-bottom: 5px;
     z-index: 3;
@@ -58,4 +58,17 @@
     100% {
         transform: translateX(100%);
     }
+}
+
+#linkPartners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: #01b2fe;
+    font-size: 18px;
+}
+
+#linkPartners:hover {
+    text-decoration: underline;
 }
