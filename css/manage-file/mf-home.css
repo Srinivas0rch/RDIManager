@@ -1,0 +1,50 @@
+.firstBlock {
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.firstBlock main {
+    width: 85%;
+    padding: 100px 0 50px 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.firstBlock .mfSubtitle {
+    width: 100%;
+    margin: auto;
+}
+
+.firstBlock .mfSubtitle h2 {
+    text-align: center;
+    font-size: 2.25em;
+    line-height: 1.30em;
+    letter-spacing: 2px;
+    margin-bottom: 0.5em;
+    font-family: 'Besley', serif;
+}
+
+.firstBlock .mfSubtitle p {
+    margin: auto;
+    text-align: center;
+    color: #303030;
+    font-size: 15px;
+    margin-bottom: 30px;
+    width: 60%;
+}
+
+.firstBlock .mfScreen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstBlock .mfScreen img {
+    width: 60%;
+}

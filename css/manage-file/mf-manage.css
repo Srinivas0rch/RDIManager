@@ -1,0 +1,62 @@
+.EFP {
+    padding: 100px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.25em;
+    line-height: 1.30em;
+    letter-spacing: 2px;
+    font-family: 'Besley', serif;
+}
+
+.thirdBlock {
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.thirdBlock main {
+    width: 85%;
+    padding: 50px 0 50px 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.thirdBlock .fmSubtitle {
+    width: 100%;
+    margin: auto;
+}
+
+.thirdBlock .fmSubtitle h2 {
+    text-align: center;
+    font-size: 2.25em;
+    line-height: 1.30em;
+    letter-spacing: 2px;
+    margin-bottom: 0.5em;
+    font-family: 'Besley', serif;
+}
+
+.thirdBlock .fmSubtitle p {
+    margin: auto;
+    text-align: center;
+    color: #303030;
+    font-size: 15px;
+    margin-bottom: 30px;
+    width: 60%;
+}
+
+.thirdBlock .fmScreen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdBlock .fmScreen img {
+    width: 60%;
+}
