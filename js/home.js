@@ -1,3 +1,8 @@
+window.addEventListener('load', () => {
+    const preload = document.querySelector('.preload');
+    preload.classList.add('preload-finish');
+});
+
 const cards = document.getElementsByClassName("card");
 const images = document.getElementsByClassName("img-to-show");
 var isClickInside = false;

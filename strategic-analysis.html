@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>RDI-Manager | Saisie du temps</title>
+    <title>RDI-Manager</title>
     <meta name="description"
         content="RDI-Manager | Application de suivi de temps passés sur vos projets de recherche et d'innovation." />
     <meta name="keywords" content="recherche, innovation, cir, projet, feuilles de temps" />
@@ -39,17 +39,17 @@
     <!-- MENU CUSTOM css -->
     <link rel="stylesheet" type="text/css" href="css/menu.css">
 
-    <!-- Custom  Css -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.20/c3.min.css"
+        integrity="sha512-cznfNokevSG7QPA5dZepud8taylLdvgr0lDqw/FEZIhluFsSwyvS81CMnRdrNSKwbsmc43LtRd2/WMQV+Z85AQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
     <!-- RDI-Manager custom CSS -->
-    <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-home.css" />
-    <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-phone.css" />
-    <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-abs.css" />
-    <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-sheet.css" />
-    <link rel="stylesheet" type="text/css" href="css/saisie-temps/saisie-temps-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/strat-analysis/sa-home.css" />
+    <link rel="stylesheet" type="text/css" href="css/strat-analysis/sa-strat.css" />
+    <link rel="stylesheet" type="text/css" href="css/strat-analysis/sa-analyse.css" />
+    <link rel="stylesheet" type="text/css" href="css/strat-analysis/sa-stat.css" />
     <link rel="stylesheet" type="text/css" href="css/nav/nav.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css" />
     <link rel="stylesheet" type="text/css" href="css/base.css">
 
     <!-- Schema.org markup for Google+ -->
@@ -78,6 +78,7 @@
 </head>
 
 <body>
+
     <div id="container">
         <div id="top"></div>
         <header>
@@ -220,116 +221,153 @@
 
         <section class="firstBlock">
             <main>
-                <div class="stSubtitle">
-                    <h2>Suivez votre temps sur vos projets</h2>
-                    <p>Avec RDI-Manager, saisissez vos temps passés sur vos projets de façon simple et efficace depuis
-                        votre ordinateur ou bien votre téléphone. Flexible, Vous avez le choix entre saisir vos temps à
-                        la journée, à la semaine ou au mois. Cette fonctionnalité est modulable selon l’usage de votre
-                        entreprise. </p>
+                <div class="mfSubtitle">
+                    <h2>Un tableau de bord personnalisé</h2>
+                    <p>Dès votre connexion à RDI-Manager, vous aurez accès aux statistiques liées à
+                        votre activité. Les statistiques vous permettent situer votre activité par rapport à
+                        votre société. Cela permet de savoir combien de temps au total, les membres de
+                        vos projets ont pu passer sur vos projets.</p>
                 </div>
 
-                <div class="section">
-                    <section>
-                        <div class="card selected" id="card-1">
-                            <div class="cardText">
-                                <h5><strong>Saisie du temps au mois</strong></h5>
-                                <p>Le temps au mois se fait en pourcentage, pour plus d'efficacité et de simplicité dans la
-                                    saisie du temps.</p>
-                            </div>
-                            <div class="objectIcon">
-                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
-                            </div>
-                        </div>
-                        <div class="card" id="card-2">
-                            <div class="cardText">
-                                <h5><strong>Saisie du temps à la semaine</strong></h5>
-                                <p>Le temps à la semaine, tout comme le temps au mois , s'établi en pourcentage. Vous
-                                    serez seulement alerté chaque semaine pour saisir vos temps passés sur vos projets.
-                                </p>
-                            </div>
-                            <div class="objectIcon">
-                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
-                            </div>
-                        </div>
-                        <div class="card" id="card-3">
-                            <div class="cardText">
-                                <h5><strong>Saisie du temps au jour</strong></h5>
-                                <p>Le temps à la journée quant à lui, se fait à l'heure. A chaque journée, il faudra
-                                    indiqué ses temps passés sur chaque projets en heure.</p>
-                            </div>
-                            <div class="objectIcon">
-                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="carousel">
-                            <img src="/images/saisieTemps/sasie_temps_au_mois_mockup.png" id="img-1"
-                                class="img-to-show show">
-                            <img src="/images/saisieTemps/saisie_des_temps_semaine.png" id="img-2" class="img-to-show">
-                            <img src="/images/saisieTemps/saisie_des_temps_jour.png" id="img-3" class="img-to-show">
-                        </div>
-                    </section>
+                <div class="mfScreen">
+                    <div id="chart"></div>
                 </div>
             </main>
         </section>
 
-        <!-- END FIRST BLOCK -->
-
-        <section class="fourBlock">
+        <section class="secondBlock">
             <article>
 
-                <div class="absTop">
-                    <h2>Saisie des absences</h2>
-                    <p>RDI-Manager vous permet de saisir vos absences sous forme de journée ou de demi-journée sur vos
-                        projets. Cette fonctionnalité permet d’avoir des temps saisis plus réalistes et très facile à
-                        lire. </p>
+                <div class="phoneTop">
+                    <h2 class="text-white">Analyse des projets</h2>
+                    <p class="text-white">L’analyse des projets vous permet d’avoir une vision globale sur le nombre de
+                        projets dans la société. Vous aurez accès, sous forme de graphiques aux projets
+                        en cours, suspendus ou bien terminés. De fait, une vue globale des projets, selon
+                        leurs types, qu’ils soient RDI ou non est proposé.</p>
                 </div>
-                <div class="absBottom">
-                    <img src="/images/saisieTemps/saisie_absences.png" alt="Saisie des absences">
+                <div class="phoneBottom">
+
                 </div>
 
             </article>
         </section>
 
         <section class="thirdBlock">
-            <article>
-
-                <div class="phoneTop">
-                    <h2 class="text-white">Rappel SMS</h2>
-                    <p class="text-white">Vous avez oublié de saisir vos temps passés sur vos projets ? Vous serez
-                        alerté par SMS pour
-                        pouvoir renseigner vos temps sur vos projets. Rapide, fluide et fiable, la fonctionnalité de
-                        rappel SMS vous permet de saisir vos temps où que vous soyez en 2 clics. </p>
-                </div>
-                <div class="phoneBottom">
-                    <img src="/images/saisieTemps/RelanceSMS.png" alt="Relance SMS">
+            <main>
+                <div class="fmSubtitle">
+                    <h2>L’activité du projet</h2>
+                    <p>Grâce à cette fonctionnalité, il est impossible de manquer quoi que ce soit du
+                        projet. L’activité du projet est centralisée. Ainsi, il est possible d’avoir accès à
+                        tous les détails liés à l’activité du projet.
+                    </p>
                 </div>
 
-            </article>
+                <div class="fmScreen">
+                    <div id="chart2"></div>
+                </div>
+            </main>
         </section>
 
-        <section class="fiveBlock">
-            <article>
-
-                <div class="sheetTop">
-                    <h2>Générez des feuilles de temps</h2>
-                    <p>En 1 clics, sous n’importe quel format, vous pouvez générer une feuille de temps. Elles sont
-                        téléchargeables sous format PDF ou sous format Excel. Ses feuilles de temps vous permettent,
-                        sous forme de tableau d’enregistrer le travail effectué par un salarié sur chaque projet.</p>
+        <section class="fourBlock">
+            <main>
+                <div class="saSubtitle">
+                    <h2>Statistiques du projet</h2>
+                    <p>Les statistiques du projet permettent d’avoir une vue globale du projet. En
+                        premier lieu, vous avez accès à la liste de toutes les parties qui participent au
+                        projet. Ensuite, vous pouvez voir le nombre de faits marquants qui sont intégrés
+                        à votre projet. Pour finir, un graphique représentant les temps passés sur ce
+                        projet est proposé.
+                    </p>
                 </div>
-                <div class="sheetBottom">
-                    <img src="/images/saisieTemps/mockup_feuille_de_temps.png" alt="Feuille de temps">
-                </div>
 
-            </article>
+                <div class="saScreen">
+                    <img src="/images/saisieTemps/saisie_absences.png" alt="Faits marquants">
+                </div>
+            </main>
         </section>
     </div>
 
     <script src="js/nav.js"></script>
-    <script src="js/home.js"></script>
     <script src="dist/main.js"></script>
-    <script src="js/scrollReveal.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.20/c3.min.js"></script>
+    <script>
+        var chart = c3.generate({
+            bindto: '#chart',
+            data: {
+                x: 'x',
+                columns: [
+                    ['x', '2021-01-01'],
+                    ['ASSUME', 2200],
+                    ['SUNT', 1115],
+                    ['DOL', 1620],
+                    ['NIHIL', 200],
+                    ['QUOSIT', 2400],
+                    ['REICIEN', 3450],
+                ],
+                types: {
+                    ASSUME: 'bar',
+                    SUNT: 'bar',
+                    DOL: 'bar',
+                    NIHIL: 'bar',
+                    QUOSIT: 'bar',
+                    REICIEN: 'bar'
+                }
+            },
+            axis: {
+                x: {
+                    type: 'timeseries',
+                    tick: {
+                        count: 1,
+                        format: '%Y-%m-%d'
+                    }
+                }
+            },
+            bar: {
+                width: {
+                    ratio: 1
+                }
+            }
+        });
+
+        var chart = c3.generate({
+            bindto: '#chart2',
+            data: {
+                x: 'x',
+                columns: [
+                    ['x', '2021-01-01'],
+                    ['ASSUME', 2200],
+                    ['SUNT', 1115],
+                    ['DOL', 1620],
+                    ['NIHIL', 200],
+                    ['QUOSIT', 2400],
+                    ['REICIEN', 3450],
+                ],
+                types: {
+                    ASSUME: 'pie',
+                    SUNT: 'pie',
+                    DOL: 'pie',
+                    NIHIL: 'pie',
+                    QUOSIT: 'pie',
+                    REICIEN: 'pie'
+                }
+            },
+            axis: {
+                x: {
+                    type: 'timeseries',
+                    tick: {
+                        count: 1,
+                        format: '%Y-%m-%d'
+                    }
+                }
+            },
+            bar: {
+                width: {
+                    ratio: 1
+                }
+            }
+        });
+    </script>
 
 </body>
 

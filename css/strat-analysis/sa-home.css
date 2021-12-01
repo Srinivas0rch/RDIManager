@@ -45,6 +45,10 @@
     align-items: center;
 }
 
+.firstBlock .mfScreen #chart {
+    width: 700px;
+}
+
 .firstBlock .link {
     display: flex;
     justify-content: center;

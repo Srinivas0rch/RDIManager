@@ -1,12 +1,12 @@
-.firstBlock {
+.thirdBlock {
     height: auto;
     display: flex;
     align-items: center;
 }
 
-.firstBlock main {
+.thirdBlock main {
     width: 85%;
-    padding: 100px 0 50px 0;
+    padding: 50px 0 50px 0;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -15,12 +15,12 @@
     position: relative;
 }
 
-.firstBlock .mfSubtitle {
+.thirdBlock .fmSubtitle {
     width: 100%;
     margin: auto;
 }
 
-.firstBlock .mfSubtitle h2 {
+.thirdBlock .fmSubtitle h2 {
     text-align: center;
     font-size: 2.25em;
     line-height: 1.30em;
@@ -29,7 +29,7 @@
     font-family: 'Besley', serif;
 }
 
-.firstBlock .mfSubtitle p {
+.thirdBlock .fmSubtitle p {
     margin: auto;
     text-align: center;
     color: #303030;
@@ -38,24 +38,13 @@
     width: 60%;
 }
 
-.firstBlock .mfScreen {
+.thirdBlock .fmScreen {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.firstBlock .link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: auto;
-    margin-top: 30px;
-    color: #01b2fe;
-    font-size: 20px;
-}
-
-.firstBlock .link:hover {
-    text-decoration: underline #01b2fe;
+.thirdBlock .fmScreen img {
+    width: 60%;
 }
