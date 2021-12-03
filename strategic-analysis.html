@@ -47,8 +47,7 @@
     <!-- RDI-Manager custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/strat-analysis/sa-home.css" />
     <link rel="stylesheet" type="text/css" href="css/strat-analysis/sa-strat.css" />
-    <link rel="stylesheet" type="text/css" href="css/strat-analysis/sa-analyse.css" />
-    <link rel="stylesheet" type="text/css" href="css/strat-analysis/sa-stat.css" />
+    <link rel="stylesheet" type="text/css" href="css/strat-analysis/sa-contrib.css" />
     <link rel="stylesheet" type="text/css" href="css/nav/nav.css">
     <link rel="stylesheet" type="text/css" href="css/base.css">
 
@@ -221,16 +220,18 @@
 
         <section class="firstBlock">
             <main>
-                <div class="mfSubtitle">
-                    <h2>Un tableau de bord personnalisé</h2>
-                    <p>Dès votre connexion à RDI-Manager, vous aurez accès aux statistiques liées à
-                        votre activité. Les statistiques vous permettent situer votre activité par rapport à
-                        votre société. Cela permet de savoir combien de temps au total, les membres de
-                        vos projets ont pu passer sur vos projets.</p>
+                <div class="saSubtitle">
+                    <h2 class="text-red">Analyse globale de l’activité</h2>
+                    <p>Avec RDI-Manager, tous les collaborateurs ont droit à une vue d’ensemble de leur activité. Les
+                        analyses stratégiques du tableau de bord de chaque utilisateur sont relatifs à l’ensemble des
+                        projets
+                        pour lesquels il a un partie pris. Ceci renforce l’engagement des troupes dans leurs projets.
+                    </p>
                 </div>
 
-                <div class="mfScreen">
+                <div class="saChart">
                     <div id="chart"></div>
+                    <div id="chart2"></div>
                 </div>
             </main>
         </section>
@@ -238,52 +239,43 @@
         <section class="secondBlock">
             <article>
 
-                <div class="phoneTop">
-                    <h2 class="text-white">Analyse des projets</h2>
-                    <p class="text-white">L’analyse des projets vous permet d’avoir une vision globale sur le nombre de
-                        projets dans la société. Vous aurez accès, sous forme de graphiques aux projets
-                        en cours, suspendus ou bien terminés. De fait, une vue globale des projets, selon
-                        leurs types, qu’ils soient RDI ou non est proposé.</p>
+                <div class="saSubtitle">
+                    <h2 class="text-red">Analyse stratégique par projet</h2>
+                    <p>Avec RDI-Manager, les managers ont droit à des fonctionnalités spécifiques pour analyser au mieux
+                        leurs projets, ainsi que l’investissement de l’équipe sur chaque projet. Le Score RDI de votre
+                        projet
+                        vous donne une indication sur son potentiel de financements publiques de types CIR et CII.
+                    </p>
                 </div>
-                <div class="phoneBottom">
 
+                <div class="saChart">
+                    <img src="/images/analStrat/SCP.png" alt="SCP">
+                    <img src="/images/analStrat/TCP.png" alt="TCP">
                 </div>
 
             </article>
         </section>
 
         <section class="thirdBlock">
-            <main>
-                <div class="fmSubtitle">
-                    <h2>L’activité du projet</h2>
-                    <p>Grâce à cette fonctionnalité, il est impossible de manquer quoi que ce soit du
-                        projet. L’activité du projet est centralisée. Ainsi, il est possible d’avoir accès à
-                        tous les détails liés à l’activité du projet.
-                    </p>
-                </div>
+            <article>
 
-                <div class="fmScreen">
-                    <div id="chart2"></div>
-                </div>
-            </main>
-        </section>
-
-        <section class="fourBlock">
-            <main>
                 <div class="saSubtitle">
-                    <h2>Statistiques du projet</h2>
-                    <p>Les statistiques du projet permettent d’avoir une vue globale du projet. En
-                        premier lieu, vous avez accès à la liste de toutes les parties qui participent au
-                        projet. Ensuite, vous pouvez voir le nombre de faits marquants qui sont intégrés
-                        à votre projet. Pour finir, un graphique représentant les temps passés sur ce
-                        projet est proposé.
+                    <h2 class="text-red">Analyse des contributions collaborateur</h2>
+                    <p>Avec RDI-Manager, le manager peut suivre facilement les contributions spécifiques de chacun de
+                        ses collaborateurs.
                     </p>
                 </div>
 
-                <div class="saScreen">
-                    <img src="/images/saisieTemps/saisie_absences.png" alt="Faits marquants">
+                <div class="saProfil">
+                    <img src="/images/analStrat/PR.png" alt="PR">
                 </div>
-            </main>
+
+                <div class="saChart">
+                    <img src="/images/analStrat/SP.png" alt="SP">
+                    <img src="/images/analStrat/SRT.png" alt="SRT">
+                </div>
+
+            </article>
         </section>
     </div>
 
@@ -297,7 +289,7 @@
             data: {
                 x: 'x',
                 columns: [
-                    ['x', '2021-01-01'],
+                    ['x', '2022-00-00'],
                     ['ASSUME', 2200],
                     ['SUNT', 1115],
                     ['DOL', 1620],
@@ -319,7 +311,7 @@
                     type: 'timeseries',
                     tick: {
                         count: 1,
-                        format: '%Y-%m-%d'
+                        format: '%Y'
                     }
                 }
             },
@@ -335,29 +327,23 @@
             data: {
                 x: 'x',
                 columns: [
-                    ['x', '2021-01-01'],
-                    ['ASSUME', 2200],
-                    ['SUNT', 1115],
-                    ['DOL', 1620],
-                    ['NIHIL', 200],
-                    ['QUOSIT', 2400],
-                    ['REICIEN', 3450],
+                    ['x', '2022-00-00'],
+                    ['En cours', 8],
+                    ['Terminé', 4],
+                    ['Suspendus', 2],
                 ],
                 types: {
-                    ASSUME: 'pie',
-                    SUNT: 'pie',
-                    DOL: 'pie',
-                    NIHIL: 'pie',
-                    QUOSIT: 'pie',
-                    REICIEN: 'pie'
-                }
+                    'En cours': 'pie',
+                    Terminé: 'pie',
+                    Suspendus: 'pie',
+                },
             },
             axis: {
                 x: {
                     type: 'timeseries',
                     tick: {
                         count: 1,
-                        format: '%Y-%m-%d'
+                        format: '%Y'
                     }
                 }
             },

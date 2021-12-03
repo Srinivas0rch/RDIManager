@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.thirdBlock main {
+.thirdBlock article {
     width: 85%;
     padding: 50px 0 50px 0;
     margin: auto;
@@ -15,12 +15,12 @@
     position: relative;
 }
 
-.thirdBlock .fmSubtitle {
+.thirdBlock .saSubtitle {
     width: 100%;
     margin: auto;
 }
 
-.thirdBlock .fmSubtitle h2 {
+.thirdBlock .saSubtitle h2 {
     text-align: center;
     font-size: 2.25em;
     line-height: 1.30em;
@@ -29,22 +29,30 @@
     font-family: 'Besley', serif;
 }
 
-.thirdBlock .fmSubtitle p {
+.thirdBlock .saSubtitle p {
     margin: auto;
     text-align: center;
-    color: #303030;
     font-size: 15px;
     margin-bottom: 30px;
     width: 60%;
 }
 
-.thirdBlock .fmScreen {
+.thirdBlock img {
+    border-radius: 10px;
+}
+
+.thirdBlock .saChart {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.thirdBlock .fmScreen img {
-    width: 60%;
+.thirdBlock .saChart img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.thirdBlock .saChart img:nth-child(1) {
+    width: 30%;
 }

@@ -15,12 +15,12 @@
     position: relative;
 }
 
-.firstBlock .mfSubtitle {
+.firstBlock .saSubtitle {
     width: 100%;
     margin: auto;
 }
 
-.firstBlock .mfSubtitle h2 {
+.firstBlock .saSubtitle h2 {
     text-align: center;
     font-size: 2.25em;
     line-height: 1.30em;
@@ -29,37 +29,24 @@
     font-family: 'Besley', serif;
 }
 
-.firstBlock .mfSubtitle p {
+.firstBlock .saSubtitle p {
     margin: auto;
-    text-align: center;
-    color: #303030;
     font-size: 15px;
     margin-bottom: 30px;
     width: 60%;
 }
 
-.firstBlock .mfScreen {
+.firstBlock .saChart {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.firstBlock .mfScreen #chart {
-    width: 700px;
+.firstBlock .saChart #chart {
+    width: 500px;
 }
 
-.firstBlock .link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: auto;
-    margin-top: 30px;
-    color: #01b2fe;
-    font-size: 20px;
-}
-
-.firstBlock .link:hover {
-    text-decoration: underline #01b2fe;
+.firstBlock .saChart #chart2 {
+    width: 500px;
 }

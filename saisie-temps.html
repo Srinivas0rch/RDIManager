@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>RDI-Manager | Saisie du temps</title>
+    <title>RDI-Manager</title>
     <meta name="description"
         content="RDI-Manager | Application de suivi de temps passés sur vos projets de recherche et d'innovation." />
     <meta name="keywords" content="recherche, innovation, cir, projet, feuilles de temps" />
@@ -45,11 +45,9 @@
     <!-- RDI-Manager custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-home.css" />
     <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-phone.css" />
-    <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-abs.css" />
-    <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-sheet.css" />
-    <link rel="stylesheet" type="text/css" href="css/saisie-temps/saisie-temps-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/saisie-temps/st-carousel.css" />
+    <link rel="stylesheet" type="text/css" href="css/fait-marquant/fm-resp.css" />
     <link rel="stylesheet" type="text/css" href="css/nav/nav.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css" />
     <link rel="stylesheet" type="text/css" href="css/base.css">
 
     <!-- Schema.org markup for Google+ -->
@@ -218,75 +216,161 @@
 
         <!-- END HEADER -->
 
+        <!-- START FIRST BLOCK -->
+
         <section class="firstBlock">
             <main>
-                <div class="stSubtitle">
-                    <h2>Suivez votre temps sur vos projets</h2>
-                    <p>Avec RDI-Manager, saisissez vos temps passés sur vos projets de façon simple et efficace depuis
-                        votre ordinateur ou bien votre téléphone. Flexible, Vous avez le choix entre saisir vos temps à
-                        la journée, à la semaine ou au mois. Cette fonctionnalité est modulable selon l’usage de votre
-                        entreprise. </p>
+
+                <!--START LEFTBOX-->
+
+                <div class="leftBox">
+                    <h1 class="bigTitle" data-i18n="st_big_title"></h1>
+                    <p data-i18n="st_para"></p>
+                    <a href="#" class="btn btn-hover bg-red bg-red-hover" data-i18n="st_step_one_button"></a>
                 </div>
 
-                <div class="section">
-                    <section>
-                        <div class="card selected" id="card-1">
-                            <div class="cardText">
-                                <h5><strong>Saisie du temps au mois</strong></h5>
-                                <p>Le temps au mois se fait en pourcentage, pour plus d'efficacité et de simplicité dans la
-                                    saisie du temps.</p>
-                            </div>
-                            <div class="objectIcon">
-                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
+                <!--END LEFTBOX-->
+
+                <!--START RIGHTBOX-->
+
+                <div class="rightBox">
+
+                    <!--FIRST CARD-->
+
+                    <div class="cardOne">
+                        <h3 data-i18n="st_card_one_title"></h3>
+                        <div class="listIcon">
+                            <div class="appliIcon"><i class="icon1 mdi mdi-file-pdf"></i></div>
+                            <div class="appliIcon"><i class="icon2 mdi mdi-language-html5"></i></div>
+                            <div class="appliIcon"><i class="icon3 mdi mdi-file-excel"></i></div>
+                        </div>
+                        <div class="nameIcon">
+                            <h5>PDF</h5>
+                            <h5>HTML</h5>
+                            <h5>XLS</h5>
+                        </div>
+                    </div>
+
+                    <!--END FIRST CARD-->
+
+                    <!--SECOND CARD-->
+                    <div class="cardTwo">
+                        <a href="https://demo.rdimanager.com/temps">
+                            <h3 data-i18n="st_card_two_title"></h3>
+                        </a>
+                        <div class="arrows">
+                            <i class="mdi mdi-arrow-left"></i>
+                            <i class="mdi mdi-arrow-right"></i>
+                        </div>
+                        <div class="input">
+                            <h2 data-i18n="st_card_two_project_one"></h2>
+                            <div>
+                                <div class="inputText">
+                                    <h5>70</h5>
+                                    <div></div>
+                                    <p>%</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="card" id="card-2">
-                            <div class="cardText">
-                                <h5><strong>Saisie du temps à la semaine</strong></h5>
-                                <p>Le temps à la semaine, tout comme le temps au mois , s'établi en pourcentage. Vous
-                                    serez seulement alerté chaque semaine pour saisir vos temps passés sur vos projets.
-                                </p>
-                            </div>
-                            <div class="objectIcon">
-                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
-                            </div>
-                        </div>
-                        <div class="card" id="card-3">
-                            <div class="cardText">
-                                <h5><strong>Saisie du temps au jour</strong></h5>
-                                <p>Le temps à la journée quant à lui, se fait à l'heure. A chaque journée, il faudra
-                                    indiqué ses temps passés sur chaque projets en heure.</p>
-                            </div>
-                            <div class="objectIcon">
-                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
+                        <div class="input">
+                            <h2 data-i18n="st_card_two_project_two">Projet REX</h2>
+                            <div>
+                                <div class="inputText">
+                                    <h5>30</h5>
+                                    <div></div>
+                                    <p>%</p>
+                                </div>
                             </div>
                         </div>
-                    </section>
-                    <section>
-                        <div class="carousel">
-                            <img src="/images/saisieTemps/sasie_temps_au_mois_mockup.png" id="img-1"
-                                class="img-to-show show">
-                            <img src="/images/saisieTemps/saisie_des_temps_semaine.png" id="img-2" class="img-to-show">
-                            <img src="/images/saisieTemps/saisie_des_temps_jour.png" id="img-3" class="img-to-show">
+                    </div>
+
+                    <!--END SECOND CARD-->
+
+                    <!--THIRD CARD-->
+
+                    <div class="cardThree">
+                        <a href="https://demo.rdimanager.com/absences">
+                            <h3 data-i18n="st_card_three_title"></h3>
+                        </a>
+                        <div class="arrows">
+                            <i class="mdi mdi-arrow-left"></i>
+                            <i class="mdi mdi-arrow-right"></i>
                         </div>
-                    </section>
+                        <div class="calendarDay">
+                            <p data-i18n="st_card_three_day_one"></p>
+                            <p data-i18n="st_card_three_day_two"></p>
+                            <p data-i18n="st_card_three_day_three"></p>
+                            <p data-i18n="st_card_three_day_four"></p>
+                            <p data-i18n="st_card_three_day_five"></p>
+                            <p data-i18n="st_card_three_day_six"></p>
+                            <p data-i18n="st_card_three_day_seven"></p>
+                        </div>
+                        <div class="calendarStart">
+                            <div class="other">28</div>
+                            <div class="other">29</div>
+                            <div class="other">30</div>
+                            <div class="disabled">1</div>
+                            <div class="disabled">2</div>
+                        </div>
+                        <div class="calendar">
+                            <div>3</div>
+                            <div class="semi">4</div>
+                            <div>5</div>
+                            <div>6</div>
+                            <div>7</div>
+                            <div class="disabled">8</div>
+                            <div class="disabled">9</div>
+                        </div>
+                        <div class="calendar">
+                            <div>10</div>
+                            <div>11</div>
+                            <div>12</div>
+                            <div class="disabled">13</div>
+                            <div class="semi">14</div>
+                            <div class="disabled">15</div>
+                            <div class="disabled">16</div>
+                        </div>
+                        <div class="calendarEnd">
+                            <div>17</div>
+                            <div>18</div>
+                        </div>
+
+                        <div class="legend">
+                            <div class="full"></div>
+                            <div class="semi"></div>
+                            <div class="disabled"></div>
+                        </div>
+                        <div class="legendText">
+                            <p data-i18n="st_card_three_full_day"></p>
+                            <p data-i18n="st_card_three_half_day"></p>
+                            <p data-i18n="st_card_three_week_end"></p>
+                        </div>
+                    </div>
+
+                    <!--END THIRD CARD-->
+
                 </div>
+
+                <!--END RIGHTBOX-->
+
             </main>
         </section>
 
         <!-- END FIRST BLOCK -->
 
-        <section class="fourBlock">
+        <section class="secondBlock">
             <article>
 
-                <div class="absTop">
-                    <h2>Saisie des absences</h2>
-                    <p>RDI-Manager vous permet de saisir vos absences sous forme de journée ou de demi-journée sur vos
-                        projets. Cette fonctionnalité permet d’avoir des temps saisis plus réalistes et très facile à
-                        lire. </p>
+                <div class="leftBox">
+                    <img src="/images/saisieTemps/RelanceSMS.png" alt="Relance SMS">
                 </div>
-                <div class="absBottom">
-                    <img src="/images/saisieTemps/saisie_absences.png" alt="Saisie des absences">
+
+                <div class="rightBox">
+                    <h1 class="bigTitle">Relance SMS</h1>
+                    <p>Il vous permet de mettre en perspective de manière
+                        concrète l’avancement des travaux, tant pour vous
+                        que pour vos parties prenantes.</p>
+                    <a href="#" class="btn btn-hover bg-red bg-red-hover" data-i18n="st_step_one_button"></a>
                 </div>
 
             </article>
@@ -295,31 +379,49 @@
         <section class="thirdBlock">
             <article>
 
-                <div class="phoneTop">
-                    <h2 class="text-white">Rappel SMS</h2>
-                    <p class="text-white">Vous avez oublié de saisir vos temps passés sur vos projets ? Vous serez
-                        alerté par SMS pour
-                        pouvoir renseigner vos temps sur vos projets. Rapide, fluide et fiable, la fonctionnalité de
-                        rappel SMS vous permet de saisir vos temps où que vous soyez en 2 clics. </p>
-                </div>
-                <div class="phoneBottom">
-                    <img src="/images/saisieTemps/RelanceSMS.png" alt="Relance SMS">
-                </div>
-
-            </article>
-        </section>
-
-        <section class="fiveBlock">
-            <article>
-
-                <div class="sheetTop">
-                    <h2>Générez des feuilles de temps</h2>
-                    <p>En 1 clics, sous n’importe quel format, vous pouvez générer une feuille de temps. Elles sont
-                        téléchargeables sous format PDF ou sous format Excel. Ses feuilles de temps vous permettent,
-                        sous forme de tableau d’enregistrer le travail effectué par un salarié sur chaque projet.</p>
-                </div>
-                <div class="sheetBottom">
-                    <img src="/images/saisieTemps/mockup_feuille_de_temps.png" alt="Feuille de temps">
+                <div class="section">
+                    <section>
+                        <div class="card selected" id="card-1">
+                            <div class="objectIcon">
+                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
+                            </div>
+                            <div class="cardText">
+                                <h5><strong>Saisie du temps au mois</strong></h5>
+                                <p>Pour plus d’efficacité et de simplicité, la saisi du
+                                    temps au mois se fait en pourcentage sur les
+                                    projets, avec prise en compte des absences.</p>
+                            </div>
+                        </div>
+                        <div class="card" id="card-2">
+                            <div class="objectIcon">
+                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
+                            </div>
+                            <div class="cardText">
+                                <h5><strong>Saisie du temps à la semaine</strong></h5>
+                                <p>Avec plus de précision et autant d’efficacité et de
+                                    simplicité, la saisi du temps hebdomadaire se fait
+                                    aussi en pourcentage sur les projets.</p>
+                            </div>
+                        </div>
+                        <div class="card" id="card-3">
+                            <div class="objectIcon">
+                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
+                            </div>
+                            <div class="cardText">
+                                <h5><strong>Saisie du temps au jour</strong></h5>
+                                <p>Si vous préférez suivre votre temps à la journée,
+                                    vous le ferez à l’heure près, toutes les semaines.
+                                    Dans tous les cas, vous avez la relance SMS.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="carousel">
+                            <img src="/images/saisieTemps/sasie_temps_au_mois_mockup.png" id="img-1" class="img-to-show show">
+                            <img src="/images/saisieTemps/saisie_des_temps_semaine.png" id="img-2" class="img-to-show">
+                            <img src="/images/saisieTemps/saisie_des_temps_jour.png" id="img-3" class="img-to-show">
+                        </div>
+                    </section>
                 </div>
 
             </article>

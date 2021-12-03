@@ -1,22 +1,27 @@
 .secondBlock {
-    padding: 50px 0 0 0;
-    width: 100%;
-    background: #303030;
-    box-shadow: rgba(50, 50, 93, 0.5) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background: #eeeeee;
 }
 
 .secondBlock article {
     width: 85%;
-    height: 100%;
+    padding: 50px 0 50px 0;
     margin: auto;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
-.secondBlock .phoneTop h2 {
+.secondBlock .saSubtitle {
+    width: 100%;
+    margin: auto;
+}
+
+.secondBlock .saSubtitle h2 {
     text-align: center;
     font-size: 2.25em;
     line-height: 1.30em;
@@ -25,23 +30,22 @@
     font-family: 'Besley', serif;
 }
 
-.secondBlock .phoneTop p {
+.secondBlock .saSubtitle p {
     margin: auto;
     text-align: center;
-    color: #303030;
     font-size: 15px;
     margin-bottom: 30px;
     width: 60%;
 }
 
-.secondBlock .phoneBottom {
+.secondBlock .saChart {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin-bottom: 50px;
 }
 
-.secondBlock .phoneBottom #chart2 {
-    width: 800px;
+.secondBlock .saChart img {
+    width: 40%;
+    border-radius: 10px;
 }

@@ -1,5 +1,5 @@
 .secondBlock {
-    padding: 50px 0 0 0;
+    padding: 50px 0 50px 0;
     width: 100%;
     background: #eeeeee;
 }
@@ -26,17 +26,14 @@
 }
 
 .secondBlock .rightBox {
-    position: relative;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 50px;
     width: 50%;
 }
 
 .secondBlock .rightBox .bigTitle {
-    position: absolute;
-    left: 0;
     text-align: left;
     font-size: 3.375em;
     line-height: 4.5rem;
@@ -47,7 +44,6 @@
 }
 
 .secondBlock .rightBox p {
-    margin-top: 120px;
     line-height: 1.5rem;
     font-size: 1.25rem;
     margin-bottom: 1em;

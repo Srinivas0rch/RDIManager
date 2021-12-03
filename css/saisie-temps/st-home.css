@@ -7,148 +7,365 @@
 
 .firstBlock main {
     width: 85%;
-    padding: 100px 0 50px 0;
+    padding: 100px 0 150px 0;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     position: relative;
 }
 
-.firstBlock .stSubtitle {
-    width: 100%;
-    margin: auto;
+/* BLOCK CONTENT SIZE */
+
+.firstBlock .leftBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    width: 40%;
 }
 
-.firstBlock .stSubtitle h2 {
-    text-align: center;
-    font-size: 2.25em;
-    line-height: 1.30em;
+.firstBlock .rightBox {
+    z-index: 2;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+/* END BLOCK CONTENT SIZE */
+
+/* LEFT BOX */
+
+.firstBlock .bigTitle {
+    text-align: left;
+    font-size: 3.375em;
+    line-height: 4.5rem;
     letter-spacing: 2px;
+    margin-top: 0.5em;
     margin-bottom: 0.5em;
     font-family: 'Besley', serif;
 }
 
-.firstBlock .stSubtitle p {
-    margin: auto;
-    text-align: center;
-    color: #303030;
-    font-size: 15px;
-    margin-bottom: 30px;
-    width: 60%;
+.firstBlock .leftBox p {
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+    margin-bottom: 1em;
 }
 
-.section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: auto;
-    padding: 0;
-}
+/* END LEFT BOX */
 
-.section section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    margin: auto;
-    z-index: 1;
-}
+/* RIGHT BOX */
 
-.card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
+/* START CARD ONE */
+
+.cardOne {
+    z-index: 2;
+    position: absolute;
+    height: 340px;
+    width: 280px;
     padding: 30px;
-    margin-top: 30px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all, 0.5s;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
 }
 
-.card:hover {
-    background: #f1f1f1;
-    transition: all, 0.5s;
+.cardOne h3 {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
 }
 
-.card .objectIcon {
-    width: 15%;
+.cardOne .listIcon {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: none;
+    box-sizing: border-box;
 }
 
-.card .objectIcon .icon {
+.cardOne .appliIcon {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50px;
     height: 50px;
-    font-size: 30px;
-    font-weight: bold;
-    background: #333;
-    border-radius: 15px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 80px 0 10px 0;
+    box-shadow: rgba(50, 50, 93, 0.5) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-.selected .objectIcon .icon,
-.selected .objectIcon .icon,
-.selected .objectIcon .icon {
-    background-color: #a30000;
-    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+.cardOne .icon1 {
+    margin-top: 5px;
+    font-size: 35px;
+    color: #e62117;
 }
 
-.card .cardText {
-    display: inline;
-    text-align: left;
+.cardOne .icon2 {
+    margin-top: 5px;
+    font-size: 40px;
+    color: #FFA500;
 }
 
-.card .cardText h5 {
-    margin-bottom: 15px;
-    font-size: 20px;
+.cardOne .icon3 {
+    margin-top: 5px;
+    font-size: 35px;
+    color: #008000;
 }
 
-.card .cardText p {
-    line-height: 1.2;
-    font-size: 16px;
-}
-
-.section .carousel {
-    position: relative;
-    width: 100%;
+.nameIcon {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.nameIcon h5 {
+    background: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* END CARD ONE */
+
+/* START CARD TWO */
+
+.cardTwo {
+    z-index: 2;
+    position: relative;
+    bottom: 80px;
+    right: 115px;
+    height: 170px;
+    width: 300px;
+    padding: 20px 30px 20px 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.cardTwo h3 {
+    color: #303030;
+    text-align: center;
+}
+
+.cardTwo .arrows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardTwo .input {
+    display: inline;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-}
-
-.section .carousel .img-to-show {
-    position: absolute;
+    margin-top: 10px;
     width: 100%;
-    border-radius: 5px;
 }
 
-.imgAnim {
-    animation: fade-in 1s;
+.input h2 {
+    height: 15px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #494949;
 }
 
-@keyframes fade-in {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
+.cardTwo .inputText {
+    width: 120px;
+    height: 30px;
+    margin: auto;
+    padding: 10px 25px 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    border: 2px solid #494949;
 }
 
-.img-to-show {
-    visibility: hidden;
+.inputText h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #494949;
 }
 
-.show {
-    visibility: visible;
+.inputText div {
+    height: 10px;
+    width: 1.5px;
+    border-radius: 9999px;
+    background: #494949;
 }
 
-.selected {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+.inputText p {
+    font-size: 20px;
+    color: #494949;
+    font-weight: bold;
 }
+
+/* END CARD ONE */
+
+/* START CARD THREE */
+
+.cardThree {
+    z-index: 2;
+    position: relative;
+    left: 115px;
+    top: 100px;
+    height: 350px;
+    width: 300px;
+    padding: 20px 30px 20px 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.cardThree h3 {
+    color: #303030;
+    text-align: center;
+}
+
+.cardThree .arrows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrows div {
+    display: flex;
+}
+
+.arrows .smallOne {
+    background: #cccccc;
+    height: 10px;
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+
+.arrows .smallTwo {
+    background: #999999;
+    height: 10px;
+    width: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 2px;
+}
+
+.calendarDay p {
+    display: inline;
+    margin: 3px;
+    font-size: 15px;
+    color: #494949;
+}
+
+.calendar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.calendarStart {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+
+.calendarEnd {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.calendar div,
+.calendarStart div,
+.calendarEnd div {
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    background: #008000;
+    color: #fff;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.calendarStart div {
+    margin-left: 5px;
+}
+
+.calendarEnd div {
+    margin-right: 5px;
+}
+
+.calendar .other,
+.calendarStart .other,
+.calendarEnd .other {
+    background: #e9e9e9;
+    color: #494949;
+}
+
+.calendar .disabled,
+.calendarStart .disabled,
+.calendarEnd .disabled {
+    background: #8f8f8f;
+    color: #494949;
+}
+
+.calendar .semi {
+    background: #17a2b8;
+}
+
+.legend {
+    margin-top: 15px;
+    display: inline-flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.legend .disabled,
+.legend .full,
+.legend .semi {
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    background: #008000;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.legend .semi {
+    background: #17a2b8;
+}
+
+.legend .disabled {
+    background: #8f8f8f;
+}
+
+.legendText {
+    margin-top: 5px;
+    display: inline-flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.legendText p {
+    font-size: 11px;
+    width: 25%;
+    text-align: center;
+    line-height: 1.05;
+    font-weight: bold;
+}
+
+/* END CARD THREE */
+
+/* END RIGHT BOX */
+
+/* END FIRST BLOCK */
