@@ -41,9 +41,7 @@
 
 
     <!-- RDI-Manager custom CSS -->
-    <link rel="stylesheet" type="text/css" href="css/manage-file/mf-home.css" />
-    <link rel="stylesheet" type="text/css" href="css/manage-file/mf-share.css" />
-    <link rel="stylesheet" type="text/css" href="css/manage-file/mf-manage.css" />
+    <link rel="stylesheet" type="text/css" href="css/role-guide/ro-home.css" />
     <link rel="stylesheet" type="text/css" href="css/nav/nav.css">
     <link rel="stylesheet" type="text/css" href="css/base.css">
 
@@ -104,7 +102,7 @@
                                     <a data-i18n="nav_feat_keyfact" href="../faits-marquants.html"></a>
                                     <a data-i18n="nav_feat_timesheet" href="../saisie-temps.html"></a>
                                     <a data-i18n="nav_feat_strat" href="../strategic-analysis.html"></a>
-                                    <a data-i18n="nav_feat_file" href="../manage-file.html"></a>
+                                    <a data-i18n="nav_feat_role" href="../role-guide.html"></a>
                                 </div>
                             </div>
                         </li>
@@ -118,7 +116,7 @@
                                     <a data-i18n="nav_startup_about" href="/pages/startup.html#aboutUs"></a>
                                     <a data-i18n="nav_startup_team" href="/pages/startup.html#team"></a>
                                     <a data-i18n="nav_startup_value" href="/pages/startup.html#ourValue"></a>
-                                    <a data-i18n="nav_startup_partners" href="/pages/partners.html"></a>
+                                    <a data-i18n="nav_startup_partners" href="/pages/startup.html#partners"></a>
                                 </div>
                             </div>
                         </li>
@@ -215,53 +213,59 @@
 
         <section class="firstBlock">
             <main>
-                <div class="mfSubtitle">
-                    <h2>La gestion de vos fichiers</h2>
-                    <p>La sécurité est un point essentiel pour RDI-Manager. Conscient de l’importance
-                        de la confidentialité dans la Recherche Développement et Innovation, nous avons
-                        élaboré une Fiche Tech & Sécurité qui démontre toute la transparence de
-                        l’application. RDI-Manager est RGPD friendly.</p>
+
+                <h2>Les rôles sous RDI-Manager</h2>
+
+                <div class="section">
+                    <section>
+                        <div class="card selected" id="card-1">
+                            <div class="objectIcon">
+                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
+                            </div>
+                            <div class="cardText">
+                                <h5><strong>Administrateur</strong></h5>
+                                <p>L’administrateur a tous les droits sous la plateforme
+                                    RDI-Manager. Il peut inviter des utilisateurs, créer
+                                    des projets, y ajouter des personnes et utiliser les
+                                    fonctionnalités de gestion stratégique.</p>
+                            </div>
+                        </div>
+                        <div class="card" id="card-2">
+                            <div class="objectIcon">
+                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
+                            </div>
+                            <div class="cardText">
+                                <h5><strong>Chef de projet</strong></h5>
+                                <p>Le chef de projet à le droit de créer des projets et d’y
+                                    inviter des contributeurs et observateurs. Il a
+                                    également accès aux analyses statistiques de ses
+                                    projets.</p>
+                            </div>
+                        </div>
+                        <div class="card" id="card-3">
+                            <div class="objectIcon">
+                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
+                            </div>
+                            <div class="cardText">
+                                <h5><strong>Utilisateur</strong></h5>
+                                <p>L’utilisateur n’a de visibilité que sur son périmètre de
+                                    projets. Il peut être observateur ou contributeur dans
+                                    les projets ; et même jouer le rôle de chef d’un projet
+                                    qu’il n’a pas créer. Il n’a en effet pas le droit de
+                                    création de projet.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="carousel">
+                            <img src="/images/roleGuide/ADMIN.png" id="img-1"
+                                class="img-to-show show">
+                            <img src="/images/roleGuide/CDP.png" id="img-2" class="img-to-show">
+                            <img src="/images/roleGuide/USER.png" id="img-3" class="img-to-show">
+                        </div>
+                    </section>
                 </div>
 
-                <div class="mfScreen">
-                    <a class="link" href="/images/gestionFichiers/Fiche Technique  & Sécurité RDI-Manager.pdf" target="_blank">Voir la Fiche Tech & Sécurité</a>
-                </div>
-            </main>
-        </section>
-
-        <section class="secondBlock">
-            <article>
-
-                <div class="phoneTop">
-                    <h2 class="text-white">Partagez vos fichiers</h2>
-                    <p class="text-white">Grâce à RDI-Manager, vous pouvez partager tous vos fichiers relatifs à vos
-                        projets en 2 clics. L’intérêt de cette fonctionnalité vous permet de joindre un
-                        fichier directement au fait marquant que vous ajoutez.</p>
-                </div>
-                <div class="phoneBottom">
-                    <img src="/images/gestionFichiers/mf-list.png" alt="Relance SMS">
-                </div>
-
-            </article>
-        </section>
-
-        <section class="EFP">
-            <h2>Efficacité Fluidité Performance</h2>
-        </section>
-
-        <section class="thirdBlock">
-            <main>
-                <div class="fmSubtitle">
-                    <h2>Gérez l’accessibilité de vos fichiers</h2>
-                    <p>Avec RDI-Manager, vous pouvez régler le degré de sécurité de vos fichiers. De
-                        base, tous les participants aux projets ont l’accès aux fichiers. Il est tout de
-                        même possible de choisir qui peut voir ou télécharger le fichier partagé.
-                    </p>
-                </div>
-
-                <div class="fmScreen">
-                    <img src="/images/gestionFichiers/hierarchie.png" alt="Hiérarchie">
-                </div>
             </main>
         </section>
     </div>
