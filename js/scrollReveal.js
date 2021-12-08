@@ -55,13 +55,13 @@ sr.reveal('#brf', {
 
 sr.reveal('.blockRight', {
     delay: 300,
-    origin: 'right',
+    origin: 'bottom',
     distance: '150px',
 });
 
 sr.reveal('.joinRight', {
     delay: 300,
-    origin: 'right',
+    origin: 'bottom',
     distance: '150px',
 });
 

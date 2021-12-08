@@ -31,20 +31,8 @@ html {
     background: #fff;
 }
 
-.preload img {
-    width: 400px;
-}
-
-.preload h1 {
-    font-size: 3.375em;
-    line-height: 4.5rem;
-    letter-spacing: 2px;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    font-family: 'Besley', serif;
-}
-
 .preload-finish {
+    transition:all, 0.5s;
     opacity: 0;
     pointer-events: none;
 }
