@@ -22,7 +22,7 @@
 
 .firstBlock .saSubtitle h2 {
     text-align: center;
-    font-size: 2.25em;
+    font-size: 36px;
     line-height: 1.30em;
     letter-spacing: 2px;
     margin-bottom: 0.5em;
@@ -31,7 +31,7 @@
 
 .firstBlock .saSubtitle p {
     margin: auto;
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 30px;
     width: 60%;
 }

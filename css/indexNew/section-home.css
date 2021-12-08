@@ -17,7 +17,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 49%;
+  width: 40%;
   z-index: 1;
 }
 
@@ -26,7 +26,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 49%;
+  width: 50%;
   z-index: 1;
 }
 
@@ -57,7 +57,7 @@
 
 section .title h1 {
   text-align: left;
-  font-size: 3.375em;
+  font-size: 45px;
   line-height: 4.5rem;
   letter-spacing: 2px;
   margin-top: 0.5em;
@@ -78,7 +78,7 @@ section .para {
 section .para p,
 section .para strong {
   line-height: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 18px;
 }
 
 section .button {
@@ -91,7 +91,6 @@ section .button {
 }
 
 section .button .homeBtn {
-  font-size: 1.15rem;
   width: 280px;
 }
 
