@@ -2,7 +2,9 @@
   "dependencies": {
     "i18next": "^20.3.2",
     "i18next-browser-languagedetector": "^6.1.2",
-    "loc-i18next": "^0.1.4"
+    "loc-i18next": "^0.1.4",
+    "scrollreveal": "^4.0.9",
+    "swiper": "^7.0.8"
   },
   "devDependencies": {
     "webpack": "^5.42.0",

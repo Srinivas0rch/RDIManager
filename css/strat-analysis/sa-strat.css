@@ -1,0 +1,51 @@
+.secondBlock {
+    height: auto;
+    display: flex;
+    align-items: center;
+    background: #eeeeee;
+}
+
+.secondBlock article {
+    width: 85%;
+    padding: 50px 0 50px 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.secondBlock .saSubtitle {
+    width: 100%;
+    margin: auto;
+}
+
+.secondBlock .saSubtitle h2 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.30em;
+    letter-spacing: 2px;
+    margin-bottom: 0.5em;
+    font-family: 'Besley', serif;
+}
+
+.secondBlock .saSubtitle p {
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+    width: 60%;
+}
+
+.secondBlock .saChart {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secondBlock .saChart img {
+    width: 40%;
+    border-radius: 10px;
+}

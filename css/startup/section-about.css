@@ -1,0 +1,53 @@
+.sectionAbout {
+    height: auto;
+    padding: 100px 0 50px 0;
+    margin: auto;
+}
+
+.sectionAbout main {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutTop {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+}
+
+.aboutTop img {
+    width: 30%;
+    margin-left: 15px;
+}
+
+.aboutTop h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.30em;
+    letter-spacing: 2px;
+    font-family: 'Besley', serif;
+    margin-bottom: 60px;
+}
+
+.hr {
+    width: 100px;
+    height: 3px;
+    margin-bottom: 10px;
+    background-color: #e62117;
+}
+
+.aboutTop p {
+    margin: auto;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 18px;
+}

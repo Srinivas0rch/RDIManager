@@ -1,12 +1,12 @@
-const navigation = document.querySelector('nav');
+const navigation = document.querySelector('header');
 
 window.addEventListener('scroll', () => {
 
-    if(window.scrollY > 30){
-        navigation.classList.add('animNav');
-    } else {
-        navigation.classList.remove('animNav');
-    }
+  if (window.scrollY > 30) {
+    navigation.classList.add('animNav');
+  } else {
+    navigation.classList.remove('animNav');
+  }
 })
 
 var menu = document.querySelector(".menu")
@@ -27,11 +27,3 @@ function toggleMenu() {
     menuIcon.style.display = "none";
   }
 }
-
-var menuLinks = document.querySelectorAll(".menuLink")
-
-menuLinks.forEach(
-  function (menuLink) {
-    menuLink.addEventListener("click", toggleMenu)
-  }
-)
