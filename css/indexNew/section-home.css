@@ -1,0 +1,143 @@
+.homePage {
+  z-index: 1;
+  width: 85%;
+  height: auto;
+  padding: 0 0 30px 0;
+  margin: auto;
+}
+
+.homePage .topHome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homePage .blockLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  z-index: 1;
+}
+
+.homePage .blockRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  z-index: 1;
+}
+
+.homePage .blockBottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.homePage .botTop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.homePage .botBottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 150px;
+}
+
+section .title h1 {
+  text-align: left;
+  font-size: 45px;
+  line-height: 4.5rem;
+  letter-spacing: 2px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-family: 'Besley', serif;
+}
+
+section .para {
+  display: inline;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+.textParaFlex {
+  display: flex;
+}
+
+section .para p,
+section .para strong {
+  line-height: 1.5rem;
+  font-size: 18px;
+}
+
+section .button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  box-sizing: none;
+}
+
+section .button .homeBtn {
+  width: 280px;
+}
+
+section .button p {
+  margin-top: 0.5em;
+  color: #505050;
+}
+
+section .layer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+section .layer img {
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+section .botTop a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  z-index: 3;
+}
+
+section .botTop a i {
+  position: relative;
+  margin-right: 10px;
+  z-index: 4;
+}
+
+section .botBottom strong {
+  font-size: 18px;
+  border-bottom: 2px solid #e62117;
+}
+
+section .botBottom img {
+  filter: grayscale(100%);
+  width: 100px;
+}
+
+section .botBottom #logoMonday {
+  width: 150px;
+}

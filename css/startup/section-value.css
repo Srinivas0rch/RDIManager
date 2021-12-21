@@ -1,0 +1,78 @@
+.sectionValue {
+    height: auto;
+    padding: 50px 0 50px 0;
+    margin: auto;
+}
+
+.sectionValue article {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectionValue h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.30em;
+    letter-spacing: 2px;
+    font-family: 'Besley', serif;
+    margin-bottom: 60px;
+}
+
+.valuesCard {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.valuesCard .cardValue {
+    position: relative;
+    right: 0;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valuesCard .left {
+    display: flex;
+    justify-content: flex-start;
+    display: grid;
+}
+
+.valuesCard .right {
+    display: flex;
+    justify-content: flex-end;
+    display: grid;
+}
+
+.valuesCard h6 {
+    font-size: 24px;
+    margin: 10px 0 0 0;
+}
+
+.valuesCard .cardValue p {
+    width: 100%;
+    font-size: 18px;
+}
+
+.valuesCard .cardValue img {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+
+.valuesCard .left img {
+    margin-left: 10px;
+}
+
+.valuesCard .right img {
+    margin-right: 10px;
+}

@@ -2,100 +2,124 @@
 <html lang="fr">
 
 <head>
-
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>RDI-Manager</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta name="description"
         content="RDI-Manager | Application de suivi de temps passés sur vos projets de recherche et d'innovation." />
     <meta name="keywords" content="recherche, innovation, cir, projet, feuilles de temps" />
     <meta name="author" content="RDI-Manager" />
 
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
-
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700&display=swap" rel="stylesheet">
+    <!--Material Icon -->
+    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
 
     <!-- Pe-icon-7 icon -->
     <link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css">
 
-    <!-- Bootstrap core CSS -->
-    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">-->
-
-    <!--Material Icon -->
-    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
-
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="css/swiper.min.css">
-
-    <!-- magnific pop-up -->
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
-
-    <!--Slider-->
-    <link rel="stylesheet" href="css/owl.carousel.css" />
-    <link rel="stylesheet" href="css/owl.theme.css" />
-    <link rel="stylesheet" href="css/owl.transitions.css" />
-
-    <!-- MENU CUSTOM css -->
-    <link rel="stylesheet" type="text/css" href="css/menu.css">
-
-    <!-- Custom  Css -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-
     <!-- RDI-Manager custom CSS -->
-    <link rel="stylesheet" href="css/index/index.css">
-    <link rel="stylesheet" href="css/index/index-responsive.css">
-    <link rel="stylesheet" type="text/css" href="css/nav.css" />
-    <link rel="stylesheet" type="text/css" href="css/footer.css" />
-    <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="Suivi de temps sur vos projets innovants - RDI-Manager" />
-    <meta itemprop="description"
-        content="Application de suivi de temps passés sur vos projets de recherche et d'innovation." />
-    <meta itemprop="image" content="https://app.rdimanager.com/build/assets/img/logosign.png" />
-    <!-- markup for facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="RDI-Manager" />
-    <meta property="og:url" content="https://app.rdimanager.com/" />
-    <meta property="og:site_name" content="RDI-Manager" />
-    <meta property="og:image" content="https://app.rdimanager.com/build/assets/img/logosign.png" />
-    <meta property="og:description"
-        content="Application de suivi de temps passés sur vos projets de recherche et d'innovation." />
-    <meta property="og:locale" content="fr" />
-    <!-- markup for twitter -->
-    <meta name="twitter:card" content="Summary" />
-    <meta name="twitter:title" content="RDI-Manager" />
-    <meta name="twitter:description"
-        content="Application de suivi de temps passés sur vos projets de recherche et d'innovation." />
-    <meta name="twitter:creator" content="Eurêka C.I" />
-    <meta name="twitter:site" content="@Eureka_Conseil">
-    <meta name="twitter:image" content="https://app.rdimanager.com/build/assets/img/logosign.png" />
-
+    <link rel="stylesheet" type="text/css" href="css/indexNew/section-home.css">
+    <link rel="stylesheet" type="text/css" href="css/indexNew/section-carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/indexNew/section-partners.css">
+    <link rel="stylesheet" type="text/css" href="css/indexNew/section-video.css">
+    <link rel="stylesheet" type="text/css" href="css/indexNew/section-view.css">
+    <link rel="stylesheet" type="text/css" href="css/indexNew/section-headband.css">
+    <link rel="stylesheet" type="text/css" href="css/indexNew/section-price.css">
+    <link rel="stylesheet" type="text/css" href="css/indexNew/index-responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/nav/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/footer/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <title>RDI Manager</title>
 </head>
 
-<!-- DESIGNED BY LOUIS POULIN -->
-
 <body>
-    <div id="container">
-        <div id="top"></div>
-        <header>
 
+    <div class="preload">
+        <img src="/images/preload.gif" alt="preload" />
+    </div>
+
+    <div class="container">
+        <div id="top"></div>
+
+        <header>
             <nav class="navHigh">
-                <ul class="listLeft">
-                    <li><a href="index.html"><img src="images/logo.png" alt="RDI-Manager"></a></li>
-                </ul>
-                <ul class="listRight">
-                    <li><a href="index.html" id="activeNav" data-i18n="nav_home"></a></li>
-                    <li><a href="saisie-temps.html" data-i18n="nav_time"></a></li>
-                    <li><a href="faits-marquants.html" data-i18n="nav_fm"></a></li>
-                    <li><a href="index.html#pricing" data-i18n="nav_pricing"></a></li>
-                    <li><a href="https://app.rdimanager.com/connexion" id="connect" data-i18n="nav_login"></a></li>
-                    <li>
-                        <select class="languageSelector">
-                            <option selected value="fr">FR</option>
-                            <option value="en">EN</option>
-                        </select>
-                    </li>
-                </ul>
+                <div class="listLeft">
+                    <ul>
+                        <li><a href="../index.html"><img src="../images/logo.png" alt="RDI-Manager"></a></li>
+                        <li>
+                            <div class="parentBlock">
+                                <div class="childOne">
+                                    <a href="../index.html#simplifyYourActivity" data-i18n="nav_sol"></a>
+                                    <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                                </div>
+                                <div class="childTwo">
+                                    <a data-i18n="nav_sol_product" href="../index.html#simplifyYourActivity"></a>
+                                    <a data-i18n="nav_sol_why" href="../index.html#whyRdiManager"></a>
+                                    <a data-i18n="nav_sol_partner" href="../index.html#partner"></a>
+                                    <a data-i18n="nav_sol_offer" href="../index.html#pricing"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="parentBlock">
+                                <div class="childOne">
+                                    <a href="../faits-marquants.html" data-i18n="nav_features"></a>
+                                    <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                                </div>
+                                <div class="childTwo">
+                                    <a data-i18n="nav_feat_keyfact" href="../faits-marquants.html"></a>
+                                    <a data-i18n="nav_feat_timesheet" href="../saisie-temps.html"></a>
+                                    <a data-i18n="nav_feat_strat" href="../strategic-analysis.html"></a>
+                                    <a data-i18n="nav_feat_role" href="../role-guide.html"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="parentBlock">
+                                <div class="childOne">
+                                    <a href="../pages/startup.html" data-i18n="nav_startup"></a>
+                                    <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                                </div>
+                                <div class="childTwo">
+                                    <a data-i18n="nav_startup_about" href="/pages/startup.html#aboutUs"></a>
+                                    <a data-i18n="nav_startup_team" href="/pages/startup.html#team"></a>
+                                    <a data-i18n="nav_startup_value" href="/pages/startup.html#ourValue"></a>
+                                    <a data-i18n="nav_startup_partners" href="/pages/startup.html#partners"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="parentBlock">
+                                <div class="childOne">
+                                    <a href="../pages/contact.html" data-i18n="nav_contact"></a>
+                                    <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                                </div>
+                                <div class="childTwo">
+                                    <a data-i18n="nav_contact_form" href="/pages/contact.html"></a>
+                                    <a data-i18n="nav_contact_join" href="/pages/join.html"></a>
+                                    <a href="/pages/faq.html">F.A.Q</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="listRight">
+                    <ul>
+                        <li>
+                            <a href="../index.html#pricing" data-i18n="nav_pricing"></a>
+                        </li>
+                        <a href="https://app.rdimanager.com/connexion" class="btn btn-hover bg-red bg-red-hover"
+                            id="connect" data-i18n="nav_free"></a>
+                        <li>
+                            <select class="languageSelector">
+                                <option selected value="fr">FR</option>
+                                <option value="en">EN</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
 
                 <div class="top">
                     <a href="#top"><i class="mdi mdi-arrow-up-bold"></i></a>
@@ -153,383 +177,663 @@
             </div>
 
             <!-- END NAV FOR PHONE -->
-
         </header>
 
         <!-- END HEADER -->
 
-        <!-- START FIRST BLOCK -->
-
-        <section class="firstBlock">
-            <div id="blockVideo">
+        <article id="videoHome">
+            <section id="blockVideo">
                 <video autoplay loop muted>
-                    <source src="images/loop.mp4" type="video/mp4">
+                    <source src="images/home/loop.mp4" type="video/mp4">
                 </video>
+                <div class="homeTitle">
+                    <h1>RDI<h1 class="typing"></h1>
+                    </h1>
+                </div>
+                <a href="index.html#simplifyYourActivity">
+                    <div id="scroll">
+                        <div id="dot"></div>
+                    </div>
+                </a>
+            </section>
+            <div id="simplifyYourActivity"></div>
+        </article>
+
+        <main class="homePage">
+            <div class="topHome">
+                <section class="blockLeft">
+                    <div class="title">
+                        <h1 data-i18n="big_title"></h1>
+                    </div>
+                    <div class="para">
+                        <div class="textParaFlex">
+                            <p data-i18n="index_para_text_one"></p>
+                            <pre> </pre>
+                            <strong data-i18n="index_para_one"></strong>
+                        </div>
+                        <div class="textParaFlex">
+                            <p data-i18n="index_para_text_two"></p>
+                            <strong data-i18n="index_para_two"></strong>
+                        </div>
+                        <div class="textParaFlex">
+                            <p data-i18n="index_para_text_three"></p>
+                            <pre> </pre>
+                            <strong data-i18n="index_para_three"></strong>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="blockRight">
+
+                    <div class="layer">
+                        <img src="images/home/RDI-Manager-montage.png" alt="mockup RDI">
+                    </div>
+                </section>
             </div>
-            <div class="imgResp"><img src="images/bg.png" alt="Fond d'écran"></div>
-            <main>
-                <div class="cardHome">
-                    <h1 class="bigTitle">RDI-Manager</h1>
-                    <h3 data-i18n="index_para"></h3>
-                    <div class="linkBtn">
-                        <a href="https://demo.rdimanager.com/connexion" class="demo" data-i18n="try_demo"></a>
-
-                        <a href="https://app.rdimanager.com/creer-ma-societe/ma-societe" class="log"
-                            data-i18n="sign_up"></a>
+            <section class="blockBottom">
+                <div class="botTop">
+                    <div class="button">
+                        <a href="#" class="homeBtn btn btn-hover bg-red bg-red-hover" data-i18n="home_btn_free"></a>
+                        <p data-i18n="band_big_title"></p>
+                    </div>
+                    <div class="button">
+                        <a href="clip/clip.html" target="_blank" class="btn btn-hover bg-blue bg-blue-hover text-white">
+                            <i class="mdi mdi-play-circle"></i>
+                            <div class="text-white" data-i18n="home_btn_video"></div>
+                        </a>
+                        <p class="text-white">RDI-Manager</p>
                     </div>
                 </div>
-                <span class="scroll"><a href="#down"><i class="pe-7s-angle-down"></i></a></span>
-            </main>
-        </section>
-
-        <!-- END FIRST BLOCK -->
-
-        <!-- START SECOND BLOCK -->
-
-        <section id="down" class="secondBlock">
-            <main>
-                <h2 class="title" data-i18n="step_one">Pourquoi RDI Manager ?</h2>
-                <p class="para" data-i18n="step_one_para"></p>
-                <div class="cards">
-                    <div class="cardOne">
-                        <div class="column">
-                            <div class="cardIcon">
-                                <div class="circle">01</div>
-                                <i class="pe-7s-network text-custom"></i>
-                            </div>
-                            <div class="cardContent">
-                                <h5 data-i18n="card_one_step_title"></h5>
-                                <p data-i18n="card_one_step_para"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cardTwo">
-                        <div class="column">
-                            <div class="cardIcon">
-                                <div class="circle">02</div>
-                                <i class="mdi mdi-road-variant text-custom"></i>
-                            </div>
-                            <div class="cardContent">
-                                <h5 data-i18n="card_two_step_title"></h5>
-                                <p data-i18n="card_two_step_para"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cardThree">
-                        <div class="column">
-                            <div class="cardIcon">
-                                <div class="circle">03</div>
-                                <i class="mdi mdi-timetable text-custom"></i>
-                            </div>
-                            <div class="cardContent">
-                                <h5 data-i18n="card_three_step_title"></h5>
-                                <p data-i18n="card_three_step_para"></p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="botBottom">
+                    <strong data-i18n="mixte_logiciel"></strong>
+                    <img src="images/home/slack-logo.svg" alt="logo Slack">
+                    <img src="images/home/logoTrello.png" alt="logo Trello">
+                    <img src="images/home/logoMonday.png" id="logoMonday" alt="logo Monday">
                 </div>
-            </main>
-        </section>
+            </section>
+            <div id="whyRdiManager"></div>
+        </main>
 
-        <!-- END SECOND BLOCK -->
-
-        <!-- START USE BLOCK -->
-
-        <section class="useBlock">
-            <main>
-                <h2 class="title" data-i18n="use_title"></h2>
-                <div class="hr"></div>
-                <div class="whyRDI">
-                    <div class="leftBox">
-                        <div class="fmLine">
-                            <div class="fmCircle1"></div>
-                            <div class="fmCircle2"></div>
-                            <div class="fmCircle3"></div>
-                            <div class="fmCircle4"></div>
-                            <div class="fmCircle5"></div>
+        <article>
+            <section class="sectionTitle">
+                <h2 data-i18n="step_one"></h2>
+                <p data-i18n="step_one_para"></p>
+            </section>
+            <div class="section">
+                <section>
+                    <div class="card selected" id="card-1">
+                        <div class="objectIcon">
+                            <div class="icon text-white"><i class="mdi mdi-pin"></i></div>
+                        </div>
+                        <div class="cardText">
+                            <h5 data-i18n="card_one_step_title"><strong></strong></h5>
+                            <p data-i18n="card_one_step_para"></p>
                         </div>
                     </div>
-                    <div class="rightBox">
-                        <h6 data-i18n="use_step_one_title"></h6>
-                        <p data-i18n="use_step_one_para"></p>
-                        <h6 data-i18n="use_step_two_title"></h6>
-                        <p data-i18n="use_step_two_para">
-                        </p>
-                        <h6 data-i18n="use_step_three_title"></h6>
-                        <p data-i18n="use_step_three_para">
-                        </p>
-                        <h6 data-i18n="use_step_four_title"></h6>
-                        <p data-i18n="use_step_four_para"></p>
-                        <h6 data-i18n="use_step_five_title"></h6>
-                        <p data-i18n="use_step_five_para">
-                        </p>
+                    <div class="card" id="card-2">
+                        <div class="objectIcon">
+                            <div class="icon text-white"><i class="mdi mdi-calendar-clock"></i></div>
+                        </div>
+                        <div class="cardText">
+                            <h5 data-i18n="card_two_step_title"><strong></strong></h5>
+                            <p data-i18n="card_two_step_para"></p>
+                        </div>
                     </div>
+                    <div class="card" id="card-3">
+                        <div class="objectIcon">
+                            <div class="icon text-white"><i class="mdi mdi-file-document"></i></div>
+                        </div>
+                        <div class="cardText">
+                            <h5 data-i18n="card_three_step_title"><strong></strong></h5>
+                            <p data-i18n="card_three_step_para"></p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="carousel">
+                        <img src="/images/home/FM.png" id="img-1" class="img-to-show show">
+                        <img src="/images/home/ST.png" id="img-2" class="img-to-show">
+                        <img src="/images/home/GF.png" id="img-3" class="img-to-show">
+                    </div>
+                </section>
+            </div>
+            <div id="partner"></div>
+        </article>
+
+        <article>
+            <section class="sectionTitle">
+                <h2 data-i18n="step_partners"></h2>
+                <p data-i18n="step_partners_para"></p>
+            </section>
+            <section>
+                <div class="bandHorizontal">
+                    <div class="partner1">
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/BPI.png" alt="BPI France">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/AIRBUSDEV.png"
+                                alt="Airbus développement">
+                        </div>
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/CCI.png" alt="CCI de Versailles">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/CFAStephenson.png" alt="CFA Stephenson">
+                        </div>
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/JEI.png" alt="JEI">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/PICUBE.png" alt="Picube">
+                        </div>
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/SQY.png"
+                                alt="Saint-Quentin en Yvelines">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/TRAPPES.png" alt="Ville de Trappes">
+                        </div>
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/AFPA.png" alt="AFPA">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/FRENCHTECH.png"
+                                alt="French Tech Paris Saclay">
+                        </div>
+                    </div>
+                    <div class="partner1">
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/ESTACAR.png" alt="Estacars">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/IESEG.png" alt="Iéseg">
+                        </div>
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/JEECE.png" alt="Jeece">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/NJC.png" alt="NJC Caen">
+                        </div>
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/EFT.png" alt="EFT">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/PICUBE.png" alt="Picube">
+                        </div>
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/SQY.png"
+                                alt="Saint-Quentin en Yvelines">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/TRAPPES.png" alt="Ville de Trappes">
+                        </div>
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/AFPA.png" alt="AFPA">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/FRENCHTECH.png"
+                                alt="French Tech Paris Saclay">
+                        </div>
+                    </div>
+                    <div class="partner1">
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/BPI.png" alt="BPI France">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/AIRBUSDEV.png"
+                                alt="Airbus développement">
+                        </div>
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/CCI.png" alt="CCI de Versailles">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/CFAStephenson.png" alt="CFA Stephenson">
+                        </div>
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/JEI.png" alt="JEI">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/PICUBE.png" alt="Picube">
+                        </div>
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/SQY.png"
+                                alt="Saint-Quentin en Yvelines">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/TRAPPES.png" alt="Ville de Trappes">
+                        </div>
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/AFPA.png" alt="AFPA">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/FRENCHTECH.png"
+                                alt="French Tech Paris Saclay">
+                        </div>
+                    </div>
+                    <div class="partner1">
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/ESTACAR.png" alt="Estacars">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/IESEG.png" alt="Iéseg">
+                        </div>
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/JEECE.png" alt="Jeece">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/NJC.png" alt="NJC Caen"> </div>
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/EFT.png" alt="EFT">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/PICUBE.png" alt="Picube">
+                        </div>
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/SQY.png"
+                                alt="Saint-Quentin en Yvelines">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/TRAPPES.png" alt="Ville de Trappes">
+                        </div>
+                        <div class="mb">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/AFPA.png" alt="AFPA">
+                        </div>
+                        <div class="mt">
+                            <img class="svg" src="/images/logoPartners/hexagone.svg">
+                            <img class="logoPartners" src="/images/logoPartners/FRENCHTECH.png"
+                                alt="French Tech Paris Saclay">
+                        </div>
+                    </div>
+
                 </div>
-            </main>
-        </section>
+                <a id="linkPartners" href="/pages/startup.html#partners">Voir tous nos partenaires</a>
+            </section>
+        </article>
 
-        <!-- END USE BLOCK -->
-
-        <!-- START IFRAME BLOCK -->
-
-        <iframe title="Vidéo de présentation de l'application RDI-Manager" class="video-iframe"
-            src="https://www.youtube.com/embed/LQyvP796M6U?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0"></iframe>
-
-        <!-- END IFRAME BLOCK -->
-
-        <!-- START SHARE BLOCK -->
-
-        <section class="shareBlock">
-            <main>
-                <h2 class="title" data-i18n="step_two"></h2>
-                <p class="para" data-i18n="step_two_para">
-                </p>
-                <div class="shareCard">
-                    <div class="cardOne">
-                        <div class="column">
-                            <div class="cardIcon">
-                                <img src="/images/client-brand/cad-42.png" alt="logo cad 42">
+        <article>
+            <section class="sectionTitle text-black">
+                <h2 data-i18n="step_two"></h2>
+                <p data-i18n="step_two_para">
+            </section>
+            <div class="sectionShare">
+                <section>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="view">
+                                    <p data-i18n="share_card_one"></p>
+                                </div>
+                                <div class="identity">
+                                    <div class="hr"></div>
+                                    <div class="bottomIden">
+                                        <img src="/images/view/cad-42.png" alt="logo cad 42">
+                                        <div class="idenName">
+                                            <p class="nameSoc">Jean-Philippe PANAGET<br>
+                                                <small class="descSoc">CEO | CAD.42</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="cardContent">
-                                <h6>Jean-Philippe PANAGET</h6>
-                                <small>CEO | CAD.42</small>
-                                <p data-i18n="share_card_one"></p>
+                            <div class="swiper-slide">
+                                <div class="view">
+                                    <p data-i18n="share_card_two"></p>
+                                </div>
+                                <div class="identity">
+                                    <div class="hr"></div>
+                                    <div class="bottomIden">
+                                        <img src="/images/view/bloom-at-work.png" alt="logo bloom at work">
+                                        <div class="idenName">
+                                            <p class="nameSoc">Charles De FRÉMINVILLE<br>
+                                                <small class="descSoc">CEO | BLOOM AT WORK</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="view">
+                                    <p data-i18n="share_card_three"></p>
+                                </div>
+                                <div class="identity">
+                                    <div class="hr"></div>
+                                    <div class="bottomIden">
+                                        <img src="/images/view/live-consent.png" alt="logo live consent">
+                                        <div class="idenName">
+                                            <p class="nameSoc">Claudiu SIRBU<br>
+                                                <small class="descSoc">CEO | LiveConsent</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="view">
+                                    <p data-i18n="share_card_four"></p>
+                                </div>
+                                <div class="identity">
+                                    <div class="hr"></div>
+                                    <div class="bottomIden">
+                                        <img src="/images/view/geosystem.png" alt="logo geosystems">
+                                        <div class="idenName">
+                                            <p class="nameSoc">Elodie EDOH-ALOVE<br>
+                                                <small class="descSoc">Ingé. R&D | GEOSYSTEMS</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="view">
+                                    <p data-i18n="share_card_five"></p>
+                                </div>
+                                <div class="identity">
+                                    <div class="hr"></div>
+                                    <div class="bottomIden">
+                                        <img src="/images/view/nordfilm.jpg" alt="logo nordfilm">
+                                        <div class="idenName">
+                                            <p class="nameSoc">Cindy JANCO<br>
+                                                <small class="descSoc">Resp. Indus. | NORDFILM</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="view">
+                                    <p data-i18n="share_card_six"></p>
+                                </div>
+                                <div class="identity">
+                                    <div class="hr"></div>
+                                    <div class="bottomIden">
+                                        <img src="/images/view/galanck.png" alt="logo galanck">
+                                        <div class="idenName">
+                                            <p class="nameSoc">Fabien PLANCKE<br>
+                                                <small class="descSoc">CEO | Galanck</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <div class="swiper-pagination"></div>
                     </div>
-                    <div class="cardTwo">
-                        <div class="column">
-                            <div class="cardIcon">
-                                <img src="/images/client-brand/bloom-at-work.png" alt="logo bloom at work">
-                            </div>
-                            <div class="cardContent">
-                                <h6>Charles De FRÉMINVILLE</h6>
-                                <small>CEO | BLOOM AT WORK</small>
-                                <p data-i18n="share_card_two"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cardThree">
-                        <div class="column">
-                            <div class="cardIcon">
-                                <img src="/images/client-brand/live-consent.png" alt="logo live consent">
-                            </div>
-                            <div class="cardContent">
-                                <h6>Claudiu SIRBU</h6>
-                                <small>CEO | LiveConsent</small>
-                                <p data-i18n="share_card_three"></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </main>
-        </section>
-
-        <!-- END SHARE BLOCK -->
+                </section>
+            </div>
+        </article>
 
         <!-- START SALE HEADBAND -->
-
-        <section class="saleBlock">
-            <main>
-                <h4 data-i18n="band_big_title"></h4>
-                <p data-i18n="band_para"></p>
-                <a href="mailto:contact@rdimanager.com" class="buttonSale" data-i18n="band_button"></a>
-            </main>
-        </section>
+        <article>
+            <section class="saleBlock">
+                <main>
+                    <h4 data-i18n="band_big_title" class="text-white"></h4>
+                    <p data-i18n="band_para"></p>
+                    <a href="mailto:contact@rdimanager.com" class="buttonSale btn btn-hover bg-red bg-red-hover"
+                        data-i18n="band_button"></a>
+                </main>
+            </section>
+            <div id="pricing"></div>
+        </article>
 
         <!-- END SALE HEADBAND  -->
-        <div id="pricing"></div>
+
+
         <!-- START PRICE BLOCK -->
 
-        <section class="priceBlock">
-            <main>
-                <h2 class="title" data-i18n="step_three"></h2>
-                <p class="para" data-i18n="step_three_para"></p>
-                <div class="cards">
-                    <div class="cardOne">
-                        <div class="column">
-                            <div class="cardTop">
-                                <div class="cardTitle" data-i18n="card_one_title"></div>
-                                <div class="cardFor" data-i18n="card_one_for"></div>
-                                <div class="cardSale" data-i18n="card_one_sale"></div>
-                                <div class="cardSmall" data-i18n="card_one_small"></div>
+
+        <article>
+            <section class="priceBlock">
+                <main>
+                    <h5 data-i18n="step_three"></h5>
+                    <p data-i18n="step_three_para"></p>
+                    <div class="cards">
+                        <div class="cardOne">
+                            <div class="column">
+                                <div class="cardTop">
+                                    <div class="cardTitle" data-i18n="card_one_title"></div>
+                                    <div class="cardFor" data-i18n="card_one_for"></div>
+                                    <div class="cardSale" data-i18n="card_one_sale"></div>
+                                    <div class="cardSmall" data-i18n="card_one_small"></div>
+                                </div>
+                                <div class="cardContent">
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_one_line_one"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_one_line_two"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_one_line_three"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_one_line_four"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_one_line_five"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_one_line_six"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_one_line_seven"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-close iconRed"></i>
+                                        <p data-i18n="card_one_line_eight"></p>
+                                    </div>
+                                </div>
+                                <div class="btnPrice">
+                                    <a href="https://app.rdimanager.com/creer-ma-societe"
+                                        class="buttonPriceInv btn btn-hover bg-red-hover"
+                                        data-i18n="card_one_button"></a>
+                                </div>
                             </div>
-                            <div class="cardContent">
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p data-i18n="card_one_line_one"></p>
+                        </div>
+                        <div class="cardTwo">
+                            <div class="column">
+                                <div class="cardTop">
+                                    <div class="cardTitle" data-i18n="card_two_title"></div>
+                                    <div class="cardFor" data-i18n="card_two_for"></div>
+                                    <div class="cardSale" data-i18n="card_two_sale"></div>
+                                    <div class="cardSmall" data-i18n="card_two_small"></div>
                                 </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p data-i18n="card_one_line_two"></p>
+                                <div class="cardContent">
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_two_line_one"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_two_line_two"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_two_line_three"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_two_line_four"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_two_line_five"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p class="bold" data-i18n="card_two_line_six"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p class="bold" data-i18n="card_two_line_seven"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p class="bold" data-i18n="card_two_line_eight"></p>
+                                    </div>
                                 </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p data-i18n="card_one_line_three"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p data-i18n="card_one_line_four"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p data-i18n="card_one_line_five"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p data-i18n="card_one_line_six"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p data-i18n="card_one_line_seven"></p>
-                                </div>
-                                <div><i class="mdi mdi-close iconRed"></i>
-                                    <p data-i18n="card_one_line_eight"></p>
+                                <div class="btnPrice">
+                                    <a href="mailto:contact@rdimanager.com"
+                                        class="buttonPrice btn btn-hover bg-red bg-red-hover"
+                                        data-i18n="card_two_button"></a>
                                 </div>
                             </div>
-                            <div class="btnPrice">
-                                <a href="https://app.rdimanager.com/creer-ma-societe" class="buttonPriceInv"
-                                    data-i18n="card_one_button"></a>
+                        </div>
+                        <div class="cardThree">
+                            <div class="column">
+                                <div class="cardTop">
+                                    <div class="cardTitle" data-i18n="card_three_title"></div>
+                                    <div class="cardFor" data-i18n="card_three_for"></div>
+                                    <div class="cardSale" data-i18n="card_three_sale"></div>
+                                    <div class="cardSmall" data-i18n="card_three_small"></div>
+                                </div>
+                                <div class="cardContent">
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_three_line_one"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_three_line_two"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_three_line_three"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_three_line_four"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p data-i18n="card_three_line_five"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p class="bold" data-i18n="card_three_line_six"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p class="bold" data-i18n="card_three_line_seven"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p class="bold" data-i18n="card_three_line_eight"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p class="bold" data-i18n="card_three_line_nine"></p>
+                                    </div>
+                                    <div><i class="mdi mdi-check iconGreen"></i>
+                                        <p class="bold" data-i18n="card_three_line_ten"></p>
+                                    </div>
+                                </div>
+                                <div class="btnPrice">
+                                    <a href="mailto:contact@rdimanager.com"
+                                        class="buttonPriceInv btn btn-hover bg-red-hover"
+                                        data-i18n="card_three_button"></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="cardTwo">
-                        <div class="column">
-                            <div class="cardTop">
-                                <div class="cardTitle" data-i18n="card_two_title"></div>
-                                <div class="cardFor" data-i18n="card_two_for"></div>
-                                <div class="cardSale" data-i18n="card_two_sale"></div>
-                                <div class="cardSmall" data-i18n="card_two_small"></div>
-                            </div>
-                            <div class="cardContent">
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p data-i18n="card_two_line_one"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p data-i18n="card_two_line_two"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p data-i18n="card_two_line_three"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p data-i18n="card_two_line_four"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p data-i18n="card_two_line_five"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p class="bold" data-i18n="card_two_line_six"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p class="bold" data-i18n="card_two_line_seven"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p class="bold" data-i18n="card_two_line_eight"></p>
-                                </div>
-                            </div>
-                            <div class="btnPrice">
-                                <a href="mailto:contact@rdimanager.com" class="buttonPrice"
-                                    data-i18n="card_two_button"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cardThree">
-                        <div class="column">
-                            <div class="cardTop">
-                                <div class="cardTitle" data-i18n="card_three_title"></div>
-                                <div class="cardFor" data-i18n="card_three_for"></div>
-                                <div class="cardSale" data-i18n="card_three_sale"></div>
-                                <div class="cardSmall" data-i18n="card_three_small"></div>
-                            </div>
-                            <div class="cardContent">
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p data-i18n="card_three_line_one"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p data-i18n="card_three_line_two"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p data-i18n="card_three_line_three"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p data-i18n="card_three_line_four"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p data-i18n="card_three_line_five"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p class="bold" data-i18n="card_three_line_six"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p class="bold" data-i18n="card_three_line_seven"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p class="bold" data-i18n="card_three_line_eight"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p class="bold" data-i18n="card_three_line_nine"></p>
-                                </div>
-                                <div><i class="mdi mdi-check iconGreen"></i>
-                                    <p class="bold" data-i18n="card_three_line_ten"></p>
-                                </div>
-                            </div>
-                            <div class="btnPrice">
-                                <a href="mailto:contact@rdimanager.com" class="buttonPriceInv"
-                                    data-i18n="card_three_button"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </main>
-        </section>
+                </main>
+            </section>
+        </article>
 
         <!-- END PRICE BLOCK -->
 
         <footer>
-            <div class="footerContent">
-                <div class="leftBlock">
-                    <h4 data-i18n="footer_about"></h4>
-                    <p>contact@rdimanager.com</p>
-                    <p>01 30 50 13 49</p>
-                    <p>2 rue Eugene Pottier 78190 Saint-Quentin en Yvelines</p>
-                </div>
-                <div id="hr"></div>
-                <div class="midBlock">
-                    <h4 data-i18n="footer_follow"></h4>
-                    <form>
-                        <label>Newsletter
-                            <input type="text" placeholder="Email">
-                        </label>
-                    </form>
-                    <div class="socialCard">
-                        <a href="https://www.linkedin.com/company/rdi-manager/">
-                            <div class="linkedin"><i class="mdi mdi-linkedin"></i></div>
-                        </a>
-                        <a href="https://www.facebook.com/RDImanager">
-                            <div class="facebook"><i class="mdi mdi-facebook"></i></div>
-                        </a>
-                        <a href="https://app.rdimanager.com/recommander-rdi-manager">
-                            <div class="media"><i class="pe-7s-share"></i></div>
-                        </a>
+            <div class="flexFoot">
+                <div class="footLeft">
+                    <h6 class="text-white">RDI Manager</h6>
+                    <div class="planFoot">
+                        <a href"mailto:contact@rdimanager.com" target="_blank">contact@rdimanager.com</a>
+                        <p>+33 1 30 50 13 49</p>
+                        <p>2 rue Eugene Pottier</p>
+                        <p>78190 Saint-Quentin en Yvelines</p>
                     </div>
-                    <p>2021 &copy; RDI-Manager</p>
                 </div>
-                <div id="hr"></div>
-                <div class="rightBlock">
-                    <h4 data-i18n="footer_contact"></h4>
-                    <form action="">
-                        <label>Email</label>
-                        <input type="text" placeholder="Email">
-                        <label>Message</label>
-                        <textarea placeholder="Message"></textarea>
-                    </form>
+                <div class="footMid">
+                    <h6 class="text-white">Solution</h6>
+                    <div class="planFoot">
+                        <a data-i18n="nav_sol_why" href="../index.html#whyRdiManager"></a>
+                        <a data-i18n="nav_feat_keyfact" href="../faits-marquants.html"></a>
+                        <a data-i18n="nav_feat_timesheet" href="../saisie-temps.html"></a>
+                        <a data-i18n="nav_sol_offer" href="../index.html#pricing"></a>
+                    </div>
+                </div>
+                <div class="footRight">
+                    <h6 class="text-white">Ressources</h6>
+                    <div class="planFoot">
+                        <a href="../images/CGU_CGV.pdf" target="_blank">CGU & CGV</a>
+                        <a href="../images/FT_S.pdf" target="_blank">Fiche technique et Sécurité</a>
+                        <a data-i18n="nav_sol_partner" href="../index.html#partner"></a>
+                        <a href="../pages/faq.html">F.A.Q</a>
+                    </div>
                 </div>
             </div>
-            <div class="footerWave">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                    <path fill="#303030" fill-opacity="1"
-                        d="M0,64L48,85.3C96,107,192,149,288,154.7C384,160,480,128,576,122.7C672,117,768,139,864,128C960,117,1056,75,1152,53.3C1248,32,1344,32,1392,32L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-                    </path>
-                </svg>
+            <div class="footBottom">
+                <div class="socialMedia">
+                    <a href="https://www.linkedin.com/company/rdi-manager/"><i class="mdi mdi-linkedin"></i>
+                        <div></div>
+                    </a>
+                    <a href="https://www.facebook.com/RDImanager/"><i class="mdi mdi-facebook"></i>
+                        <div></div>
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UCBnAVKPkqlvdSj8z8tS47NQ"><i
+                            class="mdi mdi-youtube-play"></i>
+                        <div></div>
+                    </a>
+                    <a href="https://twitter.com/eureka_conseil?lang=fr"><i class="mdi mdi-twitter"></i>
+                        <div></div>
+                    </a>
+                </div>
+                <p class="text-white">Copyright &copy; RDI Manager 2022</p>
             </div>
         </footer>
+
     </div>
 
-    <script src="js/nav.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/scrollReveal.js"></script>
+    <script src="js/swiper.min.js"></script>
     <script src="dist/main.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            grabCursor: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+
 
 </body>
 

@@ -1,0 +1,50 @@
+.secondBlock {
+    padding: 50px 0 50px 0;
+    width: 100%;
+    background: #eeeeee;
+}
+
+.secondBlock article {
+    width: 85%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.secondBlock .leftBox {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondBlock .leftBox img {
+    width: 50%;
+}
+
+.secondBlock .rightBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.secondBlock .rightBox .bigTitle {
+    text-align: left;
+    font-size: 45px;
+    line-height: 4.5rem;
+    letter-spacing: 2px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-family: 'Besley', serif;
+}
+
+.secondBlock .rightBox p {
+    line-height: 1.5rem;
+    font-size: 18px;
+    margin-bottom: 1em;
+}
