@@ -8,8 +8,9 @@
 .thirdBlock article {
     z-index: 1;
     width: 100%;
+    max-width: 1700px;
     height: auto;
-    padding: 50px 0;
+    padding: 0px 0;
     margin: auto;
 }
 
