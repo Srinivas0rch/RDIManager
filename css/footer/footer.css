@@ -11,6 +11,7 @@ footer {
 
 .flexFoot {
     width: 85%;
+    max-width: 1700px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -92,6 +93,7 @@ footer {
 .footBottom {
     margin-top: 50px;
     width: 85%;
+    max-width: 1700px;
     border-top: 1px solid #eeeeee;
     display: flex;
     justify-content: center;

@@ -36,6 +36,7 @@ header .navHigh {
   display: flex;
   justify-content: space-between;
   width: 85%;
+  max-width: 1700px;
   height: 80px;
   margin: auto;
   background: #fff;

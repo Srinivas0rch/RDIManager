@@ -1,3 +1,11 @@
+#viewArt {
+    width: 100%;
+    max-width: 1800px;
+    padding: 50px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
 .sectionTitle {
     width: 100%;
     margin: auto;
@@ -30,15 +38,25 @@
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    width: 100%;
     z-index: 1;
 }
 
 .swiper {
     display: flex;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
     width: 100%;
+    animation: 60s linear infinite alternate animate2;
+}
+
+@keyframes animate2 {
+    0% {
+        transform: translateX(600px);
+    }
+
+    100% {
+        transform: translateX(-600px);
+    }
 }
 
 .swiper-slide {
@@ -46,23 +64,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 380px;
-    max-width: 380px;
-    height: 230px;
-    max-height: 230px;
+    width: 400px;
+    height: 250px;
+    margin-left: 30px;
     padding: 30px;
     border-radius: 10px;
     border-top: 10px solid #8d8d8d;
     background: rgba(255, 255, 255, 0.3);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     /* border: 1px solid rgba(255, 255, 255, 0.5); */
-}
-
-.swiper-pagination {
-    width: 80px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 280px;
 }
 
 .identity {
@@ -82,7 +92,7 @@
 }
 
 .identity img {
-    width: 35%;
+    width: 30%;
     max-height: 40px;
 }
 
