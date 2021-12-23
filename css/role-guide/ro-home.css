@@ -1,5 +1,7 @@
 .firstBlock {
     width: 100%;
+    max-width: 1700px;
+    margin: auto;
     height: auto;
     display: flex;
     align-items: center;

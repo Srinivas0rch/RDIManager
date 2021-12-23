@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     width: 85%;
+    max-width: 1700px;
     height: auto;
     padding: 80px 0;
     margin: auto;

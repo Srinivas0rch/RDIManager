@@ -1,11 +1,12 @@
 .secondBlock {
     padding: 50px 0 50px 0;
-    width: 100%;
     background: #eeeeee;
+    margin: auto;
 }
 
 .secondBlock article {
     width: 85%;
+    max-width: 1700px;
     margin: auto;
     position: relative;
     display: flex;
@@ -28,7 +29,7 @@
 .secondBlock .rightBox {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     width: 50%;
 }
@@ -47,4 +48,10 @@
     line-height: 1.5rem;
     font-size: 18px;
     margin-bottom: 1em;
+    width: 90%;
+}
+
+.secondBlock .rightBox .btn {
+    width: 280px;
+    margin: auto;
 }
