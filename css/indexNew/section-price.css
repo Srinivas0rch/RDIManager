@@ -13,6 +13,7 @@
     flex-direction: column;
     height: auto;
     width: 85%;
+    max-width: 1700px;
     margin: 0 auto;
 }
 
@@ -25,7 +26,7 @@
     font-family: 'Besley', serif;
 }
 
-.priceBlock p{
+.priceBlock p {
     margin: auto;
     text-align: center;
     color: #303030;

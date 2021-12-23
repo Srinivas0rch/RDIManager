@@ -1,6 +1,7 @@
 .homePage {
   z-index: 1;
   width: 85%;
+  max-width: 1700px;
   height: auto;
   padding: 0 0 30px 0;
   margin: auto;
@@ -68,17 +69,12 @@ section .title h1 {
 section .para {
   display: inline;
   width: 100%;
-  margin-bottom: 1.5em;
 }
 
-.textParaFlex {
-  display: flex;
-}
-
-section .para p,
-section .para strong {
+section .para p {
   line-height: 1.5rem;
   font-size: 18px;
+  margin-bottom: 1em;
 }
 
 section .button {

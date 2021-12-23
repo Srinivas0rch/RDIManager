@@ -1,16 +1,22 @@
+#partArt {
+    padding: 0 0;
+}
+
 .bandHorizontal {
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
     height: 320px;
     width: 100%;
+    max-width: 1800px;
     overflow: hidden;
 }
 
 .partner1 {
     position: relative;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
