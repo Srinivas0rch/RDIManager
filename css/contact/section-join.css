@@ -2,7 +2,9 @@
     z-index: 1;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 85%;
+    max-width: 1700px;
     height: auto;
     padding: 70px 0 50px 0;
     margin: auto;
@@ -22,6 +24,7 @@
     align-items: center;
     flex-direction: column;
     width: 90%;
+    opacity: 0;
 }
 
 .joinPage .joinRight h2 {
