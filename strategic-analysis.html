@@ -149,7 +149,7 @@
                 <div class="listRight">
                     <ul>
                         <li>
-                            <a href="../indexNew.html#pricing" data-i18n="nav_pricing"></a>
+                            <a href="../index.html#pricing" data-i18n="nav_pricing"></a>
                         </li>
                         <a href="https://app.rdimanager.com/connexion" class="btn btn-hover bg-red bg-red-hover"
                             id="connect" data-i18n="nav_free"></a>
@@ -225,17 +225,23 @@
         <section class="firstBlock">
             <main>
                 <div class="saSubtitle">
-                    <h2 class="text-red">Analyse globale de l’activité</h2>
+                    <h2>Analyse globale de l’activité</h2>
                     <p>Avec RDI-Manager, tous les collaborateurs ont droit à une vue d’ensemble de leur activité. Les
-                        analyses stratégiques du tableau de bord de chaque utilisateur sont relatifs à l’ensemble des
+                        analyses stratégiques du tableau de bord de chaque utilisateur sont relatives à l’ensemble des
                         projets
                         pour lesquels il a un partie pris. Ceci renforce l’engagement des troupes dans leurs projets.
                     </p>
                 </div>
 
                 <div class="saChart">
-                    <div id="chart"></div>
-                    <div id="chart2"></div>
+                    <div class="column">
+                        <h6>Nombre d'heure par projet</h6>
+                        <div id="chart"></div>
+                    </div>
+                    <div class="column">
+                        <h6>Réalisation des projets</h6>
+                        <div id="chart2"></div>
+                    </div>
                 </div>
             </main>
         </section>
@@ -244,7 +250,7 @@
             <article>
 
                 <div class="saSubtitle">
-                    <h2 class="text-red">Analyse stratégique par projet</h2>
+                    <h2>Analyse stratégique par projet</h2>
                     <p>Avec RDI-Manager, les managers ont droit à des fonctionnalités spécifiques pour analyser au mieux
                         leurs projets, ainsi que l’investissement de l’équipe sur chaque projet. Le Score RDI de votre
                         projet
@@ -254,9 +260,11 @@
 
                 <div class="saChart">
                     <img src="/images/analStrat/SCP.png" alt="SCP">
-                    <div id="chart3"></div>
+                    <div class="column">
+                        <h6>Temps passé en heure par utilisateur</h6>
+                        <div id="chart3"></div>
+                    </div>
                 </div>
-
             </article>
         </section>
 
@@ -264,19 +272,22 @@
             <article>
 
                 <div class="saSubtitle">
-                    <h2 class="text-red">Analyse des contributions collaborateur</h2>
+                    <h2>Analyse des contributions collaborateur</h2>
                     <p>Avec RDI-Manager, le manager peut suivre facilement les contributions spécifiques de chacun de
                         ses collaborateurs.
                     </p>
                 </div>
 
                 <div class="saProfil">
-                    <img src="/images/analStrat/PR.png" alt="PR">
+                    <img class="PR" src="/images/analStrat/PR.png" alt="PR">
                 </div>
 
                 <div class="saChart">
                     <img src="/images/analStrat/SP.png" alt="SP">
-                    <div id="chart4"></div>
+                    <div class="column">
+                        <h6>Temps passé en heure par projet</h6>
+                        <div id="chart4"></div>
+                    </div>
                 </div>
 
             </article>

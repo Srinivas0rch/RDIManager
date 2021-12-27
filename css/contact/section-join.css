@@ -24,7 +24,7 @@
     align-items: center;
     flex-direction: column;
     width: 90%;
-    opacity: 0;
+    opacity: 1;
 }
 
 .joinPage .joinRight h2 {
@@ -64,7 +64,7 @@
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
-    background: #eee;
+    background: #eeeeee;
 }
 
 .offre h5 {

@@ -55,10 +55,18 @@
     border-radius: 10px;
 }
 
-.thirdBlock .saChart img:nth-child(1) {
-    width: 30%;
+.thirdBlock .saProfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+.thirdBlock .saProfil img {
+    width: 100%;
 }
 
 .thirdBlock .saChart #chart4 {
-    width: 700px;
+    width: 600px;
 }

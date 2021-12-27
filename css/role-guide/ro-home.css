@@ -49,7 +49,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
     padding: 30px;
     margin-top: 30px;
     border-radius: 10px;
@@ -97,6 +97,8 @@
 
 .card .cardText p {
     font-size: 16px;
+    text-decoration: none;
+    font-weight: 200;
 }
 
 .section .carousel {
@@ -109,7 +111,7 @@
 
 .section .carousel .img-to-show {
     position: absolute;
-    width: 100%;
+    width: 90%;
     border-radius: 5px;
 }
 

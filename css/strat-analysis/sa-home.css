@@ -46,6 +46,17 @@
     align-items: center;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column h6 {
+    font-size: 20px;
+}
+
 .firstBlock .saChart #chart {
     width: 500px;
 }

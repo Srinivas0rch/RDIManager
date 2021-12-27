@@ -33,20 +33,6 @@ footer {
     align-items: flex-start;
 }
 
-.allContact .mail,
-.phone,
-.adress {
-    margin: 50px 0 0 0;
-    font-size: 18px;
-    line-height: 1.25;
-}
-
-.allContact i {
-    font-size: 20px;
-    margin-right: 10px;
-    color: #e62117;
-}
-
 .footMid {
     position: relative;
     width: 20%;
