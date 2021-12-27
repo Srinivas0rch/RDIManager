@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #303030;
+    background: #eeeeee;
 }
 
 .saleBlock h4 {
@@ -33,11 +33,11 @@
     margin-bottom: 1em;
     font-size: 16px;
     font-weight: 500;
-    color: #fff;
+    color: #303030;
 }
 
 .saleBlock .buttonSale {
-    width: 400px;
+    width: 280px;
 }
 
 /* END SALE BLOCK */

@@ -22,21 +22,17 @@
     width: 70%;
 }
 
-.aboutTop img {
-    width: 30%;
-    margin-left: 15px;
-}
-
 .aboutTop h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     font-size: 36px;
     line-height: 1.30em;
     letter-spacing: 2px;
     font-family: 'Besley', serif;
     margin-bottom: 60px;
+}
+
+.aboutTop b {
+    color: #e62117;
 }
 
 .hr {
@@ -51,4 +47,8 @@
     width: 100%;
     margin-bottom: 40px;
     font-size: 18px;
+}
+
+.aboutTop a {
+    text-decoration: underline #01b2fe;
 }
