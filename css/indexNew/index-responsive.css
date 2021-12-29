@@ -57,6 +57,7 @@
 
   .homePage .blockLeft h1 {
     text-align: center;
+    letter-spacing: 1px;
   }
 
   .homePage .blockLeft p {
@@ -117,6 +118,7 @@
 
   #carArt .sectionTitle h2 {
     font-size: 30px;
+    letter-spacing: 1px;
   }
 
   #carArt .section {
@@ -157,6 +159,7 @@
 
   #partArt .sectionTitle h2 {
     font-size: 30px;
+    letter-spacing: 1px;
   }
 
   #partArt .partner1 {
@@ -165,6 +168,7 @@
 
   #viewArt .sectionTitle h2 {
     font-size: 30px;
+    letter-spacing: 1px;
   }
 
   .saleBlock h4 {
@@ -177,6 +181,7 @@
 
   .priceBlock h2 {
     font-size: 30px;
+    letter-spacing: 1px;
   }
 
   .priceBlock main {
@@ -310,6 +315,11 @@
 
   #partArt .partner1 {
     width: 250vw;
+  }
+
+  .partner1 .logoPartners {
+    width: 90px;
+    margin: 0 25px 5px 0;
   }
 
   #viewArt .sectionTitle h2 {
