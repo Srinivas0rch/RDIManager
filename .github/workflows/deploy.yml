@@ -2,33 +2,32 @@ name: Deploy static HTML site
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: build
-      run : yarn install && yarn build
+      - name: build
+        run: yarn install && yarn build
 
-    - name: Create deploy folder
-      run: |
-        mkdir deploy/
-        cp -r css/ fonts/ images/ index.html saisie-temps.html faits-marquants.html role-guide.html strategic-analysis.html pages/ dist/ deploy/ 
+      - name: Create deploy folder
+        run: |
+          mkdir deploy/
+          cp -r css/ fonts/ images/ index.html saisie-temps.html faits-marquants.html role-guide.html strategic-analysis.html pages/ clip/ dist/ deploy/
 
-    - name: Create artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: site
-        path: deploy/
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: site
+          path: deploy/
 
-    - name: Deploy to Github pages 🚀
-      uses: JamesIves/github-pages-deploy-action@3.6.2
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: deploy
+      - name: Deploy to Github pages 🚀
+        uses: JamesIves/github-pages-deploy-action@3.6.2
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: deploy
