@@ -1,335 +1,347 @@
 @media (max-width: 1250px) {
+  #videoHome a {
+    display: none;
+  }
 
-    .firstBlock {
-        overflow: hidden;
-    }
+  .homePage .blockLeft h1 {
+    font-size: 35px;
+  }
 
-    .firstBlock .imgResp {
-        overflow: hidden;
-        z-index: -5;
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-    }
+  .saleBlock main {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
 
-    .firstBlock .imgResp img {
-        height: 100%;
-        opacity: 60%;
-    }
+  .saleBlock h4 {
+    text-align: center;
+  }
 
-    .firstBlock main {
-        width: 100%;
-    }
+  .priceBlock main {
+    width: 100%;
+  }
 
-    .bigTitle {
-        font-size: 100px;
-        color: #303030;
-    }
+  .priceBlock .cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-    .scroll {
-        display: none;
-    }
-
-    #blockVideo {
-        display: none;
-    }
-
-    .firstBlock main h3 {
-        color: #303030;
-        font-size: 20px;
-    }
-
-    #pricing {
-        margin-bottom: 0px;
-    }
-
-    .secondBlock main {
-        width: 100%;
-    }
-
-    .secondBlock .cards {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .secondBlock .cardOne,
-    .secondBlock .cardTwo,
-    .secondBlock .cardThree {
-        position: relative;
-        height: 400px;
-        width: 400px;
-    }
-
-    .useBlock main {
-        width: 100%;
-    }
-
-    .useBlock .rightBox {
-        width: 80%;
-    }
-
-    .shareBlock main {
-        width: 100%;
-    }
-
-    .shareBlock .shareCard {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .shareBlock .cardOne,
-    .shareBlock .cardTwo,
-    .shareBlock .cardThree {
-        position: relative;
-        height: 400px;
-        width: 400px;
-    }
-
-    .saleBlock main {
-        margin-bottom: 50px;
-        margin-top: 50px;
-    }
-
-    .priceBlock main {
-        width: 100%;
-    }
-
-    .priceBlock .cards {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .priceBlock .cardOne,
-    .priceBlock .cardTwo,
-    .priceBlock .cardThree {
-        position: relative;
-        height: 800px;
-        width: 400px;
-    }
+  .priceBlock .cardOne,
+  .priceBlock .cardTwo,
+  .priceBlock .cardThree {
+    position: relative;
+    height: 800px;
+    width: 400px;
+  }
 }
 
 @media (max-width: 1020px) {
+  #videoHome {
+    display: none;
+  }
 
-    .secondBlock main {
-        margin-top: 0;
-    }
+  .topHome {
+    padding: 80px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .secondBlock .para {
-        width: 90%;
-        margin-bottom: 0px;
-    }
+  .homePage .blockLeft {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
-    .secondBlock .cards {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        align-items: center;
-    }
+  .homePage .blockLeft h1 {
+    text-align: center;
+  }
 
-    .secondBlock .cardOne,
-    .secondBlock .cardTwo,
-    .secondBlock .cardThree {
-        position: relative;
-        height: 400px;
-        width: 400px;
-        margin-top: 100px;
-    }
+  .homePage .blockLeft p {
+    margin-bottom: 0;
+  }
 
-    .useBlock .fmLine {
-        height: 650px;
-    }
+  .homePage .blockRight {
+    display: none;
+  }
 
-    .useBlock .fmCircle1 {
-        margin-bottom: 65px;
-    }
+  .homePage .botTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 
-    .useBlock .fmCircle2 {
-        margin-bottom: 100px;
-    }
+  .homePage .botTop .button {
+    height: auto;
+    margin-top: 10px;
+  }
 
-    .useBlock .fmCircle3 {
-        margin-bottom: 125px;
-    }
+  .homePage .botTop .button p {
+    display: none;
+  }
 
-    .useBlock .fmCircle4 {
-        margin-bottom: 100px;
-    }
+  .homePage .botBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+  }
 
-    iframe {
-        width: 90%;
-    }
+  .homePage .botBottom .imgLog {
+    width: 100%;
+    margin-top: 20px;
+  }
 
-    .shareBlock .para {
-        width: 90%;
-        margin-bottom: 0px;
-    }
+  .homePage .botBottom img {
+    width: 70px;
+  }
 
-    .shareBlock .shareCard {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        align-items: center;
-    }
+  .homePage .botBottom #logoMonday {
+    width: 100px;
+  }
 
-    .shareBlock .cardOne,
-    .shareBlock .cardTwo,
-    .shareBlock .cardThree {
-        position: relative;
-        height: 400px;
-        width: 400px;
-        margin-top: 100px;
-    }
+  #carArt {
+    z-index: 1;
+    width: 85%;
+    max-width: 1700px;
+    height: auto;
+    padding: 50px 0;
+    margin: auto;
+  }
 
-    .saleBlock h4 {
-        font-size: 40px;
-    }
+  #carArt .sectionTitle h2 {
+    font-size: 30px;
+  }
 
-    .saleBlock p {
-        width: 90%;
-    }
+  #carArt .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
 
-    .saleBlock .buttonSale {
-        width: 60%;
-        font-size: 20px;
-    }
+  #carArt .section section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    z-index: 1;
+  }
 
-    .priceBlock main {
-        width: 100%;
-    }
+  #carArt .section section:nth-child(2) {
+    margin-top: 30px;
+    height: 420px;
+  }
 
-    .priceBlock .title {
-        margin-top: 30px;
-    }
+  #carArt .card {
+    width: 80%;
+  }
 
-    .priceBlock .para {
-        width: 90%;
-        margin-bottom: 0px;
-    }
+  .card .cardText p {
+    display: none;
+  }
 
-    .priceBlock .cards {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
+  #carArt .section .carousel .img-to-show {
+    width: 85%;
+  }
 
-    .priceBlock .cardOne,
-    .priceBlock .cardTwo,
-    .priceBlock .cardThree {
-        position: relative;
-        height: 800px;
-        width: 400px;
-        margin-top: 30px;
-    }
+  #partArt .sectionTitle h2 {
+    font-size: 30px;
+  }
 
+  #partArt .partner1 {
+    width: 250vw;
+  }
+
+  #viewArt .sectionTitle h2 {
+    font-size: 30px;
+  }
+
+  .saleBlock h4 {
+    font-size: 40px;
+  }
+
+  .saleBlock p {
+    width: 90%;
+  }
+
+  .priceBlock h2 {
+    font-size: 30px;
+  }
+
+  .priceBlock main {
+    width: 100%;
+  }
+
+  .priceBlock .title {
+    margin-top: 30px;
+  }
+
+  .priceBlock .para {
+    width: 90%;
+    margin-bottom: 0px;
+  }
+
+  .priceBlock .cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .priceBlock .cardOne,
+  .priceBlock .cardTwo,
+  .priceBlock .cardThree {
+    position: relative;
+    height: 800px;
+    width: 400px;
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 650px) {
+  #videoHome {
+    display: none;
+  }
 
-    .firstBlock {
-        height: 80vh;
-    }
+  .topHome {
+    padding: 80px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .bigTitle {
-        width: 90%;
-        font-size: 60px;
-        color: #303030;
-    }
+  .homePage .blockLeft {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
-    .firstBlock main h3 {
-        color: #303030;
-        font-size: 15px;
-    }
+  .homePage .blockLeft h1 {
+    font-size: 25px;
+    text-align: center;
+  }
 
-    .linkBtn {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .homePage .blockLeft p {
+    margin-bottom: 0;
+  }
 
-    .demo {
-        margin-right: 0;
-    }
+  .homePage .blockRight {
+    display: none;
+  }
 
-    .log {
-        margin-left: 0;
-        margin-top: 20px;
-    }
+  .homePage .botTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 
-    .secondBlock .para {
-        display: none;
-    }
+  .homePage .botTop .button {
+    height: auto;
+    margin-top: 10px;
+  }
 
-    .secondBlock .cardOne,
-    .secondBlock .cardTwo,
-    .secondBlock .cardThree {
-        position: relative;
-        height: 450px;
-        width: 95%;
-        margin-top: 100px;
-    }
+  .homePage .botTop .button p {
+    display: none;
+  }
 
-    .useBlock .leftBox {
-        display: none;
-    }
+  .homePage .botBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+  }
 
-    .useBlock .rightBox h6 {
-        font-size: 25px;
-        font-weight: bold;
-        color: #303030;
-        margin-bottom: 10px;
-    }
+  .homePage .botBottom .imgLog {
+    width: 100%;
+    margin-top: 20px;
+  }
 
-    .useBlock .rightBox p {
-        width: 100%;
-        font-size: 15px;
-        color: #303030;
-        margin-bottom: 20px;
-    }
+  .homePage .botBottom img {
+    width: 70px;
+  }
 
-    iframe {
-        display: none;
-    }
+  .homePage .botBottom #logoMonday {
+    width: 100px;
+  }
 
-    .shareBlock .para {
-        display: none;
-    }
+  #carArt .sectionTitle h2 {
+    font-size: 20px;
+  }
 
-    .saleBlock h4 {
-        font-size: 30px;
-    }
+  #carArt .section section:nth-child(2) {
+    height: 300px;
+  }
 
-    .saleBlock p {
-        width: 100%;
-    }
+  #carArt .card {
+    width: 100%;
+  }
 
-    .saleBlock .buttonSale {
-        width: 100%;
-        font-size: 15px;
-    }
+  #carArt .card .objectIcon .icon {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border-radius: 12px;
+  }
 
-    .priceBlock .para {
-        display: none;
-    }
+  #carArt .card .cardText h5 {
+    font-size: 16px;
+  }
 
-    .priceBlock .btnPrice {
-        height: 150px;
-    }
+  #partArt .sectionTitle h2 {
+    font-size: 20px;
+  }
 
-    .priceBlock .cardOne,
-    .priceBlock .cardTwo,
-    .priceBlock .cardThree {
-        position: relative;
-        height: auto;
-        width: 95%;
-        margin-top: 30px;
-    }
+  #partArt .partner1 {
+    width: 250vw;
+  }
+
+  #viewArt .sectionTitle h2 {
+    font-size: 20px;
+  }
+
+  .saleBlock {
+    padding: 0;
+  }
+
+  .saleBlock h4 {
+    font-size: 30px;
+  }
+
+  .saleBlock p {
+    width: 100%;
+  }
+
+  .priceBlock h2 {
+    font-size: 20px;
+  }
+
+  .priceBlock .btnPrice {
+    height: 150px;
+  }
+
+  .priceBlock .cardOne,
+  .priceBlock .cardTwo,
+  .priceBlock .cardThree {
+    position: relative;
+    height: auto;
+    width: 95%;
+    margin-top: 30px;
+  }
 }
