@@ -1,43 +1,46 @@
 /* START SALE BLOCK  */
 
 .saleBlock {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
 }
 
 .saleBlock main {
-    padding: 80px 30px;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: #eeeeee;
+  padding: 80px 30px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #eeeeee;
 }
 
 .saleBlock h4 {
-    font-size: 36px;
-    line-height: 1.30em;
-    letter-spacing: 2px;
-    font-family: 'Besley', serif;
+  margin: auto;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.3em;
+  letter-spacing: 2px;
+  font-family: "Besley", serif;
 }
 
 .saleBlock p {
-    text-align: center;
-    width: 50%;
-    line-height: 1.30em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    font-size: 16px;
-    font-weight: 500;
-    color: #303030;
+  text-align: center;
+  width: 50%;
+  line-height: 1.3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 16px;
+  font-weight: 500;
+  color: #303030;
 }
 
 .saleBlock .buttonSale {
-    width: 280px;
+  max-width: 280px;
+  width: 280px;
 }
 
 /* END SALE BLOCK */
