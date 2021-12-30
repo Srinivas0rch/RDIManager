@@ -1,0 +1,58 @@
+@media (max-width: 1250px) {
+  .joinPage {
+    width: 95%;
+  }
+
+  .joinPage .joinLeft {
+    width: 45%;
+  }
+
+  .joinPage .joinRight {
+    width: 55%;
+  }
+}
+
+@media (max-width: 1020px) {
+  .joinPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .joinPage .joinRight h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+
+  .joinPage .joinLeft {
+    width: 70%;
+  }
+
+  .joinPage .joinRight {
+    width: 70%;
+  }
+}
+
+@media (max-width: 650px) {
+  .joinPage {
+    width: 100%;
+  }
+
+  .joinPage .joinRight h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .joinPage .joinLeft {
+    width: 100%;
+  }
+
+  .joinPage .joinRight {
+    width: 100%;
+  }
+
+  .joinRight .textRec {
+    width: 90%;
+  }
+}

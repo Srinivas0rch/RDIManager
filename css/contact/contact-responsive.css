@@ -1,0 +1,54 @@
+@media (max-width: 1250px) {
+  .contactPage {
+    width: 95%;
+  }
+
+  .contactPage .blockLeft {
+    width: 45%;
+  }
+
+  .contactPage .blockRight {
+    width: 55%;
+  }
+}
+
+@media (max-width: 1020px) {
+  .contactPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contactPage .blockRight h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+
+  .contactPage .blockLeft {
+    width: 70%;
+  }
+
+  .contactPage .blockRight {
+    width: 70%;
+  }
+}
+
+@media (max-width: 650px) {
+  .contactPage {
+    width: 100%;
+  }
+
+  .contactPage .blockRight h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .contactPage .blockLeft {
+    width: 100%;
+  }
+
+  .contactPage .blockRight {
+    width: 100%;
+  }
+}
