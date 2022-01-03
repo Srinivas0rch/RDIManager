@@ -47,6 +47,9 @@
   .contactPage .blockLeft {
     width: 100%;
   }
+  .contactPage .contactInfo {
+    width: 80%;
+  }
 
   .contactPage .blockRight {
     width: 100%;

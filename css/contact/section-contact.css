@@ -1,5 +1,4 @@
 .contactPage {
-  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -17,7 +16,6 @@
   justify-content: center;
   align-items: center;
   width: 50%;
-  z-index: 1;
 }
 
 .contactPage .blockRight h2 {
@@ -34,7 +32,6 @@
   justify-content: center;
   align-items: center;
   width: 50%;
-  z-index: 1;
 }
 
 .contactPage .contactInfo {
