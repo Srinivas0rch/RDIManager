@@ -1,5 +1,4 @@
 .joinPage {
-  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +16,6 @@
   justify-content: center;
   align-items: center;
   width: 49%;
-  z-index: 1;
 }
 
 .joinLeft .joinUs {
@@ -25,7 +23,6 @@
   align-items: center;
   flex-direction: column;
   width: 90%;
-  opacity: 1;
 }
 
 .joinPage .joinRight h2 {
