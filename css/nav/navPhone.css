@@ -14,7 +14,7 @@
 
 .ham {
   position: fixed;
-  z-index: 999;
+  z-index: 9999;
   top: 1rem;
   right: 1rem;
   width: 50px;

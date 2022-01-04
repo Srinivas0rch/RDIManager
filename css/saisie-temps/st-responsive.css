@@ -1,0 +1,139 @@
+@media (max-width: 1280px) {
+  .firstBlock main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .firstBlock .leftBox {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .firstBlock .rightBox {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .firstBlock .bigTitle {
+    text-align: center;
+    font-size: 35px;
+    line-height: 1.5;
+  }
+
+  .secondBlock article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .secondBlock .rightBox {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .secondBlock .leftBox {
+    width: 90%;
+    text-align: center;
+  }
+
+  .secondBlock .rightBox .bigTitle {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+
+  .secondBlock .rightBox p {
+    font-size: 16px;
+  }
+
+  #carArt {
+    z-index: 1;
+    width: 85%;
+    max-width: 1700px;
+    height: auto;
+    padding: 50px 0;
+    margin: auto;
+  }
+
+  #carArt .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+
+  #carArt .section section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    z-index: 1;
+  }
+
+  #carArt .section section:nth-child(2) {
+    margin-top: 30px;
+    height: 420px;
+  }
+
+  #carArt .card {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .card .cardText p {
+    display: none;
+  }
+
+  #carArt .section .carousel .img-to-show {
+    width: 85%;
+  }
+}
+
+@media (max-width: 800px) {
+  .firstBlock .rightBox {
+    display: none;
+  }
+
+  .firstBlock main {
+    padding: 100px 0 50px 0;
+  }
+}
+
+@media (max-width: 650px) {
+  #carArt .section section:nth-child(2) {
+    height: 300px;
+  }
+
+  #carArt .card {
+    width: 100%;
+  }
+
+  #carArt .card .objectIcon .icon {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border-radius: 12px;
+  }
+
+  #carArt .card .cardText h5 {
+    font-size: 16px;
+  }
+}
