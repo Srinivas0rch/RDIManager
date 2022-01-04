@@ -79,6 +79,7 @@
   }
 
   .show {
-    height: auto !important;
+    min-height: 150px !important;
+    height: 150px !important;
   }
 }
