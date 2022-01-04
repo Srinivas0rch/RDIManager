@@ -1,0 +1,223 @@
+@media (max-width: 1250px) {
+  .firstBlock .rightBox {
+    margin-bottom: 70px;
+  }
+
+  .firstBlock .bigTitle {
+    font-size: 35px;
+  }
+
+  .cardOne {
+    width: 300px;
+    height: 410px;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+
+  .cardOne h3 {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .cardOne #input {
+    width: 80%;
+    font-size: 11px;
+  }
+
+  .cardOne #dash {
+    height: 250px;
+    width: 10px;
+  }
+
+  #dash div {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 60px;
+    right: 10px;
+  }
+
+  #faitBlock .blocks {
+    height: 82px;
+    width: 80%;
+    padding: 10px 10px;
+  }
+
+  .blocks .faitTitle {
+    font-size: 10px;
+  }
+
+  .blocks .faitContent-one {
+    height: 7px;
+    width: 180px;
+    border-radius: 2px;
+  }
+
+  .blocks .faitContent-onebis {
+    height: 7px;
+    margin-top: 4px;
+  }
+
+  .blocks .faitContent-two {
+    height: 7px;
+    margin-top: 4px;
+  }
+
+  .blocks .faitContent-twobis {
+    height: 7px;
+    margin-top: 4px;
+  }
+
+  .blocks .faitContent-three {
+    height: 7px;
+    margin-top: 4px;
+  }
+
+  .cardTwo {
+    margin-top: 200px;
+    margin-top: 200px;
+    margin-right: 130px;
+    height: 150px;
+    min-width: 250px;
+    padding: 10px 15px 10px 15px;
+  }
+
+  .cardTwo h3 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .cardTwo .appliIcon {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .cardTwo .icon1 {
+    margin-top: 2px;
+    font-size: 25px;
+  }
+
+  .cardTwo .icon2 {
+    margin-top: 2px;
+    font-size: 30px;
+  }
+
+  .cardTwo .icon3 {
+    margin-top: 2px;
+    font-size: 25px;
+  }
+
+  .nameIcon h5 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .firstBlock main {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .firstBlock .leftBox {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    width: 95%;
+  }
+
+  .firstBlock .rightBox {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding-right: 150px;
+    margin-bottom: 70px;
+  }
+
+  .firstBlock .bigTitle {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .secondBlock article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .secondBlock .rightBox {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .secondBlock .leftBox {
+    width: 90%;
+    text-align: center;
+  }
+
+  .secondBlock .rightBox .bigTitle {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+
+  .secondBlock .rightBox p {
+    font-size: 16px;
+  }
+
+  .secondBlock .leftBox img {
+    margin-top: 30px;
+  }
+
+  .thirdBlock article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .thirdBlock .leftBox {
+    width: 90%;
+    text-align: center;
+  }
+
+  .thirdBlock .rightBox {
+    width: 90%;
+    text-align: center;
+  }
+
+  .thirdBlock .leftBox .bigTitle {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+
+  .thirdBlock .leftBox p {
+    font-size: 16px;
+  }
+
+  .thirdBlock .rightBox img {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .firstBlock .rightBox {
+    display: none;
+  }
+}
