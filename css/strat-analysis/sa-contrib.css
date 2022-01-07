@@ -1,58 +1,72 @@
 .thirdBlock {
-    height: auto;
-    display: flex;
-    align-items: center;
+  height: auto;
+  display: flex;
+  align-items: center;
+  max-width: 1700px;
+  margin: auto;
 }
 
 .thirdBlock article {
-    width: 85%;
-    padding: 50px 0 50px 0;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
+  width: 85%;
+  padding: 50px 0 50px 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
 }
 
 .thirdBlock .saSubtitle {
-    width: 100%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 }
 
 .thirdBlock .saSubtitle h2 {
-    text-align: center;
-    font-size: 36px;
-    line-height: 1.30em;
-    letter-spacing: 2px;
-    margin-bottom: 0.5em;
-    font-family: 'Besley', serif;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  margin-bottom: 0.5em;
+  font-family: "Besley", serif;
 }
 
 .thirdBlock .saSubtitle p {
-    margin: auto;
-    text-align: center;
-    font-size: 16px;
-    margin-bottom: 30px;
-    width: 60%;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+  width: 60%;
 }
 
 .thirdBlock img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .thirdBlock .saChart {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .thirdBlock .saChart img {
-    width: 40%;
-    border-radius: 10px;
+  width: 30%;
+  border-radius: 10px;
 }
 
-.thirdBlock .saChart img:nth-child(1) {
-    width: 30%;
+.thirdBlock .saProfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+.thirdBlock .saProfil img {
+  width: 100%;
+}
+
+.thirdBlock .saChart #chart4 {
+  width: 600px;
 }

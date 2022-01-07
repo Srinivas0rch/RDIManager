@@ -1,175 +1,177 @@
 .joinPage {
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-    width: 85%;
-    height: auto;
-    padding: 70px 0 50px 0;
-    margin: auto;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  max-width: 1700px;
+  height: auto;
+  padding: 70px 0 50px 0;
+  margin: auto;
 }
 
 .joinPage .joinLeft {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 49%;
-    z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
 }
 
 .joinLeft .joinUs {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
 }
 
 .joinPage .joinRight h2 {
-    font-size: 36px;
-    line-height: 4.5rem;
-    letter-spacing: 2px;
-    margin-bottom: 0.5em;
-    font-family: 'Besley', serif;
+  font-size: 36px;
+  line-height: 4.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 0.5em;
+  font-family: "Besley", serif;
 }
 
 .joinPage .joinLeft h3 {
-    text-align: left;
-    font-size: 20px;
-    line-height: 4.5rem;
-    letter-spacing: 1.5px;
-    margin-bottom: 0.5em;
-    font-family: 'Besley', serif;
+  text-align: left;
+  font-size: 20px;
+  line-height: 4.5rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 0.5em;
+  font-family: "Besley", serif;
 }
 
 .joinRight .textRec {
-    display: inline;
-    width: 100%;
-    font-size: 16px;
-    line-height: 1.25;
-    margin-bottom: 20px;
+  display: inline;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.25;
+  margin-bottom: 20px;
 }
 
 .joinRight strong {
-    text-decoration: underline #e62117;
+  text-decoration: underline #e62117;
 }
 
 .joinLeft .offre {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    background: #eee;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #eeeeee;
 }
 
 .offre h5 {
-    font-size: 20px;
-    margin-bottom: 20px;
-    text-decoration: underline #e62117;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-decoration: underline #e62117;
 }
 
 .offre p {
-    font-size: 15px;
-    margin-bottom: 20px;
+  font-size: 15px;
+  margin-bottom: 20px;
 }
 
 .offre a {
-    color: #01b2fe;
-    font-size: 18px;
+  color: #01b2fe;
+  font-size: 18px;
 }
 
 .offre a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .joinPage .joinRight {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 49%;
-    z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+  z-index: 1;
 }
 
 .joinRight .form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 80%;
-    height: 550px;
-    padding: 30px;
-    background: #303030;
-    border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 550px;
+  padding: 30px;
+  background: #303030;
+  border-radius: 10px;
 }
 
 .form form {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .form label {
-    text-align: left;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 15px;
-    color: #fff;
+  text-align: left;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #fff;
 }
 
 .form input {
-    margin-bottom: 20px;
-    width: 100%;
-    height: 50px;
-    font-size: 15px;
-    padding: 5px 15px;
-    border-radius: 10px;
-    border: 2px solid #303030;
-    background: #fff;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: 2px solid #303030;
+  background: #fff;
 }
 
 .form input:focus {
-    border: 2px solid #01b2fe;
-    outline: none;
+  border: 2px solid #01b2fe;
+  outline: none;
 }
 
 .form select {
-    margin-bottom: 20px;
-    width: 100%;
-    height: 50px;
-    font-size: 15px;
-    padding: 5px 15px;
-    border-radius: 10px;
-    border: 2px solid #303030;
-    background: #fff;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: 2px solid #303030;
+  background: #fff;
 }
 
 .form select:focus {
-    border: 2px solid #01b2fe;
-    outline: none;
+  border: 2px solid #01b2fe;
+  outline: none;
 }
 
 .form textarea {
-    margin-bottom: 20px;
-    width: 100%;
-    height: 120px;
-    max-height: 130px;
-    max-width: 100%;
-    min-height: 130px;
-    min-width: 100%;
-    font-size: 15px;
-    padding: 5px 15px;
-    border-radius: 10px;
-    font-family: 'Nunito Sans', sans-serif;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 120px;
+  max-height: 130px;
+  max-width: 100%;
+  min-height: 130px;
+  min-width: 100%;
+  font-size: 15px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .form textarea:focus {
-    border: 2px solid #01b2fe;
-    outline: none;
+  border: 2px solid #01b2fe;
+  outline: none;
 }

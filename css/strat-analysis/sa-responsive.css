@@ -1,0 +1,107 @@
+@media (max-width: 1250px) {
+  .firstBlock main {
+    width: 100%;
+  }
+
+  .firstBlock .saSubtitle h2 {
+    font-size: 30px;
+  }
+
+  .firstBlock .saSubtitle p {
+    width: 80%;
+  }
+
+  .secondBlock article {
+    width: 100%;
+  }
+
+  .secondBlock .saSubtitle h2 {
+    font-size: 30px;
+  }
+
+  .secondBlock .saSubtitle p {
+    width: 80%;
+  }
+
+  .thirdBlock article {
+    width: 100%;
+  }
+
+  .thirdBlock .saSubtitle h2 {
+    font-size: 30px;
+  }
+
+  .thirdBlock .saSubtitle p {
+    width: 80%;
+  }
+}
+@media (max-width: 1020px) {
+  .firstBlock .saChart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .firstBlock .saSubtitle p {
+    width: 90%;
+  }
+
+  .column:last-child {
+    margin-top: 30px;
+  }
+
+  .secondBlock .saSubtitle p {
+    width: 90%;
+  }
+
+  .secondBlock .saChart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .secondBlock .saChart img {
+    width: 90%;
+  }
+
+  .thirdBlock .saSubtitle p {
+    width: 90%;
+  }
+
+  .thirdBlock .saProfil {
+    display: none;
+  }
+
+  .thirdBlock .saChart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .thirdBlock .saChart img {
+    width: 80%;
+  }
+}
+@media (max-width: 650px) {
+  .firstBlock .saChart #chart {
+    width: 350px;
+  }
+
+  .firstBlock .saChart #chart2 {
+    width: 350px;
+  }
+
+  .secondBlock .saChart #chart3 {
+    width: 350px;
+  }
+
+  .thirdBlock .saChart #chart4 {
+    width: 350px;
+  }
+}

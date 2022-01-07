@@ -1,145 +1,154 @@
 footer {
-    padding: 100px 0 50px 0;
-    margin-top: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #303030;
+  padding: 100px 0 50px 0;
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #303030;
 }
 
 .flexFoot {
-    width: 85%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
+  width: 85%;
+  max-width: 1700px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
 }
 
 .flexFoot h6 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 25px;
 }
 
 .footLeft {
-    position: relative;
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.allContact .mail,
-.phone,
-.adress {
-    margin: 50px 0 0 0;
-    font-size: 18px;
-    line-height: 1.25;
-}
-
-.allContact i {
-    font-size: 20px;
-    margin-right: 10px;
-    color: #e62117;
+  position: relative;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .footMid {
-    position: relative;
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+  position: relative;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .footRight {
-    position: relative;
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+  position: relative;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .planFoot {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    margin-left: 25px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 25px;
 }
 
 .planFoot p {
-    font-size: 16px;
-    margin: 5px 0;
-    color: #fff;
+  font-size: 16px;
+  margin: 5px 0;
+  color: #fff;
 }
 
 .planFoot a {
-    font-size: 16px;
-    margin: 5px 0;
-    color: #fff;
-    cursor: pointer;
+  font-size: 16px;
+  margin: 5px 0;
+  color: #fff;
+  cursor: pointer;
 }
 
 .planFoot a:hover {
-    color: #01b2fe;
-    text-decoration: underline #01b2fe;
+  color: #01b2fe;
+  text-decoration: underline #01b2fe;
 }
 
 .footBottom {
-    margin-top: 50px;
-    width: 85%;
-    border-top: 1px solid #eeeeee;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  margin-top: 50px;
+  width: 85%;
+  max-width: 1700px;
+  border-top: 1px solid #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .footBottom .socialMedia {
-    margin-top: 50px;
-    display: flex;
+  margin-top: 50px;
+  display: flex;
 }
 
 .footBottom .socialMedia a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .footBottom .socialMedia i {
-    font-size: 30px;
-    margin: 0 30px;
-    color: #fff;
+  font-size: 30px;
+  margin: 0 30px;
+  color: #fff;
 }
 
 .footBottom .socialMedia div {
-    height: 2px;
-    background: #e62117;
-    width: 50px;
+  height: 2px;
+  background: #e62117;
+  width: 50px;
 }
 
 .footBottom .socialMedia a:hover div {
-    background: #e62117;
-    height: 2px;
-    width: 50px;
-    animation: all, underline 0.5s;
+  background: #e62117;
+  height: 2px;
+  width: 50px;
+  animation: all, underline 0.5s;
 }
 
 @keyframes underline {
-    0% {
-        width: 0px;
-    }
+  0% {
+    width: 0px;
+  }
 
-    100% {
-        width: 50px;
-    }
+  100% {
+    width: 50px;
+  }
 }
 
 .footBottom p {
-    margin-top: 50px;
+  margin-top: 50px;
+}
+
+@media (max-width: 1020px) {
+  .footLeft,
+  .footRight {
+    width: 50%;
+  }
+
+  .footMid {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .footLeft {
+    width: 90%;
+  }
+
+  .footRight {
+    display: none;
+  }
 }

@@ -1,51 +1,58 @@
 .secondBlock {
-    height: auto;
-    display: flex;
-    align-items: center;
-    background: #eeeeee;
+  height: auto;
+  display: flex;
+  align-items: center;
+  background: #eeeeee;
+
+  margin: auto;
 }
 
 .secondBlock article {
-    width: 85%;
-    padding: 50px 0 50px 0;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
+  width: 85%;
+  max-width: 1700px;
+  padding: 50px 0 50px 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
 }
 
 .secondBlock .saSubtitle {
-    width: 100%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 }
 
 .secondBlock .saSubtitle h2 {
-    text-align: center;
-    font-size: 36px;
-    line-height: 1.30em;
-    letter-spacing: 2px;
-    margin-bottom: 0.5em;
-    font-family: 'Besley', serif;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  margin-bottom: 0.5em;
+  font-family: "Besley", serif;
 }
 
 .secondBlock .saSubtitle p {
-    margin: auto;
-    text-align: center;
-    font-size: 16px;
-    margin-bottom: 30px;
-    width: 60%;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+  width: 60%;
 }
 
 .secondBlock .saChart {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .secondBlock .saChart img {
-    width: 40%;
-    border-radius: 10px;
+  width: 40%;
+  border-radius: 10px;
+}
+
+.secondBlock .saChart #chart3 {
+  width: 600px;
 }

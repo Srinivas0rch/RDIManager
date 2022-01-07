@@ -1,0 +1,105 @@
+@media (max-width: 1250px) {
+}
+
+@media (max-width: 1020px) {
+  .aboutTop {
+    width: 90%;
+  }
+
+  .aboutTop h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+
+  .sectionTeam h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+
+  .teamCard .boss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .teamCard .esclaves {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+
+  .teamCard .actor {
+    margin-top: 30px;
+  }
+
+  .sectionValue h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+
+  .partnersTop h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 700px) {
+  .valuesCard .cardValue {
+    width: 100%;
+  }
+
+  .valuesCard .left {
+    display: flex;
+    justify-content: center;
+    display: grid;
+  }
+
+  .valuesCard .right {
+    display: flex;
+    justify-content: center;
+    display: grid;
+  }
+}
+
+@media (max-width: 650px) {
+  .aboutTop {
+    width: 100%;
+  }
+
+  .aboutTop h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .sectionTeam h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .sectionValue h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .valuesCard .left,
+  .valuesCard .right {
+    margin-top: 30px;
+  }
+
+  .valuesCard h6 {
+    font-size: 24px;
+    margin: 10px 0 10px 0;
+  }
+
+  .valuesCard .cardValue img {
+    display: none;
+  }
+
+  .partnersTop h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+}

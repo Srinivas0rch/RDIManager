@@ -14,7 +14,6 @@
     <link rel="shortcut icon" type="image/png" href="../images/favicon.png">
     <!--Material Icon -->
     <link rel="stylesheet" type="text/css" href="../css/materialdesignicons.min.css" />
-    <link rel="stylesheet" href="../css/swiper.min.css" />
 
     <!-- Pe-icon-7 icon -->
     <link rel="stylesheet" type="text/css" href="../css/pe-icon-7-stroke.css">
@@ -24,7 +23,10 @@
     <link rel="stylesheet" type="text/css" href="../css/startup/section-team.css">
     <link rel="stylesheet" type="text/css" href="../css/startup/section-value.css">
     <link rel="stylesheet" type="text/css" href="../css/startup/section-partners.css">
+    <link rel="stylesheet" type="text/css" href="../css/startup/startup-responsive.css">
     <link rel="stylesheet" type="text/css" href="../css/nav/nav.css">
+    <link rel="stylesheet" type="text/css" href="../css/nav/navPhone.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer/footer.css">
     <link rel="stylesheet" type="text/css" href="../css/base.css">
     <title>RDI-Manager | La Start-up</title>
 </head>
@@ -103,7 +105,7 @@
                 <div class="listRight">
                     <ul>
                         <li>
-                            <a href="../indexNew.html#pricing" data-i18n="nav_pricing"></a>
+                            <a href="../index.html#pricing" data-i18n="nav_pricing"></a>
                         </li>
                         <a href="https://app.rdimanager.com/connexion" class="btn btn-hover bg-red bg-red-hover"
                             id="connect" data-i18n="nav_free"></a>
@@ -122,7 +124,7 @@
             </nav>
 
             <!-- NAV FOR PHONE -->
-            <a href="index.html"><img class="logoPhone" src="images/logo.png" alt="RDI-Manager"></a>
+            <a href="/index.html"><img class="logoPhone" src="/images/favicon.png" alt="RDI-Manager"></a>
             <div class="navPhone">
                 <button class="ham">
                     <span class="menuIcon">
@@ -135,32 +137,62 @@
 
                 <ul class="menu">
                     <div class="logo">
-                        <a href="index.html"><img class="logoNav" src="images/logo.png" alt="RDI-Manager"></a>
+                        <a href="/index.html"><img class="logoNav" src="/images/favicon.png" alt="RDI-Manager"></a>
                     </div>
                     <li>
-                        <a class="menuLink" id="activeNav" href="index.html" data-i18n="nav_home"><i
-                                class="mdi mdi-home"></i>
-                        </a>
+                        <div class="parentBlockPhone">
+                            <div class="childOnePhone">
+                                <a data-i18n="nav_sol"></a>
+                                <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                            </div>
+                            <div class="childTwoPhone">
+                                <a data-i18n="nav_sol_product" href="../index.html#simplifyYourActivity"></a>
+                                <a data-i18n="nav_sol_why" href="../index.html#whyRdiManager"></a>
+                                <a data-i18n="nav_sol_partner" href="../index.html#partner"></a>
+                                <a data-i18n="nav_sol_offer" href="../index.html#pricing"></a>
+                            </div>
+                        </div>
                     </li>
                     <li>
-                        <a class="menuLink" href="saisie-temps.html" data-i18n="nav_time"><i
-                                class="mdi mdi-av-timer"></i>
-                        </a>
+                        <div class="parentBlockPhone">
+                            <div class="childOnePhone">
+                                <a data-i18n="nav_features"></a>
+                                <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                            </div>
+                            <div class="childTwoPhone">
+                                <a data-i18n="nav_feat_keyfact" href="../faits-marquants.html"></a>
+                                <a data-i18n="nav_feat_timesheet" href="../saisie-temps.html"></a>
+                                <a data-i18n="nav_feat_strat" href="../strategic-analysis.html"></a>
+                                <a data-i18n="nav_feat_role" href="../role-guide.html"></a>
+                            </div>
+                        </div>
                     </li>
                     <li>
-                        <a class="menuLink" href="faits-marquants.html" data-i18n="nav_fm"><i
-                                class="mdi mdi-comment-text-outline"></i>
-                        </a>
+                        <div class="parentBlockPhone">
+                            <div class="childOnePhone">
+                                <a data-i18n="nav_startup"></a>
+                                <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                            </div>
+                            <div class="childTwoPhone">
+                                <a data-i18n="nav_startup_about" href="/pages/startup.html#aboutUs"></a>
+                                <a data-i18n="nav_startup_team" href="/pages/startup.html#team"></a>
+                                <a data-i18n="nav_startup_value" href="/pages/startup.html#ourValue"></a>
+                                <a data-i18n="nav_startup_partners" href="/pages/startup.html#partners"></a>
+                            </div>
+                        </div>
                     </li>
                     <li>
-                        <a class="menuLink" href="index.html#pricing" data-i18n="nav_pricing"><i
-                                class="mdi mdi-coin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="menuLink" href="https://app.rdimanager.com/connexion" data-i18n="nav_login"><i
-                                class="mdi mdi-account"></i>
-                        </a>
+                        <div class="parentBlockPhone">
+                            <div class="childOnePhone">
+                                <a data-i18n="nav_contact"></a>
+                                <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                            </div>
+                            <div class="childTwoPhone">
+                                <a data-i18n="nav_contact_form" href="/pages/contact.html"></a>
+                                <a data-i18n="nav_contact_join" href="/pages/join.html"></a>
+                                <a href="/pages/faq.html">F.A.Q</a>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <select class="languageSelector">
@@ -181,14 +213,16 @@
         <section class="sectionAbout">
             <main>
                 <div class="aboutTop">
-                    <h2>A propos de <img src="/images/logo.png" alt="logo"></h2>
+                    <h2>A propos de <b>RDI</b>Manager</h2>
                     <div class="hr"></div>
                     <p>RDI-MANAGER nait de l’observation d’ingénieurs de recherche d’une part et consultants innovation
                         d’autre part, selon laquelle gérer son activité de recherche et innovation de manière structuré
                         et efficace s’avère parfois compliqué et contraignant ; pour les PME, Start-ups et Grands
                         Groupes.</p>
                     <div class="hr"></div>
-                    <p>C’est pourquoi nous avons développé en collaboration avec le cabinet EUREKA C.I et son réseau
+                    <p>C’est pourquoi nous avons développé en collaboration avec le cabinet <a
+                            href="https://new.eurekaci.com/" target="_blank" class="text-blue"> EUREKA C.I</a> et son
+                        réseau
                         d’entreprises innovantes, une solution de management de l’innovation qui se veut SIMPLE,
                         INTELLIGENTE et COLLABORATIVE.</p>
                     <div class="hr"></div>
@@ -295,7 +329,7 @@
                         <div class="hr"></div>
                         <h6>Audace</h6>
                         <div class="cardValue">
-                            <p>Alors les approches classique de gestion de projet se basent principalement sur la
+                            <p>Alors que les approches classique de gestion de projet se basent principalement sur la
                                 planification, RDI-Manager a le courage de proposer une autre approche : le suivi
                                 collaboratif.</p>
                             <img src="../images/startUp/audace.jpg" alt="Audace">
@@ -379,7 +413,7 @@
                         <img class="logoPartners" src="/images/logoPartners/JEECE.png" alt="Jeece">
                         <div class="partnerText">
                             <h5>Jeece</h5>
-                            <a href="https://www.linkedin.com/in/kevin-njifenju-phd-16928a1a/" target="_blank">Voir leur
+                            <a href="https://jeece.fr/" target="_blank">Voir leur
                                 site</a>
                         </div>
                     </div>
@@ -455,9 +489,62 @@
             </article>
         </section>
 
-        <script src="../js/scrollReveal.js"></script>
-        <script src="../js/home.js"></script>
-        <script src="../dist/main.js"></script>
+        <footer>
+            <div class="flexFoot">
+                <div class="footLeft">
+                    <h6 class="text-white">RDI Manager</h6>
+                    <div class="planFoot">
+                        <a href"mailto:contact@rdimanager.com" target="_blank">contact@rdimanager.com</a>
+                        <p>+33 1 30 50 13 49</p>
+                        <p>2 rue Eugene Pottier</p>
+                        <p>78190 Saint-Quentin en Yvelines</p>
+                    </div>
+                </div>
+                <div class="footMid">
+                    <h6 class="text-white">Solution</h6>
+                    <div class="planFoot">
+                        <a data-i18n="nav_sol_why" href="../index.html#whyRdiManager"></a>
+                        <a data-i18n="nav_feat_keyfact" href="../faits-marquants.html"></a>
+                        <a data-i18n="nav_feat_timesheet" href="../saisie-temps.html"></a>
+                        <a data-i18n="nav_sol_offer" href="../index.html#pricing"></a>
+                    </div>
+                </div>
+                <div class="footRight">
+                    <h6 class="text-white">Ressources</h6>
+                    <div class="planFoot">
+                        <a href="../images/CGU_CGV.pdf" target="_blank">CGU & CGV</a>
+                        <a href="../images/FT_S.pdf" target="_blank">Fiche technique et Sécurité</a>
+                        <a data-i18n="nav_sol_partner" href="../index.html#partner"></a>
+                        <a href="../pages/faq.html">F.A.Q</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footBottom">
+                <div class="socialMedia">
+                    <a href="https://www.linkedin.com/company/rdi-manager/"><i class="mdi mdi-linkedin"></i>
+                        <div></div>
+                    </a>
+                    <a href="https://www.facebook.com/RDImanager/"><i class="mdi mdi-facebook"></i>
+                        <div></div>
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UCBnAVKPkqlvdSj8z8tS47NQ"><i
+                            class="mdi mdi-youtube-play"></i>
+                        <div></div>
+                    </a>
+                    <a href="https://twitter.com/eureka_conseil?lang=fr"><i class="mdi mdi-twitter"></i>
+                        <div></div>
+                    </a>
+                </div>
+                <p class="text-white">Copyright &copy; RDI Manager 2022</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="../js/scrollReveal.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../dist/main.js"></script>
 
 
 </body>

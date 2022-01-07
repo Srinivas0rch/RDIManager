@@ -1,0 +1,234 @@
+.navPhone {
+  z-index: 99999;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logoPhone {
+  display: none;
+}
+
+/* BURGER MENU */
+
+.ham {
+  position: fixed;
+  z-index: 9999;
+  top: 1rem;
+  right: 1rem;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #a30000;
+  background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+  border: transparent;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.ham span {
+  font-size: 30px;
+}
+
+.xIcon {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: #fff;
+  opacity: 100%;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  list-style: none;
+  padding: 30px;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+.logoNav {
+  width: 200px;
+  z-index: 5;
+}
+
+.menu li {
+  padding: 30px 0;
+}
+
+.menu a {
+  display: inline;
+  color: #303030;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  display: inline;
+  background: -webkit-linear-gradient(316deg, #e62117 30%, #a30000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+
+.parentBlockPhone {
+  position: relative;
+  width: 100%;
+}
+
+.childOnePhone,
+.childOnePhone a {
+  z-index: 4;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+li:hover .childOnePhone .arrow {
+  transform: rotate(180deg);
+}
+
+.childOnePhone .arrow {
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 30px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.childOnePhone .arrowDown {
+  position: relative;
+}
+
+.childTwoPhone {
+  z-index: 5;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  min-width: 250px;
+  max-width: 1250px;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  background: #ffffff;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  box-shadow: rgba(50, 50, 93, 0.1) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.childTwoPhone a {
+  margin: 5px 0;
+}
+
+li:hover .childTwoPhone {
+  visibility: visible;
+}
+
+.menu .logoNav {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 60px;
+}
+
+.navPhone li select {
+  text-decoration: none;
+  border: none;
+  background: transparent;
+  color: #303030;
+  font-size: 15px;
+}
+
+.navPhone li select:focus {
+  outline: none;
+}
+
+/* END BURGER MENU */
+
+.top a {
+  display: none;
+  position: fixed;
+  z-index: 5;
+  bottom: 1rem;
+  right: 1rem;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #a30000;
+  background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+  border: transparent;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* RESPONSIVE NAV */
+
+@media (max-width: 1250px) {
+  header {
+    height: 80px;
+  }
+
+  header .navHigh {
+    display: none;
+  }
+
+  .logoPhone {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    display: block;
+    width: 60px;
+  }
+
+  .navPhone {
+    display: block;
+  }
+
+  .menuLink {
+    font-size: 30px;
+  }
+
+  .menuLink i {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu li {
+    padding: 15px 0;
+  }
+
+  .menuLink {
+    font-size: 20px;
+  }
+
+  .menuLink i {
+    font-size: 20px;
+  }
+}

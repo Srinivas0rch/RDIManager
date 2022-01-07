@@ -1,6 +1,7 @@
 .homePage {
   z-index: 1;
   width: 85%;
+  max-width: 1700px;
   height: auto;
   padding: 0 0 30px 0;
   margin: auto;
@@ -17,7 +18,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 49%;
   z-index: 1;
 }
 
@@ -39,7 +40,6 @@
   z-index: 1;
 }
 
-
 .homePage .botTop {
   display: flex;
   justify-content: space-around;
@@ -58,27 +58,22 @@
 section .title h1 {
   text-align: left;
   font-size: 45px;
-  line-height: 4.5rem;
+  line-height: 1.5;
   letter-spacing: 2px;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  font-family: 'Besley', serif;
+  font-family: "Besley", serif;
 }
 
 section .para {
   display: inline;
   width: 100%;
-  margin-bottom: 1.5em;
 }
 
-.textParaFlex {
-  display: flex;
-}
-
-section .para p,
-section .para strong {
+section .para p {
   line-height: 1.5rem;
   font-size: 18px;
+  margin-bottom: 1em;
 }
 
 section .button {
@@ -131,6 +126,12 @@ section .botTop a i {
 section .botBottom strong {
   font-size: 18px;
   border-bottom: 2px solid #e62117;
+}
+
+section .botBottom .imgLog {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
 }
 
 section .botBottom img {

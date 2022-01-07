@@ -18,25 +18,8 @@
     <!-- Pe-icon-7 icon -->
     <link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css">
 
-    <!-- Bootstrap core CSS -->
-    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">-->
-
     <!--Material Icon -->
     <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
-
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="css/swiper.min.css">
-
-    <!-- magnific pop-up -->
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
-
-    <!--Slider-->
-    <link rel="stylesheet" href="css/owl.carousel.css" />
-    <link rel="stylesheet" href="css/owl.theme.css" />
-    <link rel="stylesheet" href="css/owl.transitions.css" />
-
-    <!-- MENU CUSTOM css -->
-    <link rel="stylesheet" type="text/css" href="css/menu.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.20/c3.min.css"
         integrity="sha512-cznfNokevSG7QPA5dZepud8taylLdvgr0lDqw/FEZIhluFsSwyvS81CMnRdrNSKwbsmc43LtRd2/WMQV+Z85AQ=="
@@ -47,7 +30,10 @@
     <link rel="stylesheet" type="text/css" href="css/strat-analysis/sa-home.css" />
     <link rel="stylesheet" type="text/css" href="css/strat-analysis/sa-strat.css" />
     <link rel="stylesheet" type="text/css" href="css/strat-analysis/sa-contrib.css" />
+    <link rel="stylesheet" type="text/css" href="css/strat-analysis/sa-responsive.css" />
     <link rel="stylesheet" type="text/css" href="css/nav/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/nav/navPhone.css">
+    <link rel="stylesheet" type="text/css" href="css/footer/footer.css">
     <link rel="stylesheet" type="text/css" href="css/base.css">
 
     <!-- Schema.org markup for Google+ -->
@@ -148,7 +134,7 @@
                 <div class="listRight">
                     <ul>
                         <li>
-                            <a href="../indexNew.html#pricing" data-i18n="nav_pricing"></a>
+                            <a href="../index.html#pricing" data-i18n="nav_pricing"></a>
                         </li>
                         <a href="https://app.rdimanager.com/connexion" class="btn btn-hover bg-red bg-red-hover"
                             id="connect" data-i18n="nav_free"></a>
@@ -166,57 +152,87 @@
                 </div>
             </nav>
 
-            <!-- NAV FOR PHONE -->
-            <a href="index.html"><img class="logoPhone" src="images/logo.png" alt="RDI-Manager"></a>
-            <div class="navPhone">
-                <button class="ham">
-                    <span class="menuIcon">
-                        <i class="mdi mdi-menu"></i>
-                    </span>
-                    <span class="xIcon">
-                        <i class="mdi mdi-close"></i>
-                    </span>
-                </button>
-
-                <ul class="menu">
-                    <div class="logo">
-                        <a href="index.html"><img class="logoNav" src="images/logo.png" alt="RDI-Manager"></a>
-                    </div>
-                    <li>
-                        <a class="menuLink" id="activeNav" href="index.html" data-i18n="nav_home"><i
-                                class="mdi mdi-home"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="menuLink" href="saisie-temps.html" data-i18n="nav_time"><i
-                                class="mdi mdi-av-timer"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="menuLink" href="faits-marquants.html" data-i18n="nav_fm"><i
-                                class="mdi mdi-comment-text-outline"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="menuLink" href="index.html#pricing" data-i18n="nav_pricing"><i
-                                class="mdi mdi-coin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="menuLink" href="https://app.rdimanager.com/connexion" data-i18n="nav_login"><i
-                                class="mdi mdi-account"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <select class="languageSelector">
-                            <option selected value="fr">FR</option>
-                            <option value="en">EN</option>
-                        </select>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- END NAV FOR PHONE -->
+                <!-- NAV FOR PHONE -->
+                <a href="index.html"><img class="logoPhone" src="images/favicon.png" alt="RDI-Manager"></a>
+                <div class="navPhone">
+                    <button class="ham">
+                        <span class="menuIcon">
+                            <i class="mdi mdi-menu"></i>
+                        </span>
+                        <span class="xIcon">
+                            <i class="mdi mdi-close"></i>
+                        </span>
+                    </button>
+    
+                    <ul class="menu">
+                        <div class="logo">
+                            <a href="index.html"><img class="logoNav" src="images/favicon.png" alt="RDI-Manager"></a>
+                        </div>
+                        <li>
+                            <div class="parentBlockPhone">
+                                <div class="childOnePhone">
+                                    <a data-i18n="nav_sol"></a>
+                                    <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                                </div>
+                                <div class="childTwoPhone">
+                                    <a data-i18n="nav_sol_product" href="../index.html#simplifyYourActivity"></a>
+                                    <a data-i18n="nav_sol_why" href="../index.html#whyRdiManager"></a>
+                                    <a data-i18n="nav_sol_partner" href="../index.html#partner"></a>
+                                    <a data-i18n="nav_sol_offer" href="../index.html#pricing"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="parentBlockPhone">
+                                <div class="childOnePhone">
+                                    <a data-i18n="nav_features"></a>
+                                    <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                                </div>
+                                <div class="childTwoPhone">
+                                    <a data-i18n="nav_feat_keyfact" href="../faits-marquants.html"></a>
+                                    <a data-i18n="nav_feat_timesheet" href="../saisie-temps.html"></a>
+                                    <a data-i18n="nav_feat_strat" href="../strategic-analysis.html"></a>
+                                    <a data-i18n="nav_feat_role" href="../role-guide.html"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="parentBlockPhone">
+                                <div class="childOnePhone">
+                                    <a data-i18n="nav_startup"></a>
+                                    <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                                </div>
+                                <div class="childTwoPhone">
+                                    <a data-i18n="nav_startup_about" href="/pages/startup.html#aboutUs"></a>
+                                    <a data-i18n="nav_startup_team" href="/pages/startup.html#team"></a>
+                                    <a data-i18n="nav_startup_value" href="/pages/startup.html#ourValue"></a>
+                                    <a data-i18n="nav_startup_partners" href="/pages/startup.html#partners"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="parentBlockPhone">
+                                <div class="childOnePhone">
+                                    <a data-i18n="nav_contact"></a>
+                                    <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                                </div>
+                                <div class="childTwoPhone">
+                                    <a data-i18n="nav_contact_form" href="/pages/contact.html"></a>
+                                    <a data-i18n="nav_contact_join" href="/pages/join.html"></a>
+                                    <a href="/pages/faq.html">F.A.Q</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <select class="languageSelector">
+                                <option selected value="fr">FR</option>
+                                <option value="en">EN</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+    
+                <!-- END NAV FOR PHONE -->
         </header>
 
         <!-- END HEADER -->
@@ -224,17 +240,23 @@
         <section class="firstBlock">
             <main>
                 <div class="saSubtitle">
-                    <h2 class="text-red">Analyse globale de l’activité</h2>
+                    <h2>Analyse globale de l’activité</h2>
                     <p>Avec RDI-Manager, tous les collaborateurs ont droit à une vue d’ensemble de leur activité. Les
-                        analyses stratégiques du tableau de bord de chaque utilisateur sont relatifs à l’ensemble des
+                        analyses stratégiques du tableau de bord de chaque utilisateur sont relatives à l’ensemble des
                         projets
                         pour lesquels il a un partie pris. Ceci renforce l’engagement des troupes dans leurs projets.
                     </p>
                 </div>
 
                 <div class="saChart">
-                    <div id="chart"></div>
-                    <div id="chart2"></div>
+                    <div class="column">
+                        <h6>Nombre d'heure par projet</h6>
+                        <div id="chart"></div>
+                    </div>
+                    <div class="column">
+                        <h6>Réalisation des projets</h6>
+                        <div id="chart2"></div>
+                    </div>
                 </div>
             </main>
         </section>
@@ -243,7 +265,7 @@
             <article>
 
                 <div class="saSubtitle">
-                    <h2 class="text-red">Analyse stratégique par projet</h2>
+                    <h2>Analyse stratégique par projet</h2>
                     <p>Avec RDI-Manager, les managers ont droit à des fonctionnalités spécifiques pour analyser au mieux
                         leurs projets, ainsi que l’investissement de l’équipe sur chaque projet. Le Score RDI de votre
                         projet
@@ -253,9 +275,11 @@
 
                 <div class="saChart">
                     <img src="/images/analStrat/SCP.png" alt="SCP">
-                    <img src="/images/analStrat/TCP.png" alt="TCP">
+                    <div class="column">
+                        <h6>Temps passé en heure par utilisateur</h6>
+                        <div id="chart3"></div>
+                    </div>
                 </div>
-
             </article>
         </section>
 
@@ -263,26 +287,79 @@
             <article>
 
                 <div class="saSubtitle">
-                    <h2 class="text-red">Analyse des contributions collaborateur</h2>
+                    <h2>Analyse des contributions collaborateur</h2>
                     <p>Avec RDI-Manager, le manager peut suivre facilement les contributions spécifiques de chacun de
                         ses collaborateurs.
                     </p>
                 </div>
 
                 <div class="saProfil">
-                    <img src="/images/analStrat/PR.png" alt="PR">
+                    <img class="PR" src="/images/analStrat/PR.png" alt="PR">
                 </div>
 
                 <div class="saChart">
                     <img src="/images/analStrat/SP.png" alt="SP">
-                    <img src="/images/analStrat/SRT.png" alt="SRT">
+                    <div class="column">
+                        <h6>Temps passé en heure par projet</h6>
+                        <div id="chart4"></div>
+                    </div>
                 </div>
 
             </article>
         </section>
+
+        <footer>
+            <div class="flexFoot">
+                <div class="footLeft">
+                    <h6 class="text-white">RDI Manager</h6>
+                    <div class="planFoot">
+                        <a href"mailto:contact@rdimanager.com" target="_blank">contact@rdimanager.com</a>
+                        <p>+33 1 30 50 13 49</p>
+                        <p>2 rue Eugene Pottier</p>
+                        <p>78190 Saint-Quentin en Yvelines</p>
+                    </div>
+                </div>
+                <div class="footMid">
+                    <h6 class="text-white">Solution</h6>
+                    <div class="planFoot">
+                        <a data-i18n="nav_sol_why" href="../index.html#whyRdiManager"></a>
+                        <a data-i18n="nav_feat_keyfact" href="../faits-marquants.html"></a>
+                        <a data-i18n="nav_feat_timesheet" href="../saisie-temps.html"></a>
+                        <a data-i18n="nav_sol_offer" href="../index.html#pricing"></a>
+                    </div>
+                </div>
+                <div class="footRight">
+                    <h6 class="text-white">Ressources</h6>
+                    <div class="planFoot">
+                        <a href="../images/CGU_CGV.pdf" target="_blank">CGU & CGV</a>
+                        <a href="../images/FT_S.pdf" target="_blank">Fiche technique et Sécurité</a>
+                        <a data-i18n="nav_sol_partner" href="../index.html#partner"></a>
+                        <a href="../pages/faq.html">F.A.Q</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footBottom">
+                <div class="socialMedia">
+                    <a href="https://www.linkedin.com/company/rdi-manager/"><i class="mdi mdi-linkedin"></i>
+                        <div></div>
+                    </a>
+                    <a href="https://www.facebook.com/RDImanager/"><i class="mdi mdi-facebook"></i>
+                        <div></div>
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UCBnAVKPkqlvdSj8z8tS47NQ"><i
+                            class="mdi mdi-youtube-play"></i>
+                        <div></div>
+                    </a>
+                    <a href="https://twitter.com/eureka_conseil?lang=fr"><i class="mdi mdi-twitter"></i>
+                        <div></div>
+                    </a>
+                </div>
+                <p class="text-white">Copyright &copy; RDI Manager 2022</p>
+            </div>
+        </footer>
     </div>
 
-    <script src="js/nav.js"></script>
     <script src="js/home.js"></script>
     <script src="dist/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js"></script>
@@ -293,7 +370,7 @@
             data: {
                 x: 'x',
                 columns: [
-                    ['x', '2022-00-00'],
+                    ['x', '2023-00-00'],
                     ['ASSUME', 2200],
                     ['SUNT', 1115],
                     ['DOL', 1620],
@@ -331,29 +408,98 @@
             data: {
                 x: 'x',
                 columns: [
-                    ['x', '2022-00-00'],
+                    ['x', '2023-00-00'],
                     ['En cours', 8],
                     ['Terminé', 4],
                     ['Suspendus', 2],
                 ],
-                types: {
-                    'En cours': 'pie',
-                    Terminé: 'pie',
-                    Suspendus: 'pie',
+                type: 'pie',
+                names: {
+                    'En cours': 'En cours',
+                    Terminé: 'Terminé',
+                    Suspendus: 'Suspendus',
                 },
+            },
+            pie: {
+                label: {
+                    format: function (value, id) {
+                        return d3.format(value)(value);
+                    }
+                },
+                bar: {
+                    width: {
+                        ratio: 1
+                    }
+                }
+            }
+        });
+
+        var chart = c3.generate({
+            bindto: '#chart3',
+            data: {
+                x: 'x',
+                columns: [
+                    ['x', 'jan', "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov",
+                        "dec"
+                    ],
+                    ['M.Martinez', 10, 15, 25, 40, 70, 65, 70, 80, 85, 80, 80, 70],
+                    ['C.Huet', 0, 90, 90, 100, 100, 100, 100, 100, 100, 0, 0, 0],
+                    ['J.Marin', 0, 0, 0, 0, 0, 70, 100, 95, 96, 90, 90, 90],
+                    ['A.Einstein', 35, 35, 35, 35, 50, 53, 45, 40, 30, 20, 30, 40],
+                    ['A.Legrand', 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 100, 100],
+                    ['D.Dias', 0, 0, 0, 0, 0, 60, 100, 100, 7, 0, 0, 0],
+                    ['M.Gilbert', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20],
+                    ['T.Joubert', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5],
+                    ['D.Giraud', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                ],
+                type: 'bar',
+                groups: [
+                    ['M.Martinez', 'C.Huet', 'J.Marin', 'A.Einstein', 'A.Legrand', 'D.Dias', 'M.Gilbert',
+                        'T.Joubert', 'D.Giraud'
+                    ]
+                ],
             },
             axis: {
                 x: {
-                    type: 'timeseries',
-                    tick: {
-                        count: 1,
-                        format: '%Y'
-                    }
+                    type: 'categorized',
                 }
             },
             bar: {
                 width: {
-                    ratio: 1
+                    ratio: 0.8
+                }
+            }
+        });
+
+        var chart = c3.generate({
+            bindto: '#chart4',
+            data: {
+                x: 'x',
+                columns: [
+                    ['x', 'jan', "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov",
+                        "dec"
+                    ],
+                    ['REICIEN', 7, 10, 10, 5, 0, 0, 30, 0, 0, 0, 0, 0],
+                    ['CON', 0, 2, 2, 3, 0, 30, 5, 10, 0, 0, 0, 0],
+                    ['QUO-SIT', 35, 25, 30, 36, 45, 45, 5, 0, 5, 5, 30, 30],
+                    ['DOL', 5, 8, 5, 5, 5, 0, 5, 20, 35, 35, 12, 12],
+                    ['NIHIL', 2, 5, 9, 11, 5, 10, 15, 10, 10, 0, 0, 13],
+                    ['SUNT', 50, 50, 35, 40, 40, 15, 0, 0, 0, 0, 0, 40],
+                    ['ASSUME', 1, 0, 9, 0, 5, 0, 30, 30, 0, 0, 1, 1],
+                ],
+                type: 'bar',
+                groups: [
+                    ['REICIEN', 'CON', 'QUO-SIT', 'DOL', 'NIHIL', 'SUNT', 'ASSUME']
+                ],
+            },
+            axis: {
+                x: {
+                    type: 'categorized',
+                }
+            },
+            bar: {
+                width: {
+                    ratio: 0.8
                 }
             }
         });

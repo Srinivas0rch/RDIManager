@@ -1,54 +1,59 @@
 .secondBlock {
-    padding: 50px 0 0 0;
-    width: 100%;
-    background: #eeeeee;
+  padding: 50px 0 0 0;
+  width: 100%;
+  background: #eeeeee;
+  margin: auto;
 }
 
 .secondBlock article {
-    width: 85%;
-    margin: auto;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 85%;
+  max-width: 1700px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
 .secondBlock .leftBox {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .secondBlock .leftBox img {
-    width: 50%;
+  width: 50%;
 }
 
 .secondBlock .rightBox {
-    position: relative;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 50px;
-    width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 50px;
+  width: 50%;
 }
 
 .secondBlock .rightBox .bigTitle {
-    position: absolute;
-    left: 0;
-    text-align: left;
-    font-size: 45px;
-    line-height: 4.5rem;
-    letter-spacing: 2px;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    font-family: 'Besley', serif;
+  text-align: left;
+  font-size: 45px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-family: "Besley", serif;
 }
 
 .secondBlock .rightBox p {
-    margin-top: 120px;
-    line-height: 1.5rem;
-    font-size: 18px;
-    margin-bottom: 1em;
+  line-height: 1.5rem;
+  font-size: 18px;
+  margin-bottom: 1em;
+  width: 90%;
+}
+
+.secondBlock .rightBox .btn {
+  width: 280px;
+  margin: auto;
 }
