@@ -107,10 +107,10 @@
   width: 80%;
   height: 550px;
   padding: 30px;
-  background: #d4d4d4;
+  background: #eeeeee;
   border-radius: 10px;
 }
-.contactPage .form label{
+.contactPage .form label {
   color: black;
 }
 
@@ -131,14 +131,15 @@
   color: #fff;
 }
 
-.form input, .form textarea {
+.form input,
+.form textarea {
   margin-bottom: 20px;
   width: 100%;
   height: 50px;
   font-size: 15px;
   padding: 5px 15px;
   border-radius: 10px;
-  border: 2px solid #303030;
+  border: 1px solid #8d8d8d;
 }
 
 .form input:focus {
@@ -153,7 +154,7 @@
   font-size: 15px;
   padding: 5px 15px;
   border-radius: 10px;
-  border: 2px solid #303030;
+  border: 1px solid #8d8d8d;
   background: #fff;
 }
 
