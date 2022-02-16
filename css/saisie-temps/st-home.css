@@ -1,42 +1,42 @@
 /* START FIRST BLOCK */
 .firstBlock {
-    height: auto;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    max-width: 1700px;
-    margin: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1700px;
+  margin: auto;
 }
 
 .firstBlock main {
-    width: 85%;
-    padding: 100px 0 150px 0;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  width: 85%;
+  padding: 100px 0 150px 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 /* BLOCK CONTENT SIZE */
 
 .firstBlock .leftBox {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    z-index: 2;
-    width: 40%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+  width: 40%;
 }
 
 .firstBlock .rightBox {
-    z-index: 2;
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 80px;
+  z-index: 2;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 80px;
 }
 
 /* END BLOCK CONTENT SIZE */
@@ -44,24 +44,24 @@
 /* LEFT BOX */
 
 .firstBlock .bigTitle {
-    position: relative;
-    text-align: left;
-    font-size: 45px;
-    line-height: 4.5rem;
-    letter-spacing: 2px;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    font-family: 'Besley', serif;
+  position: relative;
+  text-align: left;
+  font-size: 45px;
+  line-height: 4.5rem;
+  letter-spacing: 2px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-family: "Besley", serif;
 }
 
 .firstBlock .leftBox p {
-    line-height: 1.5rem;
-    font-size: 18px;
-    margin-bottom: 1em;
+  line-height: 1.5rem;
+  font-size: 18px;
+  margin-bottom: 1em;
 }
 
 .firstBlock .leftBox .btn {
-    width: 280px;
+  width: 280px;
 }
 
 /* END LEFT BOX */
@@ -71,71 +71,72 @@
 /* START CARD ONE */
 
 .cardOne {
-    z-index: 2;
-    position: absolute;
-    height: 340px;
-    width: 280px;
-    padding: 30px;
-    box-sizing: border-box;
-    border-radius: 30px;
-    background-color: #a30000;
-    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+  z-index: 2;
+  position: absolute;
+  height: 340px;
+  width: 280px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: #a30000;
+  background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
 }
 
 .cardOne h3 {
-    margin-top: 10px;
-    text-align: left;
-    font-size: 20px;
-    color: #fff;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
 }
 
 .cardOne .listIcon {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    background: none;
-    box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: none;
+  box-sizing: border-box;
 }
 
 .cardOne .appliIcon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    background: #fff;
-    border-radius: 10px;
-    margin: 80px 0 10px 0;
-    box-shadow: rgba(50, 50, 93, 0.5) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 80px 0 10px 0;
+  box-shadow: rgba(50, 50, 93, 0.5) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .cardOne .icon1 {
-    margin-top: 5px;
-    font-size: 35px;
-    color: #e62117;
+  margin-top: 5px;
+  font-size: 35px;
+  color: #e62117;
 }
 
 .cardOne .icon2 {
-    margin-top: 5px;
-    font-size: 40px;
-    color: #FFA500;
+  margin-top: 5px;
+  font-size: 40px;
+  color: #ffa500;
 }
 
 .cardOne .icon3 {
-    margin-top: 5px;
-    font-size: 35px;
-    color: #008000;
+  margin-top: 5px;
+  font-size: 35px;
+  color: #008000;
 }
 
 .nameIcon {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .nameIcon h5 {
-    background: none;
-    color: #fff;
-    font-size: 14px;
+  background: none;
+  color: #fff;
+  font-size: 14px;
 }
 
 /* END CARD ONE */
@@ -143,77 +144,78 @@
 /* START CARD TWO */
 
 .cardTwo {
-    z-index: 2;
-    position: relative;
-    bottom: 80px;
-    right: 115px;
-    height: 170px;
-    width: 300px;
-    padding: 20px 30px 20px 30px;
-    box-sizing: border-box;
-    border-radius: 30px;
-    background: rgba(255, 255, 255, 0.3);
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+  z-index: 2;
+  position: relative;
+  bottom: 80px;
+  right: 115px;
+  height: 170px;
+  width: 300px;
+  padding: 20px 30px 20px 30px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
 }
 
 .cardTwo h3 {
-    color: #303030;
-    text-align: center;
+  color: #303030;
+  text-align: center;
 }
 
 .cardTwo .arrows {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .cardTwo .input {
-    display: inline;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-    width: 100%;
+  display: inline;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
 }
 
 .input h2 {
-    height: 15px;
-    font-size: 15px;
-    margin-bottom: 5px;
-    color: #494949;
+  height: 15px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #494949;
 }
 
 .cardTwo .inputText {
-    width: 120px;
-    height: 30px;
-    margin: auto;
-    padding: 10px 25px 10px 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 10px;
-    border: 2px solid #494949;
+  width: 120px;
+  height: 30px;
+  margin: auto;
+  padding: 10px 25px 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  border: 2px solid #494949;
 }
 
 .inputText h5 {
-    font-size: 18px;
-    font-weight: bold;
-    color: #494949;
+  font-size: 18px;
+  font-weight: bold;
+  color: #494949;
 }
 
 .inputText div {
-    height: 10px;
-    width: 1.5px;
-    border-radius: 9999px;
-    background: #494949;
+  height: 10px;
+  width: 1.5px;
+  border-radius: 9999px;
+  background: #494949;
 }
 
 .inputText p {
-    font-size: 20px;
-    color: #494949;
-    font-weight: bold;
+  font-size: 20px;
+  color: #494949;
+  font-weight: bold;
 }
 
 /* END CARD ONE */
@@ -221,157 +223,159 @@
 /* START CARD THREE */
 
 .cardThree {
-    z-index: 2;
-    position: relative;
-    left: 115px;
-    top: 100px;
-    height: 350px;
-    width: 300px;
-    padding: 20px 30px 20px 30px;
-    box-sizing: border-box;
-    border-radius: 30px;
-    background: rgba(255, 255, 255, 0.3);
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+  z-index: 2;
+  position: relative;
+  left: 115px;
+  top: 100px;
+  height: 350px;
+  width: 300px;
+  padding: 20px 30px 20px 30px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
 }
 
 .cardThree h3 {
-    color: #303030;
-    text-align: center;
+  color: #303030;
+  text-align: center;
 }
 
 .cardThree .arrows {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .arrows div {
-    display: flex;
+  display: flex;
 }
 
 .arrows .smallOne {
-    background: #cccccc;
-    height: 10px;
-    width: 30px;
-    margin-top: 5px;
-    margin-right: 5px;
-    border-radius: 2px;
+  background: #cccccc;
+  height: 10px;
+  width: 30px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border-radius: 2px;
 }
 
 .arrows .smallTwo {
-    background: #999999;
-    height: 10px;
-    width: 40px;
-    margin-top: 5px;
-    margin-left: 5px;
-    border-radius: 2px;
+  background: #999999;
+  height: 10px;
+  width: 40px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 2px;
 }
 
 .calendarDay p {
-    display: inline;
-    margin: 3px;
-    font-size: 15px;
-    color: #494949;
+  display: inline;
+  margin: 3px;
+  font-size: 15px;
+  color: #494949;
 }
 
 .calendar {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
 .calendarStart {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
 }
 
-
 .calendarEnd {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
 }
 
 .calendar div,
 .calendarStart div,
 .calendarEnd div {
-    height: 30px;
-    width: 30px;
-    border-radius: 10px;
-    background: #008000;
-    color: #fff;
-    text-align: center;
-    padding-top: 7px;
-    font-size: 12px;
-    font-weight: bold;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+  background: #008000;
+  color: #fff;
+  text-align: center;
+  padding-top: 7px;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .calendarStart div {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 .calendarEnd div {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .calendar .other,
 .calendarStart .other,
 .calendarEnd .other {
-    background: #e9e9e9;
-    color: #494949;
+  background: #e9e9e9;
+  color: #494949;
 }
 
 .calendar .disabled,
 .calendarStart .disabled,
 .calendarEnd .disabled {
-    background: #8f8f8f;
-    color: #494949;
+  background: #8f8f8f;
+  color: #494949;
 }
 
 .calendar .semi {
-    background: #17a2b8;
+  background: #17a2b8;
 }
 
 .legend {
-    margin-top: 15px;
-    display: inline-flex;
-    display: flex;
-    justify-content: space-around;
+  margin-top: 15px;
+  display: inline-flex;
+  display: flex;
+  justify-content: space-around;
 }
 
 .legend .disabled,
 .legend .full,
 .legend .semi {
-    height: 30px;
-    width: 30px;
-    border-radius: 10px;
-    background: #008000;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+  background: #008000;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .legend .semi {
-    background: #17a2b8;
+  background: #17a2b8;
 }
 
 .legend .disabled {
-    background: #8f8f8f;
+  background: #8f8f8f;
 }
 
 .legendText {
-    margin-top: 5px;
-    display: inline-flex;
-    display: flex;
-    justify-content: space-around;
+  margin-top: 5px;
+  display: inline-flex;
+  display: flex;
+  justify-content: space-around;
 }
 
 .legendText p {
-    font-size: 11px;
-    width: 25%;
-    text-align: center;
-    line-height: 1.05;
-    font-weight: bold;
+  font-size: 11px;
+  width: 25%;
+  text-align: center;
+  line-height: 1.05;
+  font-weight: bold;
 }
 
 /* END CARD THREE */
