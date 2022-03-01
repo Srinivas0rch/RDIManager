@@ -212,7 +212,7 @@
                 <h2>Nous contacter</h2>
 
                 <form class="form" id="contact-form">
-                    <p class="visibility text-green">Votre message est envoyé !</p>
+                    <div id="sending"></div>
                     <label>Email</label>
                     <input type="email" name="user_email">
                     <label>Sujet de votre demande</label>
@@ -325,10 +325,17 @@
         window.onload = function() {
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();
+                const res = document.getElementById('sending');
 
                 emailjs.sendForm('rdi_manager', 'template_ibqn10o', this)
                     .then(function() {
-                        alert('Votre message a bien été envoyé !')
+                        res.innerHTML = `<p class="text-green">Votre message est envoyé !</p>`;
+                        const form = document.getElementById('contact-form');
+                        form.reset();
+
+                        setTimeout(function(){
+                            res.innerHTML = "";
+                        },2000)
                     });
             });
         }

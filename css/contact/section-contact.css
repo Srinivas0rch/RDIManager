@@ -123,10 +123,6 @@
   flex-direction: column;
 }
 
-.visibility {
-  display: none;
-}
-
 .form label {
   text-align: left;
   width: 100%;
