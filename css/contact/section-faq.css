@@ -20,15 +20,15 @@
 }
 
 .faqPage #p {
+    margin-bottom: 50px;
     text-align: center;
     display: inline;
     width: 65%;
     font-size: 18px;
-    line-height: 1.25;
-    margin-bottom: 50px;
+    line-height: 1.25
 }
 
-.faqPage #p a {
+.faqPage a {
     color: #01b2fe;
     text-decoration: #01b2fe underline;
 }
