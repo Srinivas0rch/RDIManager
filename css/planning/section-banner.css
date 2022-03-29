@@ -1,0 +1,35 @@
+#sectionBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  padding: 50px 0;
+
+  background: #eeeeee;
+  height: 500px;
+}
+
+#sectionBanner .containerBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 85%;
+}
+
+.containerBanner .blockLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+}
+
+.containerBanner .blockRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+}

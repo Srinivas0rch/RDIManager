@@ -1,154 +1,172 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Besley:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Besley:wght@500&display=swap");
 /* font-family: 'Besley', serif; */
 /* font-family: 'Nunito Sans', sans-serif; */
 
 /* BASE CSS */
 
 html {
-    scroll-behavior: smooth;
-    color: #333;
-    letter-spacing: -0.5px;
-    line-height: 1.15;
+  scroll-behavior: smooth;
+  color: #333;
+  letter-spacing: -0.5px;
+  line-height: 1.15;
 }
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .preload {
-    z-index: 99999;
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-    background: #fff;
+  z-index: 99999;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background: #fff;
 }
 
 .preload-finish {
-    transition:all, 0.5s;
-    opacity: 0;
-    pointer-events: none;
+  transition: all, 0.5s;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .container {
-    font-family: 'Nunito Sans', sans-serif;
-    overflow: hidden;
+  font-family: "Nunito Sans", sans-serif;
+  overflow: hidden;
 }
 
 button {
-    border: none;
-    background: none;
-    font-weight: 300 !important;
-    color: #333;
+  border: none;
+  background: none;
+  font-weight: 300 !important;
+  color: #333;
 }
 
 /**/
 
 svg.shadow {
-    filter: drop-shadow(rgba(0, 0, 0, 0.35) 0px 5px 15px);
-    -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.35) 0px 5px 15px);
+  filter: drop-shadow(rgba(0, 0, 0, 0.35) 0px 5px 15px);
+  -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.35) 0px 5px 15px);
 }
 
 .btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 150px;
-    border-radius: 999px;
-    border: none;
-    font-size: 16px;
-    padding: 13px 20px;
-    font-weight: 300;
-    line-height: 1;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    transition: 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 150px;
+  border-radius: 999px;
+  border: none;
+  font-size: 16px;
+  padding: 13px 20px;
+  font-weight: 300;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
 }
 
 .btn-hover {
-    transition: all, 0.5s ease-in-out;
+  transition: all, 0.5s ease-in-out;
 }
 
 .btn-hover:hover {
-    transform: translateY(-0.15rem);
+  transform: translateY(-0.15rem);
 }
 
 .text-blue {
-    color: #01b2fe !important;
+  color: #01b2fe !important;
 }
 
 .text-yellow {
-    color: #ffcd00 !important;
+  color: #ffcd00 !important;
 }
 
 .text-green {
-    color: #00c458 !important;
+  color: #00c458 !important;
 }
 
 .text-white {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .text-red {
-    color: #e62117 !important;
+  color: #e62117 !important;
 }
 
 .text-black {
-    color: #303030 !important;
+  color: #303030 !important;
 }
 
 .bg-blue {
-    background: #01b2fe;
-    transition: all, 0.5s ease-in-out;
+  background: #01b2fe !important;
+  transition: all, 0.5s ease-in-out;
 }
 
 .bg-white {
-    background: #fff !important;
+  background: #fff !important;
 }
 
 .bg-black {
-    background: #303030 !important;
+  background: #303030 !important;
 }
 
 .bg-yellow {
-    background: #ffcd00 !important;
+  background: #ffcd00 !important;
 }
 
 .bg-green {
-    background: #00c458 !important;
+  background: #00c458 !important;
 }
 
 .bg-red {
-    background: #e62117 !important;
+  background: #e62117 !important;
+}
+
+.bg-purple {
+  background: #bf40bf !important;
 }
 
 .bg-red-hover:hover {
-    background: #a30000 !important;
-    transition: all, 0.5s ease-in-out;
+  background: #a30000 !important;
+  transition: all, 0.5s ease-in-out;
 }
 
 .bg-green-hover:hover {
-    background: #04a04a !important;
-    transition: all, 0.5s ease-in-out;
+  background: #04a04a !important;
+  transition: all, 0.5s ease-in-out;
 }
 
 .bg-blue-hover:hover {
-    background: #0044ff !important;
-    transition: all, 0.5s ease-in-out;
+  background: #0044ff !important;
+  transition: all, 0.5s ease-in-out;
 }
 
 .bg-white-hover:hover {
-    background: #b9b9b9 !important;
+  background: #b9b9b9 !important;
 }
 
 .bg-multi {
-    background-image: linear-gradient(to right top, #01b2fe, #51a3ff, #8a8fff, #ba76ed, #e154cb, #f543ab, #fe3a89, #ff3e67, #ff604f, #ff8536, #ffa919, #ffcd00);
+  background-image: linear-gradient(
+    to right top,
+    #01b2fe,
+    #51a3ff,
+    #8a8fff,
+    #ba76ed,
+    #e154cb,
+    #f543ab,
+    #fe3a89,
+    #ff3e67,
+    #ff604f,
+    #ff8536,
+    #ffa919,
+    #ffcd00
+  ) !important;
 }
