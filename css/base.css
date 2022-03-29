@@ -19,6 +19,23 @@ html {
   list-style: none;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e62117;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a80000;
+}
+
 .preload {
   z-index: 99999;
   position: fixed;
