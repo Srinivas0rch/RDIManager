@@ -30,9 +30,22 @@
   .priceBlock .cardTwo,
   .priceBlock .cardThree {
     position: relative;
-    height: 800px;
+    height: 950px;
     width: 400px;
   }
+}
+
+@media (max-width: 1180px) {
+
+  .priceBlock .cardOne,
+  .priceBlock .cardTwo,
+  .priceBlock .cardThree {
+    position: relative;
+    height: 1000px;
+    width: 400px;
+
+  }
+
 }
 
 @media (max-width: 1020px) {
@@ -213,12 +226,19 @@
   }
 
   .priceBlock .cardOne,
-  .priceBlock .cardTwo,
-  .priceBlock .cardThree {
+  .priceBlock .cardTwo {
     position: relative;
     height: 800px;
     width: 400px;
     margin-top: 30px;
+  }
+
+  .priceBlock .cardThree {
+    height: 940px;
+    margin-top: 30px;
+    width: 400px;
+    position: relative;
+
   }
 }
 

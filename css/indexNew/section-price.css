@@ -45,9 +45,9 @@
 .priceBlock .cardTwo,
 .priceBlock .cardThree {
   position: relative;
-  height: 750px;
+  height: 1000px;
   min-height: 500px;
-  max-height: 800px;
+  max-height: 1500px;
   width: 350px;
   padding: 20px 30px 20px 30px;
   box-sizing: border-box;
