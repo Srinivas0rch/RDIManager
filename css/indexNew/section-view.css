@@ -52,11 +52,11 @@
 
 @keyframes animate2 {
   0% {
-    transform: translateX(600px);
+    transform: translateX(1350px);
   }
 
   100% {
-    transform: translateX(-600px);
+    transform: translateX(-1350px);
   }
 }
 
