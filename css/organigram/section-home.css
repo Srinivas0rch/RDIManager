@@ -159,6 +159,14 @@ section {
   border-radius: 50%;
 }
 
+.icon #Louis {
+  width: 50%;
+  height: 50px;
+  object-fit: cover;
+  object-position: 0 -5px;
+  border-radius: 50%;
+}
+
 .bgCard {
   z-index: 5;
   display: flex;
