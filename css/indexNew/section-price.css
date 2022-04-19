@@ -45,11 +45,11 @@
 .priceBlock .cardTwo,
 .priceBlock .cardThree {
   position: relative;
-  height: 1000px;
+  height: 1100px;
   min-height: 500px;
   max-height: 1500px;
-  width: 350px;
-  padding: 20px 30px 20px 30px;
+  width: 390px;
+  padding: 20px 10px 20px 20px;
   box-sizing: border-box;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.3);
@@ -59,15 +59,15 @@
 }
 
 .priceBlock .cardOne {
-  border-top: 10px solid #eeeeee;
+  border-top: 10px solid #008000;
 }
 
 .priceBlock .cardTwo {
-  border-top: 10px solid #e62117;
+  border-top: 10px solid hsl(238, 99%, 50%);
 }
 
 .priceBlock .cardThree {
-  border-top: 10px solid #303030;
+  border-top: 10px solid #f1ab00;
 }
 
 .priceBlock .column {
@@ -131,7 +131,7 @@
   background: #008000;
 }
 
-.cardContent .iconRed {
+.cardContent .iconBlue {
   height: 22px;
   width: 22px;
   display: flex;
@@ -142,7 +142,35 @@
   border-radius: 9999px;
   font-size: 13px;
   color: #fff;
-  background: #e62117;
+  background: hsl(238, 99%, 50%);
+}
+
+.cardContent .iconGold {
+  height: 22px;
+  width: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2px;
+  margin-right: 10px;
+  border-radius: 9999px;
+  font-size: 13px;
+  color: #fff;
+  background: #f1ab00;
+}
+
+.cardContent .iconGrey {
+  height: 22px;
+  width: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2px;
+  margin-right: 10px;
+  border-radius: 9999px;
+  font-size: 13px;
+  color: #fff;
+  background: grey;
 }
 
 .cardContent .bold {
@@ -180,6 +208,13 @@
 .priceBlock .buttonPriceInv:hover {
   color: #fff;
   border: 2px solid #fff;
+}
+
+#asterisk {
+  margin-top: 30px;
+font-style: italic;
+font-size: 5px;
+ 
 }
 
 /* END PRICE BLOCK */
