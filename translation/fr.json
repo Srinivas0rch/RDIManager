@@ -226,6 +226,11 @@
     "rg_title_chief":"Chef de projet",
     "rg_text_chief":"Le chef de projet à le droit de créer des projets et d’y inviter des contributeurs et observateurs. Il a également accès aux analyses statistiques de ses projets.",
     "rg_title_user": "Utilisateur",
-    "rg_text_user": "L’utilisateur n’a de visibilité que sur son périmètre de projets. Il peut être observateur ou contributeur dans les projets ; et même jouer le rôle de chef d’un projet qu’il n’a pas créer. Il n’a en effet pas le droit de création de projet."
+    "rg_text_user": "L’utilisateur n’a de visibilité que sur son périmètre de projets. Il peut être observateur ou contributeur dans les projets ; et même jouer le rôle de chef d’un projet qu’il n’a pas créer. Il n’a en effet pas le droit de création de projet.",
 
+    "rm_big_title": "Droits et gestion des fichiers projets sous RDI-Manager",
+    "rm_title_right": "Droit",
+    "rm_text_right":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "rm_title_management":"Gestion",
+    "rm_text_management":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 }
