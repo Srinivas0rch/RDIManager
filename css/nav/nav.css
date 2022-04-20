@@ -190,3 +190,9 @@ nav li select:focus {
   width: 150px;
   font-size: 17px;
 }
+
+@media (max-width: 1400px) {
+  header .navHigh {
+    width: 95%;
+  }
+}
