@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 49%;
+  width: 100%;
 }
 
 .joinLeft .joinUs {
@@ -26,7 +26,7 @@
   width: 90%;
 }
 
-.joinPage .joinRight h2 {
+.joinPage h2 {
   font-size: 36px;
   line-height: 4.5rem;
   letter-spacing: 2px;
@@ -43,20 +43,21 @@
   font-family: "Besley", serif;
 }
 
-.joinRight .textRec {
+.joinPage .textRec {
   display: inline;
-  width: 100%;
+  text-align: center;
+  width: 60%;
   font-size: 16px;
   line-height: 1.25;
   margin-bottom: 20px;
 }
 
-.joinRight strong {
+.joinPage strong {
   text-decoration: underline #e62117;
 }
 
 .joinLeft .offre {
-  width: 100%;
+  width: 80%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -84,6 +85,10 @@
   align-items: center;
 }
 
+.offre small {
+  text-decoration: underline #e62117;
+}
+
 .offre a {
   color: #01b2fe;
   font-size: 18px;
@@ -93,7 +98,7 @@
   text-decoration: underline;
 }
 
-.joinPage .joinRight {
+/* .joinPage .joinRight {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -170,4 +175,4 @@
 .form textarea:focus {
   border: 2px solid #01b2fe;
   outline: none;
-}
+} */
