@@ -2,19 +2,21 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+
   padding: 150px 0 50px 0;
+
   max-width: 1700px;
   margin: auto;
 }
 
-section {
+#firstBlock {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 85%;
 }
 
-.leftBlock {
+#firstBlock .leftBlock {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,31 +26,31 @@ section {
   width: 45%;
 }
 
-.leftBlock h1 {
-  text-align: left;
+#firstBlock .leftBlock h1 {
   width: 100%;
+  text-align: left;
   font-size: 45px;
-  line-height: 1.5;
+  line-height: 4.5rem;
   letter-spacing: 2px;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   font-family: "Besley", serif;
 }
 
-.leftBlock p {
+#firstBlock .leftBlock p {
   text-align: left;
   width: 100%;
   line-height: 1.5rem;
   font-size: 18px;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
 }
 
-.leftBlock .btn {
+#firstBlock .leftBlock .btn {
   width: 280px;
   margin: auto;
 }
 
-.rightBlock {
+#firstBlock .rightBlock {
   position: relative;
 
   display: flex;
@@ -57,10 +59,11 @@ section {
   align-items: center;
 
   width: 60%;
-  height: 500px;
+  height: 600px;
+  padding: 50px 0;
 }
 
-.rightBlock #cardOne {
+#firstBlock .rightBlock #cardOne {
   z-index: 5;
   position: relative;
 
@@ -101,7 +104,7 @@ section {
   transform: rotate(45deg);
 }
 
-.rightBlock #cards {
+#firstBlock .rightBlock #cards {
   z-index: 5;
   display: flex;
   justify-content: space-between;
@@ -110,7 +113,7 @@ section {
   width: 100%;
 }
 
-.rightBlock #cardTwo {
+#firstBlock .rightBlock #cardTwo {
   z-index: 5;
   position: relative;
 
@@ -122,7 +125,7 @@ section {
   width: 280px;
 }
 
-.rightBlock #cardThree {
+#firstBlock .rightBlock #cardThree {
   z-index: 5;
   position: relative;
 
@@ -155,6 +158,8 @@ section {
 
 .icon img {
   width: 50%;
+  height: 50px;
+  object-fit: cover;
   border-radius: 50%;
 }
 

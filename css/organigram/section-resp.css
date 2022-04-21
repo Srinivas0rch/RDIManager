@@ -1,0 +1,73 @@
+#secondBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  margin: 50px 0;
+  padding: 50px 0;
+
+  background: #eee;
+}
+
+#secondBlock .containerBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  max-width: 1700px;
+
+  margin: auto;
+}
+
+#secondBlock .leftBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+}
+
+#secondBlock .leftBlock img {
+  z-index: 2;
+  width: 100%;
+
+  border-radius: 25px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#secondBlock .rightBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 50%;
+}
+
+#secondBlock .rightBlock h1 {
+  width: 80%;
+  text-align: left;
+  font-size: 45px;
+  line-height: 4.5rem;
+  letter-spacing: 2px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-family: "Besley", serif;
+}
+
+#secondBlock .rightBlock p {
+  text-align: left;
+  width: 80%;
+  line-height: 1.5rem;
+  font-size: 18px;
+  margin-bottom: 3em;
+}
+
+#secondBlock .rightBlock .btn {
+  width: 280px;
+  margin: auto;
+}
