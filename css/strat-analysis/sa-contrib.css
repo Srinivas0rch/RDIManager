@@ -45,9 +45,9 @@
   justify-content: space-between;
   align-items: center;
 
-  width: 80%;
+  width: 90%;
   
-  padding: 10px 0;
+  padding: 10px 20px;
   margin-bottom: 30px;
 
   border-radius: 10px;
@@ -60,26 +60,31 @@
   border-radius: 50%;
 }
 
-.thirdBlock .saProfil .infos {
+.thirdBlock .saProfil .doubleBox {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
 
-.saProfil .infos .bold {
-  font-weight: bold;
-}
-
-.thirdBlock .saProfil #first {
-  width: 15%;
+  width: 46%;
 }
 
 .thirdBlock .saProfil .boxInfo {
   display: flex;
-  flex-direction: column;
   justify-content: center;
 
-  width: 23%;
+  width: 100%;
+}
+
+.thirdBlock .saProfil .infos {
+  display: flex;
+
+  width: 100%;
+}
+
+.saProfil .infos .bold {
+  padding-right: 15px;
+  font-weight: bold;
 }
 
 .thirdBlock .saChart {

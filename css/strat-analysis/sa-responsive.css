@@ -1,4 +1,4 @@
-@media (max-width: 1250px) {
+@media (max-width: 1339px) {
   .firstBlock main {
     width: 100%;
   }
@@ -37,25 +37,6 @@
 }
 
 @media (max-width: 1020px) {
-  .thirdBlock .saProfil {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    width: 80%;
-
-    padding: 10px 0;
-    margin-bottom: 30px;
-
-    border-radius: 10px;
-    background: #eee;
-  }
-
-  .thirdBlock .saProfil #first {
-    width: 23%;
-  }
-
   .firstBlock .saChart {
     width: 100%;
     display: flex;
@@ -99,11 +80,47 @@
     align-items: center;
     flex-direction: column;
   }
+}
 
+@media (max-width: 1139px) {
+  .thirdBlock .saProfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .thirdBlock .saProfil .doubleBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 15px;
+
+    width: 100%;
+  }
 
 }
 
 @media (max-width: 650px) {
+    .saProfil .doubleBox .boxInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+
+    margin: 5px 0;
+
+    font-size: 14px;
+  }
+
+  .doubleBox .boxInfo .infos {
+    display: flex;
+    justify-content: center;
+  }
+
   .firstBlock .saChart #chart {
     width: 350px;
   }
