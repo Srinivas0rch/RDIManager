@@ -171,6 +171,8 @@ main .blockRight {
 }
 
 #cardTwo .cardTasks {
+  position: relative;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -178,6 +180,43 @@ main .blockRight {
 
   width: 100%;
   height: 70%;
+}
+
+#cardTwo .cardTasks .lp,
+#cardTwo .cardTasks .kn {
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 35px;
+  width: 35px;
+
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+}
+
+#cardTwo .cardTasks .o {
+  top: 72px;
+  left: 40px;
+}
+
+#cardTwo .cardTasks .tw {
+  top: 72px;
+  left: 80px;
+}
+
+#cardTwo .cardTasks .th {
+  top: 7px;
+  left: 380px;
+}
+
+#cardTwo .cardTasks .f {
+  top: 7px;
+  left: 340px;
 }
 
 .cardTasks .task {
