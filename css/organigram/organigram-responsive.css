@@ -86,18 +86,6 @@
     text-align: center;
     width: 90%;
   }
-
-  #fourBlock .containerBlock {
-    width: 95%;
-  }
-
-  #fourBlock .containerBlock img {
-    width: 80%;
-  }
-
-  #fourBlock .containerBlock div {
-    width: 82%;
-  }
 }
 
 @media (max-width: 1000px) {
@@ -134,14 +122,5 @@
     letter-spacing: 1px;
     line-height: 1.2;
     margin-bottom: 20px;
-  }
-
-  #fourBlock .containerBlock img {
-    width: 90%;
-  }
-
-  #fourBlock .containerBlock div {
-    top: 10px;
-    width: 94%;
   }
 }
