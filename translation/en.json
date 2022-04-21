@@ -234,6 +234,11 @@
     "rg_title_chief":"Project Manager",
     "rg_text_chief":"The project manager has the right to create projects and to invite contributors and observers. He also has access to the statistical analyzes of his projects.",
     "rg_title_user": "User",
-    "rg_text_user": "The user only has visibility on his scope of projects. He can be an observer or a contributor in the projects; and even play the role of leader of a project that he did not create. He does not have the right to create a project."
+    "rg_text_user": "The user only has visibility on his scope of projects. He can be an observer or a contributor in the projects; and even play the role of leader of a project that he did not create. He does not have the right to create a project.",
 
+    "rm_big_title": "Rights and management of project files under RDI-Manager",
+    "rm_title_right": "File visibility rights",
+    "rm_text_right":"When you add a file to a project, either via a highlight or via the project's file management interface; you can specify who can see the file. Those who do not have file visibility rights are not even aware of its existence under the platform.",
+    "rm_title_management":"Managing files in folders",
+    "rm_text_management":"In your RDI-Manager project log, you can create and name folders in which you want to store your files. Every time you add a file, either via a highlight or via the project file management interface; you can choose the folder in which you want to store it."
 }

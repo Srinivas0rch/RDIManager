@@ -10,6 +10,7 @@
 
   #carArt h2 {
     font-size: 30px;
+    margin-bottom: 30px;
   }
 
   #carArt .section {
@@ -50,6 +51,55 @@
   #carArt .section .carousel .img-to-show {
     width: 85%;
   }
+
+  #secondCarArt {
+    z-index: 1;
+    width: 85%;
+    max-width: 1700px;
+    height: auto;
+    padding: 80px 0;
+    margin: auto;
+  }
+
+  #secondCarArt h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+
+  #secondCarArt .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+
+  #secondCarArt .section section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  #secondCarArt .section section .carousel {
+    margin-top: 30px;
+    height: 320px;
+  }
+
+  #secondCarArt .section section .carde {
+    margin-top: 30px;
+  }
+
+  .carde .cardText p {
+    display: none;
+  }
+  
+  #secondCarArt .section .carousel .img-to-see {
+    width: 85%;
+  }  
 }
 
 @media (max-width: 650px) {

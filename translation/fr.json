@@ -229,8 +229,8 @@
     "rg_text_user": "L’utilisateur n’a de visibilité que sur son périmètre de projets. Il peut être observateur ou contributeur dans les projets ; et même jouer le rôle de chef d’un projet qu’il n’a pas créer. Il n’a en effet pas le droit de création de projet.",
 
     "rm_big_title": "Droits et gestion des fichiers projets sous RDI-Manager",
-    "rm_title_right": "Droit",
-    "rm_text_right":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "rm_title_management":"Gestion",
-    "rm_text_management":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    "rm_title_right": "Droits de visibilité des fichiers",
+    "rm_text_right":"Lorsque vous ajoutez un fichier à un projet, que ce soit via un fait marquant ou via l’interface de gestion des fichiers du projet ; vous pouvez spécifier qui peut voir le fichier. Ceux qui n’ont pas de droit de visibilité du fichier, ne sont même pas au courant de son existence sous la plateforme.",
+    "rm_title_management":"Gestion des fichiers dans des dossiers",
+    "rm_text_management":"Dans votre journal de projet RDI-Manager, vous pouvez créer et nommer des dossiers dans lesquels vous souhaitez ranger vos fichiers. Chaque que fois que vous ajouterez un fichier, que ce soit via un fait marquant ou via l’interface de gestion des fichiers du projet ; vous pourrez choisir le dossier dans lequel vous souhaitez le ranger."
 }
