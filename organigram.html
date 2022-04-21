@@ -19,6 +19,10 @@
     <!-- RDI-Manager custom CSS -->
 
     <link rel="stylesheet" type="text/css" href="css/organigram/section-home.css">
+    <link rel="stylesheet" type="text/css" href="css/organigram/section-resp.css">
+    <link rel="stylesheet" type="text/css" href="css/organigram/section-picture.css">
+    <link rel="stylesheet" type="text/css" href="css/organigram/section-wallpaper.css">
+    <link rel="stylesheet" type="text/css" href="css/organigram/organigram-responsive.css">
     <link rel="stylesheet" type="text/css" href="css/nav/nav.css">
     <link rel="stylesheet" type="text/css" href="css/nav/navPhone.css">
     <link rel="stylesheet" type="text/css" href="css/footer/footer.css">
@@ -229,27 +233,28 @@
         <!-- SECTION HOME -->
 
         <main>
-            <section>
+            <section id="firstBlock">
                 <div class="leftBlock">
-                    <h1>Visualisation de l'ensemble de l'équipe</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima officiis corrupti sapiente
-                        dignissimos recusandae quibusdam ullam voluptates rerum tenetur excepturi.</p>
+                    <h1>Visualisez vos collaborateurs via un organigramme</h1>
+                    <p>En qualité de manager au sein de votre société, vos collaborateurs peuvent définir votre lien
+                        hiérarchique sous la plateforme RDI-Manager. Ceci vous permet de voir tous vos collaborateurs
+                        sous forme d’un organigramme jusqu’à l’ordre N-2.</p>
                     <a href="https://demo.rdimanager.com/projets/1" target="_blank"
                         class="btn btn-hover bg-red bg-red-hover">Découvrez la hiérarchie</a>
                 </div>
                 <div class="rightBlock">
                     <div id="cardOne">
                         <div class="icon">
-                            <img id="Louis" src="/images/startUp/Louis.jpg" alt="Photo de Louis">
+                            <img src="/images/startUp/john.jpeg" alt="Photo de John">
                         </div>
                         <div class="bgCard">
                             <div class="tLine">
                                 <div class="circle"></div>
                             </div>
                             <div class="whoIsIt">
-                                <h6>John DOE</h6>
-                                <small>Administrateur</small>
-                                <p class="text-blue">johndoe@email.com</p>
+                                <h6>John DOW</h6>
+                                <small>Chef de projet</small>
+                                <p class="text-blue">jdow@email.com</p>
                             </div>
                         </div>
                     </div>
@@ -260,31 +265,31 @@
                     <div id="cards">
                         <div id="cardTwo">
                             <div class="icon">
-                                <img src="/images/startUp/Kev.jpeg" alt="Photo de Louis">
+                                <img src="/images/startUp/albert.jpg" alt="Photo de Albert">
                             </div>
                             <div class="bgCard">
                                 <div class="tLine">
                                     <div class="circle"></div>
                                 </div>
                                 <div class="whoIsIt">
-                                    <h6>John DOE</h6>
-                                    <small>Chef de projet</small>
-                                    <p class="text-blue">johndoe@email.com</p>
+                                    <h6>Albert EINSTEIN</h6>
+                                    <small>Administrateur</small>
+                                    <p class="text-blue">aeinstein@email.com</p>
                                 </div>
                             </div>
                         </div>
                         <div id="cardThree">
                             <div class="icon">
-                                <img src="/images/startUp/Amin.jpeg" alt="Photo de Louis">
+                                <img src="/images/startUp/laurie.webp" alt="Photo de Laurie">
                             </div>
                             <div class="bgCard">
                                 <div class="tLine">
                                     <div class="circle"></div>
                                 </div>
                                 <div class="whoIsIt">
-                                    <h6>John DOE</h6>
+                                    <h6>Laurie DOMENACH</h6>
                                     <small>Contributeur</small>
-                                    <p class="text-blue">johndoe@email.com</p>
+                                    <p class="text-blue">ldomenach@email.com</p>
                                 </div>
                             </div>
                         </div>
@@ -294,7 +299,36 @@
         </main>
         <!-- END SECTION HOME -->
 
+        <section id="secondBlock">
+            <div class="containerBlock">
+                <div class="leftBlock">
+                    <img src="images/organigram/resp.jpg" alt="wallpaper">
+                </div>
+                <div class="rightBlock">
+                    <h1>Le Collaborateur définit son N+1</h1>
+                    <p>A partir de son espace Mon Compte dans la société, chaque collaborateur peut identifier son
+                        supérieur hiérarchique. Ceci permet automatiquement aux supérieurs hiérarchiques d’ordre N+1 et
+                        N+2
+                        d’avoir une visibilité sur les projets du collaborateur.</p>
+                    <a href="https://demo.rdimanager.com/projets/1" target="_blank"
+                        class="btn btn-hover bg-red bg-red-hover">Découvrez la hiérarchie</a>
+                </div>
+            </div>
+        </section>
 
+        <section id="thirdBlock">
+            <div class="containerBlock">
+                <div class="leftBlock">
+                    <h1>La Big Picture de mon équipe</h1>
+                    <p>En qualité de Manager, je peux voir l’ensemble de mon équipe via un organigramme sous
+                        RDI-Manager. De plus, j’ai un droit de visibilité sur l’ensemble de leurs projets, même si je
+                        n’y joue aucun rôle (Observateur / Contributeur / Chef de projet).</p>
+                </div>
+                <div class="rightBlock">
+                    <img src="images/organigram/picture.jpg" alt="wallpaper">
+                </div>
+            </div>
+        </section>
 
         <footer>
             <div class="flexFoot">
