@@ -1,0 +1,147 @@
+@media (max-width: 1300px) {
+  #firstBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+  }
+
+  #firstBlock .leftBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
+  #firstBlock .leftBlock h1 {
+    width: 90%;
+    text-align: center;
+    font-size: 45px;
+  }
+
+  #firstBlock .leftBlock p {
+    text-align: center;
+    width: 90%;
+  }
+
+  #firstBlock .rightBlock {
+    width: 70%;
+  }
+
+  #secondBlock .containerBlock {
+    display: flex;
+    flex-direction: column;
+
+    width: 95%;
+  }
+
+  #secondBlock .leftBlock {
+    width: 70%;
+  }
+
+  #secondBlock .rightBlock {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  #secondBlock .rightBlock h1 {
+    width: 90%;
+    text-align: center;
+    font-size: 45px;
+  }
+
+  #secondBlock .rightBlock p {
+    text-align: center;
+    width: 90%;
+  }
+
+  #thirdBlock .containerBlock {
+    display: flex;
+    flex-direction: column;
+
+    width: 95%;
+  }
+
+  #thirdBlock .rightBlock {
+    width: 80%;
+  }
+
+  #thirdBlock .leftBlock {
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  #thirdBlock .leftBlock h1 {
+    width: 90%;
+    text-align: center;
+    font-size: 45px;
+  }
+
+  #thirdBlock .leftBlock p {
+    text-align: center;
+    width: 90%;
+  }
+
+  #fourBlock .containerBlock {
+    width: 95%;
+  }
+
+  #fourBlock .containerBlock img {
+    width: 80%;
+  }
+
+  #fourBlock .containerBlock div {
+    width: 82%;
+  }
+}
+
+@media (max-width: 1000px) {
+  #firstBlock .rightBlock {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  #firstBlock .leftBlock h1 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  #firstBlock .leftBlock p {
+    margin-bottom: 20px;
+  }
+
+  #secondBlock .rightBlock h1 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  #secondBlock .rightBlock p {
+    margin-bottom: 20px;
+  }
+
+  #thirdBlock .leftBlock h1 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  #fourBlock .containerBlock img {
+    width: 90%;
+  }
+
+  #fourBlock .containerBlock div {
+    top: 10px;
+    width: 94%;
+  }
+}
