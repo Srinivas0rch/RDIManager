@@ -90,10 +90,6 @@
   width: 100%;
 }
 
-.thirdBlock .saChart #chart4 {
-  width: 600px;
-}
-
 .thirdBlock .saChart .lines {
   display: flex;
   flex-direction: column;
@@ -102,13 +98,21 @@
 }
 .saChart .lines .line {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
+
+  width: 350px;
+
   padding: 8px 0;
+
   border-bottom: 1px solid #8d8d8d;
 }
 .line strong,
 .line p {
   font-size: 18px;
   margin-left: 3px;
+}
+
+.thirdBlock .saChart #chart4 {
+  width: 600px;
 }
