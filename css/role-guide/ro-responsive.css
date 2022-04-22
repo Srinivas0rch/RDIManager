@@ -63,7 +63,7 @@
 
   #secondCarArt h2 {
     font-size: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
 
   #secondCarArt .section {
@@ -85,8 +85,8 @@
   }
 
   #secondCarArt .section section .carousel {
-    margin-top: 30px;
-    height: 320px;
+    margin-top: 20px;
+    height: 400px;
   }
 
   #secondCarArt .section section .carde {
@@ -96,13 +96,27 @@
   .carde .cardText p {
     display: none;
   }
-  
+
   #secondCarArt .section .carousel .img-to-see {
-    width: 85%;
-  }  
+    width: 70%;
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 650px) {
+  #carArt {
+    z-index: 1;
+    width: 85%;
+    max-width: 1700px;
+    height: auto;
+    padding: 100px 0 50px 0;
+    margin: auto;
+  }
+
+  #carArt h2 {
+    font-size: 30px;
+  }
+
   #carArt .section section:nth-child(2) {
     height: 300px;
   }
@@ -119,6 +133,63 @@
   }
 
   #carArt .card .cardText h5 {
-    font-size: 16px;
+    font-size: 14px;
   }
+
+  #carArt .section section:nth-child(2) {
+    margin-top: 30px;
+    height: 300px;
+  }
+
+  #secondCarArt {
+    z-index: 1;
+    width: 85%;
+    max-width: 1700px;
+    height: auto;
+    padding: 20px 0;
+    margin: auto;
+  }
+
+  #secondCarArt .section {
+    margin-top: 10px;
+  }
+
+  #secondCarArt .section section .carousel {
+    margin-top: 2px;
+    height: 400px;
+  }
+
+  #secondCarArt h2 {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  #secondCarArt .carde .cardText h5 {
+    font-size: 14px;
+  }
+
+  #secondCarArt .section section .carde {
+    width: 100%;
+  }
+
+  #secondCarArt .section section #carde-2 {
+    margin-bottom: 50px;
+  }
+
+  #secondCarArt .section .carousel .img-to-see {
+    width: 70%;
+  }
+
+  #secondCarArt .carde .objectIcon .icon {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border-radius: 12px;
+  }
+
+  #secondCarArt .section section:nth-child(2) {
+    margin-top: 30px;
+    height: 100px;
+  }
+
 }
