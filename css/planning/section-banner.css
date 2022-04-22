@@ -4,10 +4,10 @@
   align-items: center;
 
   width: 100%;
+  height: 600px;
   padding: 50px 0;
 
   background: #eeeeee;
-  height: 500px;
 }
 
 #sectionBanner .containerBanner {
@@ -18,18 +18,40 @@
   width: 85%;
 }
 
+.containerBanner .blockRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 45%;
+  margin-bottom: 50px;
+}
+
+.containerBanner .blockRight h1 {
+text-align: left;
+  width: 100%;
+  font-size: 45px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-family: "Besley", serif;
+}
+
+.containerBanner .blockRight p {
+  text-align: left;
+  width: 100%;
+  line-height: 1.5rem;
+  font-size: 18px;
+  margin-bottom: 1em;
+}
+
 .containerBanner .blockLeft {
   display: flex;
   justify-content: center;
   align-items: center;
 
   width: 50%;
-}
-
-.containerBanner .blockRight {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 50%;
+  margin: 20px;
 }
