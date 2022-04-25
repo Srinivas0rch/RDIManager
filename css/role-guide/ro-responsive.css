@@ -10,6 +10,7 @@
 
   #carArt h2 {
     font-size: 30px;
+    margin-bottom: 30px;
   }
 
   #carArt .section {
@@ -50,9 +51,69 @@
   #carArt .section .carousel .img-to-show {
     width: 85%;
   }
+
+  #secondCarArt {
+    width: 85%;
+  }
+
+  #secondCarArt h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+
+  #secondCarArt .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+
+  #secondCarArt .section section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  #secondCarArt .section .carousel {
+    height: 430px;
+  }
+
+  .carde .cardText p {
+    display: none;
+  }
+
+  #secondCarArt .carde {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 80%;
+  }
+
+  #secondCarArt .section .carousel .img-to-see {
+    width: 80%;
+  }
 }
 
 @media (max-width: 650px) {
+  #carArt {
+    z-index: 1;
+    width: 85%;
+    max-width: 1700px;
+    height: auto;
+    padding: 100px 0 50px 0;
+    margin: auto;
+  }
+
+  #carArt h2 {
+    font-size: 30px;
+  }
+
   #carArt .section section:nth-child(2) {
     height: 300px;
   }
@@ -69,6 +130,50 @@
   }
 
   #carArt .card .cardText h5 {
-    font-size: 16px;
+    font-size: 14px;
   }
-}
+
+  #carArt .section section:nth-child(2) {
+    margin-top: 30px;
+    height: 300px;
+  }
+
+  #secondCarArt {
+    z-index: 1;
+    width: 85%;
+    max-width: 1700px;
+    height: auto;
+    padding: 20px 0;
+    margin: auto;
+  }
+
+  #secondCarArt .section {
+    margin-top: 10px;
+  }
+
+  #secondCarArt .section section .carousel {
+    height: 200px;
+  }
+
+  #secondCarArt .carde .cardText h5 {
+    font-size: 14px;
+  }
+
+  #secondCarArt .section section .carde {
+    width: 100%;
+  }
+
+  #secondCarArt .section .carousel .img-to-see {
+    width: 70%;
+  }
+
+  #secondCarArt .carde .objectIcon .icon {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border-radius: 12px;
+  }
+
+
+  }
+

@@ -250,11 +250,9 @@
   "join_textRec": "Si vous souhaitez participer à un projet entrepreneurial dynamique et innovant, dans une ambiance de start-up ; n’hésitez pas à nous envoyer votre CV, en nous faisant part de vos motivations.",
   "join_attachment": "Pièce jointe / CV",
 
-   "rg_big_title": "Les rôles sous RDI-Manager",
-   "rg_title_admin": "Administrateur",
-   "rg_text_admin": "L’administrateur a tous les droits sous la plateforme RDI-Manager. Il peut inviter des utilisateurs, créer des projets, y ajouter des personnes et utiliser les fonctionnalités de gestion stratégique.",
-   "rg_title_chief":"Chef de projet",
-   "rg_text_chief":"Le chef de projet à le droit de créer des projets et d’y inviter des contributeurs et observateurs. Il a également accès aux analyses statistiques de ses projets.",
-   "rg_title_user": "Utilisateur",
-   "rg_text_user": "L’utilisateur n’a de visibilité que sur son périmètre de projets. Il peut être observateur ou contributeur dans les projets ; et même jouer le rôle de chef d’un projet qu’il n’a pas créer. Il n’a en effet pas le droit de création de projet."
+    "rm_big_title": "Droits et gestion des fichiers projets sous RDI-Manager",
+    "rm_title_right": "Droits de visibilité des fichiers",
+    "rm_text_right":"Lorsque vous ajoutez un fichier à un projet, que ce soit via un fait marquant ou via l’interface de gestion des fichiers du projet ; vous pouvez spécifier qui peut voir le fichier. Ceux qui n’ont pas de droit de visibilité du fichier, ne sont même pas au courant de son existence sous la plateforme.",
+    "rm_title_management":"Gestion des fichiers dans des dossiers",
+    "rm_text_management":"Dans votre journal de projet RDI-Manager, vous pouvez créer et nommer des dossiers dans lesquels vous souhaitez ranger vos fichiers. Chaque que fois que vous ajouterez un fichier, que ce soit via un fait marquant ou via l’interface de gestion des fichiers du projet ; vous pourrez choisir le dossier dans lequel vous souhaitez le ranger."
 }
