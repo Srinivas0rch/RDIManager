@@ -22,7 +22,9 @@
     "nav_pricing": "Pricing",
     "nav_free": "Log In",
     "sign_up": "Sign up",
-    "big_title": "Simplify your research activity",
+
+    "subTitle_video": "RDI-MANAGER nominated among the 6 most innovative Tech2022 in France.",
+    "big_title": "Simplify the monitoring of R&D and innovation activity with RDI-Manager",
     "index_para_home": "For more competitiveness and efficiency in RDI, innovative companies need excellence and fluidity in their innovation management approach.",
     "try_demo": "Try our demo",
     "home_btn_video": "See in video",
@@ -120,6 +122,7 @@
     "footer_about": "About us",
     "footer_follow": "Follow us",
     "footer_contact": "Contact us",
+    "asterisk_price": "(*) : Paid feature available as an option.",
 
     "fm_big_title": "Monitoring of the remarkable facts",
     "fm_big_title_collab": "The collaborative project diary",
@@ -133,9 +136,6 @@
     "fm_subject" : "It allows you to concretely put the progress of the work into perspective, both for you and for your stakeholders.",
     "fm_big_title_archive": "Saving and archiving project files",
     "fm_project_file": "The files linked to the project are made available to project stakeholders, directly in the collaborative journal of the project.",
-
-
-
     
     "st_big_title": "Monitor the time spent",
     "st_para": "With RDI-Manager, enter the time spent on your projects simply and efficiently from your computer or your phone.",
@@ -203,8 +203,6 @@
     "line_six_three":"NIHIL",
     "sa_title_resource": "Resources",
     "sa_title_datasheet": "Datasheet and Safety",
-
-
 
     "about_big_title": "About RDIManager",
     "about_text": "RDI-MANAGER is born from the observation of research engineers on the one hand and innovation consultants on the other hand, according to which to manage its research and innovation activity in a structured way and effective is sometimes complicated and constraining; for SMEs, Start-ups and Large Groups.",

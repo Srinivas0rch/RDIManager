@@ -21,6 +21,8 @@
     "nav_contact_join": "Nous rejoindre",
     "nav_pricing": "Tarifs",
     "nav_free": "Connexion",
+
+    "subTitle_video": "RDI-MANAGER nominée parmi les 6 Tech2022 les plus innovantes de France.",
     "big_title": "Simplifions le suivi de l'activité R&D et innovation avec RDI-Manager",
     "index_para_home": "Pour plus de compétitivité et d'efficacité en RDI, les entreprises innovantes ont besoin d’excellence et de fluidité dans leur approche de management de l’innovation.",
     "try_demo": "Essayer la démo",
@@ -115,6 +117,7 @@
     "card_three_line_eighteen": "Auto-hébergement au choix",
     "card_three_line_nineteen": "Installation et support technique",
     "card_three_button": "Contactez-nous",
+    "asterisk_price": "(*) : Fonctionnalité payante disponible en option.",
 
   "fm_big_title": "Suivez vos projets via leurs faits marquants",
   "fm_para": "Les contributeurs de vos projets saisissent des faits marquants sur les projets, au fur et à mesure de l’avancement de l’activité.",
@@ -272,7 +275,7 @@
   "plan_cardW_dateFour":"Sem 4",
   "plan_cardW_dateFive":"Sem 5",
   "plan_cardW_dateSix":"Sem 6",
-  "plan_cardW_dateSeven":"Sem 7",
+"plan_cardW_dateSeven":"Sem 7",
 
 "hierachy_FB_bigTitle": "Visualisez vos collaborateurs via un organigramme",
 "hierachy_FB_text":"En qualité de manager au sein de votre société, vos collaborateurs peuvent définir votre lien hiérarchique sous la plateforme RDI-Manager. Ceci vous permet de voir tous vos collaborateurs sous forme d’un organigramme jusqu’à l’ordre N-2.",
