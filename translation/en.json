@@ -287,5 +287,16 @@
     "plan_cardW_dateFour":"Week 4",
     "plan_cardW_dateFive":"Week 5",
     "plan_cardW_dateSix":"Week 6",
-    "plan_cardW_dateSeven":"Week 7"
+    "plan_cardW_dateSeven":"Week 7",
+
+    "hierachy_FB_bigTitle": "Visualize your employees via an organization chart",
+    "hierachy_FB_text":"As a manager within your company, your employees can define your hierarchical link under the RDI-Manager platform. This allows you to see all your collaborators in the form of an organization chart up to order N-2",
+    "hierachy_FB_discover": "Discover the hierarchy",
+    "hierachy_FB_roleChief":"Project Manager",
+    "hierachy_FB_roleAdmin": "Administrator",
+    "hierachy_FB_roleContributor": "Contributor",
+    "hierachy_SB_bigTitle": "The Employee defines his N+1",
+    "hierachy_SB_text": "From their My Account space in the company, each employee can identify their line manager. This automatically allows hierarchical superiors of order N+1 and N+2 to have visibility on the employee's projects.",
+    "hierachy_TB_bigTitle": "The Big Picture of my team",
+    "hierachy_TB_text": "As a Manager, I can see my entire team via an organization chart under RDI-Manager. In addition, I have a right of visibility on all of their projects, even if I play no role in them (Observer / Contributor / Project Manager)."
 }
