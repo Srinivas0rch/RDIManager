@@ -269,5 +269,5 @@
     "rm_title_right": "File visibility rights",
     "rm_text_right":"When you add a file to a project, either via a highlight or via the project's file management interface; you can specify who can see the file. Those who do not have file visibility rights are not even aware of its existence under the platform.",
     "rm_title_management":"Managing files in folders",
-    "rm_text_management":"In your RDI-Manager project log, you can create and name folders in which you want to store your files. Every time you add a file, either via a highlight or via the project file management interface; you can choose the folder in which you want to store it."
+    "rm_text_management":"In your RDI-Manager project log, you can create and name folders in which you want to store your files. Every time you add a file, either via a highlight or via the project file management interface; you can choose the folder in which you want to store it.",
 }
