@@ -272,5 +272,16 @@
   "plan_cardW_dateFour":"Sem 4",
   "plan_cardW_dateFive":"Sem 5",
   "plan_cardW_dateSix":"Sem 6",
-  "plan_cardW_dateSeven":"Sem 7"
+  "plan_cardW_dateSeven":"Sem 7",
+
+"hierachy_FB_bigTitle": "Visualisez vos collaborateurs via un organigramme",
+"hierachy_FB_text":"En qualité de manager au sein de votre société, vos collaborateurs peuvent définir votre lien hiérarchique sous la plateforme RDI-Manager. Ceci vous permet de voir tous vos collaborateurs sous forme d’un organigramme jusqu’à l’ordre N-2.",
+"hierachy_FB_discover": "Découvrez la hiérarchie",
+"hierachy_FB_roleChief":"Chef de projet",
+"hierachy_FB_roleAdmin": "Administrateur",
+"hierachy_FB_roleContributor": "Contributeur",
+"hierachy_SB_bigTitle": "Le Collaborateur définit son N+1",
+"hierachy_SB_text": "À partir de son espace Mon Compte dans la société, chaque collaborateur peut identifier son supérieur hiérarchique. Ceci permet automatiquement aux supérieurs hiérarchiques d’ordre N+1 et N+2 d’avoir une visibilité sur les projets du collaborateur.",
+"hierachy_TB_bigTitle": "La Big Picture de mon équipe",
+"hierachy_TB_text": "En qualité de Manager, je peux voir l’ensemble de mon équipe via un organigramme sous RDI-Manager. De plus, j’ai un droit de visibilité sur l’ensemble de leurs projets, même si je n’y joue aucun rôle (Observateur / Contributeur / Chef de projet)."
 }
