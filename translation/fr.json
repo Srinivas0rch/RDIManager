@@ -255,4 +255,22 @@
   "rm_text_right":"Lorsque vous ajoutez un fichier à un projet, que ce soit via un fait marquant ou via l’interface de gestion des fichiers du projet ; vous pouvez spécifier qui peut voir le fichier. Ceux qui n’ont pas de droit de visibilité du fichier, ne sont même pas au courant de son existence sous la plateforme.",
   "rm_title_management":"Gestion des fichiers dans des dossiers",
   "rm_text_management":"Dans votre journal de projet RDI-Manager, vous pouvez créer et nommer des dossiers dans lesquels vous souhaitez ranger vos fichiers. Chaque que fois que vous ajouterez un fichier, que ce soit via un fait marquant ou via l’interface de gestion des fichiers du projet ; vous pourrez choisir le dossier dans lequel vous souhaitez le ranger.",
-  }
+
+  "plan_big_title": "Planification avancée des projets",
+  "plan_text": "Définissez le planning de votre projet suivant l’approche classique : Projet – Lots – Tâches – Sous-tâches en spécifiant les dates de début et fin de ces dernières. Vous pouvez également affecter des collaborateurs au différents lots et tâches afin de bien répartir le travail.",
+  "plan_discover_plan": "Découvrez la Planification",
+  "plan_cardRed_title": "Lots/Tâches/Sous-tâches",
+  "plan_cardRed_subtitle_one": "Étude de faisabilité",
+  "plan_cardRed_subtitle_two": "Rapport financier",
+  "plan_cardRed_subtitle_three": "Phase de test",
+  "plan_cardRed_subtitle_four": "Organisation du projet",
+  "plan_cardRed_subtitle_five": "Conception",
+  "plan_cardW_title": "Planification du projet ABC",
+  "plan_cardW_dateOne": "Sem 1",
+  "plan_cardW_dateTwo": "Sem 2",
+  "plan_cardW_dateThree": "Sem 3",
+  "plan_cardW_dateFour":"Sem 4",
+  "plan_cardW_dateFive":"Sem 5",
+  "plan_cardW_dateSix":"Sem 6",
+  "plan_cardW_dateSeven":"Sem 7"
+}
