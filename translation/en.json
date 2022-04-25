@@ -270,4 +270,22 @@
     "rm_text_right":"When you add a file to a project, either via a highlight or via the project's file management interface; you can specify who can see the file. Those who do not have file visibility rights are not even aware of its existence under the platform.",
     "rm_title_management":"Managing files in folders",
     "rm_text_management":"In your RDI-Manager project log, you can create and name folders in which you want to store your files. Every time you add a file, either via a highlight or via the project file management interface; you can choose the folder in which you want to store it.",
+
+    "plan_big_title": "Advanced project planning",
+    "plan_text": "Define the planning of your project following the classic approach: Project – Lots – Tasks – Sub-tasks by specifying the start and end dates of the latter. You can also assign collaborators to different batches and tasks in order to properly distribute the work.",
+    "plan_discover_plan": "Discover the Planning",
+    "plan_cardRed_title": "Batches/Tasks/Subtasks",
+    "plan_cardRed_subtitle_one": "Feasibility study",
+    "plan_cardRed_subtitle_two": "Financial report",
+    "plan_cardRed_subtitle_three": "Test phase",
+    "plan_cardRed_subtitle_four": "Project organisation",
+    "plan_cardRed_subtitle_five": "Conception",
+    "plan_cardW_title": "ABC Project Planning",
+    "plan_cardW_dateOne": "Week 1",
+    "plan_cardW_dateTwo": "Week 2",
+    "plan_cardW_dateThree": "Week 3",
+    "plan_cardW_dateFour":"Week 4",
+    "plan_cardW_dateFive":"Week 5",
+    "plan_cardW_dateSix":"Week 6",
+    "plan_cardW_dateSeven":"Week 7"
 }
