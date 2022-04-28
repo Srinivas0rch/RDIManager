@@ -267,8 +267,8 @@
   "rm_title_management": "Gestion des fichiers dans des dossiers",
   "rm_text_management": "Dans votre journal de projet RDI-Manager, vous pouvez créer et nommer des dossiers dans lesquels vous souhaitez ranger vos fichiers. Chaque que fois que vous ajouterez un fichier, que ce soit via un fait marquant ou via l’interface de gestion des fichiers du projet ; vous pourrez choisir le dossier dans lequel vous souhaitez le ranger.",
 
-  "plan_ban_title": "Planification et monitoring avancés des projets",
-  "plan_ban_text": "Grace à la planification de votre projet, vos contributeurs projet peuvent associer des faits marquants à un lot de projet bien spécifique. Vous pourrez donc visualiser les faits marquants des différents lots du projet. Le suivi de l’avancement de vos tâches est réalisé avec un système de relance avant la date d’échéance de chaque tâche afin de mettre à jour son avancement, ainsi que des notifications de réalisation complète des tâches. De plus, un indice de performance mesure votre efficacité dans la complétude des tâches dans les temps impartis."
+  "plan_big_title": "Planification avancés des projets",
+  "plan_text": "Définissez le planning de votre projet suivant l’approche classique : Projet – Lots – Tâches – Sous-tâches en spécifiant les dates de début et fin de ces dernières. Vous pouvez également affecter des collaborateurs au différents lots et tâches afin de bien répartir le travail.",
   "plan_discover_plan": "Découvrez la Planification",
   "plan_cardRed_title": "Lots/Tâches/Sous-tâches",
   "plan_cardRed_subtitle_one": "Étude de faisabilité",
@@ -284,6 +284,8 @@
   "plan_cardW_dateFive": "Sem 5",
   "plan_cardW_dateSix": "Sem 6",
   "plan_cardW_dateSeven": "Sem 7",
+  "plan_ban_title": "Planification et monitoring avancés des projets",
+  "plan_ban_text": "Grace à la planification de votre projet, vos contributeurs projet peuvent associer des faits marquants à un lot de projet bien spécifique. Vous pourrez donc visualiser les faits marquants des différents lots du projet. Le suivi de l’avancement de vos tâches est réalisé avec un système de relance avant la date d’échéance de chaque tâche afin de mettre à jour son avancement, ainsi que des notifications de réalisation complète des tâches. De plus, un indice de performance mesure votre efficacité dans la complétude des tâches dans les temps impartis.",
 
   "hierachy_FB_bigTitle": "Visualisez vos collaborateurs via un organigramme",
   "hierachy_FB_text": "En qualité de manager au sein de votre société, vos collaborateurs peuvent définir votre lien hiérarchique sous la plateforme RDI-Manager. Ceci vous permet de voir tous vos collaborateurs sous forme d’un organigramme jusqu’à l’ordre N-2.",
