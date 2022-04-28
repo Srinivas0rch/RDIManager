@@ -53,12 +53,7 @@
   }
 
   #secondCarArt {
-    z-index: 1;
     width: 85%;
-    max-width: 1700px;
-    height: auto;
-    padding: 80px 0;
-    margin: auto;
   }
 
   #secondCarArt h2 {
@@ -84,22 +79,24 @@
     margin: auto;
   }
 
-  #secondCarArt .section section .carousel {
-    margin-top: 20px;
-    height: 400px;
-  }
-
-  #secondCarArt .section section .carde {
-    margin-top: 30px;
+  #secondCarArt .section .carousel {
+    height: 430px;
   }
 
   .carde .cardText p {
     display: none;
   }
 
+  #secondCarArt .carde {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 80%;
+  }
+
   #secondCarArt .section .carousel .img-to-see {
-    width: 70%;
-    margin-bottom: 30px;
+    width: 80%;
   }
 }
 
@@ -155,13 +152,7 @@
   }
 
   #secondCarArt .section section .carousel {
-    margin-top: 2px;
-    height: 400px;
-  }
-
-  #secondCarArt h2 {
-    margin-bottom: 10px;
-    padding: 10px;
+    height: 200px;
   }
 
   #secondCarArt .carde .cardText h5 {
@@ -170,10 +161,6 @@
 
   #secondCarArt .section section .carde {
     width: 100%;
-  }
-
-  #secondCarArt .section section #carde-2 {
-    margin-bottom: 50px;
   }
 
   #secondCarArt .section .carousel .img-to-see {
@@ -187,9 +174,6 @@
     border-radius: 12px;
   }
 
-  #secondCarArt .section section:nth-child(2) {
-    margin-top: 30px;
-    height: 100px;
+
   }
 
-}

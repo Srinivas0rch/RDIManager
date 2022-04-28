@@ -49,7 +49,7 @@
   min-height: 500px;
   max-height: 1500px;
   width: 390px;
-  padding: 20px 10px 20px 20px;
+  padding: 20px 30px 20px 30px;
   box-sizing: border-box;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.3);
@@ -137,7 +137,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 2px;
+  padding-top: 0px;
   margin-right: 10px;
   border-radius: 9999px;
   font-size: 13px;
@@ -151,7 +151,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 2px;
+  padding-top: 0px;
   margin-right: 10px;
   border-radius: 9999px;
   font-size: 13px;
@@ -165,7 +165,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 2px;
+  padding-top: 0px;
   margin-right: 10px;
   border-radius: 9999px;
   font-size: 13px;
@@ -179,6 +179,8 @@
 
 .priceBlock .cardContent p {
   text-align: left;
+  width: 80%;
+  margin: none;
   font-size: 15px;
   color: #303030;
 }
@@ -212,9 +214,8 @@
 
 #asterisk {
   margin-top: 30px;
-font-style: italic;
-font-size: 5px;
- 
+  font-style: italic;
+  font-size: 5px;
 }
 
 /* END PRICE BLOCK */
