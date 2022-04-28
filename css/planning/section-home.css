@@ -10,7 +10,7 @@ main {
   padding: 150px 0 50px 0;
 }
 
-main section {
+main #section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,7 @@ main .blockLeft {
   margin-bottom: 50px;
 }
 
-main section .blockLeft h1 {
+main #section .blockLeft h1 {
   text-align: left;
   width: 100%;
   font-size: 45px;
@@ -39,7 +39,7 @@ main section .blockLeft h1 {
   font-family: "Besley", serif;
 }
 
-main section .blockLeft p {
+main #section .blockLeft p {
   text-align: left;
   width: 100%;
   line-height: 1.5rem;
@@ -47,7 +47,7 @@ main section .blockLeft p {
   margin-bottom: 3em;
 }
 
-main section .blockLeft .btn {
+main #section .blockLeft .btn {
   width: 280px;
   margin: auto;
 }
@@ -352,94 +352,4 @@ input[type="range"]:focus::-ms-fill-lower {
 
 input[type="range"]:focus::-ms-fill-upper {
   background: transparent;
-}
-
-@media (max-width: 1635px) {
-  .blockRight #cardTwo {
-    width: 500px;
-    height: 500px;
-    padding: 30px;
-  }
-}
-
-@media (max-width: 1545px) {
-  .blockRight #cardTwo {
-    width: 450px;
-    height: 500px;
-    padding: 30px;
-  }
-
-  #tTw::-webkit-slider-thumb {
-    width: 270px;
-    background: #01b2fe;
-    margin-top: -9px;
-  }
-
-  #tTh::-webkit-slider-thumb {
-    width: 200px;
-    background: #ffcd00;
-    margin-top: -9px;
-  }
-
-  #tFo::-webkit-slider-thumb {
-    width: 100px;
-    background: #00c458;
-    margin-top: -9px;
-  }
-
-  #tFi::-webkit-slider-thumb {
-    width: 60px;
-    background: #bf40bf;
-    margin-top: -9px;
-  }
-}
-
-@media (max-width: 1435px) {
-  .blockRight #cardTwo {
-    width: 400px;
-    height: 500px;
-  }
-
-  #tTw::-webkit-slider-thumb {
-    width: 250px;
-    background: #01b2fe;
-    margin-top: -9px;
-  }
-
-  #tTh::-webkit-slider-thumb {
-    width: 180px;
-    background: #ffcd00;
-    margin-top: -9px;
-  }
-
-  #tFo::-webkit-slider-thumb {
-    width: 80px;
-    background: #00c458;
-    margin-top: -9px;
-  }
-
-  #tFi::-webkit-slider-thumb {
-    width: 40px;
-    background: #bf40bf;
-    margin-top: -9px;
-  }
-}
-
-@media (max-width: 1335px) {
-  main section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    width: 90%;
-  }
-
-  main section .blockLeft {
-    width: 100%;
-  }
-
-  main section .blockRight {
-    width: 55%;
-  }
 }

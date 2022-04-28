@@ -19,6 +19,7 @@
     <!-- RDI-Manager custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/planning/section-home.css">
     <link rel="stylesheet" type="text/css" href="css/planning/section-banner.css">
+    <link rel="stylesheet" type="text/css" href="css/planning/planning-responsive.css">
     <link rel="stylesheet" type="text/css" href="css/nav/nav.css">
     <link rel="stylesheet" type="text/css" href="css/nav/navPhone.css">
     <link rel="stylesheet" type="text/css" href="css/footer/footer.css">
@@ -231,7 +232,7 @@
         <!-- SECTION HOME -->
 
         <main>
-            <section>
+            <section id="section">
                 <div class="blockLeft">
                     <h1 data-i18n="plan_big_title"></h1>
                     <p data-i18n="plan_text"></p>
@@ -307,8 +308,16 @@
 
         <section id="sectionBanner">
             <div class="containerBanner">
-                <div class="blockLeft"></div>
-                <div class="blockRight"></div>
+                <div class="leftBlock">
+                    <img src="images/planification/planification.png" alt="plan">
+                </div>
+                <div class="rightBlock">
+                    <h1 data-i18n="plan_ban_title"></h1>
+                    <p data-i18n="plan_ban_text">
+                    </p>
+                    <a href="https://demo.rdimanager.com/projets/1" target="_blank"
+                        class="btn btn-hover bg-red bg-red-hover"> Découvrez la Planification avancée</a>
+                </div>
             </div>
         </section>
 
