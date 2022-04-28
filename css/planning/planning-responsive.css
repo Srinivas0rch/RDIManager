@@ -1,0 +1,78 @@
+@media (max-width: 1250px) {
+    
+    #sectionBanner {
+        height: 1000px;
+    }
+
+    #sectionBanner .containerBanner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+    }
+
+    .containerBanner .blockRight {
+        width: 90%;
+    }
+
+    .containerBanner .blockLeft img {
+        width: 600px;
+    }
+    
+    .containerBanner .blockRight h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .containerBanner .blockRight p {
+        text-align: center;
+        font-size: 16px;
+      }
+
+    .containerBanner .blockLeft {      
+        width: 40%;
+      }
+}
+
+@media (max-width: 650px) {
+
+    #sectionBanner {
+        height: 850px;
+        padding: 0;
+    }
+
+    .containerBanner .blockRight {
+        width: 100%;
+    }
+
+    .containerBanner .blockLeft img {
+        width: 400px;
+    }
+
+    .containerBanner .blockRight h1 {
+        width: 95%;
+        font-size: 30px;
+    }
+
+    .containerBanner .blockRight p {
+        width: 95%;
+        font-size: 14px;
+      }
+
+      .containerBanner .blockLeft {      
+        width: 100%;
+      }
+}
+
+@media (max-width: 410px) {
+
+    #sectionBanner {
+        height: 950px;
+    }
+
+    .containerBanner .blockLeft img {
+        width: 300px;
+    } 
+}

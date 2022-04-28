@@ -269,6 +269,8 @@
     "rm_title_management":"Managing files in folders",
     "rm_text_management":"In your RDI-Manager project log, you can create and name folders in which you want to store your files. Every time you add a file, either via a highlight or via the project file management interface; you can choose the folder in which you want to store it.",
 
+    "plan_ban_title": "Advanced project planning and monitoring",
+    "plan_ban_text": "Thanks to the planning of your project, your project contributors can associate remarquable facts with a very specific project batch. You will therefore be able to view the remarquable facts of the different lots of the project. The follow-up of the progress of your tasks is carried out with a follow-up system before the due date of each task in order to update its progress, as well as notifications of complete completion of the tasks. In addition, a performance index measures your efficiency in completing tasks within the given time."
     "plan_big_title": "Advanced project planning",
     "plan_text": "Define the planning of your project following the classic approach: Project – Lots – Tasks – Sub-tasks by specifying the start and end dates of the latter. You can also assign collaborators to different batches and tasks in order to properly distribute the work.",
     "plan_discover_plan": "Discover the Planning",
