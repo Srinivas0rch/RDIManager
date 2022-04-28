@@ -26,7 +26,17 @@ eval("window.addEventListener('load', () => {\n    const preload = document.quer
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _translate__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./translate */ \"./js/translate.js\");\n/* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nav */ \"./js/nav.js\");\n/* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nav__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home */ \"./js/home.js\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_home__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _scrollReveal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scrollReveal */ \"./js/scrollReveal.js\");\n/* harmony import */ var _swiper_min__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./swiper.min */ \"./js/swiper.min.js\");\n/* harmony import */ var _swiper_min__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_swiper_min__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\n\n//# sourceURL=webpack:///./js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _translate__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./translate */ \"./js/translate.js\");\n/* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nav */ \"./js/nav.js\");\n/* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nav__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home */ \"./js/home.js\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_home__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _scrollReveal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scrollReveal */ \"./js/scrollReveal.js\");\n/* harmony import */ var _swiper_min__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./swiper.min */ \"./js/swiper.min.js\");\n/* harmony import */ var _swiper_min__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_swiper_min__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _matomo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./matomo */ \"./js/matomo.js\");\n/* harmony import */ var _matomo__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_matomo__WEBPACK_IMPORTED_MODULE_5__);\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./js/index.js?");
+
+/***/ }),
+
+/***/ "./js/matomo.js":
+/*!**********************!*\
+  !*** ./js/matomo.js ***!
+  \**********************/
+/***/ (() => {
+
+eval("var _paq = (window._paq = window._paq || []);\n/* tracker methods like \"setCustomDimension\" should be called before \"trackPageView\" */\n_paq.push([\"trackPageView\"]);\n_paq.push([\"enableLinkTracking\"]);\n(function () {\n  var u = \"//matomo.rdimanager.com/\";\n  _paq.push([\"setTrackerUrl\", u + \"matomo.php\"]);\n  _paq.push([\"setSiteId\", \"1\"]);\n  var d = document,\n    g = d.createElement(\"script\"),\n    s = d.getElementsByTagName(\"script\")[0];\n  g.async = true;\n  g.src = u + \"matomo.js\";\n  s.parentNode.insertBefore(g, s);\n})();\n\n\n//# sourceURL=webpack:///./js/matomo.js?");
 
 /***/ }),
 
