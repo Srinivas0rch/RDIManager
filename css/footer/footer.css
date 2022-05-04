@@ -14,7 +14,7 @@ footer {
   max-width: 1700px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   position: relative;
 }
 
@@ -23,6 +23,7 @@ footer {
   top: 0;
   left: 0;
   font-size: 25px;
+  color: #e62117;
 }
 
 .footLeft {
