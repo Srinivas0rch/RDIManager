@@ -87,11 +87,13 @@
   align-items: center;
 
   font-size: 20px;
-  color: #fff;
+  font-weight: bold;
+  color: red;
 }
 
 .homeTitle .paragraphe p:last-of-type {
   font-size: 26px;
+  font-weight: bold;
 }
 
 .homeTitle .paragraphe img {
