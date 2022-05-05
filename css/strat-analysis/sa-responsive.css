@@ -133,21 +133,26 @@
     width: 350px;
   }
 
-  .thirdBlock .saChart #chart4 {
-    width: 350px;
-  }
-
   .secondBlock .saChart #stat {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 780px;
+    height: 280px;
   }
 
-  .saChart #stat .cards {
+  .saChart #stat #treeCards{
+    display: flex;
+    justify-content: center;
+  }
+
+  .secondBlock .saChart #stat .cards {
     margin-top: 10px;
-    width: 80%;
+    width: 30%;
+  }
+
+  .thirdBlock .saChart #chart4 {
+    width: 350px;
   }
 }

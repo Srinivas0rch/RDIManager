@@ -181,6 +181,7 @@
     "sa_title_achieve": "Réalisation des projets",
     "sa_big_title_strategy": "Analyse stratégique par projet",
     "sa_text_strategy": "Avec RDI-Manager, les managers ont droit à des fonctionnalités spécifiques pour analyser au mieux leurs projets, ainsi que l’investissement de l’équipe sur chaque projet. Le Score RDI de votre projet vous donne une indication sur son potentiel de financements publiques de types CIR et CII.",
+    "sa_title_proj_stat": "Statistiques projet",
     "sa_title_time": "Temps passé en heure par utilisateur",
     "sa_Subtitle_analysis": "Analyse des contributions collaborateur",
     "sa_Subtitle_text": "Avec RDI-Manager, le manager peut suivre facilement les contributions spécifiques de chacun de ses collaborateurs.",
@@ -209,7 +210,8 @@
     "line_six_one":"Contributeur",
     "line_six_three":"NIHIL",
 
-
+    
+"sa_title_hisProjects": "Ses projets",
     "sa_title_timeProject": "Temps passé en heure par projet",
     "sa_title_resource": "Ressources",
     "sa_title_datasheet": "Fiche technique et Sécurité",
@@ -243,7 +245,7 @@
 
   "sa_big_title_analysis": "Analyse globale de l’activité",
   "sa_text_analysis": "Avec RDI-Manager, tous les collaborateurs ont droit à une vue d’ensemble de leur activité. Les analyses stratégiques du tableau de bord de chaque utilisateur sont relatives à l’ensemble des projets pour lesquels il a un partie pris. Ceci renforce l’engagement des troupes dans leurs projets.",
-  "sa_title_nbHour": "Nombre d'heure par projet",
+  "sa_title_nbHour": "Nombre d'heures par projet",
   "sa_title_achieve": "Réalisation des projets",
   "sa_big_title_strategy": "Analyse stratégique par projet",
   "sa_text_strategy": "Avec RDI-Manager, les managers ont droit à des fonctionnalités spécifiques pour analyser au mieux leurs projets, ainsi que l’investissement de l’équipe sur chaque projet. Le Score RDI de votre projet vous donne une indication sur son potentiel de financements publiques de types CIR et CII.",
