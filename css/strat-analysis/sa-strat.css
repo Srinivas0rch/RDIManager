@@ -370,6 +370,7 @@
   0% {
     transform: rotate(21.6deg);
   }
+
   100% {
     transform: rotate(79.2deg);
     /**
@@ -383,6 +384,7 @@
   0% {
     transform: rotate(79.2deg);
   }
+
   100% {
     transform: rotate(140.4deg);
     /**
@@ -396,6 +398,7 @@
   0% {
     transform: rotate(140.4deg);
   }
+
   100% {
     transform: rotate(180deg);
     /**
