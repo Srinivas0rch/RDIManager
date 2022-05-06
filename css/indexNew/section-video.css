@@ -20,6 +20,9 @@
 #blockVideo h1 {
   font-size: 8em;
   z-index: 2;
+  color: red;
+}
+#blockVideo #manag {
   color: #fff;
 }
 
@@ -88,7 +91,7 @@
 
   font-size: 20px;
   font-weight: bold;
-  color: red;
+  color: #fff;
 }
 
 .homeTitle .paragraphe p:last-of-type {
