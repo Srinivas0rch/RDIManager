@@ -178,6 +178,14 @@ nav li select {
   text-decoration: none;
   border: none;
   background: transparent;
+  color: #fff;
+  font-size: 13px;
+}
+
+nav li select option {
+  text-decoration: none;
+  border: none;
+  background: transparent;
   color: #303030;
   font-size: 13px;
 }
