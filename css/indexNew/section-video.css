@@ -20,7 +20,7 @@
 #blockVideo h1 {
   font-size: 8em;
   z-index: 2;
-  color: red;
+  color: #a80000;
 }
 #blockVideo #manag {
   color: #fff;
