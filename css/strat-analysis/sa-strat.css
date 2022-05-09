@@ -36,14 +36,6 @@
   font-family: "Besley", serif;
 }
 
-.secondBlock .saSubtitle p {
-  margin: auto;
-  text-align: center;
-  font-size: 16px;
-  margin-bottom: 30px;
-  width: 60%;
-}
-
 .secondBlock .saChart {
   display: flex;
   justify-content: space-around;
@@ -52,7 +44,6 @@
   width: 100%;
   height: 100%;
 }
-
 
 .secondBlock .saChart #chart3 {
   width: 600px;
@@ -76,8 +67,9 @@
 
 }
 
-.saChart #stat #treeCards {
+.saChart #stat #threeCards {
   display: flex;
+  justify-content: space-between;
 }
 
 .saChart #stat .cards {
@@ -165,16 +157,37 @@
   justify-content: space-between;
 
   width: 100%;
+  
+  margin-top: 50px;
 }
 
-.secondBlock .secondPartAnalysis #budget {
-  display: flex;
+.secondBlock .secondPartAnalysis .budgetStrip {
+  display: flex;  
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   width: 50%;
 }
 
-.secondPartAnalysis #budget #budget_title {
+.secondBlock .secondPartAnalysis .budget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 50%;
+}
+
+.secondPartAnalysis .budget .subTitleBudget {
+  display: flex;
+  justify-content: center;
+
+  margin: 30px 0px;
+
+  font-size: 16px;
+}
+
+.secondPartAnalysis .budget #budget_title {
   display: flex;
   justify-content: center;
 
@@ -185,16 +198,14 @@
 .secondBlock .secondPartAnalysis .budgetBar {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-
-  margin-left: 70px;
+  justify-content: flex-start;
 }
 
 .secondPartAnalysis .budgetBar #cardFirstRect {
   display: flex;
   justify-content: center;
 
-  margin-top: 60px;
+  margin-top: 10px;
 
   width: 400px;
   height: 40px;
@@ -208,7 +219,19 @@
 
   margin-bottom: 30px;
 
-  width: 250px;
+  width: 230px;
+  height: 40px;
+
+  background-color: #3cf317;
+}
+
+.secondPartAnalysis .budgetBar #cardSecondRectTwo {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 30px;
+
+  width: 310px;
   height: 40px;
 
   background-color: #3cf317;
@@ -269,8 +292,25 @@
 .secondPartAnalysis #perfor .chartCard {
   display: flex;
   justify-content: center;
+}
+
+#perfor .chartCard .subtitlePerf {
+  display: flex;
+  justify-content: center;
 
   margin: 30px 0px;
+
+  font-size: 16px;
+}
+
+.minutes {
+  background: #000;
+  height: 40%;
+  left: 49%;
+  position: absolute;
+  top: 5%;
+  transform-origin: 50% 100%;
+  width: 2%;
 }
 
 /* CHART-SKILLS STYLES
@@ -288,18 +328,8 @@
   background-color: #eeeeee;
 }
 
-.chart-perf::before {
-  content: '';
-  width: inherit;
-  height: inherit;
-  border: 45px solid rgba(211, 211, 211, .3);
-  border-bottom: none;
-  border-top-left-radius: 175px;
-  border-top-right-radius: 175px;
-}
-
 .chart-perf::after {
-  content: '16%';
+  content: '-0.33';
   left: 50%;
   bottom: 10px;
   transform: translateX(-50%);
@@ -351,6 +381,74 @@
   z-index: 1;
   border-color: orange;
   animation-name: rotate-four;
+  animation-delay: 1.2s;
+}
+
+.chart-perfTwo {
+  position: relative;
+  width: 350px;
+  height: 175px;
+  overflow: hidden;
+}
+
+.chart-perfTwo::after {
+  position: absolute;
+  background-color: #eeeeee;
+}
+
+.chart-perfTwo::after {
+  content: '16%';
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  font-size: 3.1rem;
+  font-weight: bold;
+  color: cadetblue;
+}
+
+.chart-perfTwo li {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  border: 45px solid;
+  border-top: none;
+  border-bottom-left-radius: 175px;
+  border-bottom-right-radius: 175px;
+  transform-origin: 50% 0;
+  animation-fill-mode: forwards;
+  animation-duration: .4s;
+  animation-timing-function: linear;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+
+}
+
+.chart-perfTwo li:nth-child(1) {
+  z-index: 4;
+  border-color: green;
+  animation-name: rotateOne;
+}
+
+.chart-perfTwo li:nth-child(2) {
+  z-index: 3;
+  border-color: rgb(119, 76, 47);
+  animation-name: rotateTwo;
+  animation-delay: .4s;
+}
+
+.chart-perfTwo li:nth-child(3) {
+  z-index: 2;
+  border-color: steelblue;
+  animation-name: rotateThree;
+  animation-delay: .8s;
+}
+
+.chart-perfTwo li:nth-child(4) {
+  z-index: 1;
+  border-color: orange;
+  animation-name: rotateFour;
   animation-delay: 1.2s;
 }
 
@@ -406,4 +504,55 @@
      * 140.4 + 39.6 => 180deg
      */
   }
+}
+
+  @keyframes rotateOne {
+    100% {
+      transform: rotate(0deg);
+      /**
+       * 12% => 21.6deg
+       */
+    }
+  }
+  
+  @keyframes rotateTwo {
+    0% {
+      transform: rotate(60deg);
+    }
+  
+    100% {
+      transform: rotate(54.0deg);
+      /**
+       * 32% => 57.6deg 
+       * 57.6 + 21.6 => 79.2deg
+       */
+    }
+  }
+  
+  @keyframes rotateThree {
+    0% {
+      transform: rotate(79deg);
+    }
+  
+    100% {
+      transform: rotate(125.0deg);
+      /**
+       * 34% => 61.2deg 
+       * 61.2 + 79.2 => 140.4deg
+       */
+    }
+  }
+  
+  @keyframes rotateFour {
+    0% {
+      transform: rotate(60deg);
+    }
+  
+    100% {
+      transform: rotate(180.4deg);
+      /**
+       * 22% => 39.6deg  
+       * 140.4 + 39.6 => 180deg
+       */
+    }
 }
