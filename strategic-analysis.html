@@ -310,80 +310,134 @@
                 </div>
                 <section class="secondPartAnalysis">
                     <div class="budgetStrip">
-                    <div class="budget">
-                        <h6 id="budget_title">Analyse budgétaire</h6>
-                        <h6 class="subTitleBudget">En heure (H)</h6>
-                        <div class="budgetBar">
-                            <div id="cardFirstRect">
+                        <div class="budget">
+                            <h6 id="budget_title">Analyse budgétaire</h6>
+                            <h6 class="subTitleBudget">En heure (H)</h6>
+                            <div class="budgetBar">
+                                <div id="cardFirstRect">
+                                </div>
+                                <div id="cardSecondRect">
+                                </div>
+                                <div class="hourBoard">
+                                    <table>
+                                        <tr>
+                                            <td class="boardTitle" colspan="3">Analyse budgétaire en Heure (H)</td>
+                                        </tr>
+                                        <tr class="tr">
+                                            <td><div class="squarePrev"></div>Prévisionnel</td>
+                                            <td>10 783 H</td>
+                                        </tr>
+                                        <tr class="colFirst">
+                                            <td>
+                                                <div class="squareReel"></div>Réel
+                                            </td>
+                                            <td>5 420 H</td>
+                                        </tr>
+                                    </table>
+                                </div>
                             </div>
-                            <div id="cardSecondRect">
+                            <div class="legendBudgetBar">
+                                <div id="legendFirstRect">
+                                </div>
+                                <p>Prévisionnel</p>
+                                <div id="legendSecondRect">
+                                </div>
+                                <p>Réel</p>
                             </div>
                         </div>
-                        <div class="legendBudgetBar">
-                            <div id="legendFirstRect">
+                        <div class="budget">
+                            <h6 class="subTitleBudget">En euro (€)</h6>
+                            <div class="budgetBar">
+                                <div id="cardFirstRect">
+                                </div>
+                                <div id="cardSecondRectTwo">
+                                </div>
+                                <div id="euroBoard"></div>
                             </div>
-                            <p>Prévisionnel</p>
-                            <div id="legendSecondRect">
+                            <div class="hourBoard">
+                                <table>
+                                    <tr>
+                                        <td class="boardTitle" colspan="3">Analyse budgétaire en Euro (€)</td>
+                                    </tr>
+                                    <tr class="tr">
+                                        <td><div class="squarePrev"></div>Prévisionnel</td>
+                                        <td>400 000 €</td>
+                                    </tr>
+                                    <tr class="colFirst">
+                                        <td>
+                                            <div class="squareReel"></div>Réel
+                                        </td>
+                                        <td>325 632 €</td>
+                                    </tr>
+                                </table>
                             </div>
-                            <p>Réel</p>
+                            <div class="legendBudgetBar">
+                                <div id="legendFirstRect">
+                                </div>
+                                <p>Prévisionnel</p>
+                                <div id="legendSecondRect">
+                                </div>
+                                <p>Réel</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="budget">
-                        <h6 class="subTitleBudget">En euro (€)</h6>
-                        <div class="budgetBar">
-                            <div id="cardFirstRect">
-                            </div>
-                            <div id="cardSecondRectTwo">
-                            </div>
-                        </div>
-                        <div class="legendBudgetBar">
-                            <div id="legendFirstRect">
-                            </div>
-                            <p>Prévisionnel</p>
-                            <div id="legendSecondRect">
-                            </div>
-                            <p>Réel</p>
-                        </div>
-                    </div>
-                </div>
                     <div id="perfor">
                         <h6 id="performance_title">Indicateurs de performance</h6>
                         <div class="chartCard">
-                            <div id="effecaciteChart">
-                                <h6 class="subtitlePerf">Efficacité</h6>
-                                <ul class="chart-perf">
-                                    <li>
-                                        <span></span>
-                                    </li>
-                                    <li>
-                                        <span></span>
-                                    </li>
-                                    <li>
-                                        <span></span>
-                                    </li>
-                                    <li><div class="minutes"></div>
-                                        <span></span>
-                                    </li>
-                                </ul>
+                            <div id="efficacityChart">
+                                <div class="saBoxTitle">
+                                    <h6 class="subtitlePerf">Efficacité<i class="mdi mdi-comment-question-outline"></i></h6>
+                                   <div class="info">
+                                       <p class="description">Indique votre aptitude à réaliser les tâches dans les temps impartis</p>
+                                    </div> 
+                                </div>
+                                <div class="chartBox">
+                                    <ul class="chart-perf">
+                                        <li>
+                                            <span></span>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                        </li>
+                                        <li>
+                                            <div class="needleFirst"></div>
+                                            <span></span>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div class="chartCard">
-                            <div id="effecaciteChart">
-                                <h6 class="subtitlePerf">Effectivité</h6>
-                                <ul class="chart-perfTwo">
-                                    <li>
-                                        <span></span>
-                                    </li>
-                                    <li>
-                                        <span></span>
-                                    </li>
-                                    <li>
-                                        <span></span>
-                                    </li>
-                                    <li>
-                                        <span></span>
-                                    </li>
-                                </ul>
+                            <div id="efficacityChart">
+                                <div class="saBoxTitle">
+                                    <h6 class="subtitlePerf">Effectivité<i class="mdi mdi-comment-question-outline"></i></h6>
+                                    <div class="info">
+                                        <p class="description">Indique votre niveau de complétude dans la réalisation des tâches du projet</p>
+                                     </div>
+                                </div>
+                                <div class="chartBox">
+                                    <ul class="chart-perfTwo">
+                                        <li>
+                                            <span></span>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                        </li>
+                                        <li>
+                                            <div class="needleSecond"></div>
+                                            <span></span>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>

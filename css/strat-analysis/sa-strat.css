@@ -157,12 +157,12 @@
   justify-content: space-between;
 
   width: 100%;
-  
+
   margin-top: 50px;
 }
 
 .secondBlock .secondPartAnalysis .budgetStrip {
-  display: flex;  
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -174,8 +174,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  width: 50%;
 }
 
 .secondPartAnalysis .budget .subTitleBudget {
@@ -217,7 +215,7 @@
   display: flex;
   justify-content: center;
 
-  margin-bottom: 30px;
+  margin-bottom: -19px;
 
   width: 230px;
   height: 40px;
@@ -225,11 +223,56 @@
   background-color: #3cf317;
 }
 
+.budget .budgetBar .hourBoard {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-bottom: 15px;
+}
+
+.budgetStrip .budget .hourBoard  {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-bottom: 15px;
+}
+
+.budgetBar .hourBoard table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid rgb(167, 165, 165);
+  background-color: #fff;
+}
+
+.squarePrev {
+
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-color: #81b7c7;
+}
+
+.squareReel {
+
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-color: #3cf317;
+}
+
+.boardTitle {
+  font-weight: bold;
+  color: #fff;
+  background-color: #bcbec0;
+}
+
 .secondPartAnalysis .budgetBar #cardSecondRectTwo {
   display: flex;
   justify-content: center;
 
-  margin-bottom: 30px;
+  margin-bottom: -19px;
 
   width: 310px;
   height: 40px;
@@ -294,48 +337,77 @@
   justify-content: center;
 }
 
-#perfor .chartCard .subtitlePerf {
+#perfor .chartCard #efficacityChart {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-
-  margin: 30px 0px;
-
-  font-size: 16px;
 }
 
-.minutes {
-  background: #000;
-  height: 40%;
-  left: 49%;
+#perfor .chartCard .saBoxTitle {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 30px 0;
+}
+
+div.info
+{
+  display: none;
+
   position: absolute;
-  top: 5%;
-  transform-origin: 50% 100%;
-  width: 2%;
+  bottom: 30px;
+  
+  width: auto;
+  height: auto;
+
+  padding: 5px 10px;
+
+  border-radius: 10px;
+  color: #fff;
+  background: #101010;
+}
+
+div.saBoxTitle:hover .info{
+	display:block;
+}
+
+#perfor .chartCard .subtitlePerf {
+  font-size: 16px;
 }
 
 /* CHART-SKILLS STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.chartCard #efficacityChart .chartBox {
+  display: flex;
+  justify-content: center;
+}
 
 .chart-perf {
+  z-index: 0;
   position: relative;
   width: 350px;
   height: 175px;
   overflow: hidden;
+
 }
 
 .chart-perf::after {
   position: absolute;
-  background-color: #eeeeee;
 }
 
 .chart-perf::after {
-  content: '-0.33';
+  content: '+0.25';
   left: 50%;
   bottom: 10px;
   transform: translateX(-50%);
   font-size: 3.1rem;
   font-weight: bold;
-  color: cadetblue;
+  color: #303030;
+  z-index: 10;
 }
 
 .chart-perf li {
@@ -359,29 +431,36 @@
 
 .chart-perf li:nth-child(1) {
   z-index: 4;
-  border-color: green;
+  border-color: #e62117;
   animation-name: rotate-one;
 }
 
 .chart-perf li:nth-child(2) {
   z-index: 3;
-  border-color: firebrick;
+  border-color: #ff8536;
   animation-name: rotate-two;
   animation-delay: .4s;
 }
 
 .chart-perf li:nth-child(3) {
   z-index: 2;
-  border-color: steelblue;
+  border-color: #ffcd00;
   animation-name: rotate-three;
   animation-delay: .8s;
 }
 
 .chart-perf li:nth-child(4) {
   z-index: 1;
-  border-color: orange;
+  border-color: #04a04a;
   animation-name: rotate-four;
   animation-delay: 1.2s;
+}
+
+.chart-perf li:nth-child(5) {
+  z-index: 1;
+  border-color: #00c458;
+  animation-name: rotate-five;
+  animation-delay: 1.5s;
 }
 
 .chart-perfTwo {
@@ -393,17 +472,17 @@
 
 .chart-perfTwo::after {
   position: absolute;
-  background-color: #eeeeee;
 }
 
 .chart-perfTwo::after {
-  content: '16%';
+  content: '52%';
   left: 50%;
   bottom: 10px;
   transform: translateX(-50%);
   font-size: 3.1rem;
   font-weight: bold;
-  color: cadetblue;
+  color: #303030;
+  z-index: 10;
 }
 
 .chart-perfTwo li {
@@ -433,23 +512,45 @@
 
 .chart-perfTwo li:nth-child(2) {
   z-index: 3;
-  border-color: rgb(119, 76, 47);
+  border-color: #A15D3F;
   animation-name: rotateTwo;
   animation-delay: .4s;
 }
 
 .chart-perfTwo li:nth-child(3) {
   z-index: 2;
-  border-color: steelblue;
+  border-color: #B0B6BC;
   animation-name: rotateThree;
   animation-delay: .8s;
 }
 
 .chart-perfTwo li:nth-child(4) {
   z-index: 1;
-  border-color: orange;
+  border-color: #F6C600;
   animation-name: rotateFour;
   animation-delay: 1.2s;
+}
+
+.needleFirst {
+  z-index: 999;
+  position: absolute;
+  left: 29%;
+  top: -40px;
+  transform: rotate(68deg);
+  border-top: 130px solid #01b2fe;
+  border-right: 6px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.needleSecond {
+  z-index: 999;
+  position: absolute;
+  left: 49%;
+  top: -10px;
+  transform: rotate(5deg);
+  border-top: 130px solid #01b2fe;
+  border-right: 6px solid transparent;
+  border-left: 4px solid transparent;
 }
 
 /* ANIMATIONS
@@ -457,7 +558,7 @@
 
 @keyframes rotate-one {
   100% {
-    transform: rotate(21.6deg);
+    transform: rotate(26.6deg);
     /**
      * 12% => 21.6deg
      */
@@ -466,11 +567,11 @@
 
 @keyframes rotate-two {
   0% {
-    transform: rotate(21.6deg);
+    transform: rotate(60.6deg);
   }
 
   100% {
-    transform: rotate(79.2deg);
+    transform: rotate(55.2deg);
     /**
      * 32% => 57.6deg 
      * 57.6 + 21.6 => 79.2deg
@@ -484,7 +585,7 @@
   }
 
   100% {
-    transform: rotate(140.4deg);
+    transform: rotate(90.4deg);
     /**
      * 34% => 61.2deg 
      * 61.2 + 79.2 => 140.4deg
@@ -494,7 +595,7 @@
 
 @keyframes rotate-four {
   0% {
-    transform: rotate(140.4deg);
+    transform: rotate(100.4deg);
   }
 
   100% {
@@ -506,53 +607,64 @@
   }
 }
 
-  @keyframes rotateOne {
-    100% {
-      transform: rotate(0deg);
-      /**
+@keyframes rotate-five {
+  0% {
+    transform: rotate(90.4deg);
+  }
+
+  100% {
+    transform: rotate(138deg);
+  }
+}
+
+
+@keyframes rotateOne {
+  100% {
+    transform: rotate(0deg);
+    /**
        * 12% => 21.6deg
        */
-    }
   }
-  
-  @keyframes rotateTwo {
-    0% {
-      transform: rotate(60deg);
-    }
-  
-    100% {
-      transform: rotate(54.0deg);
-      /**
+}
+
+@keyframes rotateTwo {
+  0% {
+    transform: rotate(60deg);
+  }
+
+  100% {
+    transform: rotate(54.0deg);
+    /**
        * 32% => 57.6deg 
        * 57.6 + 21.6 => 79.2deg
        */
-    }
   }
-  
-  @keyframes rotateThree {
-    0% {
-      transform: rotate(79deg);
-    }
-  
-    100% {
-      transform: rotate(125.0deg);
-      /**
+}
+
+@keyframes rotateThree {
+  0% {
+    transform: rotate(79deg);
+  }
+
+  100% {
+    transform: rotate(125.0deg);
+    /**
        * 34% => 61.2deg 
        * 61.2 + 79.2 => 140.4deg
        */
-    }
   }
-  
-  @keyframes rotateFour {
-    0% {
-      transform: rotate(60deg);
-    }
-  
-    100% {
-      transform: rotate(180.4deg);
-      /**
+}
+
+@keyframes rotateFour {
+  0% {
+    transform: rotate(60deg);
+  }
+
+  100% {
+    transform: rotate(180.4deg);
+    /**
        * 22% => 39.6deg  
        * 140.4 + 39.6 => 180deg
        */
-    }
+  }
 }
