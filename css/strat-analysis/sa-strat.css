@@ -36,6 +36,14 @@
   font-family: "Besley", serif;
 }
 
+.secondBlock .saSubtitle p {
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+  width: 60%;
+}
+
 .secondBlock .saChart {
   display: flex;
   justify-content: space-around;

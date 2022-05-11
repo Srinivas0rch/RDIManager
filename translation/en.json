@@ -134,9 +134,6 @@
     "fm_big_title_archive": "Saving and archiving project files",
     "fm_project_file": "The files linked to the project are made available to project stakeholders, directly in the collaborative journal of the project.",
 
-
-
-    
     "st_big_title": "Monitor the time spent",
     "st_para": "With RDI-Manager, enter the time spent on your projects simply and efficiently from your computer or your phone.",
     "st_step_one_button": "Discover our system to enter your time",
@@ -173,9 +170,9 @@
     "sa_title_nbHour": "Number of hours per project",
     "sa_title_achieve": "Realization of projects",
     "sa_big_title_strategy": "Strategic analysis by project",
-    "sa_text_strategy": "With RDI-Manager, managers are entitled to specific functionalities to better analyze their projects, as well as the investment of the team on each project. The RDI Score of your project gives you an indication of its potential for public financing of the CIR and CII types.",
-    "sa_title_proj_stat": "Project statistics",
-    "sa_title_time": "Time spent in hours per user",
+    "sa_text_strategy": "With RDI-Manager, managers are entitled to specific functionalities to better analyze their projects, as well as the investment of the team on each project. The RDI Score gives you an indication of the public funding potential (CIR and CII) of the project - The KPIs inform you about the Efficiency and Effectiveness of the project team - The financial analysis allows you to monitor the budget of the project in real time.",
+    "sa_title_proj_stat": "Project contribution statistics",
+    "sa_title_time": "Time consumed by the project since January",
     "sa_title_hisProjects": "His projects",
     "sa_Subtitle_analysis": "Analysis of employee contributions",
     "sa_Subtitle_text": "With RDI-Manager, the manager can easily follow the specific contributions of each of his collaborators.",
