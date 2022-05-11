@@ -75,3 +75,29 @@ for (let i = 0; i < cards.length; i++) {
     }
   });
 }
+
+const cardThird = document.getElementsByClassName("cardThird");
+const imag = document.getElementsByClassName("imag-to-look");
+var isClickInside = false;
+
+for (let i = 0; i < cardThird.length; i++) {
+  document.addEventListener("click", function (event) {
+    const el = event.target.closest(".cardThird");
+    cardThird[i].classList.remove("selection");
+    imag[i].classList.remove("look");
+    imag[i].classList.remove("imgAnims");
+
+    if (el) {
+      el.classList.add("selection");
+      const numberOfImgs = el.id.split("-")[1];
+      const imgToSee = document.getElementById(`imag-${numberOfImgs}`);
+      imgToSee.classList.add("look");
+      imgToSee.classList.add("imgAnims");
+    } else {
+      cardThird[0].classList.add("selection");
+      imag[0].classList.add("look");
+
+      imag[0].classList.add("imgAnims");
+    }
+  });
+}

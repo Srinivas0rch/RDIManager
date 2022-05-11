@@ -1,0 +1,141 @@
+#thirdCarArt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 100%;
+  
+    margin: auto;
+  
+    background-color: #fff;
+  }
+
+  #thirdCarArt #thirdParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    width: 100%;
+    max-width: 1700px;
+  
+    padding: 50px 0 100px 0;
+  }
+  
+  #thirdCarArt h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-family: "Besley", serif;
+    margin-bottom: 70px;
+    margin-top: 30px;
+  }
+  
+  #thirdCarArt .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin: auto;
+  }
+  
+  #thirdCarArt .section section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    z-index: 1;
+  }
+    
+  .section section .carousel {
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cardThird {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all, 0.5s;
+  }
+  
+  .cardThird:hover {
+    background: #eeeeee;
+    transition: all, 0.5s;
+  }
+  
+  .cardThird .objectIcon {
+    width: 20%;
+    margin-right: 20px;
+  }
+  
+  .cardThird .objectIcon .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background: #333;
+    border-radius: 15px;
+  }
+  
+  .selection .objectIcon .icon,
+  .selection .objectIcon .icon,
+  .selection .objectIcon .icon {
+    background-color: #a30000;
+    background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+  }
+  
+  .cardThird .cardThirdText {
+    display: inline;
+    text-align: left;
+  }
+  
+  .cardThird .cardThirdText h5 {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  .cardThird .cardThirdText p {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 200;
+  }
+  
+  .section .carousel .imag-to-look {
+    position: absolute;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .imgAnims {
+    animation: fade-in 1s;
+  }
+  
+  .imag-to-look {
+    visibility: hidden;
+  }
+  
+  .look {
+    visibility: visible;
+  }
+  
+  .selection {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }

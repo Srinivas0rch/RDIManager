@@ -269,6 +269,12 @@
   "rm_title_management": "Gestion des fichiers dans des dossiers",
   "rm_text_management": "Dans votre journal de projet RDI-Manager, vous pouvez créer et nommer des dossiers dans lesquels vous souhaitez ranger vos fichiers. Chaque que fois que vous ajouterez un fichier, que ce soit via un fait marquant ou via l’interface de gestion des fichiers du projet ; vous pourrez choisir le dossier dans lequel vous souhaitez le ranger.",
 
+  "sh_big_title": "Sécurité et hébergement des données sous RDI-Manager",
+  "sh_title_security":"Sécurité renforcée des données",
+  "sh_text_security": "La sécurité de vos données est notre priorité : vous êtes propriétaire de vos données et nous garantissons leur intégrité. La plateforme RDI-Manager s’appuie sur une approche de sécurité double : - Nos ingénieurs y ont intégré les dernières techniques et technologies de sécurité des applications PHP – Notre infrastructure OVH cloud est également équipée de protocoles avancés de sécurité et de sauvegarde de données. De plus, RDI-MANAGER est conforme aux normes et réglementations européennes en termes d’informatique et liberté. ",
+  "sh_title_ovh": "Infrastructure cloud FR-UE ou interne",
+  "sh_text_ovh": "OVH Cloud, le numéro 1 des solutions européennes de cloud computing est le partenaire d’hébergement de la plateforme RDI-Manager. Vos données sont donc hébergées sur le sol français en bonne sécurité. Nous vous donnons également la possibilité de souscrire à l’offre RDI-Manager premium, qui vous offre l'opportunité d’héberger vos données dans vos propres serveurs. La maintenance et les mises à jour seront assurées par l’équipe RDI-Manager en collaboration avec votre DSI.",
+
   "plan_big_title": "Planification avancée des projets",
   "plan_text": "Définissez le planning de votre projet suivant l’approche classique : Projet – Lots – Tâches – Sous-tâches en spécifiant les dates de début et fin de ces dernières. Vous pouvez également affecter des collaborateurs aux différents lots et tâches afin de bien répartir le travail.",
   "plan_discover_plan": "Découvrez la Planification",

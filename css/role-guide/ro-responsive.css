@@ -98,6 +98,54 @@
   #secondCarArt .section .carousel .img-to-see {
     width: 80%;
   }
+
+  /* Third section : Security and hosting on RDI-Manager */
+
+  #thirdCarArt {
+    width: 85%;
+  }
+
+  #thirdCarArt h2 {
+    font-size: 30px;
+  }
+
+  #thirdCarArt .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+
+  #thirdCarArt .section section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  #thirdCarArt .section .carousel {
+    height: 430px;
+  }
+
+  .cardThird .cardThirdText p {
+    display: none;
+  }
+
+  #thirdCarArt .cardThird {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 80%;
+  }
+
+  #thirdCarArt .section .carousel .imag-to-look {
+    width: 80%;
+  }
 }
 
 @media (max-width: 650px) {

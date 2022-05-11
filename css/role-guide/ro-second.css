@@ -66,7 +66,7 @@
 }
 
 .carde:hover {
-  background: white;
+  background: #ffff;
   transition: all, 0.5s;
 }
 
