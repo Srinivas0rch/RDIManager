@@ -70,6 +70,7 @@
   }
 
   .homeTitle .titre h1 {
+    font-size: 50px;
     color: #A80000;
   }
 
@@ -77,6 +78,14 @@
     color: #fff;
   }
 
+  .homeTitle .paragraphe p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-size: 16px;
+   
+  }
   .topHome {
     padding: 30px 0 50px 0;
     display: flex;
@@ -495,4 +504,24 @@
     width: 95%;
     margin-top: 30px;
   }
+}
+
+@media (max-width: 470px) {
+  .homeTitle .titre h1 {
+    font-size: 30px;
+  }
+
+  .homeTitle .paragraphe {
+   text-align: center;
+  width: 80%;
+  }
+
+  .homeTitle .paragraphe p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-size: 12px;
+}
+
 }
