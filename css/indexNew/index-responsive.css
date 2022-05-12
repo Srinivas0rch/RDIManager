@@ -524,4 +524,17 @@
     font-size: 12px;
 }
 
+.homeTitle .paragraphe  #logoTechI{
+  width: 30%;
+}
+
+.homeTitle .paragraphe #year {
+ font-size: 15px;
+}
+
+@media (max-width: 340px) {
+  .homeTitle .paragraphe #year {
+    font-size: 12px;
+   }
+}
 }
