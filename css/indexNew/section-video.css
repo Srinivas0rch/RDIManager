@@ -11,6 +11,10 @@
   align-items: center;
 }
 
+#blockImg {
+  display: none;
+}
+
 #blockVideo video {
   z-index: 1;
   position: relative;
@@ -104,18 +108,20 @@
   margin-bottom: 10px;
 }
 
-.typing {
-  position: relative;
-}
-
-.typing::after {
-  content: "";
-  position: absolute;
-  right: -2px;
-  width: 1px;
-  height: 100%;
-  border-right: 3px solid #fff;
-  animation: blink 0.8s infinite ease;
+@media (min-width: 1020) {
+  .typing {
+    position: relative;
+  }
+  
+  .typing::after {
+    content: "";
+    position: absolute;
+    right: -2px;
+    width: 1px;
+    height: 100%;
+    border-right: 3px solid #fff;
+    animation: blink 0.8s infinite ease;
+  }
 }
 
 @keyframes blink {
