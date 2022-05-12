@@ -184,9 +184,18 @@
     "line_five_three":"ABC",
     "line_six_one":"Contributeur",
     "line_six_three":"NIHIL",
-
-    
 "sa_title_hisProjects": "Ses projets",
+"sa_budget_title": "Analyse budgétaire",
+"sa_budget_subTitle":"En heure (H)",
+"sa_boardTitle": "Analyse budgétaire en Heure (H)",
+"sa_board_previs": "Prévisionnel",
+"sa_board_real": "Réel",
+"sa_board_euro": "En euro (€)",
+"sa_perf_title": "Indicateurs de performance",
+"sa_perf_efficacity": "Efficacité",
+"sa_perf_efficacity_descr": "Indique votre aptitude à réaliser les tâches dans les temps impartis",
+"sa_perf_Effectiveness": "Effectivité",
+"sa_perf_Effectiveness_descr": "Indique votre niveau de complétude dans la réalisation des tâches du projet",
 
   "about_big_title": "A propos de RDIManager",
   "about_text": "RDI-MANAGER nait de l’observation d’ingénieurs de recherche d’une part et consultants innovation d’autre part, selon laquelle gérer son activité de recherche et innovation de manière structurée et efficace s’avère parfois compliqué et contraignant ; pour les PME, Start-ups et Grands Groupes.",

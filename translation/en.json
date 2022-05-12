@@ -202,8 +202,17 @@
     "line_six_three":"NIHIL",
     "sa_title_resource": "Resources",
     "sa_title_datasheet": "Datasheet and Safety",
-
-
+    "sa_budget_title": "Budget analysis",
+    "sa_budget_subTitle":"In hours (H)",
+    "sa_boardTitle": "Budget analysis in Hours (H)",
+    "sa_board_previs": "Forecast",
+    "sa_board_real": "Real",
+    "sa_board_euro": "In euros (€)",
+    "sa_perf_title": "Performance indicators",
+    "sa_perf_efficacity": "Efficiency",
+    "sa_perf_efficacity_descr": "Indicates your ability to complete tasks on time",
+    "sa_perf_Effectiveness": "Effectiveness",
+    "sa_perf_Effectiveness_descr": "Indicates your level of completeness in completing project tasks",
 
     "about_big_title": "About RDIManager",
     "about_text": "RDI-MANAGER is born from the observation of research engineers on the one hand and innovation consultants on the other hand, according to which to manage its research and innovation activity in a structured way and effective is sometimes complicated and constraining; for SMEs, Start-ups and Large Groups.",
