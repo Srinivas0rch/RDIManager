@@ -84,8 +84,17 @@
     align-items: center;
   
     font-size: 16px;
-   
   }
+
+  .homeTitle .paragraphe  #logoTechI{
+    width: 15%;
+  }
+  
+  .homeTitle .paragraphe #year {
+   font-size: 17px;
+  }
+
+
   .topHome {
     padding: 30px 0 50px 0;
     display: flex;
