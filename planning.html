@@ -19,6 +19,7 @@
     <!-- RDI-Manager custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/planning/section-home.css">
     <link rel="stylesheet" type="text/css" href="css/planning/section-banner.css">
+    <link rel="stylesheet" type="text/css" href="css/planning/planning-responsive.css">
     <link rel="stylesheet" type="text/css" href="css/nav/nav.css">
     <link rel="stylesheet" type="text/css" href="css/nav/navPhone.css">
     <link rel="stylesheet" type="text/css" href="css/footer/footer.css">
@@ -60,7 +61,7 @@
             <nav class="navHigh">
                 <div class="listLeft">
                     <ul>
-                        <li><a href="../index.html"><img src="../images/logo.png" alt="RDI-Manager"></a></li>
+                        <li><a href="../index.html"><img src="../images/logoBlanc.png" alt="RDI-Manager"></a></li>
                         <li>
                             <div class="parentBlock">
                                 <div class="childOne">
@@ -142,7 +143,7 @@
             </nav>
 
             <!-- NAV FOR PHONE -->
-            <a href="index.html"><img class="logoPhone" src="images/favicon.png" alt="RDI-Manager"></a>
+            <a href="index.html"><img class="logoPhone" src="images/logoMiniBR.png" alt="RDI-Manager"></a>
             <div class="navPhone">
                 <button class="ham">
                     <span class="menuIcon">
@@ -231,66 +232,63 @@
         <!-- SECTION HOME -->
 
         <main>
-            <section>
+            <section id="section">
                 <div class="blockLeft">
-                    <h1>Planification avancés des projets</h1>
-                    <p>Définissez le planning de votre projet suivant l’approche classique : Projet – Lots – Tâches –
-                        Sous-tâches en spécifiant les date de début et fin de ces dernières.
-                        Vous pouvez également affecter des collaborateurs au différents lots et taches afin de bien
-                        répartir le travail. </p>
+                    <h1 data-i18n="plan_big_title"></h1>
+                    <p data-i18n="plan_text"></p>
                     <a href="https://demo.rdimanager.com/projets/1" target="_blank"
-                        class="btn btn-hover bg-red bg-red-hover"> Découvrez la Planification</a>
+                        class="btn btn-hover bg-red bg-red-hover" data-i18n="plan_discover_plan"></a>
                 </div>
                 <div class="blockRight">
                     <div id="cardOne">
                         <div class="cardTitle">
-                            <h3 class="text-white">Lots/Tâches/Sous-tâches</h3>
+                            <h3 class="text-white" data-i18n="plan_cardRed_title"></h3>
                         </div>
                         <div class="cardList">
                             <div class="list">
                                 <div class="group">
                                     <div></div>
-                                    <h5>Étude de faisabilité</h5>
+                                    <h5 data-i18n="plan_cardRed_subtitle_one"></h5>
                                 </div>
                             </div>
                             <div class="list">
                                 <div class="group">
                                     <div class="bg-blue"></div>
-                                    <h5>Rapport financier</h5>
+                                    <h5 data-i18n="plan_cardRed_subtitle_two"></h5>
                                 </div>
                             </div>
                             <div class="list">
                                 <div class="group">
                                     <div class="bg-yellow"></div>
-                                    <h5>Phase de test</h5>
+                                    <h5 data-i18n="plan_cardRed_subtitle_three"></h5>
                                 </div>
                             </div>
                             <div class="list">
                                 <div class="group">
                                     <div class="bg-green"></div>
-                                    <h5>Organisation du projet</h5>
+                                    <h5 data-i18n="plan_cardRed_subtitle_four"></h5>
                                 </div>
                             </div>
                             <div class="list">
                                 <div class="group">
                                     <div class="bg-purple"></div>
-                                    <h5>Conception</h5>
+                                    <h5 data-i18n="plan_cardRed_subtitle_five"></h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div id="cardTwo">
                         <div class="cardTitle">
-                            <h3>Planification du projet ABC</h3>
+                            <h3 data-i18n="plan_cardW_title"></h3>
                         </div>
                         <div class="cardDates">
-                            <p class="date">Sem 1</p>
-                            <p class="date">Sem 2</p>
-                            <p class="date">Sem 3</p>
-                            <p class="date">Sem 4</p>
-                            <p class="date">Sem 5</p>
-                            <p class="date">Sem 6</p>
-                            <p class="date">Sem 7</p>
+                            <p class="date" data-i18n="plan_cardW_dateOne"></p>
+                            <p class="date" data-i18n="plan_cardW_dateTwo"></p>
+                            <p class="date" data-i18n="plan_cardW_dateThree"></p>
+                            <p class="date" data-i18n="plan_cardW_dateFour"></p>
+                            <p class="date" data-i18n="plan_cardW_dateFive"></p>
+                            <p class="date" data-i18n="plan_cardW_dateSix"></p>
+                            <p class="date" data-i18n="plan_cardW_dateSeven"></p>
                         </div>
                         <div class="cardTasks">
                             <input type="range" min="0" max="70" class="task" id="tO" value="0">
@@ -309,9 +307,19 @@
         </main>
 
         <section id="sectionBanner">
-            <div class="containerBanner">
-                <div class="blockLeft"></div>
-                <div class="blockRight"></div>
+            <div id="sectionParent">
+                <div class="containerBanner">
+                    <div class="leftBlock">
+                        <img src="images/planification/planification.png" alt="plan">
+                    </div>
+                    <div class="rightBlock">
+                        <h1 data-i18n="plan_ban_title"></h1>
+                        <p data-i18n="plan_ban_text">
+                        </p>
+                        <a href="https://demo.rdimanager.com/projets/1" target="_blank"
+                            class="btn btn-hover bg-red bg-red-hover" data-i18n="plan_discover_plan"></a>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -319,29 +327,31 @@
         <footer>
             <div class="flexFoot">
                 <div class="footLeft">
-                    <h6 class="text-white">RDI Manager</h6>
+                    <h6>RDI Manager</h6>
                     <div class="planFoot">
                         <a href"mailto:contact@rdimanager.com" target="_blank">contact@rdimanager.com</a>
                         <p>+33 1 30 50 13 49</p>
-                        <p>2 rue Eugene Pottier</p>
-                        <p>78190 Saint-Quentin en Yvelines</p>
+                        <p>2 rue Eugène Pottier</p>
+                        <p>78190 Saint-Quentin-en-Yvelines</p>
                     </div>
                 </div>
                 <div class="footMid">
-                    <h6 class="text-white">Solution</h6>
+                    <h6>Solution</h6>
                     <div class="planFoot">
                         <a data-i18n="nav_sol_why" href="../index.html#whyRdiManager"></a>
                         <a data-i18n="nav_feat_keyfact" href="../faits-marquants.html"></a>
                         <a data-i18n="nav_feat_timesheet" href="../saisie-temps.html"></a>
+                        <a data-i18n="nav_feat_planning" href="../planning.html"></a>
+                        <a data-i18n="nav_feat_strategic" href="../strategic-analysis.html"></a>
                         <a data-i18n="nav_sol_offer" href="../index.html#pricing"></a>
                     </div>
                 </div>
                 <div class="footRight">
-                    <h6 class="text-white">Ressources</h6>
+                    <h6 data-i18n="sa_title_resource"></h6>
                     <div class="planFoot">
                         <a href="../images/CGU_CGV.pdf" target="_blank">CGU & CGV</a>
                         <a href="../images/FT_S.pdf" target="_blank">Fiche technique et Sécurité</a>
-                        <a data-i18n="nav_sol_partner" href="../index.html#partner"></a>
+                        <a data-i18n="nav_sol_guide" href="#"></a>
                         <a href="../pages/faq.html">F.A.Q</a>
                     </div>
                 </div>
