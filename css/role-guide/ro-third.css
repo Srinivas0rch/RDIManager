@@ -52,15 +52,7 @@
     margin: auto;
     z-index: 1;
   }
-    
-  .section section .carousel {
-    position: relative;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
+  
   .cardThird {
     display: flex;
     justify-content: center;
@@ -115,6 +107,14 @@
     font-size: 16px;
     text-decoration: none;
     font-weight: 200;
+  }
+  
+  .section .carousel {
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .section .carousel .imag-to-look {

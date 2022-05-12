@@ -273,7 +273,7 @@
 
   "sh_big_title": "Data security and hosting on RDI-Manager",
   "sh_title_security":"Enhanced data security",
-  "sh_text_securityt": "The security of your data is our priority: you own your data and we guarantee its integrity. The RDI-Manager platform is based on a dual security approach: - Our engineers have integrated the latest security techniques and technologies for PHP applications - Our OVH cloud infrastructure is also equipped with advanced security and data backup protocols. In addition, RDI-MANAGER complies with European standards and regulations in terms of IT and freedom.",
+  "sh_text_security": "The security of your data is our priority: you own your data and we guarantee its integrity. The RDI-Manager platform is based on a dual security approach: - Our engineers have integrated the latest security techniques and technologies for PHP applications - Our OVH cloud infrastructure is also equipped with advanced security and data backup protocols. In addition, RDI-MANAGER complies with European standards and regulations in terms of IT and freedom.",
   "sh_title_ovh": "FR-EU or internal cloud infrastructure",
   "sh_text_ovh": "OVH Cloud, the number 1 European cloud computing solution, is the hosting partner of the RDI-Manager platform. Your data is therefore hosted on French soil in good security. We also give you the option of subscribing to the RDI-Manager premium offer, which gives you the opportunity to host your data on your own servers. Maintenance and updates will be provided by the RDI-Manager team in collaboration with your CIO.",
 
