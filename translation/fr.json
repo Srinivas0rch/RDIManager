@@ -269,6 +269,17 @@
   "rm_title_management": "Gestion des fichiers dans des dossiers",
   "rm_text_management": "Dans votre journal de projet RDI-Manager, vous pouvez créer et nommer des dossiers dans lesquels vous souhaitez ranger vos fichiers. Chaque que fois que vous ajouterez un fichier, que ce soit via un fait marquant ou via l’interface de gestion des fichiers du projet ; vous pourrez choisir le dossier dans lequel vous souhaitez le ranger.",
 
+  "sh_big_title": "Sécurité et hébergement des données sous RDI-Manager",
+  "sh_title_security":"Sécurité renforcée des données",
+  "sh_text_security_one": "La sécurité de vos données est notre priorité : vous êtes propriétaire de vos données et nous garantissons leur intégrité.",
+  "sh_text_security_two": "La plateforme RDI-Manager s’appuie sur une approche de sécurité double :",
+  "sh_text_security_three": "- Nos ingénieurs y ont intégré les dernières techniques et technologies de sécurité des applications PHP",
+  "sh_text_security_four": "– Notre infrastructure OVH cloud est également équipée de protocoles avancés de sécurité et de sauvegarde de données.",
+  "sh_text_security_five": " De plus, RDI-MANAGER est conforme aux normes et réglementations européennes en termes d’informatique et liberté.",
+  "sh_title_ovh": "Infrastructure cloud FR-UE ou interne",
+  "sh_text_ovh_one": "OVH Cloud, le numéro 1 des solutions européennes de cloud computing est le partenaire d’hébergement de la plateforme RDI-Manager. Vos données sont donc hébergées sur le sol français en bonne sécurité.",
+  "sh_text_ovh_two": "Nous vous donnons également la possibilité de souscrire à l’offre RDI-Manager premium, qui vous offre l'opportunité d’héberger vos données dans vos propres serveurs. La maintenance et les mises à jour seront assurées par l’équipe RDI-Manager en collaboration avec votre DSI.",
+
   "plan_big_title": "Planification avancée des projets",
   "plan_text": "Définissez le planning de votre projet suivant l’approche classique : Projet – Lots – Tâches – Sous-tâches en spécifiant les dates de début et fin de ces dernières. Vous pouvez également affecter des collaborateurs aux différents lots et tâches afin de bien répartir le travail.",
   "plan_discover_plan": "Découvrez la Planification",
@@ -299,6 +310,7 @@
   "hierachy_SB_text": "À partir de son espace Mon Compte dans la société, chaque collaborateur peut identifier son supérieur hiérarchique. Ceci permet automatiquement aux supérieurs hiérarchiques d’ordre N+1 et N+2 d’avoir une visibilité sur les projets du collaborateur.",
   "hierachy_TB_bigTitle": "La Big Picture de mon équipe",
   "hierachy_TB_text": "En qualité de Manager, je peux voir l’ensemble de mon équipe via un organigramme sous RDI-Manager. De plus, j’ai un droit de visibilité sur l’ensemble de leurs projets, même si je n’y joue aucun rôle (Observateur / Contributeur / Chef de projet).",
+  
   "sa_title_hisProjects": "Ses projets",
   "sa_budget_title": "Analyse budgétaire",
   "sa_budget_subTitle":"En heure (H)",
@@ -311,5 +323,7 @@
   "sa_perf_efficacity_descr": "Indique votre aptitude à réaliser les tâches dans les temps impartis",
   "sa_perf_Effectiveness": "Effectivité",
   "sa_perf_Effectiveness_descr": "Indique votre niveau de complétude dans la réalisation des tâches du projet",
-  "sa_title_proj_stat" : "Statistiques des contributions du projet"
+  "sa_title_proj_stat" : "Statistiques des contributions du projet",
+
+  "join_textRec": "Si vous souhaitez participer à un projet entrepreneurial dynamique et innovant, dans une ambiance de start-up ; n’hésitez pas à nous envoyer votre CV, en nous faisant part de vos motivations."
 }
