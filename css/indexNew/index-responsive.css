@@ -82,22 +82,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
     font-size: 16px;
   }
 
-  .homeTitle .paragraphe  #logoTechI{
+  .homeTitle .paragraphe #logoTechI {
     width: 15%;
   }
-  
-  .homeTitle .paragraphe #year {
-   font-size: 17px;
-  }
 
+  .homeTitle .paragraphe #year {
+    font-size: 17px;
+  }
 
   .topHome {
     padding: 30px 0 50px 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -120,7 +120,8 @@
   }
 
   .homePage .blockRight {
-    display: none;
+    width: 85%;
+    margin-top: 50px;
   }
 
   .homePage .botTop {
@@ -152,10 +153,6 @@
   .homePage .botBottom .imgLog {
     width: 100%;
     margin-top: 20px;
-  }
-
-  .homePage .botBottom img {
-    width: 70px;
   }
 
   .homePage .botBottom #logoMonday {
@@ -328,6 +325,7 @@
     padding: 20px 0 50px 0;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
   }
 
@@ -346,10 +344,6 @@
 
   .homePage .blockLeft p {
     margin-bottom: 0;
-  }
-
-  .homePage .blockRight {
-    display: none;
   }
 
   .homePage .botTop {
@@ -521,34 +515,34 @@
   }
 
   .homeTitle .paragraphe {
-   text-align: center;
-  width: 80%;
+    text-align: center;
+    width: 80%;
   }
 
   .homeTitle .paragraphe p {
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
     font-size: 12px;
-}
+  }
 
-.homeTitle .paragraphe  #logoTechI{
-  width: 30%;
-}
-
-.homeTitle .paragraphe #year {
- font-size: 15px;
-}
-
-@media (max-width: 340px) {
-  .homeTitle .paragraphe p {
-    font-size: 11px;
-    font-weight: normal;
-}
+  .homeTitle .paragraphe #logoTechI {
+    width: 30%;
+  }
 
   .homeTitle .paragraphe #year {
-    font-size: 12px;
-   }
-}
+    font-size: 15px;
+  }
+
+  @media (max-width: 340px) {
+    .homeTitle .paragraphe p {
+      font-size: 11px;
+      font-weight: normal;
+    }
+
+    .homeTitle .paragraphe #year {
+      font-size: 12px;
+    }
+  }
 }
