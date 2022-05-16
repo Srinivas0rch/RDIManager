@@ -202,9 +202,15 @@
 }
 
 .secondBlock .secondPartAnalysis .budgetBar {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+
+  height: 120px;
 }
 
 .secondPartAnalysis .budgetBar #cardFirstRect {
@@ -232,13 +238,28 @@
 }
 
 .budget .budgetBar .hourBoard {
+  opacity: 0;
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+
   display: flex;
   justify-content: flex-end;
 
   margin-bottom: 15px;
 }
 
-.budgetStrip .budget .hourBoard  {
+.budgetBar:hover .hourBoard {
+  opacity: 1;
+}
+
+
+.budgetStrip .budget .hourBoard {
   display: flex;
   justify-content: flex-end;
 
@@ -291,6 +312,7 @@ td {
 .secondBlock .secondPartAnalysis .legendBudgetBar {
   display: flex;
   justify-content: center;
+
 }
 
 .secondPartAnalysis .legendBudgetBar #legendFirstRect {
@@ -362,13 +384,12 @@ td {
   margin: 30px 0;
 }
 
-div.info
-{
+div.info {
   display: none;
 
   position: absolute;
   bottom: 30px;
-  
+
   width: auto;
   height: auto;
 
@@ -379,8 +400,8 @@ div.info
   background: #101010;
 }
 
-div.saBoxTitle:hover .info{
-	display:block;
+div.saBoxTitle:hover .info {
+  display: block;
 }
 
 #perfor .chartCard .subtitlePerf {
