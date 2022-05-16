@@ -104,6 +104,7 @@
   }
   
   .cardThird .cardThirdText p {
+    text-align: justify;
     font-size: 16px;
     text-decoration: none;
     font-weight: 200;
