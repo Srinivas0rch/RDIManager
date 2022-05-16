@@ -661,14 +661,15 @@
                 ],
                 type: 'pie',
                 names: {
-                    'En cours': 'En cours',
-                    Terminé: 'Terminé',
-                    Suspendus: 'Suspendu',
+                    'En_cours': 'En cours',
+                    'Termine': 'Terminé',
+                    'Suspendus': 'Suspendu',
                 },
             },
             pie: {
                 label: {
                     format: function (value, id) {
+                        
                         return d3.format(value)(value);
                     }
                 },
