@@ -143,6 +143,17 @@
   "rm_title_management": "Managing files in folders",
   "rm_text_management": "In your RDI-Manager project log, you can create and name folders in which you want to store your files. Every time you add a file, either via a highlight or via the project file management interface; you can choose the folder in which you want to store it.",
 
+  "sh_big_title": "Data security and hosting on RDI-Manager",
+  "sh_title_security":"Enhanced data security",
+  "sh_text_security_one": "The security of your data is our priority: you own your data and we guarantee its integrity.",
+  "sh_text_security_two": "The RDI-Manager platform is based on a dual security approach:  ",
+  "sh_text_security_three": "- Our engineers have integrated the latest security techniques and technologies for PHP applications",
+  "sh_text_security_four": "- Our OVH cloud infrastructure is also equipped with advanced security and data backup protocols.",
+  "sh_text_security_five": " In addition, RDI-MANAGER complies with European standards and regulations in terms of IT and freedom.",
+  "sh_title_ovh": "FR-EU or internal cloud infrastructure",
+  "sh_text_ovh_one": "OVH Cloud, the number 1 European cloud computing solution, is the hosting partner of the RDI-Manager platform. Your data is therefore hosted on French soil in good security.",
+  "sh_text_ovh_two": "We also give you the option of subscribing to the RDI-Manager premium offer, which gives you the opportunity to host your data on your own servers. Maintenance and updates will be provided by the RDI-Manager team in collaboration with your CIO.",
+
   "plan_big_title": "Advanced project planning",
   "plan_text": "Define the planning of your project following the classic approach: Project – Lots – Tasks – Sub-tasks by specifying the start and end dates of the latter. You can also assign collaborators to different batches and tasks in order to properly distribute the work.",
   "plan_discover_plan": "Discover the Planning",
