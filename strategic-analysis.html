@@ -255,7 +255,7 @@
                         <div id="chart"></div>
                     </div>
                     <div class="column">
-                        <h6 data-i18n="sa_title_achieve">Réalisation des projets</h6>
+                        <h6 data-i18n="sa_title_achieve"></h6>
                         <div id="chart2"></div>
                     </div>
                 </div>
@@ -272,31 +272,34 @@
 
                 <div class="saChart">
                     <div id="stat">
-                        <div class="cards">
-                            <div class="cardBody">
-                                <h6 data-i18n="sa_stat_title_one"></h6>
-                                <p class="statNb">13</p>
-                            </div>
-                            <i class="pe-7s-users"></i>
-                        </div>
-                        <div class="cards">
-                            <div class="cardBody">
-                                <h6 data-i18n="sa_stat_title_two"></h6>
-                                <p class="statNb">49</p>
-                            </div>
-                            <i class="mdi mdi-binoculars"></i>
-
-                        </div>
-                        <div class="cards">
-                            <div class="cardThreeBody">
-                                <h6 data-i18n="sa_stat_title_three"></h6>
-                                <p data-i18n="sa_stat_text_one" id="textCard"></p>
-                                <div id="scoreText">
-                                    <p id="percent">68/100</p>
-                                    <p id="reliability" data-i18n="sa_stat_text_two"></p>
+                        <h6 id="statProjTitle" data-i18n="sa_title_proj_stat"></h6>
+                        <div id="threeCards">
+                            <div class="cards">
+                                <div class="cardBody">
+                                    <h6 data-i18n="sa_stat_title_one"></h6>
+                                    <p class="statNb">13</p>
                                 </div>
+                                <i class="pe-7s-users"></i>
                             </div>
-                            <i class="pe-7s-filter"></i>
+                            <div class="cards">
+                                <div class="cardBody">
+                                    <h6 data-i18n="sa_stat_title_two"></h6>
+                                    <p class="statNb">49</p>
+                                </div>
+                                <i class="mdi mdi-binoculars"></i>
+
+                            </div>
+                            <div class="cards">
+                                <div class="cardThreeBody">
+                                    <h6 data-i18n="sa_stat_title_three"></h6>
+                                    <p data-i18n="sa_stat_text_one" id="textCard"></p>
+                                    <div id="scoreText">
+                                        <p id="percent">68/100</p>
+                                        <p id="reliability" data-i18n="sa_stat_text_two"></p>
+                                    </div>
+                                </div>
+                                <i class="pe-7s-filter"></i>
+                            </div>
                         </div>
                     </div>
 
@@ -305,6 +308,141 @@
                         <div id="chart3"></div>
                     </div>
                 </div>
+                <section class="secondPartAnalysis">
+                    <div class="budgetStrip">
+                        <div class="budget">
+                            <h6 id="budget_title" data-i18n="sa_budget_title"></h6>
+                            <h6 class="subTitleBudget" data-i18n="sa_budget_subTitle"></h6>
+                            <div class="budgetBar">
+                                <div id="cardFirstRect">
+                                </div>
+                                <div id="cardSecondRect">
+                                </div>
+                                <div class="hourBoard">
+                                    <table>
+                                        <tr>
+                                            <td class="boardTitle" colspan="3" data-i18n="sa_boardTitle"></td>
+                                        </tr>
+                                        <tr class="tr">
+                                            <td data-i18n="sa_board_previs"><div class="squarePrev"></div></td>
+                                            <td>10 783 H</td>
+                                        </tr>
+                                        <tr class="colFirst">
+                                            <td data-i18n="sa_board_real">
+                                                <div class="squareReel"></div>
+                                            </td>
+                                            <td>5 420 H</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="legendBudgetBar">
+                                <div id="legendFirstRect">
+                                </div>
+                                <p data-i18n="sa_board_previs"></p>
+                                <div id="legendSecondRect">
+                                </div>
+                                <p data-i18n="sa_board_real"></p>
+                            </div>
+                        </div>
+                        <div class="budget">
+                            <h6 class="subTitleBudget" data-i18n="sa_board_euro"></h6>
+                            <div class="budgetBar">
+                                <div id="cardFirstRect">
+                                </div>
+                                <div id="cardSecondRectTwo">
+                                </div>
+                                <div id="euroBoard"></div>
+                                <div class="hourBoard">
+                                    <table>
+                                        <tr>
+                                            <td class="boardTitle" colspan="3" data-i18n="sa_boardTitle"></td>
+                                        </tr>
+                                        <tr class="tr">
+                                            <td data-i18n="sa_board_previs"><div class="squarePrev"></div></td>
+                                            <td>400 000 €</td>
+                                        </tr>
+                                        <tr class="colFirst">
+                                            <td data-i18n="sa_board_real">
+                                                <div class="squareReel"></div>
+                                            </td>
+                                            <td>325 632 €</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            
+                            <div class="legendBudgetBar">
+                                <div id="legendFirstRect">
+                                </div>
+                                <p data-i18n="sa_board_previs"></p>
+                                <div id="legendSecondRect">
+                                </div>
+                                <p data-i18n="sa_board_real"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="perfor">
+                        <h6 id="performance_title" data-i18n="sa_perf_title"></h6>
+                        <div class="chartCard">
+                            <div id="efficacityChart">
+                                <div class="saBoxTitle">
+                                    <h6 class="subtitlePerf" data-i18n="sa_perf_efficacity"><i class="mdi mdi-comment-question-outline"></i></h6>
+                                   <div class="info">
+                                       <p class="description" data-i18n="sa_perf_efficacity_descr"></p>
+                                    </div> 
+                                </div>
+                                <div class="chartBox">
+                                    <ul class="chart-perf">
+                                        <li>
+                                            <span></span>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                        </li>
+                                        <li>
+                                            <div class="needleFirst"></div>
+                                            <span></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chartCard">
+                            <div id="efficacityChart">
+                                <div class="saBoxTitle">
+                                    <h6 class="subtitlePerf" data-i18n="sa_perf_Effectiveness"><i class="mdi mdi-comment-question-outline"></i></h6>
+                                    <div class="info">
+                                        <p class="description" data-i18n="sa_perf_Effectiveness_descr"></p>
+                                     </div>
+                                </div>
+                                <div class="chartBox">
+                                    <ul class="chart-perfTwo">
+                                        <li>
+                                            <span></span>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                        </li>
+                                        <li>
+                                            <div class="needleSecond"></div>
+                                            <span></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </article>
         </section>
 
@@ -318,7 +456,7 @@
 
                 <div class="saProfil">
                     <div class="img">
-                        <img src="/images/startUp/albert.jpg">
+                      
                     </div>
                     <div class="doubleBox">
                         <div class="boxInfo" id="first">
@@ -346,7 +484,7 @@
                         <div class="boxInfo">
                             <div class="infos">
                                 <p class="bold" data-i18n="sa_telephone_profil"></p>
-                                <p class="value"> 01.02.03.04.05</p>
+                                <p class="value"> 07.08.09.10.11</p>
                             </div>
                             <div class="infos">
                                 <p class="bold" data-i18n="sa_statut_profil"></p>
@@ -356,7 +494,7 @@
                         <div class="boxInfo">
                             <div class="infos">
                                 <p class="bold" data-i18n="sa_dateEntree_profil"></p>
-                                <p class="value">05/05/2020</p>
+                                <p class="value">05/05/2019</p>
                             </div>
                             <div class="infos">
                                 <p class="bold" data-i18n="sa_dateSortie_profil"></p>
@@ -367,36 +505,40 @@
                 </div>
 
                 <div class="saChart">
-                    <div class="lines">
-                        <div class="line">
-                            <strong data-i18n="line_one_one"></strong>
-                            <p data-i18n="line_two_surLeProjet"></p>
-                            <p class="text-blue" data-i18n="line_one_three"></p>
-                        </div>
-                        <div class="line">
-                            <strong data-i18n="line_two_one"></strong>
-                            <p data-i18n="line_two_surLeProjet"></p>
-                            <p class="text-blue" data-i18n="line_two_three"></p>
-                        </div>
-                        <div class="line">
-                            <strong data-i18n="line_three_one"></strong>
-                            <p data-i18n="line_two_surLeProjet"></p>
-                            <p class="text-blue" data-i18n="line_three_three"></p>
-                        </div>
-                        <div class="line">
-                            <strong data-i18n="line_four_one"></strong>
-                            <p data-i18n="line_two_surLeProjet"></p>
-                            <p class="text-blue" data-i18n="line_four_three"></p>
-                        </div>
-                        <div class="line">
-                            <strong data-i18n="line_five_one"></strong>
-                            <p data-i18n="line_two_surLeProjet"></p>
-                            <p class="text-blue" data-i18n="line_five_three"></p>
-                        </div>
-                        <div class="line">
-                            <strong data-i18n="line_six_one"></strong>
-                            <p data-i18n="line_two_surLeProjet"></p>
-                            <p class="text-blue" data-i18n="line_six_three"></p>
+
+                    <div id="linesBox">
+                        <h6 id="hisProjects" data-i18n="sa_title_hisProjects"></h6>
+                        <div class="lines">
+                            <div class="line">
+                                <strong data-i18n="line_one_one"></strong>
+                                <p data-i18n="line_two_surLeProjet"></p>
+                                <p class="text-blue" data-i18n="line_one_three"></p>
+                            </div>
+                            <div class="line">
+                                <strong data-i18n="line_two_one"></strong>
+                                <p data-i18n="line_two_surLeProjet"></p>
+                                <p class="text-blue" data-i18n="line_two_three"></p>
+                            </div>
+                            <div class="line">
+                                <strong data-i18n="line_three_one"></strong>
+                                <p data-i18n="line_two_surLeProjet"></p>
+                                <p class="text-blue" data-i18n="line_three_three"></p>
+                            </div>
+                            <div class="line">
+                                <strong data-i18n="line_four_one"></strong>
+                                <p data-i18n="line_two_surLeProjet"></p>
+                                <p class="text-blue" data-i18n="line_four_three"></p>
+                            </div>
+                            <div class="line">
+                                <strong data-i18n="line_five_one"></strong>
+                                <p data-i18n="line_two_surLeProjet"></p>
+                                <p class="text-blue" data-i18n="line_five_three"></p>
+                            </div>
+                            <div class="line">
+                                <strong data-i18n="line_six_one"></strong>
+                                <p data-i18n="line_two_surLeProjet"></p>
+                                <p class="text-blue" data-i18n="line_six_three"></p>
+                            </div>
                         </div>
                     </div>
                     <div class="column">
@@ -473,14 +615,16 @@
                 x: 'x',
                 columns: [
                     ['x', '2023-00-00'],
-                    ['ASSUME', 2200],
-                    ['SUNT', 4115],
-                    ['DOL', 1620],
-                    ['NIHIL', 3200],
-                    ['QUOSIT', 2400],
-                    ['REICIEN', 3450],
+                    ['CON', 700],
+                    ['ASSUME', 1700],
+                    ['SUNT', 3000],
+                    ['DOL', 4500],
+                    ['NIHIL', 4000],
+                    ['QUOSIT', 2000],
+                    ['REICIEN', 1500],
                 ],
                 types: {
+                    CON: 'bar',
                     ASSUME: 'bar',
                     SUNT: 'bar',
                     DOL: 'bar',
@@ -513,13 +657,13 @@
                     ['x', '2023-00-00'],
                     ['En cours', 8],
                     ['Terminé', 4],
-                    ['Suspendus', 2],
+                    ['Suspendu', 2],
                 ],
                 type: 'pie',
                 names: {
                     'En cours': 'En cours',
                     Terminé: 'Terminé',
-                    Suspendus: 'Suspendus',
+                    Suspendus: 'Suspendu',
                 },
             },
             pie: {
@@ -581,13 +725,13 @@
                     ['x', 'jan', "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov",
                         "dec"
                     ],
-                    ['REICIEN', 7, 10, 10, 5, 0, 0, 30, 0, 0, 0, 0, 0],
-                    ['CON', 0, 2, 2, 3, 0, 30, 5, 10, 0, 0, 0, 0],
-                    ['QUO-SIT', 35, 25, 30, 36, 45, 45, 5, 0, 5, 5, 30, 30],
-                    ['DOL', 5, 8, 5, 5, 5, 0, 5, 20, 35, 35, 12, 12],
-                    ['NIHIL', 2, 5, 9, 11, 5, 10, 15, 10, 10, 0, 0, 13],
-                    ['SUNT', 50, 50, 35, 40, 40, 15, 0, 0, 0, 0, 0, 40],
-                    ['ASSUME', 1, 0, 9, 0, 5, 0, 30, 30, 0, 0, 1, 1],
+                    ['REICIEN', 30, 31, 21, 35, 0, 0, 30, 0, 30, 0, 0, 0],
+                    ['CON', 20, 22, 22, 13, 0, 30, 5, 10, 0, 50, 0, 0],
+                    ['QUO-SIT', 35, 25, 30, 39, 69, 55, 5, 0, 55, 25, 58, 30],
+                    ['DOL', 15, 20, 27, 15, 19, 0, 5, 20, 50, 45, 37, 32],
+                    ['NIHIL', 2, 5, 9, 11, 29, 40, 15, 10, 16, 15, 15, 13],
+                    ['SUNT', 50, 50, 35, 40, 30, 25, 0, 0, 0, 0, 30, 40],
+                    ['ASSUME', 1, 0, 9, 0, 6, 3, 30, 30, 0, 16, 10, 18],
                 ],
                 type: 'bar',
                 groups: [

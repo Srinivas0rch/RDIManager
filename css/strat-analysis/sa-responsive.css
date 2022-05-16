@@ -36,6 +36,41 @@
   }
 }
 
+@media (max-width: 1139px) {
+  .thirdBlock .saProfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .thirdBlock .saProfil .doubleBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 15px;
+
+    width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  .secondBlock .secondPartAnalysis {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .secondBlock .secondPartAnalysis .budgetStrip {
+    width: 100%;
+  }
+
+  .secondBlock .secondPartAnalysis #perfor {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1020px) {
   .firstBlock .saChart {
     width: 100%;
@@ -82,27 +117,6 @@
   }
 }
 
-@media (max-width: 1139px) {
-  .thirdBlock .saProfil {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .thirdBlock .saProfil .doubleBox {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    margin: 15px;
-
-    width: 100%;
-  }
-
-}
-
 @media (max-width: 650px) {
     .saProfil .doubleBox .boxInfo {
     display: flex;
@@ -133,21 +147,26 @@
     width: 350px;
   }
 
-  .thirdBlock .saChart #chart4 {
-    width: 350px;
-  }
-
   .secondBlock .saChart #stat {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 780px;
+    height: 280px;
   }
 
-  .saChart #stat .cards {
+  .saChart #stat #threeCards{
+    display: flex;
+    justify-content: center;
+  }
+
+  .secondBlock .saChart #stat .cards {
     margin-top: 10px;
-    width: 80%;
+    width: 30%;
+  }
+
+  .thirdBlock .saChart #chart4 {
+    width: 350px;
   }
 }
