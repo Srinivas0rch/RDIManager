@@ -97,15 +97,31 @@
   width: 100%;
 }
 
+.saChart #linesBox #hisProjects {
+  display: flex;
+  justify-content: center;
+  
+  margin-bottom: 30px;
+
+  font-size: 20px;
+  color: #333333;
+}
+
+.thirdBlock .saChart #linesBox {
+  display: flex;
+  flex-direction: column;
+}
+
 .thirdBlock .saChart .lines {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .saChart .lines .line {
   display: flex;
-  justify-content: center;
+
   align-items: center;
 
   width: 350px;
@@ -114,6 +130,7 @@
 
   border-bottom: 1px solid #8d8d8d;
 }
+
 .line strong,
 .line p {
   font-size: 18px;
