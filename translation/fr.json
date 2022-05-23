@@ -323,7 +323,5 @@
   "sa_perf_efficacity_descr": "Indique votre aptitude à réaliser les tâches dans les temps impartis",
   "sa_perf_Effectiveness": "Effectivité",
   "sa_perf_Effectiveness_descr": "Indique votre niveau de complétude dans la réalisation des tâches du projet",
-  "sa_title_proj_stat" : "Statistiques des contributions du projet",
-
-  "join_textRec": "Si vous souhaitez participer à un projet entrepreneurial dynamique et innovant, dans une ambiance de start-up ; n’hésitez pas à nous envoyer votre CV, en nous faisant part de vos motivations."
+  "sa_title_proj_stat" : "Statistiques des contributions du projet"
 }
