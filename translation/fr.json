@@ -132,7 +132,7 @@
   "fm_big_title_collab": "Le journal collaboratif de projet",
   "fm_subject": "Il vous permet de mettre en perspective de manière concrète l’avancement des travaux, tant pour vous que pour vos parties prenantes.",
   "fm_big_title_archive": "Sauvegarde et archivage des fichiers projet",
-  "fm_project_file": "Les fichier liés au projet sont mis à disposition des parties prenantes du projet, directement dans le journal collaboratif du projet.",
+  "fm_project_file": "Les fichiers liés au projet sont mis à disposition des parties prenantes du projet, directement dans le journal collaboratif du projet.",
 
   "sa_stat_title_one": "Contributeurs",
   "sa_stat_title_two": "Faits marquants",
@@ -185,9 +185,9 @@
   "st_big_title_sms": "Relance SMS",
   "st_text_sms": "Elle permet aux collaborateurs de ne pas oublier la saisie de leurs temps sur les différents projets.",
   "st_title_monthly_entry": "Saisie du temps au mois",
-  "st_monthly_entry": "Pour plus d’efficacité et de simplicité, la saisi du temps au mois se fait en pourcentage sur les projets, avec prise en compte des absences.",
+  "st_monthly_entry": "Pour plus d’efficacité et de simplicité, la saisie du temps au mois se fait en pourcentage sur les projets, avec prise en compte des absences.",
   "st_title_weekly_entry": "Saisie du temps à la semaine",
-  "st_weekly_entry": "Avec plus de précision et autant d’efficacité et de simplicité, la saisi du temps hebdomadaire se fait aussi en pourcentage sur les projets.",
+  "st_weekly_entry": "Avec plus de précision et autant d’efficacité et de simplicité, la saisie du temps hebdomadaire se fait aussi en pourcentage sur les projets.",
   "st_title_daily_entry": "Saisie du temps au jour",
   "st_daily_entry": "Si vous préférez suivre votre temps à la journée, vous le ferez à l’heure près, toutes les semaines. Dans tous les cas, vous avez la relance SMS.",
 
@@ -298,7 +298,11 @@
   "plan_cardW_dateSix": "Sem 6",
   "plan_cardW_dateSeven": "Sem 7",
   "plan_ban_title": "Planification et monitoring avancés des projets",
-  "plan_ban_text": "Grâce à la planification de votre projet, vos contributeurs projet peuvent associer des faits marquants à un lot de projet bien spécifique. Vous pourrez donc visualiser les faits marquants des différents lots du projet. Le suivi de l’avancement de vos tâches est réalisé avec un système de relance avant la date d’échéance de chaque tâche afin de mettre à jour son avancement, ainsi que des notifications de réalisation complète des tâches. De plus, un indice de performance mesure votre efficacité dans la complétude des tâches dans les temps impartis.",
+  "plan_ban_text_one": "Grâce à la planification de votre projet, vos contributeurs projet peuvent associer des faits marquants à un lot du projet bien spécifique. Vous pourrez donc visualiser les faits marquants des différents lots du projet.",
+  "plan_ban_text_two": " Le suivi de l’avancement de vos tâches est réalisé via:",
+  "plan_ban_text_three": "-  un système de relance avant la date d’échéance de chaque tâche afin de mettre à jour son avancement",
+  "plan_ban_text_four":"- des notifications de réalisation complète des tâches.",
+  "plan_ban_text_five": " De plus, des indices de performance mesurent votre efficacité et votre effectivité dans la complétude des tâches tout au long du projet.",
 
   "hierachy_FB_bigTitle": "Visualisez vos collaborateurs via un organigramme",
   "hierachy_FB_text": "En qualité de manager au sein de votre société, vos collaborateurs peuvent définir votre lien hiérarchique sous la plateforme RDI-Manager. Ceci vous permet de voir tous vos collaborateurs sous forme d’un organigramme jusqu’à l’ordre N-2.",
@@ -309,7 +313,7 @@
   "hierachy_SB_bigTitle": "Le Collaborateur définit son N+1",
   "hierachy_SB_text": "À partir de son espace Mon Compte dans la société, chaque collaborateur peut identifier son supérieur hiérarchique. Ceci permet automatiquement aux supérieurs hiérarchiques d’ordre N+1 et N+2 d’avoir une visibilité sur les projets du collaborateur.",
   "hierachy_TB_bigTitle": "La Big Picture de mon équipe",
-  "hierachy_TB_text": "En qualité de Manager, je peux voir l’ensemble de mon équipe via un organigramme sous RDI-Manager. De plus, j’ai un droit de visibilité sur l’ensemble de leurs projets, même si je n’y joue aucun rôle (Observateur / Contributeur / Chef de projet).",
+  "hierachy_TB_text": "En qualité de Manager, je peux voir l’ensemble de mon équipe via un organigramme sous RDI-Manager. De plus, j’ai un droit de visibilité sur l’ensemble de leurs projets, quelque soit le rôle que j'y joue (Observateur / Contributeur / Chef de projet).",
   
   "sa_title_hisProjects": "Ses projets",
   "sa_budget_title": "Analyse budgétaire",
@@ -323,7 +327,5 @@
   "sa_perf_efficacity_descr": "Indique votre aptitude à réaliser les tâches dans les temps impartis",
   "sa_perf_Effectiveness": "Effectivité",
   "sa_perf_Effectiveness_descr": "Indique votre niveau de complétude dans la réalisation des tâches du projet",
-  "sa_title_proj_stat" : "Statistiques des contributions du projet",
-
-  "join_textRec": "Si vous souhaitez participer à un projet entrepreneurial dynamique et innovant, dans une ambiance de start-up ; n’hésitez pas à nous envoyer votre CV, en nous faisant part de vos motivations."
+  "sa_title_proj_stat" : "Statistiques des contributions du projet"
 }
