@@ -214,17 +214,71 @@
 
             <div class="blockRight">
                 <h2 data-i18n="nav_contact_form"></h2>
+                <p>Renseignez vos coordonnées ci-dessous afin que nos équipes vous recontactent dans les plus
+                    brefs délais.
+                </p>
 
                 <form class="form" id="contact-form">
                     <div id="sending"></div>
-                    <label>Email</label>
-                    <input type="email" name="user_email">
-                    <label data-i18n="contact_subject_form"></label>
-                    <input type="text" name="subject">
-                    <label>Message</label>
-                    <textarea name="message"></textarea>
 
-                    <button class="btn btn-hover bg-blue bg-blue-hover" type="submit" data-i18n="contact_send_form"></button>
+                    <div class="lineContact">
+                        <div class="inputCont">
+                            <label>Nom</label>
+                            <input type="text" name="user_name">
+                        </div>
+                        <div class="inputCont">
+                            <label>Prénom</label>
+                            <input type="text" name="user_lastname">
+                        </div>
+                    </div>
+                    <div class="lineContact">
+                        <div class="inputCont">
+                            <label>Société</label>
+                            <input type="text" name="user_society">
+                        </div>
+                        <div class="inputCont">
+                            <label>Fonction</label>
+                            <input type="text" name="user_function">
+                        </div>
+                    </div>
+                    <div class="lineContact">
+                        <div class="inputCont">
+                            <label>Téléphone</label>
+                            <input type="telephone" name="user_telephone">
+                        </div>
+                        <div class="inputCont">
+                            <label>Email</label>
+                            <input type="email" name="user_email">
+                        </div>
+                    </div>
+                    <div class="lineContact">
+                        <div class="inputCont">
+                            <label data-i18n="contact_subject_form"></label>
+                            <select name="subject" id="subject">
+                                <option value="Offre Standard">Offre Standard</option>
+                                <option value="Offre Premium">Offre Premium</option>
+                                <option value="other">Autre</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="lineContact">
+                    <div class="inputCont" id="textZone">
+                        <label>Message</label>
+                        <textarea name="message"></textarea>
+                    </div>
+                </div>
+                <div class="lineContact">
+                    <div class="checkMention">
+                        <input id="case" type="checkbox" name="mention">
+                        <label for="mention">J'accepte que mes données personnelles soient collectées et
+                            traitées pour la future relation commerciale.
+                        </label>
+                    </div>
+                    </div>
+                    <div class="lineContact">
+                    <button class="btn btn-hover bg-blue bg-blue-hover" type="submit"
+                        data-i18n="contact_send_form"></button>
+                        </div>
                 </form>
 
             </div>
@@ -236,8 +290,8 @@
                     <div id="allContact">
                         <div class="mail"><i class="mdi mdi-email-outline"></i>contact@rdimanager.com</div>
                         <div class="phone"><i class="mdi mdi-phone"></i>01 30 50 13 49</div>
-                        <div class="adress"><i class="mdi mdi-pin"></i>2 rue Eugène Pottier 78190 Saint-Quentin en
-                            Yvelines</div>
+                        <div class="adress"><i class="mdi mdi-pin"></i>2 rue Eugène Pottier 78190
+                            Saint-Quentin-en-Yvelines</div>
                     </div>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2629.2314416489194!2d1.983437951001123!3d48.7774716142536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e683f40015dfc9%3A0x8e49c8054167a7e2!2s2%20Rue%20Eug%C3%A8ne%20Pottier%2C%2078190%20Trappes!5e0!3m2!1sfr!2sfr!4v1635322504967!5m2!1sfr!2sfr"
@@ -328,20 +382,20 @@
         })();
     </script>
     <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
+        window.onload = function () {
+            document.getElementById('contact-form').addEventListener('submit', function (event) {
                 event.preventDefault();
                 const res = document.getElementById('sending');
 
                 emailjs.sendForm('rdi_manager', 'template_ibqn10o', this)
-                    .then(function() {
+                    .then(function () {
                         res.innerHTML = `<p class="text-green">Votre message est envoyé !</p>`;
                         const form = document.getElementById('contact-form');
                         form.reset();
 
-                        setTimeout(function(){
+                        setTimeout(function () {
                             res.innerHTML = "";
-                        },2000)
+                        }, 2000)
                     });
             });
         }
