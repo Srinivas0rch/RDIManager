@@ -132,7 +132,7 @@
   "fm_big_title_collab": "Le journal collaboratif de projet",
   "fm_subject": "Il vous permet de mettre en perspective de manière concrète l’avancement des travaux, tant pour vous que pour vos parties prenantes.",
   "fm_big_title_archive": "Sauvegarde et archivage des fichiers projet",
-  "fm_project_file": "Les fichier liés au projet sont mis à disposition des parties prenantes du projet, directement dans le journal collaboratif du projet.",
+  "fm_project_file": "Les fichiers liés au projet sont mis à disposition des parties prenantes du projet, directement dans le journal collaboratif du projet.",
 
   "sa_stat_title_one": "Contributeurs",
   "sa_stat_title_two": "Faits marquants",
@@ -185,9 +185,9 @@
   "st_big_title_sms": "Relance SMS",
   "st_text_sms": "Elle permet aux collaborateurs de ne pas oublier la saisie de leurs temps sur les différents projets.",
   "st_title_monthly_entry": "Saisie du temps au mois",
-  "st_monthly_entry": "Pour plus d’efficacité et de simplicité, la saisi du temps au mois se fait en pourcentage sur les projets, avec prise en compte des absences.",
+  "st_monthly_entry": "Pour plus d’efficacité et de simplicité, la saisie du temps au mois se fait en pourcentage sur les projets, avec prise en compte des absences.",
   "st_title_weekly_entry": "Saisie du temps à la semaine",
-  "st_weekly_entry": "Avec plus de précision et autant d’efficacité et de simplicité, la saisi du temps hebdomadaire se fait aussi en pourcentage sur les projets.",
+  "st_weekly_entry": "Avec plus de précision et autant d’efficacité et de simplicité, la saisie du temps hebdomadaire se fait aussi en pourcentage sur les projets.",
   "st_title_daily_entry": "Saisie du temps au jour",
   "st_daily_entry": "Si vous préférez suivre votre temps à la journée, vous le ferez à l’heure près, toutes les semaines. Dans tous les cas, vous avez la relance SMS.",
 
@@ -196,7 +196,7 @@
   "sa_title_nbHour": "Nombre d'heures par projet",
   "sa_title_achieve": "Réalisation des projets",
   "sa_big_title_strategy": "Analyse stratégique par projet",
-  "sa_text_strategy": "Avec RDI-Manager, les managers ont droit à des fonctionnalités spécifiques pour analyser au mieux leurs projets, ainsi que l’investissement de l’équipe sur chaque projet. Le Score RDI de votre projet vous donne une indication sur son potentiel de financements publiques de types CIR et CII.",
+  "sa_text_strategy": "Avec RDI-Manager, les managers ont droit à des fonctionnalités spécifiques pour analyser au mieux leurs projets, ainsi que l’investissement de l’équipe sur chaque projet : – Le Score RDI vous donne une indication sur le potentiel de financements publics (CIR et CII) du projet – Les KPI vous renseignent sur l’Efficacité et l’Effectivité de l’équipe projet – L’analyse financière vous permet de faire un suivi budgétaire du projet en temps réel.",
   "sa_title_time": "Temps passé en heure par utilisateur",
   "sa_Subtitle_analysis": "Analyse des contributions collaborateur",
   "sa_Subtitle_text": "Avec RDI-Manager, le manager peut suivre facilement les contributions spécifiques de chacun de ses collaborateurs.",
@@ -237,7 +237,7 @@
   "faq_answer_two": "Oui, vous pouvez ajouter un fichier même après avoir créé le fait marquant.",
   "faq_question_three": "Puis-je générer des feuilles de temps via RDI-Manager?",
   "faq_answer_three": "Oui, afin de générer des feuilles de temps, allez sur “Saisie de temps” et saisissez votre temps. Vous pouvez de même les exporter sous un tableau Excel.",
-  "faq_question_four": "Puis-je modifier ma saisie du temps d’hebdomadaire à mensuel?",
+  "faq_question_four": "Puis-je modifier ma saisie du temps d’hebdomadaire à mensuel ?",
   "faq_answer_four": "Oui, vous le pouvez. Allez dans 'Administration' puis “Ma compagnie” puis “Entrer mon temps” puis modifiez à votre guise.",
   "faq_question_five": "Puis-je intégrer des liens externes comme Slack à RDI-Manager?",
   "faq_answer_five": "Oui, cliquez sur 'Mon projet' puis sur “Modifier les paramètres de mon projet” puis sur 'Ajouter lien externe'.",
@@ -246,7 +246,7 @@
   "faq_question_seven": "Puis-je personnaliser mes rappels SMS?",
   "faq_answer_seven": "Oui, allez dans 'Administration' puis 'Paramètre de notification'. Grâce aux rappels vos équipes seront rappelées de saisir leur temps si les actions correspondantes n’ont pas été faites.",
   "faq_question_eight": "Comment puis-je ajouter un contributeur après la création de mon projet?",
-  "faq_answer_eight": "Sélectionnez le projet en question, appuyez sur 'Gérer les participant' puis sur 'jouter un nouvel utilisateur'.",
+  "faq_answer_eight": "Sélectionnez le projet en question, appuyez sur 'Gérer les participants' puis sur 'Ajouter un nouvel utilisateur'.",
   "faq_question_nine": "Qui à l’autorité de créer un projet?",
   "faq_answer_nine": "Tous ceux ayant le statut de Chef de Projet et administrateur.",
   "faq_question_ten": "Puis-je voir l’analyse des années passées?",
@@ -259,9 +259,9 @@
   "rg_title_admin": "Administrateur",
   "rg_text_admin": "L’administrateur a tous les droits sous la plateforme RDI-Manager. Il peut inviter des utilisateurs, créer des projets, y ajouter des personnes et utiliser les fonctionnalités de gestion stratégique.",
   "rg_title_chief": "Chef de projet",
-  "rg_text_chief": "Le chef de projet à le droit de créer des projets et d’y inviter des contributeurs et observateurs. Il a également accès aux analyses statistiques de ses projets.",
+  "rg_text_chief": "Le chef de projet a le droit de créer des projets et d’y inviter des contributeurs et observateurs. Il a également accès aux analyses statistiques de ses projets.",
   "rg_title_user": "Utilisateur",
-  "rg_text_user": "L’utilisateur n’a de visibilité que sur son périmètre de projets. Il peut être observateur ou contributeur dans les projets ; et même jouer le rôle de chef d’un projet qu’il n’a pas créer. Il n’a en effet pas le droit de création de projet.",
+  "rg_text_user": "L’utilisateur n’a de visibilité que sur son périmètre de projets. Il peut être observateur ou contributeur dans les projets ; et même jouer le rôle de chef d’un projet qu’il n’a pas créé. Il n’a en effet pas le droit de création de projet.",
 
   "rm_big_title": "Droits et gestion des fichiers projets sous RDI-Manager",
   "rm_title_right": "Droits de visibilité des fichiers",
@@ -298,7 +298,11 @@
   "plan_cardW_dateSix": "Sem 6",
   "plan_cardW_dateSeven": "Sem 7",
   "plan_ban_title": "Planification et monitoring avancés des projets",
-  "plan_ban_text": "Grâce à la planification de votre projet, vos contributeurs projet peuvent associer des faits marquants à un lot de projet bien spécifique. Vous pourrez donc visualiser les faits marquants des différents lots du projet. Le suivi de l’avancement de vos tâches est réalisé avec un système de relance avant la date d’échéance de chaque tâche afin de mettre à jour son avancement, ainsi que des notifications de réalisation complète des tâches. De plus, un indice de performance mesure votre efficacité dans la complétude des tâches dans les temps impartis.",
+  "plan_ban_text_one": "Grâce à la planification de votre projet, vos contributeurs projet peuvent associer des faits marquants à un lot du projet bien spécifique. Vous pourrez donc visualiser les faits marquants des différents lots du projet.",
+  "plan_ban_text_two": " Le suivi de l’avancement de vos tâches est réalisé via:",
+  "plan_ban_text_three": "-  un système de relance avant la date d’échéance de chaque tâche afin de mettre à jour son avancement",
+  "plan_ban_text_four":"- des notifications de réalisation complète des tâches.",
+  "plan_ban_text_five": " De plus, des indices de performance mesurent votre efficacité et votre effectivité dans la complétude des tâches tout au long du projet.",
 
   "hierachy_FB_bigTitle": "Visualisez vos collaborateurs via un organigramme",
   "hierachy_FB_text": "En qualité de manager au sein de votre société, vos collaborateurs peuvent définir votre lien hiérarchique sous la plateforme RDI-Manager. Ceci vous permet de voir tous vos collaborateurs sous forme d’un organigramme jusqu’à l’ordre N-2.",
@@ -309,7 +313,7 @@
   "hierachy_SB_bigTitle": "Le Collaborateur définit son N+1",
   "hierachy_SB_text": "À partir de son espace Mon Compte dans la société, chaque collaborateur peut identifier son supérieur hiérarchique. Ceci permet automatiquement aux supérieurs hiérarchiques d’ordre N+1 et N+2 d’avoir une visibilité sur les projets du collaborateur.",
   "hierachy_TB_bigTitle": "La Big Picture de mon équipe",
-  "hierachy_TB_text": "En qualité de Manager, je peux voir l’ensemble de mon équipe via un organigramme sous RDI-Manager. De plus, j’ai un droit de visibilité sur l’ensemble de leurs projets, même si je n’y joue aucun rôle (Observateur / Contributeur / Chef de projet).",
+  "hierachy_TB_text": "En qualité de Manager, je peux voir l’ensemble de mon équipe via un organigramme sous RDI-Manager. De plus, j’ai un droit de visibilité sur l’ensemble de leurs projets, quelque soit le rôle que j'y joue (Observateur / Contributeur / Chef de projet).",
   
   "sa_title_hisProjects": "Ses projets",
   "sa_budget_title": "Analyse budgétaire",
@@ -323,7 +327,5 @@
   "sa_perf_efficacity_descr": "Indique votre aptitude à réaliser les tâches dans les temps impartis",
   "sa_perf_Effectiveness": "Effectivité",
   "sa_perf_Effectiveness_descr": "Indique votre niveau de complétude dans la réalisation des tâches du projet",
-  "sa_title_proj_stat" : "Statistiques des contributions du projet",
-
-  "join_textRec": "Si vous souhaitez participer à un projet entrepreneurial dynamique et innovant, dans une ambiance de start-up ; n’hésitez pas à nous envoyer votre CV, en nous faisant part de vos motivations."
+  "sa_title_proj_stat" : "Statistiques des contributions du projet"
 }
