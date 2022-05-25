@@ -15,7 +15,7 @@
   \***********************/
 /***/ (() => {
 
-eval("document.getElementById('subject').addEventListener('change', function() {\r\n  const inputOther = document.querySelector('.inputOther');\r\n  if(this.value == 'other') {\r\n    inputOther.classList.add('visible');\r\n  }\r\n  else {\r\n    inputOther.classList.remove('visible');\r\n  }\r\n});\r\n\r\n\n\n//# sourceURL=webpack:///./js/contact.js?");
+eval("document.getElementById('subject').addEventListener('change', function () {\r\n    const inputOther = document.querySelector('.inputOther');\r\n    if (this.value == 'other') {\r\n        inputOther.classList.add('visible');\r\n    } else {\r\n        inputOther.classList.remove('visible');\r\n    }\r\n});\r\n\r\nconst name = document.getElementById('name');\r\nconst lastname = document.getElementById('lastname');\r\nconst form = document.getElementById('form');\r\nconst errorElement = document.getElementById('error');\r\n\r\nform.addEventListener('submit', (e) => {\r\n    let messages = []\r\n    if (name.value === '' || name.value == null) {\r\n        messages.push('Merci de noter votre nom')\r\n    }\r\n\r\n    if (lastname.value === '' || lastname.value == null) {\r\n        messages.push('Merci de noter votre prénom')\r\n    }\r\n    if (name.value.lenght <= 2 ) {\r\n        messages.push('Veuillez entrer un nom avec plus de 2 caractères.')\r\n    }\r\n\r\n    if (messages.lenght > 0) {\r\n        e.preventDefault()\r\n        errorElement.innerText = messages.join(', ')\r\n    }\r\n})\n\n//# sourceURL=webpack:///./js/contact.js?");
 
 /***/ }),
 

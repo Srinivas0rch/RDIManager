@@ -220,43 +220,43 @@
 
                 <form class="form" id="contact-form">
                     <div id="sending"></div>
-
+                    <div id="error"></div>
                     <div class="lineContact">
                         <div class="inputCont">
                             <div class="labelName">
-                            <label>Nom</label><span class="text-red">*</span>
-                        </div>
-                            <input type="text" name="user_name" required>
+                                <label for="name">Nom</label><span class="text-red">*</span>
+                            </div>
+                            <input id="name" type="text" name="name">
                         </div>
                         <div class="inputCont">
                             <div class="labelName">
-                            <label>Prénom</label><span class="text-red">*</span>
-                        </div>
-                            <input type="text" name="user_lastname" required>
+                                <label for="lastname">Prénom</label><span class="text-red">*</span>
+                            </div>
+                            <input type="text" name="lastname">
                         </div>
                     </div>
                     <div class="lineContact">
                         <div class="inputCont">
                             <label>Société</label>
-                            <input type="text" name="user_society">
+                            <input type="text" name="society">
                         </div>
                         <div class="inputCont">
                             <label>Fonction</label>
-                            <input type="text" name="user_function">
+                            <input type="text" name="function">
                         </div>
                     </div>
                     <div class="lineContact">
                         <div class="inputCont">
                             <div class="labelName">
-                            <label>Téléphone</label><span class="text-red">*</span>
-                        </div>
-                            <input type="telephone" name="user_telephone" required>
+                                <label>Téléphone</label><span class="text-red">*</span>
+                            </div>
+                            <input type="telephone" name="telephone" >
                         </div>
                         <div class="inputCont">
                             <div class="labelName">
-                            <label>Email</label><span class="text-red">*</span>
-                        </div>
-                            <input type="email" name="user_email" required>
+                                <label>Email</label><span class="text-red">*</span>
+                            </div>
+                            <input type="email" name="email" >
                         </div>
                     </div>
                     <div class="lineContact">
@@ -264,7 +264,7 @@
                             <div class="labelName">
                                 <label data-i18n="contact_subject_form"></label><span class="text-red">*</span>
                             </div>
-                            <select name="subject" id="subject" required>
+                            <select name="subject" id="subject" >
                                 <option value=""></option>
                                 <option value="standard">Offre Standard</option>
                                 <option value="premium">Offre Premium</option>
@@ -280,14 +280,14 @@
                     <div class="lineContact">
                         <div class="inputCont" id="textZone">
                             <div class="labelName">
-                            <label>Message</label><span class="text-red">*</span>
-                        </div>
-                            <textarea name="message" required></textarea>
+                                <label>Message</label><span class="text-red">*</span>
+                            </div>
+                            <textarea name="message" ></textarea>
                         </div>
                     </div>
                     <div class="lineContact">
                         <div class="checkMention">
-                            <input id="case" type="checkbox" name="mention" required>
+                            <input id="case" type="checkbox" name="mention" >
                             <label for="mention">J'accepte que mes données personnelles soient collectées et
                                 traitées pour la future relation commerciale.
                             </label>
@@ -398,7 +398,7 @@
             emailjs.init("63GsXL85OZQL92m8S");
         })();
     </script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         window.onload = function () {
             document.getElementById('contact-form').addEventListener('submit', function (event) {
                 event.preventDefault();
@@ -416,7 +416,7 @@
                     });
             });
         }
-    </script>
+    </script> -->
 </body>
 
 </html>
