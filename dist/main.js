@@ -9,6 +9,16 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./js/contact.js":
+/*!***********************!*\
+  !*** ./js/contact.js ***!
+  \***********************/
+/***/ (() => {
+
+eval("document.getElementById('subject').addEventListener('change', function() {\r\n  const inputOther = document.querySelector('.inputOther');\r\n  if(this.value == 'other') {\r\n    inputOther.classList.add('visible');\r\n  }\r\n  else {\r\n    inputOther.classList.remove('visible');\r\n  }\r\n});\r\n\r\n\n\n//# sourceURL=webpack:///./js/contact.js?");
+
+/***/ }),
+
 /***/ "./js/home.js":
 /*!********************!*\
   !*** ./js/home.js ***!
@@ -26,7 +36,7 @@ eval("window.addEventListener(\"load\", () => {\r\n  const preload = document.qu
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _translate__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./translate */ \"./js/translate.js\");\n/* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nav */ \"./js/nav.js\");\n/* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nav__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home */ \"./js/home.js\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_home__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _scrollReveal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scrollReveal */ \"./js/scrollReveal.js\");\n/* harmony import */ var _swiper_min__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./swiper.min */ \"./js/swiper.min.js\");\n/* harmony import */ var _swiper_min__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_swiper_min__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _matomo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./matomo */ \"./js/matomo.js\");\n/* harmony import */ var _matomo__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_matomo__WEBPACK_IMPORTED_MODULE_5__);\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _translate__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./translate */ \"./js/translate.js\");\n/* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nav */ \"./js/nav.js\");\n/* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nav__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home */ \"./js/home.js\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_home__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _scrollReveal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scrollReveal */ \"./js/scrollReveal.js\");\n/* harmony import */ var _swiper_min__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./swiper.min */ \"./js/swiper.min.js\");\n/* harmony import */ var _swiper_min__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_swiper_min__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _matomo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./matomo */ \"./js/matomo.js\");\n/* harmony import */ var _matomo__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_matomo__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./contact */ \"./js/contact.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_contact__WEBPACK_IMPORTED_MODULE_6__);\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./js/index.js?");
 
 /***/ }),
 

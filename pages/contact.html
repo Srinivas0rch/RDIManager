@@ -223,12 +223,16 @@
 
                     <div class="lineContact">
                         <div class="inputCont">
-                            <label>Nom</label>
-                            <input type="text" name="user_name">
+                            <div class="labelName">
+                            <label>Nom</label><span class="text-red">*</span>
+                        </div>
+                            <input type="text" name="user_name" required>
                         </div>
                         <div class="inputCont">
-                            <label>Prénom</label>
-                            <input type="text" name="user_lastname">
+                            <div class="labelName">
+                            <label>Prénom</label><span class="text-red">*</span>
+                        </div>
+                            <input type="text" name="user_lastname" required>
                         </div>
                     </div>
                     <div class="lineContact">
@@ -243,42 +247,56 @@
                     </div>
                     <div class="lineContact">
                         <div class="inputCont">
-                            <label>Téléphone</label>
-                            <input type="telephone" name="user_telephone">
+                            <div class="labelName">
+                            <label>Téléphone</label><span class="text-red">*</span>
+                        </div>
+                            <input type="telephone" name="user_telephone" required>
                         </div>
                         <div class="inputCont">
-                            <label>Email</label>
-                            <input type="email" name="user_email">
+                            <div class="labelName">
+                            <label>Email</label><span class="text-red">*</span>
+                        </div>
+                            <input type="email" name="user_email" required>
                         </div>
                     </div>
                     <div class="lineContact">
                         <div class="inputCont">
-                            <label data-i18n="contact_subject_form"></label>
-                            <select name="subject" id="subject">
-                                <option value="Offre Standard">Offre Standard</option>
-                                <option value="Offre Premium">Offre Premium</option>
-                                <option value="other">Autre</option>
+                            <div class="labelName">
+                                <label data-i18n="contact_subject_form"></label><span class="text-red">*</span>
+                            </div>
+                            <select name="subject" id="subject" required>
+                                <option value=""></option>
+                                <option value="standard">Offre Standard</option>
+                                <option value="premium">Offre Premium</option>
+                                <option id="other" value="other">Autre</option>
                             </select>
                         </div>
-                    </div>
-                    <div class="lineContact">
-                    <div class="inputCont" id="textZone">
-                        <label>Message</label>
-                        <textarea name="message"></textarea>
-                    </div>
-                </div>
-                <div class="lineContact">
-                    <div class="checkMention">
-                        <input id="case" type="checkbox" name="mention">
-                        <label for="mention">J'accepte que mes données personnelles soient collectées et
-                            traitées pour la future relation commerciale.
-                        </label>
-                    </div>
-                    </div>
-                    <div class="lineContact">
-                    <button class="btn btn-hover bg-blue bg-blue-hover" type="submit"
-                        data-i18n="contact_send_form"></button>
+                        <div class="inputOther" id="disp">
+                            <label>Autre</label>
+                            <input type="text" name="user_subject"
+                                placeholder="Veuillez préciser le sujet de votre demande.">
                         </div>
+                    </div>
+                    <div class="lineContact">
+                        <div class="inputCont" id="textZone">
+                            <div class="labelName">
+                            <label>Message</label><span class="text-red">*</span>
+                        </div>
+                            <textarea name="message" required></textarea>
+                        </div>
+                    </div>
+                    <div class="lineContact">
+                        <div class="checkMention">
+                            <input id="case" type="checkbox" name="mention" required>
+                            <label for="mention">J'accepte que mes données personnelles soient collectées et
+                                traitées pour la future relation commerciale.
+                            </label>
+                        </div>
+                    </div>
+                    <div class="lineContact">
+                        <button class="btn btn-hover bg-blue bg-blue-hover" type="submit"
+                            data-i18n="contact_send_form"></button>
+                    </div>
                 </form>
 
             </div>
@@ -292,28 +310,27 @@
                         <div class="phone"><i class="mdi mdi-phone"></i>01 30 50 13 49</div>
                         <div class="adress"><i class="mdi mdi-pin"></i>2 rue Eugène Pottier 78190
                             Saint-Quentin-en-Yvelines</div>
+                        <div class="socialMedia">
+                            <a href="https://www.linkedin.com/company/rdi-manager/"><i class="mdi mdi-linkedin"></i>
+                                <div></div>
+                            </a>
+                            <a href="https://www.facebook.com/RDImanager/"><i class="mdi mdi-facebook"></i>
+                                <div></div>
+                            </a>
+
+                            <a href="https://www.youtube.com/channel/UCBnAVKPkqlvdSj8z8tS47NQ"><i
+                                    class="mdi mdi-youtube-play"></i>
+                                <div></div>
+                            </a>
+                            <a href="https://twitter.com/eureka_conseil?lang=fr"><i class="mdi mdi-twitter"></i>
+                                <div></div>
+                            </a>
+                        </div>
                     </div>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2629.2314416489194!2d1.983437951001123!3d48.7774716142536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e683f40015dfc9%3A0x8e49c8054167a7e2!2s2%20Rue%20Eug%C3%A8ne%20Pottier%2C%2078190%20Trappes!5e0!3m2!1sfr!2sfr!4v1635322504967!5m2!1sfr!2sfr"
-                        width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    <div class="socialMedia">
-                        <a href="https://www.linkedin.com/company/rdi-manager/"><i class="mdi mdi-linkedin"></i>
-                            <div></div>
-                        </a>
-                        <a href="https://www.facebook.com/RDImanager/"><i class="mdi mdi-facebook"></i>
-                            <div></div>
-                        </a>
-
-                        <a href="https://www.youtube.com/channel/UCBnAVKPkqlvdSj8z8tS47NQ"><i
-                                class="mdi mdi-youtube-play"></i>
-                            <div></div>
-                        </a>
-                        <a href="https://twitter.com/eureka_conseil?lang=fr"><i class="mdi mdi-twitter"></i>
-                            <div></div>
-                        </a>
-                    </div>
+                        width="400" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-
             </div>
         </main>
 
@@ -400,7 +417,6 @@
             });
         }
     </script>
-
 </body>
 
 </html>
