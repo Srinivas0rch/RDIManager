@@ -218,9 +218,10 @@
                     brefs délais.
                 </p>
 
-                <form class="form" id="contact-form">
+                <form class="form" id="myForm">
                     <div id="sending"></div>
                     <div id="error"></div>
+                    <br>
                     <div class="lineContact">
                         <div class="inputCont">
                             <div class="labelName">
@@ -232,7 +233,7 @@
                             <div class="labelName">
                                 <label for="lastname">Prénom</label><span class="text-red">*</span>
                             </div>
-                            <input type="text" name="lastname">
+                            <input type="text" name="lastname" id="lastname">
                         </div>
                     </div>
                     <div class="lineContact">
@@ -250,13 +251,13 @@
                             <div class="labelName">
                                 <label>Téléphone</label><span class="text-red">*</span>
                             </div>
-                            <input type="telephone" name="telephone" >
+                            <input type="telephone" name="telephone" id="telephone">
                         </div>
                         <div class="inputCont">
                             <div class="labelName">
                                 <label>Email</label><span class="text-red">*</span>
                             </div>
-                            <input type="email" name="email" >
+                            <input type="email" name="email" id="email">
                         </div>
                     </div>
                     <div class="lineContact">
@@ -264,7 +265,7 @@
                             <div class="labelName">
                                 <label data-i18n="contact_subject_form"></label><span class="text-red">*</span>
                             </div>
-                            <select name="subject" id="subject" >
+                            <select name="subject" id="subject">
                                 <option value=""></option>
                                 <option value="standard">Offre Standard</option>
                                 <option value="premium">Offre Premium</option>
@@ -282,12 +283,12 @@
                             <div class="labelName">
                                 <label>Message</label><span class="text-red">*</span>
                             </div>
-                            <textarea name="message" ></textarea>
+                            <textarea name="message" id="message"></textarea>
                         </div>
                     </div>
                     <div class="lineContact">
                         <div class="checkMention">
-                            <input id="case" type="checkbox" name="mention" >
+                            <input id="case" type="checkbox" name="mention">
                             <label for="mention">J'accepte que mes données personnelles soient collectées et
                                 traitées pour la future relation commerciale.
                             </label>

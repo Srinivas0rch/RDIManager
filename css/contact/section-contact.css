@@ -228,7 +228,7 @@ justify-content: center;
   visibility: visible;
 }
 
-.error{
+#error{
   color: #D8000C;
-  background-color: #FFBABA;
+  margin-left: 15px;
 }
