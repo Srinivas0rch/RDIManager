@@ -17,55 +17,55 @@ myForm.addEventListener('submit', function(e) {
     let myEmail   = document.getElementById('email');
     let mySubject   = document.getElementById('subject');
     
-    let myRegex = /^[a-zA-Z-\s]+$/;
+    let myRegex = /^[a-zA-Z0-9áàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ._'&', '+', '=', '/', '!', '\', '(', ')', '?', '*', '.'\s]+$/;
     let regexPhoneNumber = /^((\+)33|0)[1-9](\d{2}){4}$/;
 
+    let myError = document.getElementById('error');
 
     if (myMessage.value.trim() === '' || myMessage.value == null) {
-        let myError = document.getElementById('error');
-        myError.innerHTML = "Merci de rédiger votre message.";
+        myError.append = "<p>Merci de rédiger votre message.</p>";
+        e.preventDefault();
+    } else if (myRegex.test(message.value) == false) {
+        myError.append = "Le message ne doit pas contenir de caractères spéciaux.";
         e.preventDefault();
     }
     
     if (mySubject.value.trim() === '' || mySubject.value == null) {
-        let myError = document.getElementById('error');
-        myError.innerHTML = "Merci de préciser le sujet de votre message.";
+        myError.append = "Merci de préciser le sujet de votre message.";
+        e.preventDefault();
+    } else if (myRegex.test(mySubject.value) == false) {
+        myError.append = "Le sujet ne doit pas comporter de caractères spéciaux.";
         e.preventDefault();
     }
 
     if (myEmail.value.trim() === '' || myEmail.value == null) {
-        let myError = document.getElementById('error');
-        myError.innerHTML = "Merci d'indiquer votre adresse email.'";
+        myError.append = "Merci d'indiquer votre adresse email.'";
         e.preventDefault();
     }
 
     if (myPhone.value.trim() === '' || myPhone.value == null) {
-        let myError = document.getElementById('error');
-        myError.innerHTML = "Merci d'indiquer votre numéro de téléphone.";
+        myError.append = "Merci d'indiquer votre numéro de téléphone.";
         e.preventDefault();
     } else if (regexPhoneNumber.test(myPhone.value) == false) {
-        let myError = document.getElementById('error');
-        myError.innerHTML = "Le numéro de téléphone ne peut comporter que des chiffres.";
+        myError.append = "Le numéro de téléphone ne peut comporter que des chiffres.";
         e.preventDefault();
     }
     
     if (myLastname.value.trim() === '' || myLastname.value == null) {
-        let myError = document.getElementById('error');
-        myError.innerHTML = "Merci de compléter votre prénom.";
+        myError.append = "Merci de compléter votre prénom.";
         e.preventDefault();
     } else if (myRegex.test(myLastname.value) == false) {
-        let myError = document.getElementById('error');
-        myError.innerHTML = "Le prénom ne doit comporter que des lettres ou tirets.";
+        myError.append = "Le prénom ne doit comporter que des lettres ou tirets.";
         e.preventDefault();
     }
 
     if (myName.value.trim() === '' || myName.value == null) {
-        let myError = document.getElementById('error');
-        myError.innerHTML = "Merci de compléter votre nom.";
+        myError.append = "Merci de compléter votre nom.";
         e.preventDefault();
     } else if (myRegex.test(myName.value) == false) {
-        let myError = document.getElementById('error');
-        myError.innerHTML = "Le nom ne doit comporter que des lettres ou tirets.";
+        myError.append = "Le nom ne doit comporter que des lettres ou tirets.";
         e.preventDefault();
     }
+
+    myError.scrollIntoView();
 })
