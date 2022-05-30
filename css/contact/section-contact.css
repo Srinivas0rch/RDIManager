@@ -63,9 +63,10 @@ margin-bottom: 15px;
 }
 
 .contactInfo .socialMedia {
-  position: absolute;
-  bottom: 20px;
+  margin-top: 20px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .contactInfo .socialMedia a {
@@ -135,7 +136,7 @@ justify-content: center;
 }
 
 .contactPage .form label {
-  color: black;
+  color: #333333;
 }
 
 .form form {
