@@ -229,7 +229,18 @@
   "part_see_web_site": "See their web site",
   "part_see_facebook": "See their Facebook",
 
+  "contact_text": "Fill in your contact details below so that our teams will contact you as soon as possible.",
+  "contact_name": "Last name",
+  "contact_firstName": "First name",
+  "contact_society": "Society",
+  "contact_function": "Function",
+  "contact_phone": "Phone number",
   "contact_subject_form": "Subject of your request",
+  "contact_standard": "Standard offer",
+  "contact_premium": "Premium Offer",
+  "contact_other":"Other",
+  "contact_message": "Message",
+  "contact_mention": "I agree that my personal data will be collected and processed for the future business relationship.",
   "contact_send_form": "Send",
 
   "faq_big_title_one": "You will probably find the answer to your question in this FAQ. If you can't find it, go to the section contact of our professionals will be happy to answer you.",

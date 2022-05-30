@@ -214,9 +214,7 @@
 
             <div class="blockRight">
                 <h2 data-i18n="nav_contact_form"></h2>
-                <p>Renseignez vos coordonnées ci-dessous afin que nos équipes vous recontactent dans les plus
-                    brefs délais.
-                </p>
+                <p data-i18n="contact_text"></p>
 
                 <form class="form" id="myForm">
                     <div id="sending"></div>
@@ -225,37 +223,37 @@
                     <div class="lineContact">
                         <div class="inputCont">
                             <div class="labelName">
-                                <label for="name">Nom</label><span class="text-red">*</span>
+                                <label for="name" data-i18n="contact_name"></label><span class="text-red">*</span>
                             </div>
                             <input id="name" type="text" name="name">
                         </div>
                         <div class="inputCont">
                             <div class="labelName">
-                                <label for="lastname">Prénom</label><span class="text-red">*</span>
+                                <label for="lastname" data-i18n="contact_firstName"></label><span class="text-red">*</span>
                             </div>
                             <input type="text" name="lastname" id="lastname">
                         </div>
                     </div>
                     <div class="lineContact">
                         <div class="inputCont">
-                            <label>Société</label>
+                            <label data-i18n="contact_society"></label>
                             <input type="text" name="society">
                         </div>
                         <div class="inputCont">
-                            <label>Fonction</label>
+                            <label data-i18n="contact_function"></label>
                             <input type="text" name="function">
                         </div>
                     </div>
                     <div class="lineContact">
                         <div class="inputCont">
                             <div class="labelName">
-                                <label>Téléphone</label><span class="text-red">*</span>
+                                <label data-i18n="contact_phone"></label><span class="text-red">*</span>
                             </div>
                             <input type="telephone" name="telephone" id="telephone">
                         </div>
                         <div class="inputCont">
                             <div class="labelName">
-                                <label>Email</label><span class="text-red">*</span>
+                                <label>E-mail</label><span class="text-red">*</span>
                             </div>
                             <input type="email" name="email" id="email">
                         </div>
@@ -267,13 +265,13 @@
                             </div>
                             <select name="subject" id="subject">
                                 <option value=""></option>
-                                <option value="standard">Offre Standard</option>
-                                <option value="premium">Offre Premium</option>
-                                <option id="other" value="other">Autre</option>
+                                <option value="standard" data-i18n="contact_standard"></option>
+                                <option value="premium" data-i18n="contact_premium"></option>
+                                <option id="other" value="other" data-i18n="contact_other"></option>
                             </select>
                         </div>
                         <div class="inputOther" id="disp">
-                            <label>Autre</label>
+                            <label data-i18n="contact_other"></label>
                             <input type="text" name="user_subject"
                                 placeholder="Veuillez préciser le sujet de votre demande.">
                         </div>
@@ -281,7 +279,7 @@
                     <div class="lineContact">
                         <div class="inputCont" id="textZone">
                             <div class="labelName">
-                                <label>Message</label><span class="text-red">*</span>
+                                <label data-i18n="contact_message"></label><span class="text-red">*</span>
                             </div>
                             <textarea name="message" id="message"></textarea>
                         </div>
@@ -289,9 +287,8 @@
                     <div class="lineContact">
                         <div class="checkMention">
                             <input id="case" type="checkbox" name="mention">
-                            <label for="mention">J'accepte que mes données personnelles soient collectées et
-                                traitées pour la future relation commerciale.
-                            </label>
+                            <label for="mention" data-i18n="contact_mention">
+                                                          </label>
                         </div>
                     </div>
                     <div class="lineContact" id="btnSend">
@@ -343,7 +340,7 @@
                         <a href"mailto:contact@rdimanager.com" target="_blank">contact@rdimanager.com</a>
                         <p>+33 1 30 50 13 49</p>
                         <p>2 rue Eugène Pottier</p>
-                        <p>78190 Saint-Quentin en Yvelines</p>
+                        <p>78190 Saint-Quentin-en-Yvelines</p>
                     </div>
                 </div>
                 <div class="footMid">
