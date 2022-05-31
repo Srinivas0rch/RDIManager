@@ -28,10 +28,6 @@
     width: 70%;
   }
 
-  .contactPage .form {
-    height: 660px;
-  }
-
   .form input,
   #subject {
     width: 350px;
@@ -130,13 +126,6 @@ justify-content: center;
   }
 }
 
-@media (max-width: 735px) {
-
-  .contactPage .form {
-    height: 680px;
-  }
-}
-
 @media (max-width: 700px) {
   .contactPage {
     width: 100%;
@@ -157,10 +146,6 @@ justify-content: center;
 
   .contactPage .blockRight {
     width: 80%;
-  }
-
-  .contactPage .form {
-    height: 930px;
   }
 
   .contactPage .form .lineContact {
@@ -188,9 +173,6 @@ justify-content: center;
 }
 
 @media (max-width: 611px) {
-  .contactPage .form {
-    height: 960px;
-  }
 
   .form input,
   #subject {

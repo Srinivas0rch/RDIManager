@@ -229,10 +229,10 @@
                         </div>
                         <div class="inputCont">
                             <div class="labelName">
-                                <label for="lastname" data-i18n="contact_firstName"></label><span
+                                <label for="firstname" data-i18n="contact_firstName"></label><span
                                     class="text-red">*</span>
                             </div>
-                            <input type="text" name="lastname" id="lastname">
+                            <input type="text" name="firstname" id="firstname">
                         </div>
                     </div>
                     <div class="lineContact">
@@ -273,7 +273,7 @@
                         </div>
                         <div class="inputOther" id="disp">
                             <label data-i18n="contact_other"></label>
-                            <input type="text" name="user_subject"
+                            <input id="other_subject" type="text" name="other_subject"
                                 placeholder="Veuillez préciser le sujet de votre demande.">
                         </div>
                     </div>
@@ -288,7 +288,7 @@
                     <div class="lineContact">
                         <div class="checkMention">
                             <input id="case" type="checkbox" name="mention">
-                            <label for="mention" data-i18n="contact_mention">
+                            <label for="case" data-i18n="contact_mention">
                             </label>
                         </div>
                     </div>
@@ -397,25 +397,9 @@
             emailjs.init("63GsXL85OZQL92m8S");
         })();
     </script>
-    <!-- <script type="text/javascript">
-        window.onload = function () {
-            document.getElementById('contact-form').addEventListener('submit', function (event) {
-                event.preventDefault();
-                const res = document.getElementById('sending');
-
-                emailjs.sendForm('rdi_manager', 'template_ibqn10o', this)
-                    .then(function () {
-                        res.innerHTML = `<p class="text-green">Votre message est envoyé !</p>`;
-                        const form = document.getElementById('contact-form');
-                        form.reset();
-
-                        setTimeout(function () {
-                            res.innerHTML = "";
-                        }, 2000)
-                    });
-            });
-        }
-    </script> -->
+    <script type="text/javascript">
+        
+    </script>
 </body>
 
 </html>
