@@ -1,7 +1,7 @@
 .contactPage {
   z-index: 1;
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   width: 85%;
@@ -29,7 +29,7 @@
 }
 
 .contactPage .blockRight p {
-margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .contactPage .blockRight {
@@ -99,6 +99,7 @@ margin-bottom: 15px;
   0% {
     width: 0px;
   }
+
   100% {
     width: 50px;
   }
@@ -106,7 +107,7 @@ margin-bottom: 15px;
 
 .contactPage .form {
   display: flex;
- 
+
   flex-direction: column;
   width: 100%;
   padding: 15px 50px;
@@ -130,8 +131,8 @@ margin-bottom: 15px;
 }
 
 .form .lineContact .checkMention {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .contactPage .form label {
@@ -181,7 +182,7 @@ justify-content: center;
   border: 2px solid #01b2fe;
   outline: none;
 }
- 
+
 
 .form select {
   margin-bottom: 20px;
@@ -228,7 +229,7 @@ justify-content: center;
   visibility: visible;
 }
 
-#error{
+#error {
   color: #D8000C;
   margin-left: 15px;
 }

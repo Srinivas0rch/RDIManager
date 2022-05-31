@@ -9,18 +9,18 @@ document.getElementById('subject').addEventListener('change', function () {
 
 let myForm = document.getElementById('myForm');
 
-myForm.addEventListener('submit', function(e) {
+myForm.addEventListener('submit', function (e) {
     e.preventDefault();
 
-    let myMessage   = document.getElementById('message');
-    let myName   = document.getElementById('name');
-    let myFirstname   = document.getElementById('firstname');
-    let myPhone   = document.getElementById('telephone');
-    let myEmail   = document.getElementById('email');
-    let mySubject   = document.getElementById('subject');
-    let otherSubject   = document.getElementById('other_subject');
+    let myMessage = document.getElementById('message');
+    let myName = document.getElementById('name');
+    let myFirstname = document.getElementById('firstname');
+    let myPhone = document.getElementById('telephone');
+    let myEmail = document.getElementById('email');
+    let mySubject = document.getElementById('subject');
+    let otherSubject = document.getElementById('other_subject');
     let contactMention = document.getElementById('case');
-    
+
     let myRegex = /^[a-zA-Z0-9áàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ._'&', '+', '=', '/', '!', '\', '(', ')', '?', '*', '.'\s]+$/;
     let regexPhoneNumber = /^((\+)33|0)[1-9](\d{2}){4}$/;
     let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
@@ -48,14 +48,14 @@ myForm.addEventListener('submit', function(e) {
 
     if (myEmail.value.trim() === '' || myEmail.value == null) {
         myError.append("Merci d'indiquer votre adresse e-mail.", document.createElement("p"));
-    } else if(regexEmail.test(myEmail.value) == false){
+    } else if (regexEmail.test(myEmail.value) == false) {
         myError.append("Adresse e-mail non valide.", document.createElement("p"));
     }
 
     if (mySubject.value.trim() === '' || mySubject.value == null) {
         myError.append("Merci de sélectionner le sujet de votre message.", document.createElement("p"));
     }
-    
+
     if (mySubject.value === "other" && (otherSubject.value.trim() === '' || otherSubject.value == null)) {
         myError.append("Merci de préciser le sujet de votre message.", document.createElement("p"));
     }
@@ -63,20 +63,28 @@ myForm.addEventListener('submit', function(e) {
     if (myMessage.value.trim() === '' || myMessage.value == null) {
         myError.append("Merci de rédiger votre message.", document.createElement("p"));
     }
-    
+
     if (!contactMention.checked) {
         myError.append("Merci de cocher la case pour accepter l’utilisation des données personnelles.", document.createElement("p"));
     }
 
-    if(myError.innerHTML !== ""){
-        myError.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+    if (myError.innerHTML !== "") {
+        myError.scrollIntoView({
+            behavior: "smooth",
+            block: "end",
+            inline: "nearest"
+        });
     } else {
         const res = document.getElementById('sending');
 
         emailjs.sendForm('rdi_manager', 'template_ibqn10o', this)
             .then(function () {
                 res.innerHTML = `<p class="text-green">Votre message est envoyé !</p>`;
-                res.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+                res.scrollIntoView({
+                    behavior: "smooth",
+                    block: "end",
+                    inline: "nearest"
+                });
                 const form = document.getElementById('myForm');
                 form.reset();
 
