@@ -28,7 +28,7 @@ for (let i = 0; i < cards.length; i++) {
   });
 }
 
-const text = ["-Manager"];
+const text = ["Manager"];
 let count = 0;
 let index = 0;
 let currentText = "";
