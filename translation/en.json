@@ -208,7 +208,7 @@
 
   "about_big_title": "About RDIManager",
   "about_text": "RDI-MANAGER is born from the observation of research engineers on the one hand and innovation consultants on the other hand, according to which to manage its research and innovation activity in a structured way and effective is sometimes complicated and constraining; for SMEs, Start-ups and Large Groups.",
-  "about_text_why": "This is why we have developed in collaboration with the firm.",
+  "about_text_why": "This is why we have developed in collaboration with the firm",
   "about_text_why-end": " and his network of innovative companies, an innovation management solution that aims to be SIMPLE, SMART and COLLABORATIVE.",
   "about_text_continued": "Our first product, the collaborative project journal, is mainly aimed at innovative companies. RDI-Manager brings the latter, STRUCTURING & EFFICIENCY in the capitalization of information.",
   "about_big_title_team": "Our team",
@@ -229,7 +229,18 @@
   "part_see_web_site": "See their web site",
   "part_see_facebook": "See their Facebook",
 
+  "contact_text": "Fill in your contact details below so that our teams will contact you as soon as possible.",
+  "contact_name": "Last name",
+  "contact_firstName": "First name",
+  "contact_society": "Society",
+  "contact_function": "Function",
+  "contact_phone": "Phone number",
   "contact_subject_form": "Subject of your request",
+  "contact_standard": "Standard offer",
+  "contact_premium": "Premium Offer",
+  "contact_other":"Other",
+  "contact_message": "Message",
+  "contact_mention": "I agree that my personal data will be collected and processed for the future business relationship.",
   "contact_send_form": "Send",
 
   "faq_big_title_one": "You will probably find the answer to your question in this FAQ. If you can't find it, go to the section contact of our professionals will be happy to answer you.",

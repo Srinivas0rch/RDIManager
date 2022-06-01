@@ -1,14 +1,66 @@
+@media (max-width: 1390px) {
+
+  .form input,
+  #subject {
+    width: 400px;
+  }
+}
+
+
+@media (max-width: 1270px) {
+
+  .form input,
+  #subject {
+    width: 370px;
+  }
+}
+
 @media (max-width: 1250px) {
   .contactPage {
     width: 95%;
   }
 
   .contactPage .blockLeft {
-    width: 45%;
+    width: 85%;
   }
 
   .contactPage .blockRight {
-    width: 55%;
+    width: 70%;
+  }
+
+  .form input,
+  #subject {
+    width: 350px;
+  }
+
+  .contactPage .contactInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+}
+
+
+@media (max-width: 1210px) {
+  .contactPage .blockRight {
+    width: 70%;
+  }
+
+  .form input,
+  #subject {
+    width: 330px;
+  }
+}
+
+@media (max-width: 1150px) {
+
+  p {
+    text-align: center;
+  }
+
+  .form input,
+  #subject {
+    width: 270px;
   }
 }
 
@@ -26,15 +78,56 @@
   }
 
   .contactPage .blockLeft {
-    width: 70%;
+    width: 85%;
   }
 
   .contactPage .blockRight {
     width: 70%;
   }
+
+  .form input,
+  #subject {
+    width: 240px;
+  }
+
+  .contactPage .contactInfo {
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+    margin: 30px 0;
+  }
+
+  #allContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  iframe {
+    width: 500px;
+
+    margin: 20px 0;
+  }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 875px) {
+
+  .form input,
+  #subject {
+    width: 210px;
+  }
+}
+
+@media (max-width: 790px) {
+
+  .form input,
+  #subject {
+    width: 180px;
+  }
+}
+
+@media (max-width: 700px) {
   .contactPage {
     width: 100%;
   }
@@ -47,11 +140,73 @@
   .contactPage .blockLeft {
     width: 100%;
   }
+
   .contactPage .contactInfo {
     width: 80%;
   }
 
   .contactPage .blockRight {
-    width: 100%;
+    width: 80%;
+  }
+
+  .contactPage .form .lineContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form #textZone {
+    width: 450px;
+  }
+
+  .form input,
+  #subject {
+    width: 450px;
+  }
+
+  #subjBox {
+    height: 80px;
+  }
+
+  #btnSend {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 611px) {
+
+  .form input,
+  #subject {
+    width: 400px;
+  }
+
+  .form #textZone {
+    width: 400px;
+  }
+
+  iframe {
+    width: 450px;
+  }
+}
+
+@media (max-width: 549px) {
+  .contactInfo .socialMedia {
+    bottom: -10px;
+  }
+}
+
+@media (max-width: 510px) {
+
+  .form input,
+  #subject {
+    width: 300px;
+  }
+
+  .form #textZone {
+    width: 300px;
+  }
+
+  iframe {
+    width: 400px;
   }
 }
