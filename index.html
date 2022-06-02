@@ -915,6 +915,21 @@
         <!-- END PRICE BLOCK -->
 
         <footer>
+            <div class="newsletter">
+                <!--Post-->
+                <div class="texNew"><p><strong>Abonnement newsletter RDI-Manager</strong></p></div>
+
+                <div id="sending"></div>
+                    <div id="error"></div>
+                <!--Post-->
+                <form class="subscribeForm" id="newsForm">
+                    <input class="inputNew" id="newsEmail" type="email" placeholder="Adresse mail" style="color: whitesmoke !important; border: 2px solid #ebebeb !important;">
+                    <p class="msg successMsg">Nous vous remercions, vous êtes maintenant abonné(e) à la newsletter de RDI-Manager, que vous recevrez chaque mois par mail.</p>
+                    <p class="msg errorMsg">Une erreur est survenue ! Merci de réessayer.</p>
+                    <p class="msg existMsg">Vous êtes deja abonné(e) à notre newsletter.</p>
+                    <button type="submit" class="buttonNew btn btn-hover bg-red bg-red-hover"><i class="mdi mdi-email-outline"></i>S'abonner</button>
+                </form>
+            </div>
             <div class="flexFoot">
                 <div class="footLeft">
                     <h6>RDI Manager</h6>
@@ -972,7 +987,7 @@
     <script src="js/home.js"></script>
     <script src="js/scrollReveal.js"></script>
     <script src="dist/main.js"></script>
-
+    <script src="js/footer.js"></script>
 
 </body>
 

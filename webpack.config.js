@@ -7,3 +7,11 @@ module.exports = {
     mode: "development",
 
 }
+
+// module.rules = [
+//       {
+//         parser: {
+//           amd: false
+//         }
+//       }
+//     ]
