@@ -164,9 +164,7 @@
     width: 450px;
   }
 
-  #subjBox {
-    height: 80px;
-  }
+ 
 
   #btnSend {
     margin-top: 15px;
@@ -184,6 +182,13 @@
     width: 400px;
   }
 
+  #case {
+    height: 25px;
+    width: 25px;
+  
+    margin-right: 10px;
+  }
+
   iframe {
     width: 450px;
   }
@@ -192,6 +197,13 @@
 @media (max-width: 549px) {
   .contactInfo .socialMedia {
     bottom: -10px;
+  }
+
+  #case {
+    height: 25px;
+    width: 25px;
+  
+    margin-right: 10px;
   }
 }
 
@@ -206,7 +218,73 @@
     width: 300px;
   }
 
+  #case {
+    height: 30px;
+    width: 30px;
+  }
+
   iframe {
     width: 400px;
+  }
+}
+
+@media (max-width: 420px) {
+
+  #allContact {
+    width: 85%;
+  }
+
+  .form input,
+  #subject {
+    width: 240px;
+  }
+
+  .form #textZone {
+    width: 240px;
+  }
+
+  #case {
+    height: 35px;
+    width: 35px;
+  }
+
+  .form .lineContact .checkMention {
+  width: 250px;
+  }
+
+  #textMention {
+    font-size: 12px;
+  }
+
+  .contactInfo .socialMedia a {
+    width: 25%;
+  }
+
+  iframe {
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .form input,
+  #subject {
+    width: 210px;
+  }
+
+  .form #textZone {
+    width: 220px;
+  }
+
+  #case {
+    height: 35px;
+    width: 35px;
+  }
+
+  .contactInfo .socialMedia a {
+    width: 30%;
+  }
+
+  iframe {
+    width: 260px;
   }
 }
