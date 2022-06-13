@@ -1,5 +1,4 @@
-import {SibApiV3Sdk} from '@sendinblue/client';
-
+import SibApiV3Sdk from './src/ApiClient';
 
 let newsForm = document.getElementById('newsForm');
 
@@ -18,6 +17,10 @@ newsForm.addEventListener('submit', function (e) {
     if (newsEmail.value.trim() === '' || newsEmail.value == null || regexEmail.test(newsEmail.value) == false) {
         newsForm.getElementsByClassName('errorMsg')[0].style.display = "block";
     } else {
+        // var SibApiV3Sdk = import('./../node_modules/sib-api-v3-sdk/src/index');
+
+        console.log(SibApiV3Sdk);
+
         let defaultClient = SibApiV3Sdk.ApiClient.instance;
         
         let apiKey = defaultClient.authentications['api-key'];
