@@ -225,24 +225,24 @@
                             <div class="labelName">
                                 <label for="name" data-i18n="contact_name"></label><span class="text-red">*</span>
                             </div>
-                            <input id="name" type="text" name="name">
+                            <input id="name" type="text" name="name" placeholder="Nom">
                         </div>
                         <div class="inputCont">
                             <div class="labelName">
                                 <label for="firstname" data-i18n="contact_firstName"></label><span
                                     class="text-red">*</span>
                             </div>
-                            <input type="text" name="firstname" id="firstname">
+                            <input type="text" name="firstname" id="firstname" placeholder="Prénom">
                         </div>
                     </div>
                     <div class="lineContact">
                         <div class="inputCont">
                             <label data-i18n="contact_society"></label>
-                            <input type="text" name="society">
+                            <input type="text" name="society" placeholder="Société">
                         </div>
                         <div class="inputCont">
                             <label data-i18n="contact_function"></label>
-                            <input type="text" name="function">
+                            <input type="text" name="function" placeholder="Fonction occupée">
                         </div>
                     </div>
                     <div class="lineContact">
@@ -250,13 +250,13 @@
                             <div class="labelName">
                                 <label data-i18n="contact_phone"></label><span class="text-red">*</span>
                             </div>
-                            <input type="telephone" name="telephone" id="telephone">
+                            <input type="telephone" name="telephone" id="telephone" placeholder="Numéro de téléphone">
                         </div>
                         <div class="inputCont">
                             <div class="labelName">
                                 <label>E-mail</label><span class="text-red">*</span>
                             </div>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" placeholder="E-mail">
                         </div>
                     </div>
                     <div class="lineContact" id="subjBox">
@@ -265,7 +265,7 @@
                                 <label data-i18n="contact_subject_form"></label><span class="text-red">*</span>
                             </div>
                             <select name="subject" id="subject">
-                                <option value=""></option>
+                                <option value="" disabled selected hidden data-i18n="contact_choose"></option>
                                 <option value="standard" data-i18n="contact_standard"></option>
                                 <option value="premium" data-i18n="contact_premium"></option>
                                 <option id="other" value="other" data-i18n="contact_other"></option>
@@ -282,7 +282,7 @@
                             <div class="labelName">
                                 <label data-i18n="contact_message"></label><span class="text-red">*</span>
                             </div>
-                            <textarea name="message" id="message"></textarea>
+                            <textarea name="message" id="message" placeholder="Rédigez votre message"></textarea>
                         </div>
                     </div>
                     <div class="lineContact">
