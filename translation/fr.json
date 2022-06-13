@@ -206,7 +206,7 @@
 
   "about_big_title": "A propos de RDIManager",
   "about_text": "RDI-MANAGER nait de l’observation d’ingénieurs de recherche d’une part et consultants innovation d’autre part, selon laquelle gérer son activité de recherche et innovation de manière structurée et efficace s’avère parfois compliqué et contraignant ; pour les PME, Start-ups et Grands Groupes.",
-  "about_text_why": "C’est pourquoi nous avons développé en collaboration avec le cabinet. ",
+  "about_text_why": "C’est pourquoi nous avons développé en collaboration avec le cabinet ",
   "about_text_why-end": " et son réseau d’entreprises innovantes, une solution de management de l’innovation qui se veut SIMPLE, INTELLIGENTE et COLLABORATIVE.",
   "about_text_continued": "Notre premier produit, le journal collaboratif de projet s’adresse principalement aux entreprises innovantes. RDI-Manager apporte ces dernières, STRUCTURATION & EFFICACITE dans la capitalisation de l’information.",
   "about_big_title_team": "Notre équipe",
@@ -227,7 +227,18 @@
   "part_see_web_site": "Voir leur site",
   "part_see_facebook": "Voir leur Facebook",
 
+  "contact_text": "Renseignez vos coordonnées ci-dessous afin que nos équipes vous recontactent dans les plus brefs délais.",
+  "contact_name": "Nom",
+  "contact_firstName": "Prénom",
+  "contact_society": "Société",
+  "contact_function": "Fonction",
+  "contact_phone": "Téléphone",
   "contact_subject_form": "Sujet de votre demande",
+  "contact_standard": "Offre Standard",
+  "contact_premium": "Offre Premium",
+  "contact_other":"Autre",
+  "contact_message": "Message",
+  "contact_mention": "J'accepte que mes données personnelles soient collectées et   traitées pour la future relation commerciale.",
   "contact_send_form": "Envoyer",
 
   "faq_big_title_one": "Vous trouverez sans doute la réponse à votre question dans cette FAQ. Dans le cas où vous ne la trouvez pas, rendez-vous dans la rubrique contact de nos professionnels sera ravi de vous répondre.",
