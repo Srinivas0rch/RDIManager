@@ -272,7 +272,9 @@
                             </select>
                         </div>
                         <div class="inputOther" id="disp">
-                            <label data-i18n="contact_other"></label>
+                            <div class="labelName">
+                            <label data-i18n="contact_other"></label><span class="text-red">*</span>
+                        </div>
                             <input id="other_subject" type="text" name="other_subject"
                                 placeholder="Veuillez préciser le sujet de votre demande.">
                         </div>
@@ -288,7 +290,7 @@
                     <div class="lineContact">
                         <div class="checkMention">
                             <input id="case" type="checkbox" name="mention">
-                            <label for="case" data-i18n="contact_mention">
+                            <label id="textMention" for="case" data-i18n="contact_mention">
                             </label>
                         </div>
                     </div>
