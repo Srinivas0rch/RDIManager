@@ -1,14 +1,11 @@
 @media (max-width: 1390px) {
-
   .form input,
   #subject {
     width: 400px;
   }
 }
 
-
 @media (max-width: 1270px) {
-
   .form input,
   #subject {
     width: 370px;
@@ -40,7 +37,6 @@
   }
 }
 
-
 @media (max-width: 1210px) {
   .contactPage .blockRight {
     width: 70%;
@@ -53,7 +49,6 @@
 }
 
 @media (max-width: 1150px) {
-
   p {
     text-align: center;
   }
@@ -112,7 +107,6 @@
 }
 
 @media (max-width: 875px) {
-
   .form input,
   #subject {
     width: 210px;
@@ -120,7 +114,6 @@
 }
 
 @media (max-width: 790px) {
-
   .form input,
   #subject {
     width: 180px;
@@ -146,7 +139,7 @@
   }
 
   .contactPage .blockRight {
-    width: 80%;
+    width: 95%;
   }
 
   .contactPage .form .lineContact {
@@ -164,15 +157,12 @@
     width: 450px;
   }
 
- 
-
   #btnSend {
     margin-top: 15px;
   }
 }
 
 @media (max-width: 611px) {
-
   .form input,
   #subject {
     width: 400px;
@@ -185,7 +175,7 @@
   #case {
     height: 25px;
     width: 25px;
-  
+
     margin-right: 10px;
   }
 
@@ -202,13 +192,12 @@
   #case {
     height: 25px;
     width: 25px;
-  
+
     margin-right: 10px;
   }
 }
 
 @media (max-width: 510px) {
-
   .form input,
   #subject {
     width: 300px;
@@ -229,7 +218,6 @@
 }
 
 @media (max-width: 420px) {
-
   #allContact {
     width: 85%;
   }
@@ -249,7 +237,7 @@
   }
 
   .form .lineContact .checkMention {
-  width: 250px;
+    width: 250px;
   }
 
   #textMention {
