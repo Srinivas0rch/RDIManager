@@ -178,6 +178,11 @@
   margin-right: 10px;
 }
 
+#btnSend {
+ display: flex;
+ justify-content: center;
+}
+
 .form input:focus {
   border: 2px solid #01b2fe;
   outline: none;
