@@ -12,13 +12,38 @@
 
 /* BURGER MENU */
 
+#login {
+  position: fixed;
+  z-index: 9999;
+  top: 1rem;
+  right: 5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50px;
+  height: 50px;
+
+  cursor: pointer;
+  color: #fff;
+  background-color: #a30000;
+  background-image: linear-gradient(147deg, #e62117 30%, #a30000 100%);
+  border: transparent;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
 .ham {
   position: fixed;
   z-index: 9999;
   top: 1rem;
   right: 1rem;
+
   width: 50px;
   height: 50px;
+  
   cursor: pointer;
   color: #fff;
   background-color: #a30000;
