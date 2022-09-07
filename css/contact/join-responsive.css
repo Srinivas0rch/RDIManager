@@ -1,21 +1,19 @@
 @media (max-width: 1250px) {
   .joinPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 95%;
   }
 
   .joinPage .joinLeft {
-    width: 45%;
-  }
-
-  .joinPage .joinRight {
-    width: 55%;
+    width: 100%;
   }
 }
 
 @media (max-width: 1020px) {
   .joinPage {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -34,7 +32,7 @@
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
   .joinPage {
     width: 100%;
   }
