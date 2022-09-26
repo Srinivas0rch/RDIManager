@@ -80,6 +80,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    width: 95%;
     font-size: 18px;
     font-weight: bold;
     line-height: 1.25;
@@ -96,7 +97,7 @@
 .faqList .reponse {
     display: none;
     align-items: center;
-    background: #eee;
+    background: #ddd;
     width: 100%;
     min-height: 0;
     padding: 20px 50px;
