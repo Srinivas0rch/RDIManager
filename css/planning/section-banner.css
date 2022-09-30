@@ -61,6 +61,16 @@
   font-family: "Besley", serif;
 }
 
+.containerBanner .rightBlock h2 {
+  text-align: left;
+  width: 100%;
+  font-size: 45px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-family: "Besley", serif;
+}
 .containerBanner .rightBlock p {
   text-align: left;
   width: 100%;
