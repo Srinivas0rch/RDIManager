@@ -266,6 +266,8 @@
   "faq_answer_nine": "<p>During the trial period, you are entitled to all the features of the platform; this is the <strong>Premium Offer</strong>. At the end of this period, you can contract to use the offer that best suits your needs or use the free offer. <a href=\"https://rdimanager.com/index.html#pricing\" target=\"_blank\">See all offers</a></p>.",
   "faq_question_ten": "How to create a remarkable fact in RDI-Manager ?",
   "faq_answer_ten": "<p>To create a remarkable fact, go to the project concerned, then click on the <i>Add a remarkable fact</i> button. Complete the form with a title, description and location. You can attach one or more files to your remarkable fact and link it to a schedule batch.</p>",
+  "faq_question_ten_bis": "How do I resume my striking fact if I disconnect while writing it?",
+  "faq_answer_ten_bis": "<p>If you get disconnected while writing your highlight, don't panic, just log back in and click on the cross arrows icon <i>Add a highlight in a new ta</i>. On the form page, a message asking you to resume your draft appears above the form. Click on <i>Continue typing</i> and your draft will appear.</p>",
   "faq_question_eleven": "Does a planning tool linked to my projects exist under RDI-Manager ?",
   "faq_answer_eleven": "<p>Yes, absolutely, RDI-Manager has a project planning tool with which you can create tasks, which can themselves be divided into sub-tasks, also, you can assign the required collaborators to them .</p>",
   "faq_question_twelve": "How to interpret the RDI-Manager dashboard ?",
