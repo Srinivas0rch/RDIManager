@@ -200,8 +200,38 @@ nav li select:focus {
   font-size: 17px;
 }
 
-@media (max-width: 1400px) {
+.listRight #freeTrial {
+  color: #fff;
+  width: 150px;
+  font-size: 17px;
+  background-color: #008000;
+}
+
+.buttonSale {
+  color: #fff;
+  width: 150px;
+  font-size: 17px;
+  background-color: #008000;
+}
+
+@media (max-width: 1550px) {
+  header .navHigh {
+    width: 92%;
+  } 
+}
+
+@media (max-width: 1440px) {
   header .navHigh {
     width: 95%;
+  } 
+}
+
+@media (max-width: 1400px) {
+  header .navHigh {
+    width: 97%;
+  } 
+
+  header .listLeft {
+    width: 72%;
   }
 }
