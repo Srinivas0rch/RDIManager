@@ -169,6 +169,13 @@ li:hover .childTwoPhone {
   visibility: visible;
 }
 
+#phonefreeTrial {
+  color: #fff;
+  width: 180px;
+  font-size: 17px;
+  background-color: #008000;
+}
+
 .menu .logoNav {
   position: absolute;
   top: 20px;
