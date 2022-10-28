@@ -90,7 +90,7 @@ myForm.addEventListener('submit', function (e) {
 
                 setTimeout(function () {
                     res.innerHTML = "";
-                }, 2000)
+                }, 5000)
             });
     }
 
