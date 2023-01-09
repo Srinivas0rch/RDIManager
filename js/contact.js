@@ -1,12 +1,3 @@
-document.getElementById('subject').addEventListener('change', function () {
-    const inputOther = document.querySelector('.inputOther');
-    if (this.value == 'other') {
-        inputOther.classList.add('visible');
-    } else {
-        inputOther.classList.remove('visible');
-    }
-});
-
 let myForm = document.getElementById('myForm');
 
 myForm.addEventListener('submit', function (e) {
@@ -14,11 +5,9 @@ myForm.addEventListener('submit', function (e) {
 
     let myMessage = document.getElementById('message');
     let myName = document.getElementById('name');
-    let myFirstname = document.getElementById('firstname');
     let myPhone = document.getElementById('telephone');
     let myEmail = document.getElementById('email');
     let mySubject = document.getElementById('subject');
-    let otherSubject = document.getElementById('other_subject');
     let contactMention = document.getElementById('case');
 
     let myRegex = /^[a-zA-Z0-9áàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ._'&', '+', '=', '/', '!', '\', '(', ')', '?', '*', '.'\s]+$/;
@@ -34,16 +23,12 @@ myForm.addEventListener('submit', function (e) {
         myError.append("Le nom ne doit comporter que des lettres ou tirets.", document.createElement("p"));
     }
 
-    if (myFirstname.value.trim() === '' || myFirstname.value == null) {
-        myError.append("Merci de compléter votre prénom.", document.createElement("p"));
-    } else if (myRegex.test(myFirstname.value) == false) {
-        myError.append("Le prénom ne doit comporter que des lettres ou tirets.", document.createElement("p"));
-    }
+    if (myPhone.value.trim()) {
 
-    if (myPhone.value.trim() === '' || myPhone.value == null) {
-        myError.append("Merci d'indiquer votre numéro de téléphone.", document.createElement("p"));
-    } else if (regexPhoneNumber.test(myPhone.value) == false) {
-        myError.append("Le numéro de téléphone ne peut comporter que des chiffres.", document.createElement("p"));
+        if (regexPhoneNumber.test(myPhone.value) == false) {
+
+            myError.append("Le numéro de téléphone ne peut comporter que des chiffres.", document.createElement("p"));
+        }
     }
 
     if (myEmail.value.trim() === '' || myEmail.value == null) {
@@ -54,14 +39,6 @@ myForm.addEventListener('submit', function (e) {
 
     if (mySubject.value.trim() === '' || mySubject.value == null) {
         myError.append("Merci de sélectionner le sujet de votre message.", document.createElement("p"));
-    }
-
-    if (mySubject.value === "other" && (otherSubject.value.trim() === '' || otherSubject.value == null)) {
-        myError.append("Merci de préciser le sujet de votre message.", document.createElement("p"));
-    }
-
-    if (myMessage.value.trim() === '' || myMessage.value == null) {
-        myError.append("Merci de rédiger votre message.", document.createElement("p"));
     }
 
     if (!contactMention.checked) {
@@ -93,5 +70,4 @@ myForm.addEventListener('submit', function (e) {
                 }, 5000)
             });
     }
-
 })
