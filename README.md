@@ -13,7 +13,3 @@ cd rdi-manager.github.io/
 ```
 
 Et ouvrir `index.html` dans le navigateur.
-
-## License
-
-Thème acheté sur : https://preview.themeforest.net/item/zeeko-landing-page-template/full_screen_preview/23383504

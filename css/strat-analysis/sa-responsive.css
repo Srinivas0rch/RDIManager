@@ -1,4 +1,4 @@
-@media (max-width: 1250px) {
+@media (max-width: 1339px) {
   .firstBlock main {
     width: 100%;
   }
@@ -35,6 +35,42 @@
     width: 80%;
   }
 }
+
+@media (max-width: 1139px) {
+  .thirdBlock .saProfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .thirdBlock .saProfil .doubleBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 15px;
+
+    width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  .secondBlock .secondPartAnalysis {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .secondBlock .secondPartAnalysis .budgetStrip {
+    width: 100%;
+  }
+
+  .secondBlock .secondPartAnalysis #perfor {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1020px) {
   .firstBlock .saChart {
     width: 100%;
@@ -64,16 +100,12 @@
     flex-direction: column;
   }
 
-  .secondBlock .saChart img {
-    width: 90%;
-  }
-
-  .thirdBlock .saSubtitle p {
-    width: 90%;
-  }
-
-  .thirdBlock .saProfil {
-    display: none;
+  .secondBlock .saChart #stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 250px;
   }
 
   .thirdBlock .saChart {
@@ -83,12 +115,26 @@
     align-items: center;
     flex-direction: column;
   }
-
-  .thirdBlock .saChart img {
-    width: 80%;
-  }
 }
+
 @media (max-width: 650px) {
+    .saProfil .doubleBox .boxInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+
+    margin: 5px 0;
+
+    font-size: 14px;
+  }
+
+  .doubleBox .boxInfo .infos {
+    display: flex;
+    justify-content: center;
+  }
+
   .firstBlock .saChart #chart {
     width: 350px;
   }
@@ -99,6 +145,25 @@
 
   .secondBlock .saChart #chart3 {
     width: 350px;
+  }
+
+  .secondBlock .saChart #stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 280px;
+  }
+
+  .saChart #stat #threeCards{
+    display: flex;
+    justify-content: center;
+  }
+
+  .secondBlock .saChart #stat .cards {
+    margin-top: 10px;
+    width: 30%;
   }
 
   .thirdBlock .saChart #chart4 {

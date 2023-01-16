@@ -1,4 +1,7 @@
 .secondBlock {
+  display: flex;
+  flex-direction: column;
+
   height: auto;
   display: flex;
   align-items: center;
@@ -42,17 +45,655 @@
 }
 
 .secondBlock .saChart {
-  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
 
-.secondBlock .saChart img {
-  width: 40%;
-  border-radius: 10px;
+  width: 100%;
+  height: 100%;
 }
 
 .secondBlock .saChart #chart3 {
   width: 600px;
+  height: 100%;
+}
+
+.secondBlock .saChart #stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 48%;
+  height: 250px;
+}
+
+.saChart #stat #statProjTitle {
+  margin-bottom: 30px;
+
+  font-size: 20px;
+  color: #333333;
+
+}
+
+.saChart #stat #threeCards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.saChart #stat .cards {
+  position: relative;
+
+  width: 32%;
+  height: 200px;
+
+  border: 2px solid rgb(184, 182, 182);
+  border-radius: 15px;
+  background: #fff;
+}
+
+.saChart #stat .cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 60%;
+
+  padding: 15px;
+}
+
+.saChart #stat .cardThreeBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  padding: 15px;
+}
+
+#stat .cards h6 {
+  font-size: 18px;
+  color: #01b2fe;
+}
+
+#stat .cards .statNb {
+  font-size: 36px;
+  color: #000;
+}
+
+#stat .cards #textCard {
+  font-size: 16px;
+  color: #000;
+}
+
+#stat .cards #percent {
+  font-size: 36px;
+  color: green;
+}
+
+#stat .cards #reliability {
+  font-size: 12px;
+  color: #8d8d8d;
+}
+
+#stat .cards #scoreText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+#stat .cards i {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+
+  font-size: 90px;
+
+  color: #000;
+  opacity: 0.1;
+}
+
+.secondBlock .secondPartAnalysis {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+
+  margin-top: 50px;
+}
+
+.secondBlock .secondPartAnalysis .budgetStrip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+}
+
+.secondBlock .secondPartAnalysis .budget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.secondPartAnalysis .budget .subTitleBudget {
+  display: flex;
+  justify-content: center;
+
+  margin: 30px 0px;
+
+  font-size: 16px;
+}
+
+.secondPartAnalysis .budget #budget_title {
+  display: flex;
+  justify-content: center;
+
+  font-size: 20px;
+  color: #333333;
+}
+
+.secondBlock .secondPartAnalysis .budgetBar {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  height: 120px;
+}
+
+.secondPartAnalysis .budgetBar #cardFirstRect {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 10px;
+
+  width: 400px;
+  height: 40px;
+
+  background-color: #81b7c7;
+}
+
+.secondPartAnalysis .budgetBar #cardSecondRect {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: -19px;
+
+  width: 230px;
+  height: 40px;
+
+  background-color: #3cf317;
+}
+
+.budget .budgetBar .hourBoard {
+  opacity: 0;
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+
+  display: flex;
+  justify-content: flex-end;
+
+  margin-bottom: 15px;
+}
+
+.budgetBar:hover .hourBoard {
+  opacity: 1;
+}
+
+
+.budgetStrip .budget .hourBoard {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-bottom: 15px;
+}
+
+.budgetBar .hourBoard table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid rgb(167, 165, 165);
+  background-color: #fff;
+}
+
+.squarePrev {
+
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-color: #81b7c7;
+}
+
+.squareReel {
+
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-color: #3cf317;
+}
+
+.boardTitle {
+  font-weight: bold;
+  color: #fff;
+  background-color: #bcbec0;
+}
+
+.secondPartAnalysis .budgetBar #cardSecondRectTwo {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: -19px;
+
+  width: 310px;
+  height: 40px;
+
+  background-color: #3cf317;
+}
+
+.secondBlock .secondPartAnalysis .legendBudgetBar {
+  display: flex;
+  justify-content: center;
+
+}
+
+.secondPartAnalysis .legendBudgetBar #legendFirstRect {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 30px;
+
+  width: 15px;
+  height: 15px;
+
+  background-color: #81b7c7;
+}
+
+.secondPartAnalysis .legendBudgetBar #legendSecondRect {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 30px;
+  margin-left: 15px;
+
+  width: 15px;
+  height: 15px;
+
+  background-color: #3cf317;
+}
+
+.secondPartAnalysis .legendBudgetBar p {
+  margin-left: 5px;
+
+  font-size: 12px;
+}
+
+.secondBlock .secondPartAnalysis #perfor {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 50%;
+}
+
+.secondPartAnalysis #perfor #performance_title {
+  display: flex;
+  justify-content: center;
+
+  font-size: 20px;
+  color: #333333;
+}
+
+.secondPartAnalysis #perfor .chartCard {
+  display: flex;
+  justify-content: center;
+}
+
+#perfor .chartCard #efficacityChart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#perfor .chartCard .saBoxTitle {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 30px 0;
+}
+
+div.info {
+  display: none;
+
+  position: absolute;
+  bottom: 30px;
+
+  width: auto;
+  height: auto;
+
+  padding: 5px 10px;
+
+  border-radius: 10px;
+  color: #fff;
+  background: #101010;
+}
+
+div.saBoxTitle:hover .info {
+  display: block;
+}
+
+#perfor .chartCard .subtitlePerf {
+  font-size: 16px;
+}
+
+/* CHART-SKILLS STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.chartCard #efficacityChart .chartBox {
+  display: flex;
+  justify-content: center;
+}
+
+.chart-perf {
+  z-index: 0;
+  position: relative;
+  width: 350px;
+  height: 175px;
+  overflow: hidden;
+
+}
+
+.chart-perf::after {
+  position: absolute;
+}
+
+.chart-perf::after {
+  content: '+0.25';
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  font-size: 3.1rem;
+  font-weight: bold;
+  color: #303030;
+  z-index: 10;
+}
+
+.chart-perf li {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  border: 45px solid;
+  border-top: none;
+  border-bottom-left-radius: 175px;
+  border-bottom-right-radius: 175px;
+  transform-origin: 50% 0;
+  animation-fill-mode: forwards;
+  animation-duration: .4s;
+  animation-timing-function: linear;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+
+}
+
+.chart-perf li:nth-child(1) {
+  z-index: 4;
+  border-color: #e62117;
+  animation-name: rotate-one;
+}
+
+.chart-perf li:nth-child(2) {
+  z-index: 3;
+  border-color: #ff8536;
+  animation-name: rotate-two;
+  animation-delay: .4s;
+}
+
+.chart-perf li:nth-child(3) {
+  z-index: 2;
+  border-color: #ffcd00;
+  animation-name: rotate-three;
+  animation-delay: .8s;
+}
+
+.chart-perf li:nth-child(4) {
+  z-index: 1;
+  border-color: #04a04a;
+  animation-name: rotate-four;
+  animation-delay: 1.2s;
+}
+
+.chart-perf li:nth-child(5) {
+  z-index: 1;
+  border-color: #00c458;
+  animation-name: rotate-five;
+  animation-delay: 1.5s;
+}
+
+.chart-perfTwo {
+  position: relative;
+  width: 350px;
+  height: 175px;
+  overflow: hidden;
+}
+
+.chart-perfTwo::after {
+  position: absolute;
+}
+
+.chart-perfTwo::after {
+  content: '52%';
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  font-size: 3.1rem;
+  font-weight: bold;
+  color: #303030;
+  z-index: 10;
+}
+
+.chart-perfTwo li {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  border: 45px solid;
+  border-top: none;
+  border-bottom-left-radius: 175px;
+  border-bottom-right-radius: 175px;
+  transform-origin: 50% 0;
+  animation-fill-mode: forwards;
+  animation-duration: .4s;
+  animation-timing-function: linear;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+
+}
+
+.chart-perfTwo li:nth-child(1) {
+  z-index: 4;
+  border-color: green;
+  animation-name: rotateOne;
+}
+
+.chart-perfTwo li:nth-child(2) {
+  z-index: 3;
+  border-color: #A15D3F;
+  animation-name: rotateTwo;
+  animation-delay: .4s;
+}
+
+.chart-perfTwo li:nth-child(3) {
+  z-index: 2;
+  border-color: #B0B6BC;
+  animation-name: rotateThree;
+  animation-delay: .8s;
+}
+
+.chart-perfTwo li:nth-child(4) {
+  z-index: 1;
+  border-color: #F6C600;
+  animation-name: rotateFour;
+  animation-delay: 1.2s;
+}
+
+.needleFirst {
+  z-index: 999;
+  position: absolute;
+  left: 29%;
+  top: -40px;
+  transform: rotate(68deg);
+  border-top: 130px solid #01b2fe;
+  border-right: 6px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.needleSecond {
+  z-index: 999;
+  position: absolute;
+  left: 49%;
+  top: -10px;
+  transform: rotate(5deg);
+  border-top: 130px solid #01b2fe;
+  border-right: 6px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+/* ANIMATIONS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@keyframes rotate-one {
+  100% {
+    transform: rotate(26.6deg);
+    /**
+     * 12% => 21.6deg
+     */
+  }
+}
+
+@keyframes rotate-two {
+  0% {
+    transform: rotate(60.6deg);
+  }
+
+  100% {
+    transform: rotate(55.2deg);
+    /**
+     * 32% => 57.6deg 
+     * 57.6 + 21.6 => 79.2deg
+     */
+  }
+}
+
+@keyframes rotate-three {
+  0% {
+    transform: rotate(79.2deg);
+  }
+
+  100% {
+    transform: rotate(90.4deg);
+    /**
+     * 34% => 61.2deg 
+     * 61.2 + 79.2 => 140.4deg
+     */
+  }
+}
+
+@keyframes rotate-four {
+  0% {
+    transform: rotate(100.4deg);
+  }
+
+  100% {
+    transform: rotate(180deg);
+    /**
+     * 22% => 39.6deg  
+     * 140.4 + 39.6 => 180deg
+     */
+  }
+}
+
+@keyframes rotate-five {
+  0% {
+    transform: rotate(90.4deg);
+  }
+
+  100% {
+    transform: rotate(138deg);
+  }
+}
+
+
+@keyframes rotateOne {
+  100% {
+    transform: rotate(0deg);
+    /**
+       * 12% => 21.6deg
+       */
+  }
+}
+
+@keyframes rotateTwo {
+  0% {
+    transform: rotate(60deg);
+  }
+
+  100% {
+    transform: rotate(54.0deg);
+    /**
+       * 32% => 57.6deg 
+       * 57.6 + 21.6 => 79.2deg
+       */
+  }
+}
+
+@keyframes rotateThree {
+  0% {
+    transform: rotate(79deg);
+  }
+
+  100% {
+    transform: rotate(125.0deg);
+    /**
+       * 34% => 61.2deg 
+       * 61.2 + 79.2 => 140.4deg
+       */
+  }
+}
+
+@keyframes rotateFour {
+  0% {
+    transform: rotate(60deg);
+  }
+
+  100% {
+    transform: rotate(180.4deg);
+    /**
+       * 22% => 39.6deg  
+       * 140.4 + 39.6 => 180deg
+       */
+  }
 }

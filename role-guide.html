@@ -2,13 +2,40 @@
 <html lang="fr">
 
 <head>
-
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P3RPKW5');
+    </script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
-        content="RDI-Manager | Application de suivi de temps passés sur vos projets de recherche et d'innovation." />
-    <meta name="keywords" content="recherche, innovation, cir, projet, feuilles de temps" />
-    <meta name="author" content="RDI-Manager" />
+        content="Définissez les rôles dans le projet : administrateur, chef de projet, contributeur ou observateur. | Gérez les droits de visibilité des fichiers. | Sécurité des données renforcée." />
+    <meta name="keywords"
+        content="recherche, recherches, innovation, innovations, Recherche & innovation, entreprise innovante, CIR, R&D, R&D&I, KPI, projet, projets, Gestion de projet, journal de projets, journal collaboratif de projet, plateforme collaborative, management de projet, suivi de projet, management, management de projet, suivi collaboratif, suivi du temps, time tracking, mensuel, hebdomadaire, journalier, fait marquant, foire aux questions, avancement, tâche, réalisation tâche, planification, gestion documentaire, gestion de fichiers, monitoring, stratégie financière, analyse stratégique, analyse financière, suivi budgétaire, indicateur performance, contribution collaborateur, tableau de bord, score RDI, potentiel financement public, CIR, CII, efficacité, effectivité, administrateur, chef de projet, observateur, contributeur, analyse statistique projet, gestion fichier, visibilité, dossier, sécurité, hébergement, sauvegarde données, lien hiérarchique, liens hiérarchiques, gestion d’équipe, organigramme, manager, collaborateur, planning, planification projet, monitoring, lot, lots, lot de tâches, tâche, tâches, sous-tâche, notification, notifications, sms, e-mail, contact, contacter, message, research, innovation, innovations, Research & innovation, innovative company, CIR, R&D, R&D&I, KPI, project, projects, Project management, project journal, collaborative project journal, collaborative platform, project management, project monitoring , management, project management, collaborative monitoring, time tracking, time tracking, monthly, weekly, daily, highlight, Frequently Asked Questions, progress, task, task completion, planning, document management, file management, monitoring, financial strategy, strategic analysis, financial analysis, budget monitoring, performance indicator, employee contribution, dashboard, RDI score, potential public funding, CIR, CII, efficiency, effectiveness, administrator, project manager, observer, contributor, project statistical analysis, file management, visibility, folder, security, hosting, data backup, hierarchical link, hierarchical links, team management, organization chart, manager, collaborator, planning, project planning, monitoring, batch, batches, batch of tasks, task, tasks, sub-task, notification, notifications, sms, email, contact, message" />
+    <meta name="RDI-Manager" content="RDI-Manager" />
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="google" content="notranslate">
+    <meta name="Application RDI" content="Remettre la description">
+
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link rel="RDI-Manager" href="contact@rdimanager.com">
+    <link rel="RDI-Manager" href="+33 1 30 50 13 49">
 
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 
@@ -21,9 +48,15 @@
     <!--Material Icon -->
     <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
 
+    <!--Canonical & hreflang links-->
+    <link rel="canonical" href="https://rdimanager.com/role-guide.html" />
+    <link rel="alternate" hreflang="fr" href="https://rdimanager.com/role-guide.html">
+    <link rel="alternate" hreflang="en" href="https://rdimanager.com/role-guide.html/en">
 
     <!-- RDI-Manager custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/role-guide/ro-home.css" />
+    <link rel="stylesheet" type="text/css" href="css/role-guide/ro-second.css" />
+    <link rel="stylesheet" type="text/css" href="css/role-guide/ro-third.css" />
     <link rel="stylesheet" type="text/css" href="css/role-guide/ro-responsive.css" />
     <link rel="stylesheet" type="text/css" href="css/nav/nav.css">
     <link rel="stylesheet" type="text/css" href="css/nav/navPhone.css">
@@ -34,13 +67,13 @@
     <meta itemprop="name" content="Suivi de temps sur vos projets innovants - RDI-Manager" />
     <meta itemprop="description"
         content="Application de suivi de temps passés sur vos projets de recherche et d'innovation." />
-    <meta itemprop="image" content="https://app.rdimanager.com/build/assets/img/logosign.png" />
+    <meta itemprop="image" content="https://app.rdimanager.com/build/assets/img/logosignRDI.png" />
     <!-- markup for facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="RDI-Manager" />
     <meta property="og:url" content="https://app.rdimanager.com/" />
     <meta property="og:site_name" content="RDI-Manager" />
-    <meta property="og:image" content="https://app.rdimanager.com/build/assets/img/logosign.png" />
+    <meta property="og:image" content="https://app.rdimanager.com/build/assets/img/logosignRDI.png" />
     <meta property="og:description"
         content="Application de suivi de temps passés sur vos projets de recherche et d'innovation." />
     <meta property="og:locale" content="fr" />
@@ -51,11 +84,15 @@
         content="Application de suivi de temps passés sur vos projets de recherche et d'innovation." />
     <meta name="twitter:creator" content="Eurêka C.I" />
     <meta name="twitter:site" content="@Eureka_Conseil">
-    <meta name="twitter:image" content="https://app.rdimanager.com/build/assets/img/logosign.png" />
-    <title>RDI-Manager | Guide des rôles</title>
+    <meta name="twitter:image" content="https://app.rdimanager.com/build/assets/img/logosignRDI.png" />
+    <title>Rôles | RDI-Manager</title>
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3RPKW5" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="preload">
         <img src="/images/preload.gif" alt="preload" />
     </div>
@@ -66,7 +103,7 @@
             <nav class="navHigh">
                 <div class="listLeft">
                     <ul>
-                        <li><a href="../index.html"><img src="../images/logo.png" alt="RDI-Manager"></a></li>
+                        <li><a href="../index.html"><img src="../images/logoBlanc.png" alt="RDI-Manager"></a></li>
                         <li>
                             <div class="parentBlock">
                                 <div class="childOne">
@@ -92,6 +129,8 @@
                                     <a data-i18n="nav_feat_timesheet" href="../saisie-temps.html"></a>
                                     <a data-i18n="nav_feat_strat" href="../strategic-analysis.html"></a>
                                     <a data-i18n="nav_feat_role" href="../role-guide.html"></a>
+                                    <a data-i18n="nav_feat_organigram" href="../organigram.html"></a>
+                                    <a data-i18n="nav_feat_planning" href="../planning.html"></a>
                                 </div>
                             </div>
                         </li>
@@ -129,6 +168,9 @@
                         <li>
                             <a href="../index.html#pricing" data-i18n="nav_pricing"></a>
                         </li>
+                        <a href="https://rdimanager.com/pages/contact.html" target="_blank"
+                            class="btn btn-hover bg-green-hover" id="freeTrial" data-i18n="nav_trial"
+                            title="Testez gratuitement notre solution pendant 3 mois."></a>
                         <a href="https://app.rdimanager.com/connexion" class="btn btn-hover bg-red bg-red-hover"
                             id="connect" data-i18n="nav_free"></a>
                         <li>
@@ -145,87 +187,93 @@
                 </div>
             </nav>
 
-               <!-- NAV FOR PHONE -->
-               <a href="index.html"><img class="logoPhone" src="images/favicon.png" alt="RDI-Manager"></a>
-               <div class="navPhone">
-                   <button class="ham">
-                       <span class="menuIcon">
-                           <i class="mdi mdi-menu"></i>
-                       </span>
-                       <span class="xIcon">
-                           <i class="mdi mdi-close"></i>
-                       </span>
-                   </button>
-   
-                   <ul class="menu">
-                       <div class="logo">
-                           <a href="index.html"><img class="logoNav" src="images/favicon.png" alt="RDI-Manager"></a>
-                       </div>
-                       <li>
-                           <div class="parentBlockPhone">
-                               <div class="childOnePhone">
-                                   <a data-i18n="nav_sol"></a>
-                                   <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
-                               </div>
-                               <div class="childTwoPhone">
-                                   <a data-i18n="nav_sol_product" href="../index.html#simplifyYourActivity"></a>
-                                   <a data-i18n="nav_sol_why" href="../index.html#whyRdiManager"></a>
-                                   <a data-i18n="nav_sol_partner" href="../index.html#partner"></a>
-                                   <a data-i18n="nav_sol_offer" href="../index.html#pricing"></a>
-                               </div>
-                           </div>
-                       </li>
-                       <li>
-                           <div class="parentBlockPhone">
-                               <div class="childOnePhone">
-                                   <a data-i18n="nav_features"></a>
-                                   <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
-                               </div>
-                               <div class="childTwoPhone">
-                                   <a data-i18n="nav_feat_keyfact" href="../faits-marquants.html"></a>
-                                   <a data-i18n="nav_feat_timesheet" href="../saisie-temps.html"></a>
-                                   <a data-i18n="nav_feat_strat" href="../strategic-analysis.html"></a>
-                                   <a data-i18n="nav_feat_role" href="../role-guide.html"></a>
-                               </div>
-                           </div>
-                       </li>
-                       <li>
-                           <div class="parentBlockPhone">
-                               <div class="childOnePhone">
-                                   <a data-i18n="nav_startup"></a>
-                                   <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
-                               </div>
-                               <div class="childTwoPhone">
-                                   <a data-i18n="nav_startup_about" href="/pages/startup.html#aboutUs"></a>
-                                   <a data-i18n="nav_startup_team" href="/pages/startup.html#team"></a>
-                                   <a data-i18n="nav_startup_value" href="/pages/startup.html#ourValue"></a>
-                                   <a data-i18n="nav_startup_partners" href="/pages/startup.html#partners"></a>
-                               </div>
-                           </div>
-                       </li>
-                       <li>
-                           <div class="parentBlockPhone">
-                               <div class="childOnePhone">
-                                   <a data-i18n="nav_contact"></a>
-                                   <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
-                               </div>
-                               <div class="childTwoPhone">
-                                   <a data-i18n="nav_contact_form" href="/pages/contact.html"></a>
-                                   <a data-i18n="nav_contact_join" href="/pages/join.html"></a>
-                                   <a href="/pages/faq.html">F.A.Q</a>
-                               </div>
-                           </div>
-                       </li>
-                       <li>
-                           <select class="languageSelector">
-                               <option selected value="fr">FR</option>
-                               <option value="en">EN</option>
-                           </select>
-                       </li>
-                   </ul>
-               </div>
-   
-               <!-- END NAV FOR PHONE -->
+            <!-- NAV FOR PHONE -->
+            <a href="index.html"><img class="logoPhone" src="images/logoMiniBR.png" alt="RDI-Manager"></a>
+            <div class="navPhone">
+                <button class="ham">
+                    <span class="menuIcon">
+                        <i class="mdi mdi-menu"></i>
+                    </span>
+                    <span class="xIcon">
+                        <i class="mdi mdi-close"></i>
+                    </span>
+                </button>
+
+                <a href="https://app.rdimanager.com/connexion" id="login"><img src="images/LoginIcon.svg"></a>
+
+                <ul class="menu">
+                    <div class="logo">
+                        <a href="index.html"><img class="logoNav" src="images/favicon.png" alt="RDI-Manager"></a>
+                    </div>
+                    <li>
+                        <div class="parentBlockPhone">
+                            <div class="childOnePhone">
+                                <a data-i18n="nav_sol"></a>
+                                <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                            </div>
+                            <div class="childTwoPhone">
+                                <a data-i18n="nav_sol_product" href="../index.html#simplifyYourActivity"></a>
+                                <a data-i18n="nav_sol_why" href="../index.html#whyRdiManager"></a>
+                                <a data-i18n="nav_sol_partner" href="../index.html#partner"></a>
+                                <a data-i18n="nav_sol_offer" href="../index.html#pricing"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="parentBlockPhone">
+                            <div class="childOnePhone">
+                                <a data-i18n="nav_features"></a>
+                                <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                            </div>
+                            <div class="childTwoPhone">
+                                <a data-i18n="nav_feat_keyfact" href="../faits-marquants.html"></a>
+                                <a data-i18n="nav_feat_timesheet" href="../saisie-temps.html"></a>
+                                <a data-i18n="nav_feat_strat" href="../strategic-analysis.html"></a>
+                                <a data-i18n="nav_feat_role" href="../role-guide.html"></a>
+                                <a data-i18n="nav_feat_organigram" href="../organigram.html"></a>
+                                <a data-i18n="nav_feat_planning" href="../planning.html"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="parentBlockPhone">
+                            <div class="childOnePhone">
+                                <a data-i18n="nav_startup"></a>
+                                <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                            </div>
+                            <div class="childTwoPhone">
+                                <a data-i18n="nav_startup_about" href="/pages/startup.html#aboutUs"></a>
+                                <a data-i18n="nav_startup_team" href="/pages/startup.html#team"></a>
+                                <a data-i18n="nav_startup_value" href="/pages/startup.html#ourValue"></a>
+                                <a data-i18n="nav_startup_partners" href="/pages/startup.html#partners"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="parentBlockPhone">
+                            <div class="childOnePhone">
+                                <a data-i18n="nav_contact"></a>
+                                <div class="arrow"><i class="pe-7s-angle-down arrowDown"></i></div>
+                            </div>
+                            <div class="childTwoPhone">
+                                <a data-i18n="nav_contact_form" href="/pages/contact.html"></a>
+                                <a data-i18n="nav_contact_join" href="/pages/join.html"></a>
+                                <a href="/pages/faq.html">F.A.Q</a>
+                            </div>
+                        </div>
+                    </li>
+                    <a href="https://app.rdimanager.com/corp/creer-ma-societe/ma-societe" target="_blank"
+                        class="btn btn-hover bg-green-hover" id="phonefreeTrial" data-i18n="nav_trial"></a>
+                    <li>
+                        <select class="languageSelector">
+                            <option selected value="fr">FR</option>
+                            <option value="en">EN</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- END NAV FOR PHONE -->
         </header>
 
         <!-- END HEADER -->
@@ -233,7 +281,7 @@
         <section id="carArt">
             <main>
 
-                <h2>Les rôles sous RDI-Manager</h2>
+                <h2 data-i18n="rg_big_title"></h2>
 
                 <div class="section">
                     <section>
@@ -242,11 +290,8 @@
                                 <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
                             </div>
                             <div class="cardText">
-                                <h5><strong>Administrateur</strong></h5>
-                                <p>L’administrateur a tous les droits sous la plateforme
-                                    RDI-Manager. Il peut inviter des utilisateurs, créer
-                                    des projets, y ajouter des personnes et utiliser les
-                                    fonctionnalités de gestion stratégique.</p>
+                                <h5 data-i18n="rg_title_admin"><strong></strong></h5>
+                                <p data-i18n="rg_text_admin"></p>
                             </div>
                         </div>
                         <div class="card" id="card-2">
@@ -254,11 +299,8 @@
                                 <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
                             </div>
                             <div class="cardText">
-                                <h5><strong>Chef de projet</strong></h5>
-                                <p>Le chef de projet à le droit de créer des projets et d’y
-                                    inviter des contributeurs et observateurs. Il a
-                                    également accès aux analyses statistiques de ses
-                                    projets.</p>
+                                <h5 data-i18n="rg_title_chief"><strong></strong></h5>
+                                <p data-i18n="rg_text_chief"></p>
                             </div>
                         </div>
                         <div class="card" id="card-3">
@@ -266,53 +308,124 @@
                                 <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
                             </div>
                             <div class="cardText">
-                                <h5><strong>Utilisateur</strong></h5>
-                                <p>L’utilisateur n’a de visibilité que sur son périmètre de
-                                    projets. Il peut être observateur ou contributeur dans
-                                    les projets ; et même jouer le rôle de chef d’un projet
-                                    qu’il n’a pas créer. Il n’a en effet pas le droit de
-                                    création de projet.</p>
+                                <h5 data-i18n="rg_title_user"><strong></strong></h5>
+                                <p data-i18n="rg_text_user"></p>
                             </div>
                         </div>
                     </section>
                     <section>
                         <div class="carousel">
-                            <img src="/images/roleGuide/ADMIN.png" id="img-1" class="img-to-show show">
-                            <img src="/images/roleGuide/CDP.png" id="img-2" class="img-to-show">
-                            <img src="/images/roleGuide/USER.png" id="img-3" class="img-to-show">
+                            <img src="/images/roleGuide/ADMIN.png" id="img-1" class="img-to-show show" alt="admin">
+                            <img src="/images/roleGuide/CDP.png" id="img-2" class="img-to-show" alt="CDP">
+                            <img src="/images/roleGuide/USER.png" id="img-3" class="img-to-show" alt="user">
                         </div>
                     </section>
                 </div>
-
             </main>
+        </section>
+
+        <section id="secondCarArt">
+            <div id="secondParent">
+                <h2 data-i18n="rm_big_title"></h2>
+
+                <div class="section">
+                    <section>
+                        <div class="carousel">
+                            <img src="/images/roleGuide/AJOUTERUNFICHIER.png" id="imgs-1" class="img-to-see see"
+                                alt="Add File">
+                            <img src="/images/roleGuide/LISTEDESFICHIERS.png" id="imgs-2" class="img-to-see"
+                                alt="File List">
+                        </div>
+                    </section>
+                    <section>
+                        <div class="carde selection" id="carde-1">
+                            <div class="objectIcon">
+                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
+                            </div>
+                            <div class="cardText">
+                                <h5 data-i18n="rm_title_right"><strong></strong></h5>
+                                <p data-i18n="rm_text_right"></p>
+                            </div>
+                        </div>
+                        <div class="carde" id="carde-2">
+                            <div class="objectIcon">
+                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
+                            </div>
+                            <div class="cardText">
+                                <h5 data-i18n="rm_title_management"><strong></strong></h5>
+                                <p data-i18n="rm_text_management"></p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <section id="thirdCarArt">
+            <div id="thirdParent">
+                <h2 data-i18n="sh_big_title"></h2>
+                <div class="section">
+                    <section>
+                        <div class="cardThird selection" id="cardThird-1">
+                            <div class="objectIcon">
+                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
+                            </div>
+                            <div class="cardThirdText">
+                                <h5 data-i18n="[html]sh_title_security"><strong></strong></h5>
+                                <p data-i18n="[html]sh_text_security_one"></p>
+                                <p data-i18n="[html]sh_text_security_two"></p>
+                                <p data-i18n="[html]sh_text_security_three"></p>
+                                <p data-i18n="[html]sh_text_security_four"></p>
+                            </div>
+                        </div>
+                        <div class="cardThird" id="cardThird-2">
+                            <div class="objectIcon">
+                                <div class="icon text-white"><i class="mdi mdi-arrow-right-bold"></i></div>
+                            </div>
+                            <div class="cardThirdText">
+                                <h5 data-i18n="sh_title_ovh"><strong></strong></h5>
+                                <p data-i18n="[html]sh_text_ovh_one"></p>
+                                <p data-i18n="[html]sh_text_ovh_two"></p>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="carousel">
+                            <img src="/images/roleGuide/SECURITY.jpg" id="imag-1" class="imag-to-look look">
+                            <img src="/images/roleGuide/OVH.jpg" id="imag-2" class="imag-to-look">
+                        </div>
+                    </section>
+                </div>
+            </div>
         </section>
 
         <footer>
             <div class="flexFoot">
                 <div class="footLeft">
-                    <h6 class="text-white">RDI Manager</h6>
+                    <h6>RDI Manager</h6>
                     <div class="planFoot">
                         <a href"mailto:contact@rdimanager.com" target="_blank">contact@rdimanager.com</a>
                         <p>+33 1 30 50 13 49</p>
-                        <p>2 rue Eugene Pottier</p>
-                        <p>78190 Saint-Quentin en Yvelines</p>
+                        <p>2 rue Eugène Pottier</p>
+                        <p>78190 Saint-Quentin-en-Yvelines</p>
                     </div>
                 </div>
                 <div class="footMid">
-                    <h6 class="text-white">Solution</h6>
+                    <h6>Solution</h6>
                     <div class="planFoot">
                         <a data-i18n="nav_sol_why" href="../index.html#whyRdiManager"></a>
                         <a data-i18n="nav_feat_keyfact" href="../faits-marquants.html"></a>
                         <a data-i18n="nav_feat_timesheet" href="../saisie-temps.html"></a>
+                        <a data-i18n="nav_feat_planning" href="../planning.html"></a>
+                        <a data-i18n="nav_feat_strategic" href="../strategic-analysis.html"></a>
                         <a data-i18n="nav_sol_offer" href="../index.html#pricing"></a>
                     </div>
                 </div>
                 <div class="footRight">
-                    <h6 class="text-white">Ressources</h6>
+                    <h6 data-i18n="sa_title_resource"></h6>
                     <div class="planFoot">
-                        <a href="../images/CGU_CGV.pdf" target="_blank">CGU & CGV</a>
+                        <a href="./pages/cgv.html" target="_blank">CGU & CGV</a>
                         <a href="../images/FT_S.pdf" target="_blank">Fiche technique et Sécurité</a>
-                        <a data-i18n="nav_sol_partner" href="../index.html#partner"></a>
+                        <a data-i18n="nav_sol_guide" href="#"></a>
                         <a href="../pages/faq.html">F.A.Q</a>
                     </div>
                 </div>
@@ -341,6 +454,34 @@
 
     <script src="js/home.js"></script>
     <script src="dist/main.js"></script>
+    <!--
+    <script>
+        const cardes = document.getElementsByClassName("carde");
+        const imagees = document.getElementsByClassName("img-to-see");
+        var isClickInside = false;
+
+        for (let i = 0; i < cards.length; i++) {
+            document.addEventListener("click", function (event) {
+                const el = event.target.closest('.carde');
+                cardes[i].classList.remove("selection");
+                imagees[i].classList.remove("see");
+                imagees[i].classList.remove("imgAnims");
+
+                if (el) {
+                    el.classList.add("selection");
+                    const numberOfImgs = el.id.split("-")[1];
+                    const imgToSee = document.getElementById(`imgs-${numberOfImgs}`);
+                    imgToSee.classList.add("see");
+                    imgToSee.classList.add("imgAnims");
+                } else {
+                    cardes[0].classList.add("selection");
+                    imagees[0].classList.add("see");
+
+                    imagees[0].classList.add("imgAnims");
+                }
+            });
+        }
+    </script>-->
 
 </body>
 

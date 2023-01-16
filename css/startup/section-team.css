@@ -62,7 +62,14 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  margin-right: 10px;
+}
+
+.teamCard .actor #Louis {
+  width: 150px;
+  height: 150px;
+  object-position: 0 -10px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .actorText {
