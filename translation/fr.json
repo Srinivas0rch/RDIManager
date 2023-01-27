@@ -365,5 +365,8 @@
   "sa_perf_efficacity_descr": "Indique votre aptitude à réaliser les tâches dans les temps impartis",
   "sa_perf_Effectiveness": "Effectivité",
   "sa_perf_Effectiveness_descr": "Indique votre niveau de complétude dans la réalisation des tâches du projet",
-  "sa_title_proj_stat" : "Statistiques des contributions du projet"
+  "sa_title_proj_stat" : "Statistiques des contributions du projet",
+
+
+  "return_actu" : "Toutes les actualités"
 }

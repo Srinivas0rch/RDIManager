@@ -1,0 +1,252 @@
+html,
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 100px;
+
+  font-family: "Besley", serif;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+
+  margin: 20px 0 20px 0;
+  filter: grayscale(95%);
+}
+
+.banner img {
+  display: block;
+
+  height: auto;
+  width: 98%;
+  max-width: 1400px;
+
+  border-radius: 30px;
+}
+
+.banner:hover {
+  filter: grayscale(0);
+}
+
+#topTitle {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+
+  background-color: #fff;
+  height: 8rem;
+  width: 85%;
+  position: sticky;
+  top: 0;
+  margin: 0 1rem;
+  z-index: 10;
+  text-align: center;
+}
+
+#topTitle h1 {
+  font-size: 43px;
+}
+
+.nlDate {
+  font-size: 12px;
+}
+
+.subTitle {
+  text-align: center;
+  width: 100%;
+  line-height: 1.7rem;
+  font-size: 18px;
+  margin-bottom: 1em;
+  margin-top: 20px;
+}
+
+.subTitle .btn {
+  width: 280px;
+  margin: auto;
+}
+
+.subTitle p {
+  margin-bottom: 15px;
+}
+
+.content {
+  width: 85%;
+  padding: 0 6rem;
+  font-size: 1.5rem;
+}
+
+.content .btn {
+  width: 280px;
+  margin: auto;
+
+  background-color: #01b2fe;
+}
+
+.content h2 {
+  margin: 20px 0;
+  font-size: 30px;
+  color: #a30000;
+}
+
+.content #reallyQuote {
+  line-height: 1.2em;
+  font-size: 18px;
+  column-span: all;
+  margin: 10px 0px;
+  padding: 0.6rem;
+  margin-left: 5px;
+  border: 5px solid #ccc;
+}
+
+.effect {
+  opacity: 0.9;
+  transition: opacity 0.3s cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+.effect:hover {
+  opacity: 1;
+}
+
+.content .paragraphe {
+  text-align: justify;
+  width: 100%;
+  line-height: 1.7rem;
+  font-size: 18px;
+  margin-bottom: 1em;
+}
+
+.content .paragraphe #ishakawa {
+  margin: 20px 0;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.simpleQuote {
+  text-align: left;
+  width: 100%;
+  line-height: 1.5rem;
+  font-size: 18px;
+  margin-bottom: 3em;
+
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-left: 5px solid #ccc;
+}
+
+h1::selection,
+p::selection,
+em::selection,
+.list::selection,
+.list ol>li::selection,
+q::selection,
+cite::selection,
+b::selection {
+  background: #ccc;
+}
+
+@media (max-width: 800px) {
+  #topTitle h1 {
+    font-size: 38px;
+  }
+
+  .content {
+    padding: 0 2rem;
+  }
+
+  .subTitle {
+    width: 85%;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  #topTitle h1 {
+    font-size: 34px;
+  }
+
+  #topTitle {
+    height: 6.5rem;
+  }
+
+  .content .paragraphe {
+    font-size: 16px;
+  }
+
+  .content h2 {
+    font-size: 28px;
+  }
+
+  .content #reallyQuote p {
+    font-size: 16px;
+  }
+
+  .content .simpleQuote {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 443px) {
+  #topTitle h1 {
+    font-size: 32px;
+  }
+
+  .subTitle {
+    width: 85%;
+    font-size: 14px;
+  }
+
+  .content .paragraphe {
+    font-size: 14px;
+  }
+
+  .content h2 {
+    font-size: 24px;
+  }
+
+  .content #reallyQuote p {
+    font-size: 14px;
+  }
+
+  .content .simpleQuote {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 430px) {
+  #topTitle h1 {
+    font-size: 29px;
+  }
+
+  .content {
+    padding: 0 1rem;
+    font-size: 1.5rem;
+  }
+
+  #reallyQuote {
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    border: 2px solid #ccc;
+  }
+}
+
+@media (max-width: 375px) {
+  #topTitle h1 {
+    font-size: 25px;
+  }
+}
+
+a:visited {
+  text-decoration-color: #ccc;
+  color: #ccc;
+}
