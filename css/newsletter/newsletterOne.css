@@ -181,9 +181,18 @@ b::selection {
     width: 100%;
   }
 
-  .banner .leftBan {
-    width: 100%;
+  .banner .leftBan .subTitle {
+    line-height: 1.5rem;
   }
+
+  .banner .rightBan {
+    width: 32%;
+  }
+
+  
+.content .paragraphe {
+  line-height: 1.5rem;
+}
 }
 
 @media (max-width: 800px) {
@@ -218,6 +227,10 @@ b::selection {
     font-size: 16px;
   }
 
+  .banner .rightBan {
+    width: 42%;
+  }
+
   .content .paragraphe {
     font-size: 16px;
   }
@@ -249,6 +262,9 @@ b::selection {
     font-size: 14px;
   }
 
+  .banner .rightBan {
+    width: 45%;
+  }
   .content .paragraphe {
     font-size: 14px;
   }
