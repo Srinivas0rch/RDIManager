@@ -368,5 +368,5 @@
   "sa_title_proj_stat" : "Statistiques des contributions du projet",
 
 
-  "return_actu" : "Toutes les actualités"
+  "return_actu" : "<i class='mdi mdi-arrow-left'></i> Retourner à la page des actualités"
 }
