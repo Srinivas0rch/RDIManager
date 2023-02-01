@@ -17,7 +17,7 @@ jobs:
       - name: Create deploy folder
         run: |
           mkdir deploy/
-          cp -r css/ fonts/ images/ index.html saisie-temps.html faits-marquants.html role-guide.html strategic-analysis.html organigram.html planning.html pages/ clip/ dist/ deploy/ sitemap.xml
+          cp -r css/ fonts/ images/ index.html saisie-temps.html faits-marquants.html role-guide.html strategic-analysis.html organigram.html planning.html sitemap.xml pages/ clip/ dist/ deploy/ 
 
       - name: Create artifact
         uses: actions/upload-artifact@v2
@@ -26,7 +26,7 @@ jobs:
           path: deploy/
 
       - name: Deploy to Github pages 🚀
-        uses: JamesIves/github-pages-deploy-action@3.6.2
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
