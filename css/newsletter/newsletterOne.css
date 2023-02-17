@@ -1,0 +1,315 @@
+html,
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 100px;
+
+  font-family: "Besley", serif;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+
+  width: 85%;
+  padding: 0 3rem;
+}
+
+.banner .leftBan {
+  display: flex;
+  width: 60%;
+}
+
+.banner .leftBan .subTitle {
+  text-align: justify;
+  width: 100%;
+  line-height: 1.7rem;
+  font-size: 18px;
+  margin-bottom: 1em;
+  margin-top: 20px;
+}
+
+.leftBan .subTitle p {
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.banner .rightBan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 35%;
+  aspect-ratio: 1/1;
+}
+
+.banner .rightBan img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+#topTitle {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+
+  background-color: #fff;
+  height: 8rem;
+  width: 85%;
+  position: sticky;
+  top: 0;
+  margin: 0 1rem;
+  z-index: 10;
+  text-align: center;
+}
+
+#topTitle h1 {
+  font-size: 43px;
+}
+
+.content {
+  width: 85%;
+  padding: 0 3rem;
+  font-size: 1.5rem;
+}
+
+.content h2 {
+  margin: 20px 0;
+  font-size: 30px;
+  color: #a30000;
+}
+
+.content #reallyQuote {
+  line-height: 1.2em;
+  font-size: 18px;
+  column-span: all;
+  margin: 10px 0px;
+  padding: 0.6rem;
+  margin-left: 5px;
+  border: 5px solid #ccc;
+}
+
+.effect {
+  opacity: 0.9;
+  transition: opacity 0.3s cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+.effect:hover {
+  opacity: 1;
+}
+
+.content .paragraphe {
+  text-align: justify;
+  width: 100%;
+  line-height: 1.7rem;
+  font-size: 18px;
+  margin-bottom: 1em;
+}
+
+.content .paragraphe #ishakawa {
+  margin: 20px 0;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.simpleQuote {
+  text-align: left;
+  width: 100%;
+  line-height: 1.5rem;
+  font-size: 18px;
+  margin-bottom: 3em;
+
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.mdi-arrow-right-bold-circle {
+  color: #008000; 
+}
+
+h1::selection,
+p::selection,
+em::selection,
+.list::selection,
+.list ol>li::selection,
+q::selection,
+cite::selection,
+b::selection {
+  background: #ccc;
+}
+
+.content .signature {
+  display: flex;
+  flex-direction: column;
+
+  text-align: right;
+
+  font-size: 12px;
+}
+
+.content .returnActu a {
+  text-align: left;
+  font-size: 16px;
+  color: #01b2fe;
+}
+
+.content .returnActu a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1150px) {
+
+  #topTitle {
+    width: 75%;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner .leftBan {
+    width: 100%;
+  }
+
+  .banner .leftBan .subTitle {
+    line-height: 1.5rem;
+  }
+
+  .banner .rightBan {
+    width: 32%;
+  }
+
+  
+.content .paragraphe {
+  line-height: 1.5rem;
+}
+}
+
+@media (max-width: 800px) {
+  #topTitle h1 {
+    font-size: 38px;
+  }
+
+  .banner {
+    width: 90%;
+  }
+
+  .content {
+    padding: 0 2rem;
+  }
+
+  .subTitle {
+    width: 85%;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  #topTitle h1 {
+    font-size: 34px;
+  }
+
+  #topTitle {
+    height: 6.5rem;
+  }
+
+  .banner .leftBan p {
+    font-size: 16px;
+  }
+
+  .banner .rightBan {
+    width: 42%;
+  }
+
+  .content .paragraphe {
+    font-size: 16px;
+  }
+
+  .content h2 {
+    font-size: 28px;
+  }
+
+  .content #reallyQuote p {
+    font-size: 16px;
+  }
+
+  .content .simpleQuote {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 443px) {
+  #topTitle h1 {
+    font-size: 32px;
+  }
+
+  .subTitle {
+    width: 85%;
+    font-size: 14px;
+  }
+
+  .banner .leftBan p {
+    font-size: 14px;
+  }
+
+  .banner .rightBan {
+    width: 45%;
+  }
+  .content .paragraphe {
+    font-size: 14px;
+  }
+
+  .content h2 {
+    font-size: 24px;
+  }
+
+  .content #reallyQuote p {
+    font-size: 14px;
+  }
+
+  .content .simpleQuote {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 430px) {
+  #topTitle h1 {
+    font-size: 29px;
+  }
+
+  .content {
+    padding: 0 1rem;
+    font-size: 1.5rem;
+  }
+
+  #reallyQuote {
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    border: 2px solid #ccc;
+  }
+}
+
+@media (max-width: 375px) {
+  #topTitle h1 {
+    font-size: 25px;
+  }
+}
+
+a:visited {
+  text-decoration-color: #ccc;
+  color: #ccc;
+}
