@@ -1,4 +1,4 @@
-# Site de présentation de RDI-Manager
+# Site de vitrine de RDI-Manager
 
 Pages HTML statique du site de présentation de RDI-Manager,
 visible sur https://rdi-manager.github.io/
@@ -7,7 +7,7 @@ visible sur https://rdi-manager.github.io/
 
 Cloner le repository
 
-``` bash
+```bash
 git clone https://github.com/RDI-Manager/rdi-manager.github.io.git
 cd rdi-manager.github.io/
 ```
