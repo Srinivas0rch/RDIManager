@@ -1,9 +1,10 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
+  entry: "/js/index.js",
 
-    entry: "/js/index.js",
-
-    mode: "development",
-
-}
+  mode: "development",
+  output: {
+    hashFunction: "sha256",
+  },
+};
