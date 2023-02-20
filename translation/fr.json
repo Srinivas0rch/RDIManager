@@ -10,7 +10,7 @@
   "nav_feat_timesheet": "Saisie du temps",
   "nav_feat_strat": "Analyses stratégiques",
   "nav_feat_role": "Rôles, droits & sécurité",
-  "nav_feat_organigram": "Liens hiérarchiques",
+  "nav_feat_organigramme": "Liens hiérarchiques",
   "nav_feat_planning": "Planification",
   "nav_feat_strategic": "Analyses stratégiques",
   "nav_startup": "La start-up",
@@ -23,7 +23,7 @@
   "nav_contact_form": "Nous contacter",
   "nav_contact_join": "Nous rejoindre",
   "nav_insight": "Insight",
-  "nav_insight_actualités": "Actualités RDI",
+  "nav_insight_actualites": "actualites RDI",
   "nav_insight_ressources": "Ressources RDI",
   "nav_pricing": "Tarifs",
   "nav_free": "Connexion",
@@ -242,7 +242,7 @@
   "contact_choose": "Sélectionnez le sujet",
   "contact_demo": "Réserver une démo",
   "contact_try": "Essai gratuit",
-  "contact_other":"Autre",
+  "contact_other": "Autre",
   "contact_message": "Message",
   "contact_mention": "J'accepte que mes données personnelles soient collectées et   traitées pour la future relation commerciale.",
   "contact_send_form": "Envoyer",
@@ -311,7 +311,7 @@
   "rm_text_management": "Dans votre journal de projet RDI-Manager, vous pouvez créer et nommer des dossiers dans lesquels vous souhaitez ranger vos fichiers. Chaque que fois que vous ajouterez un fichier, que ce soit via un fait marquant ou via l’interface de gestion des fichiers du projet ; vous pourrez choisir le dossier dans lequel vous souhaitez le ranger.",
 
   "sh_big_title": "Sécurité et hébergement des données sous RDI-Manager",
-  "sh_title_security":"Sécurité renforcée des données",
+  "sh_title_security": "Sécurité renforcée des données",
   "sh_text_security_one": "La sécurité de vos données est notre priorité : vous êtes propriétaire de vos données et nous garantissons leur intégrité.",
   "sh_text_security_two": "La plateforme <strong>RDI-Manager s’appuie sur une approche de sécurité double</strong> :",
   "sh_text_security_three": "- Nos ingénieurs y ont intégré les dernières techniques et technologies de sécurité des applications PHP",
@@ -342,11 +342,11 @@
   "plan_ban_text_one": "Grâce à la planification de votre projet, vos contributeurs projet peuvent <strong>associer des faits marquants à un lot du projet</strong> bien spécifique. Vous pourrez donc visualiser les faits marquants des différents lots du projet.",
   "plan_ban_text_two": " Le suivi de l’avancement de vos tâches est réalisé via:",
   "plan_ban_text_three": "-  un <strong>système de relance avant la date d’échéance de chaque tâche</strong> afin de mettre à jour son avancement",
-  "plan_ban_text_four":"- des notifications de réalisation complète des tâches.",
+  "plan_ban_text_four": "- des notifications de réalisation complète des tâches.",
   "plan_ban_text_five": " De plus, des indices de performance <strong>mesurent votre efficacité et votre effectivité dans la complétude des tâches tout au long du projet.</strong>",
 
-  "hierachy_FB_bigTitle": "Visualisez vos collaborateurs via un organigramme",
-  "hierachy_FB_text": "En qualité de manager au sein de votre société, vos collaborateurs peuvent définir votre lien hiérarchique sous la plateforme RDI-Manager. Ceci vous permet de voir tous vos collaborateurs sous forme d’un organigramme jusqu’à l’ordre N-2.",
+  "hierachy_FB_bigTitle": "Visualisez vos collaborateurs via un organigrammeme",
+  "hierachy_FB_text": "En qualité de manager au sein de votre société, vos collaborateurs peuvent définir votre lien hiérarchique sous la plateforme RDI-Manager. Ceci vous permet de voir tous vos collaborateurs sous forme d’un organigrammeme jusqu’à l’ordre N-2.",
   "hierachy_FB_discover": "Découvrez la hiérarchie",
   "hierachy_FB_roleChief": "Chef de projet",
   "hierachy_FB_roleAdmin": "Administrateur",
@@ -354,11 +354,11 @@
   "hierachy_SB_bigTitle": "Le Collaborateur définit son N+1",
   "hierachy_SB_text": "À partir de son espace <strong>Mon Compte</strong> dans la société, chaque collaborateur peut identifier son supérieur hiérarchique. Ceci permet automatiquement aux supérieurs hiérarchiques d’ordre N+1 et N+2 d’avoir une visibilité sur les projets du collaborateur.",
   "hierachy_TB_bigTitle": "La Big Picture de mon équipe",
-  "hierachy_TB_text": "En qualité de Manager, je peux voir l’ensemble de mon équipe via un organigramme sous RDI-Manager. De plus, j’ai un droit de visibilité sur l’ensemble de leurs projets, quelque soit le rôle que j'y joue (Observateur / Contributeur / Chef de projet).",
-  
+  "hierachy_TB_text": "En qualité de Manager, je peux voir l’ensemble de mon équipe via un organigrammeme sous RDI-Manager. De plus, j’ai un droit de visibilité sur l’ensemble de leurs projets, quelque soit le rôle que j'y joue (Observateur / Contributeur / Chef de projet).",
+
   "sa_title_hisProjects": "Ses projets",
   "sa_budget_title": "Analyse budgétaire",
-  "sa_budget_subTitle":"En heure (H)",
+  "sa_budget_subTitle": "En heure (H)",
   "sa_boardTitle": "Analyse budgétaire en Heure (H)",
   "sa_board_previs": "Prévisionnel",
   "sa_board_real": "Réel",
@@ -368,8 +368,7 @@
   "sa_perf_efficacity_descr": "Indique votre aptitude à réaliser les tâches dans les temps impartis",
   "sa_perf_Effectiveness": "Effectivité",
   "sa_perf_Effectiveness_descr": "Indique votre niveau de complétude dans la réalisation des tâches du projet",
-  "sa_title_proj_stat" : "Statistiques des contributions du projet",
+  "sa_title_proj_stat": "Statistiques des contributions du projet",
 
-
-  "return_actu" : "<i class='mdi mdi-arrow-left'></i> Retourner à la page des actualités"
+  "return_actu": "<i class='mdi mdi-arrow-left'></i> Retourner à la page des actualites"
 }

@@ -10,7 +10,7 @@
   "nav_feat_timesheet": "Time entry",
   "nav_feat_strat": "Strategic analysis",
   "nav_feat_role": "Roles, rights & security",
-  "nav_feat_organigram": "Hierarchical links",
+  "nav_feat_organigramme": "Hierarchical links",
   "nav_feat_planning": "Planning",
   "nav_feat_strategic": "Strategic analysis",
   "nav_startup": "The start-up",
@@ -23,7 +23,7 @@
   "nav_contact_form": "Contact us",
   "nav_contact_join": "Join us",
   "nav_insight": "Insight",
-  "nav_insight_actualités": "RDI News",
+  "nav_insight_actualites": "RDI News",
   "nav_insight_ressources": "RDI Resources",
   "nav_pricing": "Offers",
   "nav_free": "Log In",
@@ -244,7 +244,7 @@
   "contact_choose": "Select the topic",
   "contact_demo": "Book a demo",
   "contact_try": "Free try",
-  "contact_other":"Other",
+  "contact_other": "Other",
   "contact_message": "Message",
   "contact_mention": "I agree that my personal data will be collected and processed for the future business relationship.",
   "contact_send_form": "Send",
@@ -313,7 +313,7 @@
   "rm_text_management": "In your RDI-Manager project log, you can create and name folders in which you want to store your files. Every time you add a file, either via a remarkable fact or via the project file management interface; you can choose the folder in which you want to store it.",
 
   "sh_big_title": "Data security and hosting on RDI-Manager",
-  "sh_title_security":"Enhanced data security",
+  "sh_title_security": "Enhanced data security",
   "sh_text_security_one": "The security of your data is our priority: you own your data and we guarantee its integrity.",
   "sh_text_security_two": "<strong>The RDI-Manager platform is based on a dual security approach:</strong>  ",
   "sh_text_security_three": "- Our engineers have integrated the latest security techniques and technologies for PHP applications",
@@ -344,7 +344,7 @@
   "plan_ban_text_one": "Thanks to the planning of your project, your project contributors can <strong>associate remarkable fact with a very specific project package</strong>. You will therefore be able to view the remarkable fact of the different lots of the project.",
   "plan_ban_text_two": "The follow-up of the progress of your tasks is carried out via:",
   "plan_ban_text_three": "- a <strong>follow-up system before the due date of each task</strong> in order to update its progress",
-  "plan_ban_text_four":"- notifications of complete completion of tasks.",
+  "plan_ban_text_four": "- notifications of complete completion of tasks.",
   "plan_ban_text_five": " In addition, performance indices <strong>measure your efficiency and effectiveness in completing tasks throughout the project</strong>.",
 
   "hierachy_FB_bigTitle": "Visualize your employees via an organization chart",
@@ -361,7 +361,7 @@
   "sa_title_timeProject": "Time spent in hours per project",
   "sa_title_hisProjects": "His projects",
   "sa_budget_title": "Budget analysis",
-  "sa_budget_subTitle":"In hours (H)",
+  "sa_budget_subTitle": "In hours (H)",
   "sa_boardTitle": "Budget analysis in Hours (H)",
   "sa_board_previs": "Forecast",
   "sa_board_real": "Real",
@@ -371,7 +371,7 @@
   "sa_perf_efficacity_descr": "Indicates your ability to complete tasks on time",
   "sa_perf_Effectiveness": "Effectiveness",
   "sa_perf_Effectiveness_descr": "Indicates your level of completeness in completing project tasks",
-  "sa_title_proj_stat" : "Project contribution statistics",
+  "sa_title_proj_stat": "Project contribution statistics",
 
-  "return_actu" : "All the news"
+  "return_actu": "All the news"
 }
