@@ -1,4 +1,4 @@
-#videoHome {
+/* #videoHome {
   margin: 0 0 100px 0;
   padding: 0;
 }
@@ -9,13 +9,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 #blockImg {
   display: none;
 }
 
-#blockVideo video {
+/* #blockVideo video {
   z-index: 1;
   position: relative;
   width: 100%;
@@ -54,7 +54,7 @@
   width: 4px;
   background: #fff;
   border-radius: 20px;
-}
+} */
 
 @keyframes rock {
   50% {
