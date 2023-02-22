@@ -2,6 +2,7 @@
     .description h1 {
         font-size: 26px;
     }
+
     .description h2 {
         font-size: 11px;
     }
@@ -75,7 +76,7 @@
 }
 
 @media (max-width: 822px) {
-    #img {
+    .img_left {
         height: 270px;
         width: 220px;
     }
@@ -90,6 +91,7 @@
     .box h1 {
         font-size: 35px;
     }
+
     .description h2 {
         font-size: 10px;
     }
@@ -119,9 +121,9 @@
     .description .read-more a {
         display: flex;
         justify-content: flex-end;
-     }
+    }
 
-     .description .read-more:before {
+    .description .read-more:before {
         transform: skewX(-3deg);
         content: "";
         background: #fff;
@@ -135,13 +137,14 @@
 }
 
 @media (max-width: 713px) {
-    #img {
+    .img_left {
         height: 270px;
         width: 200px;
     }
+
     .box h1 {
         font-size: 35px;
-      }
+    }
 
     .box h1 {
         font-size: 30px;
@@ -154,17 +157,18 @@
 
 
 @media (max-width: 685px) {
-    #img {
+    .img_left {
         height: 270px;
         width: 220px;
     }
+
     .description p {
         line-height: 1.1rem;
     }
 }
 
 @media (max-width: 631px) {
-    #img {
+    .img_left {
         height: 290px;
         width: 215px;
     }
@@ -172,22 +176,22 @@
 
 @media (max-width: 581px) {
     .container .pres_actu {
-    font-size: 16px;
-    margin-bottom: 25px;
-}
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
 
-#img {
-    height: 310px;
-    width: 200px;
-}
+    .img_left {
+        height: 310px;
+        width: 200px;
+    }
 }
 
 @media (max-width: 537px) {
     .box h1 {
-    font-size: 26px;
+        font-size: 26px;
     }
 
-    #img {
+    .img_left {
         height: 325px;
         width: 190px;
     }
@@ -200,7 +204,7 @@
     }
 
     .box h1 {
-    font-size: 26px;
+        font-size: 26px;
     }
 
     .description h1 {
@@ -214,19 +218,19 @@
         max-width: 220px;
     }
 
-    #img {
+    .img_left {
         height: 300px;
         width: 190px;
     }
 
     .box h1 {
-    font-size: 24px;
+        font-size: 24px;
     }
 }
 
 @media (max-width: 472px) {
-     .box h1 {
-    font-size: 20px;
+    .box h1 {
+        font-size: 20px;
     }
 
     .description h1 {
@@ -244,14 +248,14 @@
 }
 
 @media (max-width: 457px) {
-        .container .pres_actu {
+    .container .pres_actu {
         font-size: 12px;
         margin-bottom: 20px;
     }
 }
 
 @media (max-width: 453px) {
-    
+
     .description h1 {
         font-size: 15px;
     }
@@ -277,6 +281,7 @@
     .description h4 {
         font-size: 8px;
     }
+
     .description p {
         font-size: 12px;
         line-height: 1rem;
