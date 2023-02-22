@@ -20,6 +20,7 @@
 a {
   font-family: "Nunito Sans", sans-serif;
 }
+
 .banner .container {
   display: flex;
   justify-content: center;
@@ -61,7 +62,7 @@ a {
   background: #fff;
   line-height: 1.4;
   font-family: "Besley", serif;
-  
+
   border-radius: 10px;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -78,14 +79,14 @@ a:hover {
   color: #a30000;
 }
 
-#img {
-  width:280px;
-  height:272px;
+.img_left {
+  width: 280px;
+  height: 272px;
 }
 
 .img-actu {
-    width : 80%; 
-    min-width : 200px;
+  width: 80%;
+  min-width: 200px;
 }
 
 .img-actu :hover {
@@ -179,13 +180,13 @@ li:first-child {
 }
 
 .description h2 {
-    font-size: 16px;
-    font-weight: 300;
-    text-transform: uppercase;
-    color: #989696;
-    margin-top: 5px;
-    margin-bottom: 5px;
- }
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #989696;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 .description p {
   color: #333;
@@ -196,7 +197,7 @@ li:first-child {
 }
 
 .read-more {
-    text-align: right;
+  text-align: right;
 }
 
 .read-more a {
@@ -236,7 +237,7 @@ p {
 p:first-of-type {
   margin-top: 1.25rem;
 }
-      
+
 .description p:before {
   content: "";
   position: absolute;
@@ -247,11 +248,11 @@ p:first-of-type {
   border-radius: 3px;
 }
 
-  p:hover {
-    
-      left: 0%;
-    }
+p:hover {
 
-    .flexFoot {
-      font-family: "Nunito Sans", sans-serif;
-    }
+  left: 0%;
+}
+
+.flexFoot {
+  font-family: "Nunito Sans", sans-serif;
+}

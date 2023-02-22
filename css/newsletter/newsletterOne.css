@@ -43,14 +43,15 @@ html,
   margin-bottom: 15px;
   font-style: italic;
 }
+.leftBan .subTitle #straight-text {
+  font-style: normal;
+}
 
 .banner .rightBan {
   display: flex;
   justify-content: center;
-  align-items: center;
 
   width: 35%;
-  aspect-ratio: 1/1;
 }
 
 .banner .rightBan img {
