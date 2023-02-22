@@ -109,6 +109,12 @@ section .layer img {
   z-index: 2;
 }
 
+section .layer video {
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
 section .botTop a {
   display: flex;
   justify-content: center;
