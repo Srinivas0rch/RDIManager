@@ -43,6 +43,7 @@ html,
   margin-bottom: 15px;
   font-style: italic;
 }
+
 .leftBan .subTitle #straight-text {
   font-style: normal;
 }
@@ -60,6 +61,7 @@ html,
   align-items: center;
 
   width: 100%;
+  max-width: 375px;
 }
 
 #topTitle {
@@ -126,6 +128,18 @@ html,
   max-width: 1400px;
 }
 
+.contactButton{
+  display: flex;
+  justify-content: center;
+}
+.buttonContact {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  bottom: 20px;
+  width: 180px;
+}
+
 .simpleQuote {
   text-align: left;
   width: 100%;
@@ -138,7 +152,7 @@ html,
 }
 
 .mdi-arrow-right-bold-circle {
-  color: #008000; 
+  color: #008000;
 }
 
 h1::selection,
@@ -196,12 +210,12 @@ b::selection {
   }
 
   .banner .rightBan #fishing {
- width: 250px;
+    width: 250px;
   }
 
-.content .paragraphe {
-  line-height: 1.5rem;
-}
+  .content .paragraphe {
+    line-height: 1.5rem;
+  }
 }
 
 @media (max-width: 800px) {
@@ -237,7 +251,7 @@ b::selection {
   }
 
   .banner .rightBan {
-    width:100%;
+    width: 100%;
   }
 
   .content .paragraphe {
@@ -317,7 +331,7 @@ b::selection {
 
   .banner .rightBan #fishing {
     width: 200 px;
-     }
+  }
 }
 
 a:visited {

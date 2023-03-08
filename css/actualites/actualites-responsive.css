@@ -92,6 +92,10 @@
         font-size: 35px;
     }
 
+    .box h3 {
+        font-size: 26px;
+    }
+
     .description h2 {
         font-size: 10px;
     }
@@ -143,11 +147,11 @@
     }
 
     .box h1 {
-        font-size: 35px;
+        font-size: 32px;
     }
 
-    .box h1 {
-        font-size: 30px;
+    .box h3 {
+        font-size: 26px;
     }
 
     .description h1 {
@@ -191,6 +195,10 @@
         font-size: 26px;
     }
 
+    .box h3 {
+        font-size: 22px;
+    }
+
     .img_left {
         height: 325px;
         width: 190px;
@@ -205,6 +213,10 @@
 
     .box h1 {
         font-size: 26px;
+    }
+
+    .box h3 {
+        font-size: 22px;
     }
 
     .description h1 {
@@ -226,11 +238,19 @@
     .box h1 {
         font-size: 24px;
     }
+
+    .box h3 {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 472px) {
     .box h1 {
         font-size: 20px;
+    }
+
+    .box h3 {
+        font-size: 17px;
     }
 
     .description h1 {
