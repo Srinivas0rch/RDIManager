@@ -66,6 +66,7 @@ footer {
 }
 
 .planFoot a {
+  font-family: "Nunito Sans", sans-serif;
   font-size: 16px;
   margin: 5px 0;
   color: #fff;
