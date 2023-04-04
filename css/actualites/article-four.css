@@ -1,0 +1,9 @@
+.photoCycle {
+    display: flex;
+
+    margin-top: 50px;
+}
+
+.photoCycle .photoPN {
+    padding: 0 20px 0 20px;
+}
